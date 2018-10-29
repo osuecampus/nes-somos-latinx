@@ -23,12 +23,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header 
-          theme="light"
-          courseCode={"BEE 468"}
-          courseTitle={"Microbial Metabolism"}
-        />
- 
+
         <Footer />
       </div>
     );
@@ -41,7 +36,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-      
+
   };
 };
 
