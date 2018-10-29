@@ -5,17 +5,9 @@ import { connect } from "react-redux";
 import { loadContent, loadAnswers } from "./redux/Actions";
 
 // COMPONENTS //
-import { Header, Footer, GA } from "react-starter";
-
-// VIEWS //
-import ContentView from "./view/ContentView";
-import SidebarView from "./view/SidebarView";
 
 
-// CSS //
-import "./assets/css/styles.css";
-
-class App extends Component {
+class Template extends Component {
   componentDidMount() {
 
   }
@@ -28,9 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SidebarView />
-        <ContentView />
-        <Footer />
+     
       </div>
     );
   }
@@ -49,4 +39,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App);
+)(Template);
