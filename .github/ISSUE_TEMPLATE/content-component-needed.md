@@ -14,6 +14,3 @@ A clear and concise description of what you want to be displayed
 - [ ] Component must be accessible (WCAG2)
 - [ ] Component must be responsive
 - [ ] Component must follow project design guidelines
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
