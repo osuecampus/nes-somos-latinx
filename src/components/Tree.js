@@ -18,13 +18,16 @@ class Tree extends Component {
   }
 
   render() {
+    
     return (
       <div className={'contentTree'}>
     
+   { this.props.content[0] ? console.log(this.props.content[0].sections[0].id): null }
+
     { this.props.content[0] ? this.props.content[0].sections.map((plot) => { return (
         <div key={plot.id}>
             <div className={'unitBlock'}><h3>{plot.title}</h3><div className={'downProgress'}><img src={'./assets/img/icon-arrow.svg'} /></div></div>
-            {this.props.content[0].sections.map((plex) => { return ( 
+            { plot.content.map((plex) => { return ( 
                  plex.id 
             ) })}
         </div>
