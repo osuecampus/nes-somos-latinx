@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { loadContent, loadAnswers } from "../redux/Actions";
 
 // COMPONENTS //
+import Tree from "../components/Tree";
 
 
 class SidebarView extends Component {
@@ -17,13 +18,7 @@ class SidebarView extends Component {
     this.state = {};
   }
 
-
-
-
-
   render() {
-
-
     return (
       <div className={'sidebarView'}>
         <div className={'branding'}>
@@ -36,7 +31,7 @@ class SidebarView extends Component {
           <input tabIndex={'1'} className={'searchInput'} placeholder={'Search for content'} />
         </div>
         <div className={'treeHolder'}>
-        
+          <Tree />        
         </div>
      
       </div>

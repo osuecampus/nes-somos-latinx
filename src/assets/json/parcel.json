@@ -1,6 +1,21 @@
 [{
     "config": {
         "title":"An Introduction to Student-Centered Peer Education"
-    
-    }
+    },
+    "sections": [
+        {
+            "id": 0,
+            "title": "Introduction",
+            "content":{
+                "Page 1" : "Page"
+            }
+        },
+        {
+            "id": 1,
+            "title": "Unit 1: Foundational Elements for Working Together",
+            "content":{
+                "Page 1" : "Page"
+            }
+        }
+    ]
 }]

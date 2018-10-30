@@ -183,10 +183,50 @@ footer {
 }
 .treeHolder {
     background: #CA3B08;
-    min-height: 250px;
     width: 90%;
     border-radius: 20px;
     margin-top: 20px;
+}
+.unitBlock {
+    width: calc(100% - 100px);
+    height: 79px;
+    display: flex;
+    position:relative;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 80px;
+    cursor:pointer;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    transition: all .2s ease-in-out;
+}
+.unitBlock:hover{
+    background:rgba(0,0,0,.05);
+}
+.unitBlock h3 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+.contentTree .unitBlock:last-child {
+    border-bottom: none !important;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.contentTree .unitBlock:first-child{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.downProgress {
+    position: absolute;
+    right: 0px;
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downProgress img {
+    width: 18px;
 }
 
 /* MOBILE STYLES */
