@@ -6,16 +6,22 @@
         {
             "id": 0,
             "title": "Introduction",
-            "content":{
-                "Page 1" : "Page"
-            }
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Page 1"
+                }
+            ]
         },
         {
             "id": 1,
             "title": "Unit 1: Foundational Elements for Working Together",
-            "content":{
-                "Page 1" : "Page"
-            }
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Page 1"
+                }
+            ]
         }
     ]
 }]

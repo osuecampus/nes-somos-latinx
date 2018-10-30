@@ -17,21 +17,31 @@ class Tree extends Component {
     this.state = {};
   }
 
+  addActivePage(plot){
+    this.refs[plot].classList.toggle('activePage')
+  }
+  addActiveUnit(plot){
+    this.refs[plot].classList.toggle('activeUnit')
+  }
+
   render() {
     
     return (
       <div className={'contentTree'}>
-    
-   { this.props.content[0] ? console.log(this.props.content[0].sections[0].id): null }
 
     { this.props.content[0] ? this.props.content[0].sections.map((plot) => { return (
-        <div key={plot.id}>
-            <div className={'unitBlock'}><h3>{plot.title}</h3><div className={'downProgress'}><img src={'./assets/img/icon-arrow.svg'} /></div></div>
-            { plot.content.map((plex) => { return ( 
-                 plex.id 
-            ) })}
-        </div>
+            <div>
+            <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id}  key={plot.id} className={'unitBlock'}><h3>{plot.title}</h3><div className={'downProgress'}><img src={'./assets/img/icon-arrow.svg'} /></div></div>
+            
+            <div ref={'hidden'+plot.id} className={'hiddenPages'}>
+            { plot.content.map((plex) => { return (
+                 <div className={'unitPage'}>{plex.title}</div>
+            )})}
+            </div>
+            </div>
+            
     )}
+
     ) : ''}
 
       </div>

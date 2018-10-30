@@ -93,7 +93,7 @@ footer {
     margin-top:0px;
 }
 .fullScreenToolbar {
-    right: 3%!important;
+    right: 20px!important;
 }
 #revealSidebar {
     width: 18px;
@@ -227,6 +227,25 @@ footer {
 }
 .downProgress img {
     width: 18px;
+    transition: all .3s ease-in-out;
+}
+.hiddenPages {
+    width: 100%;
+    background: #b33200;
+    display: none;
+}
+.activePage{
+    display:block;
+}
+.activeUnit img{
+    transform: rotate(180deg);
+}
+.unitPage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #fff;
 }
 
 /* MOBILE STYLES */
