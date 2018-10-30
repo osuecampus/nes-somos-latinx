@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS } from "./Constants";
 
 const initialState = []
 
@@ -13,7 +13,17 @@ const content = (state = initialState, action) => {
   }
 };
 
+const mobile = (state = initialState, action) => {
+  switch (action.type) {
+    case DETECT_DIMENSIONS:
+      return action.mobile;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
-  content
+  content,
+  mobile
 });

@@ -16,18 +16,28 @@ import SidebarView from "./view/SidebarView";
 import "./assets/css/styles.css";
 
 class App extends Component {
-  componentDidMount() {
-    this.props.loadContent();
-  }
-
   constructor(props) {
     super(props);
     this.state = {};
   }
 
+  componentDidMount() {
+    this.props.loadContent();
+    this.detectDimensions();
+    window.addEventListener("resize", this.detectDimensions.bind(this));
+  }
+
+  detectDimensions() {
+    if(window.innerWidth < 1000) {
+      this.refs.app.classList.add('mobile');
+    } else {
+      this.refs.app.classList.remove('mobile');
+    }
+  }
+
   render() {
     return (
-      <div style={{height:'100%'}}>
+      <div ref={'app'} style={{height:'100%'}}>
         <SidebarView />
         <ContentView />
         <Footer />
