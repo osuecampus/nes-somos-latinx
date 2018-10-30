@@ -22,6 +22,57 @@ footer {
     z-index: 2;
     box-shadow: 0px 0px 50px rgba(0,0,0,.10);
 }
+/* TOOLBAR COMPONENT */
+.toolbarHolder {
+    width: 50px;
+    position: fixed;
+    right: 470px;
+}
+.expandGroup {
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 45px;
+}
+.toolIcon svg {
+    width: 25px;
+}
+.toolIcon path {
+    fill: #505050;
+    transition:all .2s ease-in-out;
+}
+.toolPlaceholder{
+    cursor: pointer;
+    outline: 0;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+.toolPlaceholder:hover path,.toolPlaceholder:focus path{
+    fill:#d73f09!important;
+}
+.accessibilityGroup {
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 45px;
+    margin-top: 15px;
+    flex-direction:column;
+}
+.lightTool {
+    fill: #7B7B7B!important;
+}
+.toolFont, .toolExpand{
+    margin-top:0px;
+}
 
 /* SIDEBAR VIEW */
 .sidebarView {
@@ -104,3 +155,4 @@ footer {
     border-radius: 20px;
     margin-top: 20px;
 }
+

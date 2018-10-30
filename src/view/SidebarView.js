@@ -27,7 +27,7 @@ class SidebarView extends Component {
           <h1>An Introduction to Student-Centered Peer Education</h1>
         </div>
         <div className={'searchHolder'}>
-          <input className={'searchInput'} placeholder={'Search for content'} />
+          <input tabIndex={'1'} className={'searchInput'} placeholder={'Search for content'} />
         </div>
         <div className={'treeHolder'}>
         
