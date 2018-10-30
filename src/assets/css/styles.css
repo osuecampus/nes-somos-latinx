@@ -253,7 +253,7 @@ footer {
     width: 100%;
 }
 .mobile .toolbarHolder {
-    right: 3%;
+    right: 20px;
 }
 .mobile .ui_copyright {
     transform: translateX(115px);
