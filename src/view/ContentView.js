@@ -19,8 +19,9 @@ class ContentView extends Component {
   }
 
   render() {
+
     return (
-      <div className={'contentView'}>
+      <div className={'contentView' + (this.props.mobile == 1 ? ' fullScreen' : '' ) }>
         <Content />
         <Toolbar />
       </div>
@@ -29,7 +30,9 @@ class ContentView extends Component {
 }
 
 const mapStateToProps = state => {
-  return {};
+  return {
+    mobile: state.mobile
+  };
 };
 
 const mapDispatchToProps = dispatch => {

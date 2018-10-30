@@ -13,10 +13,10 @@ const content = (state = initialState, action) => {
   }
 };
 
-const mobile = (state = initialState, action) => {
+const mobile = (state = false, action) => {
   switch (action.type) {
     case DETECT_DIMENSIONS:
-      return action.mobile;
+      return !action.mobile;
     default:
       return state;
   }
