@@ -129,24 +129,29 @@ footer {
     background:rgba(255,255,255,.1);
 }
 .searchInput:focus{
-    background:rgba(255,255,255,.025);
-    border:2px solid rgba(255,255,255,.25);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgba(255,255,255,.25);
+    color: #505050;
 }
 .searchHolder ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: rgba(255,255,255,.7);
-    font-weight:100;
+    color: rgba(255,255,255,1);
+    font-weight:400;
+    opacity:1
 }
 .searchHolder ::-moz-placeholder { /* Firefox 19+ */
-    color: rgba(255,255,255,.7);
-    font-weight:100;
+    color: rgba(255,255,255,1);
+    font-weight:400;
+    opacity:1
 }
 .searchHolder :-ms-input-placeholder { /* IE 10+ */
-    color: rgba(255,255,255,.7);
-    font-weight:100;
+    color: rgba(255,255,255,1);
+    font-weight:400;
+    opacity:1
 }
 .searchHolder :-moz-placeholder { /* Firefox 18- */
-    color: rgba(255,255,255,.7);
-    font-weight:100;
+    color: rgba(255,255,255,1);
+    font-weight:400;
+    opacity:1
 }
 .treeHolder {
     background: #CA3B08;
