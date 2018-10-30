@@ -19,8 +19,8 @@ class Content extends Component {
 
   render() {
     return (
-      <div>
-     
+      <div className={'contentArea'}>
+     This is a test.
       </div>
     );
   }

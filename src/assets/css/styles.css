@@ -22,6 +22,7 @@ footer {
     transform: translate3d(0);
     z-index: 2;
     box-shadow: 0px 0px 50px rgba(0,0,0,.10);
+    overflow:hidden;
     transition: all 1s ease-in-out;
 }
 .fullScreen {
@@ -32,6 +33,11 @@ footer {
 }
 .mobile .showSidebar .accessibilityGroup{
     display:none;
+}
+.contentArea{
+    width: calc(93% - 60px);
+    margin-right: 60px;
+    max-width:960px;
 }
 
 /* TOOLBAR COMPONENT */
