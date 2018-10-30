@@ -5,10 +5,9 @@ import { connect } from "react-redux";
 import { loadContent, loadAnswers } from "../redux/Actions";
 
 // COMPONENTS //
-import Content from "../components/Content";
-import Toolbar from "../components/Toolbar";
 
-class ContentView extends Component {
+
+class Content extends Component {
   componentDidMount() {
 
   }
@@ -20,9 +19,8 @@ class ContentView extends Component {
 
   render() {
     return (
-      <div className={'contentView'}>
-        <Content />
-        <Toolbar />
+      <div>
+     
       </div>
     );
   }
@@ -41,4 +39,4 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(ContentView);
+)(Content);

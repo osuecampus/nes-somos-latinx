@@ -19,8 +19,20 @@ class SidebarView extends Component {
 
   render() {
     return (
-      <div>
-     Test
+      <div className={'sidebarView'}>
+        <div className={'branding'}>
+          <img src={'./assets/img/logo-dark.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
+        </div>
+        <div className={'titleHolder'}>
+          <h1>An Introduction to Student-Centered Peer Education</h1>
+        </div>
+        <div className={'searchHolder'}>
+          <input className={'searchInput'} placeholder={'Search for content'} />
+        </div>
+        <div className={'treeHolder'}>
+        
+        </div>
+     
       </div>
     );
   }
