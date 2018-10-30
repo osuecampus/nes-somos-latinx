@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent, loadAnswers } from "./redux/Actions";
+import { loadContent } from "./redux/Actions";
 
 // COMPONENTS //
 import { Header, Footer, GA } from "react-starter";
@@ -17,7 +17,7 @@ import "./assets/css/styles.css";
 
 class App extends Component {
   componentDidMount() {
-
+    this.props.loadContent();
   }
 
   constructor(props) {
@@ -37,12 +37,14 @@ class App extends Component {
 }
 
 const mapStateToProps = state => {
-  return {};
+  return {
+
+  };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-
+    loadContent: () => dispatch(loadContent())
   };
 };
 
