@@ -27,6 +27,12 @@ footer {
 .fullScreen {
     width: 100%!important;
 }
+.mobile .showSidebar {
+    width: 0px!important;
+}
+.mobile .showSidebar .accessibilityGroup{
+    display:none;
+}
 
 /* TOOLBAR COMPONENT */
 .toolbarHolder {
@@ -82,6 +88,12 @@ footer {
 }
 .fullScreenToolbar {
     right: 3%!important;
+}
+#revealSidebar {
+    width: 18px;
+}
+#toolExpand{
+    width:22px;
 }
 
 /* SIDEBAR VIEW */
@@ -184,4 +196,7 @@ footer {
 .mobile footer .ui_logo {
     opacity: 1;
     transform: translateX(0px);
+}
+.mobile .sidebarView {
+    width: 100%;
 }
