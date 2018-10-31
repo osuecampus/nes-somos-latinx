@@ -108,12 +108,13 @@ footer {
     position: fixed;
     right: 0px;
     top: 0px;
+    height: 100%;
+    overflow: auto;
     display: flex;
-    max-width:450px;
+    max-width: 450px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    transition:all .5s ease-in-out
+    transition: all .5s ease-in-out;
 }
 .branding{
     width: 90%;
@@ -134,9 +135,6 @@ footer {
 .searchHolder {
     height: 60px;
     background: #DC592A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 90%;
     border-radius: 45px;
     margin-top: 25px;
@@ -188,6 +186,7 @@ footer {
     width: 90%;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 75px;
 }
 .unitBlock {
     width: calc(100% - 100px);
@@ -250,6 +249,23 @@ footer {
     padding-left: 20px;
     font-size: 14px;
     color: #fff;
+    cursor:pointer;
+    transition:all .2s ease-in-out;
+}
+.unitPage:hover{
+    background:rgba(0,0,0,.05);
+}
+.unitPage a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.0);
+    padding-bottom: 2px;
+    cursor:pointer;
+    transition:all .2s ease-in-out;
+}
+.unitPage:hover a{
+    color:#fff;
+    border-bottom:1px solid rgba(255,255,255,.4);
 }
 
 /* MOBILE STYLES */

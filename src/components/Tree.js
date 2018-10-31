@@ -24,6 +24,10 @@ class Tree extends Component {
     this.refs[plot].classList.toggle('activeUnit')
   }
 
+  pageChoice(unit, page){
+    console.log('unit: '+unit,'page: '+page)
+  }
+
   render() {
     
     return (
@@ -40,7 +44,9 @@ class Tree extends Component {
             
             <div ref={'hidden'+plot.id} className={'hiddenPages'}>
             { plot.content.map((plex) => { return (
-                 <div key={plex.id} className={'unitPage'}>{plex.title}</div>
+                <div onClick={() => {this.pageChoice(plot.id, plex.id)}} key={plex.id} className={'unitPage'}>
+                  <a href={'#'}>{plex.title}</a>
+                </div>
             )})}
             </div>
           </div>
