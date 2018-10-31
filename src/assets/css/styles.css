@@ -209,12 +209,14 @@ footer {
     font-size: 15px;
     color: #fff;
 }
-.contentTree .unitBlock:last-child {
+.contentTree .treeBranch:last-child {
+    overflow:hidden;
     border-bottom: none !important;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;
 }
-.contentTree .unitBlock:first-child{
+.contentTree .treeBranch:first-child {
+    overflow:hidden;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }

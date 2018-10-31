@@ -30,15 +30,20 @@ class Tree extends Component {
       <div className={'contentTree'}>
 
     { this.props.content[0] ? this.props.content[0].sections.map((plot) => { return (
-            <div>
-            <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id}  key={plot.id} className={'unitBlock'}><h3>{plot.title}</h3><div className={'downProgress'}><img src={'./assets/img/icon-arrow.svg'} /></div></div>
+          <div key={plot.id} className={'treeBranch'}>  
+            <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id} className={'unitBlock'}>
+              <h3>{plot.title}</h3>
+              <div className={'downProgress'}>
+                <img src={'./assets/img/icon-arrow.svg'} />
+              </div>
+            </div>
             
             <div ref={'hidden'+plot.id} className={'hiddenPages'}>
             { plot.content.map((plex) => { return (
-                 <div className={'unitPage'}>{plex.title}</div>
+                 <div key={plex.id} className={'unitPage'}>{plex.title}</div>
             )})}
             </div>
-            </div>
+          </div>
             
     )}
 
