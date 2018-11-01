@@ -48,8 +48,8 @@ class App extends Component {
       <div ref={'app'} style={{height:'100%'}}>
         <SidebarView />
         <ContentView />
-        <div className={footerTheme}>
-        <Footer theme={footerTheme} />
+        <div className={footerTheme + (this.props.mobile == 1 ? ' showLogo' : ' hideLogo' )}>
+          <Footer theme={footerTheme} />
         </div>
       </div>
     );
@@ -58,6 +58,7 @@ class App extends Component {
 
 const mapStateToProps = state => {
   return {
+    mobile: state.mobile,
     theme: state.theme
   };
 };

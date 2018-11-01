@@ -463,6 +463,19 @@ footer {
     opacity: 1;
     transform: translateX(0px);
 }
+.showLogo .ui_copyright {
+    transform: translateX(115px);
+}
+.showLogo footer .ui_logo {
+    opacity: 1;
+    transform: translateX(0px);
+}
+.hideLogo .ui_copyright {
+    transform: translateX(0)!important;
+}
+.hideLogo footer .ui_logo {
+    transform: translateX(-125px)!important;
+}
 .mobile .sidebarView {
     width: 100%;
     right: 50%;
@@ -475,5 +488,11 @@ footer {
         max-width: 100%!important;
         right:initial!important;
         margin-right:initial!important;
+    }
+    .hideLogo footer .ui_logo {
+        transform: translateX(0px)!important;
+    }
+    .hideLogo .ui_copyright{
+        transform:translateX(115px)!important;
     }
 }
