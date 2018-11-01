@@ -19,7 +19,7 @@ class Content extends Component {
 
   render() {
     return (
-      <div className={'contentArea'}>
+      <div className={'contentArea ' + this.props.fontSize }>
      This is a test.
       </div>
     );
@@ -27,7 +27,9 @@ class Content extends Component {
 }
 
 const mapStateToProps = state => {
-  return {};
+  return {
+    fontSize: state.fontSize
+  };
 };
 
 const mapDispatchToProps = dispatch => {
