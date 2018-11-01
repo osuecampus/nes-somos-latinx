@@ -27,6 +27,25 @@ footer {
     color: #2d9fff;
     border-bottom: 1px solid #00a4db;
   }
+  .darkLook .expandGroup {
+    background: #404040;
+  }
+  .darkLook #revealSidebar path{
+      fill:#fff;
+  }
+  .darkLook .accessibilityGroup{
+      background:#404040;
+  }
+  .darkLook .toolIcon path,.darkLook .toolIcon polygon{
+    fill:#fff;
+}
+.darkLook .lightTool {
+    fill: #ccc!important;
+}
+.toolbarHolder{
+    background:transparent!important;
+}
+
 
 /* CONTENT VIEW */
 .contentView{

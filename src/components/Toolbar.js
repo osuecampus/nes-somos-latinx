@@ -34,7 +34,7 @@ changeTheme(theme){
     }
 
     return (
-      <div className={'toolbarHolder' + (this.props.mobile == 1 ? ' fullScreenToolbar' : '' )}>
+      <div className={'toolbarHolder' + (this.props.mobile == 1 ? ' fullScreenToolbar' : '' ) + ' ' + this.props.theme }>
         <div onClick={() => this.props.detectDimensions(this.props.mobile)} className={'expandGroup'}>
             <div tabIndex={'1'} className={'toolExpand toolPlaceholder'}>
                 <div className={'toolIcon'}>
@@ -93,7 +93,8 @@ changeTheme(theme){
 const mapStateToProps = state => {
   return {
       mobile: state.mobile,
-      fontSize: state.fontSize
+      fontSize: state.fontSize,
+      theme: state.theme
   };
 };
 
