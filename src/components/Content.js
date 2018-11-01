@@ -2,10 +2,6 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent, loadAnswers } from "../redux/Actions";
-
-// COMPONENTS //
-
 
 class Content extends Component {
   componentDidMount() {

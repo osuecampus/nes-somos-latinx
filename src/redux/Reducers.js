@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME } from "./Constants";
 
 const initialState = []
 
@@ -31,9 +31,19 @@ const fontSize = (state = 'medium', action) => {
   }
 };
 
+const theme = (state = 'lightLook', action) => {
+  switch (action.type) {
+    case CHANGE_THEME:
+      return action.theme;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
   content,
   fontSize,
+  theme,
   mobile
 });

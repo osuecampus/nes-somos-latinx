@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent, loadAnswers } from "../redux/Actions";
 
 // COMPONENTS //
 import Content from "../components/Content";
@@ -21,7 +20,7 @@ class ContentView extends Component {
   render() {
 
     return (
-      <div className={'contentView' + (this.props.mobile == 1 ? ' fullScreen' : ' showSidebar' ) }>
+      <div className={'contentView' + (this.props.mobile == 1 ? ' fullScreen' : ' showSidebar' ) + ' ' + this.props.theme }>
         <Content />
         <Toolbar />
       </div>
@@ -31,7 +30,8 @@ class ContentView extends Component {
 
 const mapStateToProps = state => {
   return {
-    mobile: state.mobile
+    mobile: state.mobile,
+    theme: state.theme
   };
 };
 

@@ -1,5 +1,5 @@
 // LOAD CONSTANTS //
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE } from './Constants';
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME } from './Constants';
 
 // LOAD CONTENT ACTIONS //
 export const loadContentDispatcher = (content) => ({ type: LOAD_CONTENT, content });
@@ -32,5 +32,13 @@ export const changeFontSizeDispatcher = (value) => ({ type: CHANGE_FONT_SIZE, fo
 export const changeFontSize = (value) => {
     return (dispatch) => {
         dispatch(changeFontSizeDispatcher(value));
+    }
+}
+
+// CHANGE THEME ACTIONS //
+export const changeThemeDispatcher = (value) => ({ type: CHANGE_THEME, theme: value});
+export const changeTheme = (value) => {
+    return (dispatch) => {
+        dispatch(changeThemeDispatcher(value));
     }
 }
