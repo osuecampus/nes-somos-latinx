@@ -469,3 +469,11 @@ footer {
     max-width: 450px;
     margin-right: -225px;
 }
+@media (max-width:500px){
+    .mobile .sidebarView {
+        width: 100%;
+        max-width: 100%!important;
+        right:initial!important;
+        margin-right:initial!important;
+    }
+}
