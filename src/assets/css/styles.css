@@ -129,6 +129,63 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.themeChange {
+    position: absolute;
+    left: 5000px;
+    width: 120px;
+    height: 65px;
+    background: #e82c00;
+    border-radius: 15px;
+    display: flex;
+    outline: 0;
+    top: 34px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+}
+.themeChange:focus{
+    left: -130px;
+}
+.themeChange h3 {
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.themeLight {
+    background: #fff!important;
+}
+.themeLight path{
+    fill:#303030
+}
+.themeDark {
+    background: #303030!important;
+}
+.themeDark path{
+    fill:#f0f0f0;
+}
+.themeSelection {
+    width: 34px;
+    height: 34px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 12px;
+    background: #da2800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.themeSelection svg{
+    width:18px
+}
 .fontSelection {
     width: 34px;
     height: 34px;
