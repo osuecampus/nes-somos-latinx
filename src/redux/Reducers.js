@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE } from "./Constants";
 
 const initialState = []
 
@@ -22,8 +22,18 @@ const mobile = (state = false, action) => {
   }
 };
 
+const fontSize = (state = 'medium', action) => {
+  switch (action.type) {
+    case CHANGE_FONT_SIZE:
+      return action.fontSize;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
   content,
+  fontSize,
   mobile
 });
