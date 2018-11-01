@@ -12,6 +12,21 @@ footer {
     color: #fcfcfc;
     background: #202020!important;
 }
+.dark {
+    background: #303030;
+    border-top: 1px solid #404040;
+  }
+  .dark .ui_copyright {
+    color: #fff;
+  }
+  .dark .ui_copyrightLink:hover {
+    color: #2d9fff;
+    border-bottom: 1px solid #00a4db;
+  }
+  .dark .ui_disclaimerLink:hover {
+    color: #2d9fff;
+    border-bottom: 1px solid #00a4db;
+  }
 
 /* CONTENT VIEW */
 .contentView{

@@ -36,11 +36,21 @@ class App extends Component {
   }
 
   render() {
+    let footerTheme = 'light';
+    if(this.props.theme == 'lightLook'){
+      footerTheme = 'light';
+    }
+    else{
+      footerTheme = 'dark';
+    }
+
     return (
       <div ref={'app'} style={{height:'100%'}}>
         <SidebarView />
         <ContentView />
-        <Footer />
+        <div className={footerTheme}>
+        <Footer theme={footerTheme} />
+        </div>
       </div>
     );
   }
@@ -48,7 +58,7 @@ class App extends Component {
 
 const mapStateToProps = state => {
   return {
-
+    theme: state.theme
   };
 };
 
