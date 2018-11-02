@@ -274,6 +274,9 @@ footer {
 .voiceSelection path{
     fill:#fff;
 }
+.voiceSelection:hover{
+    background:#fb441a;
+}
 .fontSelection {
     width: 34px;
     height: 34px;
