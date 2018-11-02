@@ -1,5 +1,5 @@
 // LOAD CONSTANTS //
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT } from './Constants';
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER } from './Constants';
 
 // LOAD CONTENT ACTIONS //
 export const loadContentDispatcher = (content) => ({ type: LOAD_CONTENT, content });
@@ -48,5 +48,21 @@ export const changeThemeDispatcher = (value) => ({ type: CHANGE_THEME, theme: va
 export const changeTheme = (value) => {
     return (dispatch) => {
         dispatch(changeThemeDispatcher(value));
+    }
+}
+
+// PLAY PAUSE READER ACTIONS //
+export const playPauseReaderDispatch = (value) => ({ type: PLAY_PAUSE_READER, play: value});
+export const playPauseReader = (value) => {
+    return (dispatch) => {
+        dispatch(playPauseReaderDispatch(value));
+    }
+}
+
+// RESTART READER ACTIONS //
+export const restartReaderDispatch = (value) => ({ type: RESTART_READER, restartTrigger: value});
+export const restartReader = (value) => {
+    return (dispatch) => {
+        dispatch(restartReaderDispatch(value));
     }
 }

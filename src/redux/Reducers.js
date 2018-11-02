@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER } from "./Constants";
 
 const initialState = []
 
@@ -49,11 +49,31 @@ const readerText = (state = '', action) => {
   }
 };
 
+const play = (state = 0, action) => {
+  switch (action.type) {
+    case PLAY_PAUSE_READER:
+      return action.play;
+    default:
+      return state;
+  }
+};
+
+const restartTrigger = (state = 0, action) => {
+  switch (action.type) {
+    case RESTART_READER:
+      return action.restartTrigger;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
   content,
   fontSize,
   theme,
   readerText,
+  play,
+  restartTrigger,
   mobile
 });
