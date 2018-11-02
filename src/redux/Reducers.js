@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT } from "./Constants";
 
 const initialState = []
 
@@ -40,10 +40,20 @@ const theme = (state = 'lightLook', action) => {
   }
 };
 
+const readerText = (state = '', action) => {
+  switch (action.type) {
+    case SET_READER_TEXT:
+      return action.readerText;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
   content,
   fontSize,
   theme,
+  readerText,
   mobile
 });

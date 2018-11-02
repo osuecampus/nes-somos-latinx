@@ -15,7 +15,7 @@ class Content extends Component {
 
   render() {
     return (
-      <div className={'contentArea ' + this.props.fontSize }>
+      <div id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
      This is a test.
       </div>
     );
