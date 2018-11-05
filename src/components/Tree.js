@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent } from "../redux/Actions";
+import { loadContent, setCurrentUnit, setCurrentPage } from "../redux/Actions";
 
 // COMPONENTS //
 
@@ -25,7 +25,8 @@ class Tree extends Component {
   }
 
   pageChoice(unit, page){
-    console.log('unit: '+unit,'page: '+page)
+    this.props.setCurrentUnit(unit);
+    this.props.setCurrentPage(page);
   }
 
   render() {
@@ -68,7 +69,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-
+    setCurrentUnit: (value) => dispatch(setCurrentUnit(value)),
+    setCurrentPage: (value) => dispatch(setCurrentPage(value)),
   };
 };
 

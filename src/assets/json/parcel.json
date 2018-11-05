@@ -2,64 +2,28 @@
     "config": {
         "title":"An Introduction to Student-Centered Peer Education"
     },
-    "sections": [
+    "sections": 
+    [
         {
             "id": 0,
-            "title": "Introduction",
-            "content": [
-                {
-                    "id": 0,
-                    "title" : "Page 1"
-                },
-                {
-                    "id": 1,
-                    "title" : "Page 1"
-                },
-                {
-                    "id": 2,
-                    "title" : "Page 1"
-                },
-                {
-                    "id": 3,
-                    "title" : "Page 1"
-                },
-                {
-                    "id": 4,
-                    "title" : "Page 1"
-                }
-            ]
-        },
-        {
-            "id": 1,
             "title": "Unit 1: Foundational Elements for Working Together",
             "content": [
                 {
                     "id": 0,
-                    "title" : "Page X"
-                },
-                {
-                    "id": 1,
-                    "title" : "Page X2"
-                },
-                {
-                    "id": 2,
-                    "title" : "Page X3"
-                },
-                {
-                    "id": 3,
-                    "title" : "Page X4"
-                },
-                {
-                    "id": 4,
-                    "title" : "Page X4"
-                },
-                {
-                    "id": 5,
-                    "title" : "Page X4"
-                },
-                {
-                    "id": 6,
-                    "title" : "Page X4"
+                    "title" : "Introduction",
+                    "blocks":[
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                            [
+                                {
+                                    "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xJirH-Iq04RVptMQ_yOJuJFpHempJ-JpZ.jpg"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

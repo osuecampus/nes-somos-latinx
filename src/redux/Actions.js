@@ -1,5 +1,5 @@
 // LOAD CONSTANTS //
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER } from './Constants';
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE } from './Constants';
 
 // LOAD CONTENT ACTIONS //
 export const loadContentDispatcher = (content) => ({ type: LOAD_CONTENT, content });
@@ -64,5 +64,21 @@ export const restartReaderDispatch = (value) => ({ type: RESTART_READER, restart
 export const restartReader = (value) => {
     return (dispatch) => {
         dispatch(restartReaderDispatch(value));
+    }
+}
+
+// SET CURRENT UNIT ACTIONS //
+export const setCurrentUnitDispatch = (value) => ({ type: SET_CURRENT_UNIT, currentUnit: value});
+export const setCurrentUnit = (value) => {
+    return (dispatch) => {
+        dispatch(setCurrentUnitDispatch(value));
+    }
+}
+
+// SET CURRENT PAGE ACTIONS //
+export const setCurrentPageDispatch = (value) => ({ type: SET_CURRENT_PAGE, currentPage: value});
+export const setCurrentPage = (value) => {
+    return (dispatch) => {
+        dispatch(setCurrentPageDispatch(value));
     }
 }
