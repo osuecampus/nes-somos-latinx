@@ -323,6 +323,9 @@ footer {
 .forceShowTheme{
     left: -130px!important
 }
+.forceShowSpeech{
+    left: -130px!important
+}
 
 /* SIDEBAR VIEW */
 .sidebarView {
