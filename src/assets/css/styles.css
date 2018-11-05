@@ -320,6 +320,9 @@ footer {
 .forceShowFont{
     left: -160px!important
 }
+.forceShowTheme{
+    left: -130px!important
+}
 
 /* SIDEBAR VIEW */
 .sidebarView {
