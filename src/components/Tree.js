@@ -34,7 +34,7 @@ class Tree extends Component {
       <div className={'contentTree'}>
 
     { this.props.content[0] ? this.props.content[0].sections.map((plot) => { return (
-          <div key={plot.id} className={'treeBranch'}>  
+          <div onKeyDown={(event) => event.keyCode == 32 ? (this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)) : null } tabIndex={'2'} key={plot.id} className={'treeBranch'}>  
             <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id} className={'unitBlock'}>
               <h3>{plot.title}</h3>
               <div className={'downProgress'}>
@@ -44,7 +44,7 @@ class Tree extends Component {
             
             <div ref={'hidden'+plot.id} className={'hiddenPages'}>
             { plot.content.map((plex) => { return (
-                <div onClick={() => {this.pageChoice(plot.id, plex.id)}} key={plex.id} className={'unitPage'}>
+                <div tabIndex={'2'} onClick={() => {this.pageChoice(plot.id, plex.id)}} key={plex.id} className={'unitPage'}>
                   <a href={'#'}>{plex.title}</a>
                 </div>
             )})}

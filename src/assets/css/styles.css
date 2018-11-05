@@ -317,6 +317,9 @@ footer {
 .themeDark:hover{
     background:#000!important;
 }
+.forceShowFont{
+    left: -160px!important
+}
 
 /* SIDEBAR VIEW */
 .sidebarView {
