@@ -224,7 +224,7 @@ footer {
     letter-spacing: 1px;
 }
 .themeLight {
-    background: #fff!important;
+    background: #e4e4e4!important;
 }
 .themeLight path{
     fill:#303030
@@ -310,6 +310,12 @@ footer {
 .activeSize {
     background: #f5520a;
     border: 2px solid #ff6e2d;
+}
+.themeLight:hover{
+    background:#fff!important;
+}
+.themeDark:hover{
+    background:#000!important;
 }
 
 /* SIDEBAR VIEW */
