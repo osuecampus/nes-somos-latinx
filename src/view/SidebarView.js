@@ -20,7 +20,7 @@ class SidebarView extends Component {
 
   render() {
     return (
-      <div className={'sidebarView'}>
+      <div role="navigation" className={'sidebarView'}>
         <div className={'branding'}>
           <img src={'./assets/img/logo-dark.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
         </div>

@@ -36,9 +36,9 @@ class Tree extends Component {
     { this.props.content[0] ? this.props.content[0].sections.map((plot) => { return (
           <div onKeyDown={(event) => event.keyCode == 32 ? (this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)) : null } tabIndex={'2'} key={plot.id} className={'treeBranch'}>  
             <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id} className={'unitBlock'}>
-              <h3>{plot.title}</h3>
+              <h2>{plot.title}</h2>
               <div className={'downProgress'}>
-                <img src={'./assets/img/icon-arrow.svg'} />
+                <img alt="Show Pages" title="Show Pages" src={'./assets/img/icon-arrow.svg'} />
               </div>
             </div>
             

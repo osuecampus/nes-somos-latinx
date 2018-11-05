@@ -15,7 +15,7 @@ class Content extends Component {
 
   render() {
     return (
-      <div id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
+      <div role="main" id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
      This is a test. I need this content to last longer so I can test pausing and restarting content.
       </div>
     );

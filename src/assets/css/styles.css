@@ -429,7 +429,7 @@ footer {
 .unitBlock:hover{
     background:rgba(0,0,0,.05);
 }
-.unitBlock h3 {
+.unitBlock h2 {
     font-weight: 600;
     font-size: 15px;
     color: #fff;
