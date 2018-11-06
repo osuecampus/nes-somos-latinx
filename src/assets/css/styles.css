@@ -16,7 +16,6 @@ footer {
 }
 .dark {
     background: #303030;
-    border-top: 1px solid #404040;
   }
   .dark .ui_copyright {
     color: #fff;
