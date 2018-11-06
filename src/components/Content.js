@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
+import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 
 class Content extends Component {
   componentDidMount() {
@@ -14,20 +15,33 @@ class Content extends Component {
   }
 
   render() {
+    console.log(this.props.content)
     return (
       <div role="main" id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
         <div className={'topMiniNav'}>
           <div className={'topMiniPrevious'}>
-            <div className={'pageTitle'}>The Summary of Life</div>
-            <div className={'pageDirection'}>Previous Page</div>
+
+            {this.props.content[0] ? 
+              (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1] ? 
+              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage-1)}><div className={'pageTitle'}>{this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title}</div>
+              <div className={'pageDirection'}>Previous Page</div></div>)
+              :null)
+            :null}
+            
           </div>
           <div className={'topMiniNext'}>
-            <div className={'pageTitle'}>The Conclusion of Life</div>
-            <div className={'pageDirection'}>Previous Page</div>
+          
+            {this.props.content[0] ? 
+              (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1] ? 
+              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage+1)}><div className={'pageTitle'}>{this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title}</div>
+              <div className={'pageDirection'}>Next Page</div></div>)
+              :null)
+            :null}
+        
           </div>
         </div>
-        <h2 className={'unitIntro'}>Unit 1: Foundational Elements for Working Together</h2>
-        <h1 className={'pageIntro'}>Introduction</h1>
+        <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
+        <h1 className={'pageIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].title:null}</h1>
         
       </div>
     );
@@ -36,13 +50,17 @@ class Content extends Component {
 
 const mapStateToProps = state => {
   return {
-    fontSize: state.fontSize
+    fontSize: state.fontSize,
+    currentPage: state.currentPage,
+    currentUnit: state.currentUnit,
+    content: state.content
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-
+    setCurrentUnit: (value) => dispatch(setCurrentUnit(value)),
+    setCurrentPage: (value) => dispatch(setCurrentPage(value)),
   };
 };
 
