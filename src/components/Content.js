@@ -23,7 +23,9 @@ class Content extends Component {
 
             {this.props.content[0] ? 
               (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1] ? 
-              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage-1)}><div className={'pageTitle'}>{this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title}</div>
+              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage-1)}><div title={this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title} className={'pageTitle'}>
+                {this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title.length > 22 ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title.substr(0,22) + '..': this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage-1].title }
+              </div>
               <div className={'pageDirection'}>Previous Page</div></div>)
               :null)
             :null}
@@ -33,7 +35,9 @@ class Content extends Component {
           
             {this.props.content[0] ? 
               (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1] ? 
-              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage+1)}><div className={'pageTitle'}>{this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title}</div>
+              (<div onClick={() => this.props.setCurrentPage(this.props.currentPage+1)}><div title={this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title} className={'pageTitle'}>
+                {this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title.length > 22 ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title.substr(0,22) + '..': this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage+1].title }
+              </div>
               <div className={'pageDirection'}>Next Page</div></div>)
               :null)
             :null}
