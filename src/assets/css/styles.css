@@ -398,6 +398,31 @@ footer {
     width: 90%;
     border-radius: 45px;
     margin-top: 25px;
+    position: relative;
+}
+.searchLabel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    pointer-events:none;
+    align-items: center;
+    height: 63px;
+    width: 100%;
+}
+#searchIcon {
+    height: 19px;
+}
+#searchIcon path{
+    fill:#ffffff;
+}
+.searchText {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    margin-left: 6px;
+    text-transform: uppercase;
 }
 .searchInput {
     height: 100%;
@@ -412,6 +437,9 @@ footer {
     border: 2px solid rgba(255,255,255,0);
     cursor: text;
     transition: all .2s ease-in-out;
+}
+.searchInput:focus ~ .searchLabel{
+    display:none;
 }
 .searchInput:hover{
     background:rgba(255,255,255,.1);
