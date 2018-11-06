@@ -627,4 +627,17 @@ footer {
     .hideLogo .ui_copyright{
         transform:translateX(115px)!important;
     }
+    .unitIntro {
+        font-size: 12px;
+        padding-left:5px;
+        padding-right:5px;
+        line-height: 22px;
+    }
+    .pageIntro {
+        font-size: 32px;
+        margin-top:5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 36px;
+    }
 }
