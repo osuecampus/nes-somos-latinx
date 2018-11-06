@@ -16,7 +16,19 @@ class Content extends Component {
   render() {
     return (
       <div role="main" id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
-     This is a test. I need this content to last longer so I can test pausing and restarting content.
+        <div className={'topMiniNav'}>
+          <div className={'topMiniPrevious'}>
+            <div className={'pageTitle'}>The Summary of Life</div>
+            <div className={'pageDirection'}>Previous Page</div>
+          </div>
+          <div className={'topMiniNext'}>
+            <div className={'pageTitle'}>The Conclusion of Life</div>
+            <div className={'pageDirection'}>Previous Page</div>
+          </div>
+        </div>
+        <h2 className={'unitIntro'}>Unit 1: Foundational Elements for Working Together</h2>
+        <h1 className={'pageIntro'}>Introduction</h1>
+        
       </div>
     );
   }

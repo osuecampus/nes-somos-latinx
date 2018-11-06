@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700');
+
 body{
     background:#d73f09;
     margin: 0px 0px 0px;
@@ -9,7 +11,7 @@ footer {
 
 /* THEMES */
 .darkLook {
-    color: #fcfcfc;
+    color: #fcfcfc!important;
     background: #202020!important;
 }
 .dark {
@@ -44,6 +46,21 @@ footer {
 }
 .toolbarHolder{
     background:transparent!important;
+}
+.darkLook .pageTitle{
+    color:#fcfcfc;
+}
+.darkLook .pageDirection{
+    color:#afafaf;
+}
+.darkLook .unitIntro{
+    color:#afafaf;
+}
+.darklook .pageIntro{
+    color:#fcfcfc
+}
+.darkLook .topMiniNav{
+    border-bottom-color:#404040;
 }
 
 
@@ -514,6 +531,45 @@ footer {
     top: 21px;
     height: 24px;
 }
+.topMiniNav {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #f0f0f0;
+    color:#303030;
+    padding-bottom: 8px;
+    padding-top: 6px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.topMiniPrevious {
+    text-align: left;
+}
+.topMiniNext {
+    text-align: right;
+}
+.pageTitle {
+    font-size: 15px;
+    font-weight: 700;
+}
+.pageDirection {
+    font-size: 10px;
+    color: #505050;
+}
+.unitIntro{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #505050;
+    margin: 0px;
+}
+.pageIntro{
+    text-align: center;
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 900;
+    color: #303030;
+}
+
 
 /* MOBILE STYLES */
 .mobile .contentView {
