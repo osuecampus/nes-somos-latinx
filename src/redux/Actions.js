@@ -1,5 +1,5 @@
 // LOAD CONSTANTS //
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE } from './Constants';
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from './Constants';
 
 // LOAD CONTENT ACTIONS //
 export const loadContentDispatcher = (content) => ({ type: LOAD_CONTENT, content });
@@ -80,5 +80,13 @@ export const setCurrentPageDispatch = (value) => ({ type: SET_CURRENT_PAGE, curr
 export const setCurrentPage = (value) => {
     return (dispatch) => {
         dispatch(setCurrentPageDispatch(value));
+    }
+}
+
+// SHOW SCROLL ACTIONS //
+export const showScrollDispatch = (boolean) => ({ type: SHOW_SCROLL, scrolled: boolean});
+export const showScroll = (boolean) => {
+    return (dispatch) => {
+        dispatch(showScrollDispatch(boolean));
     }
 }

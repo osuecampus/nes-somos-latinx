@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE } from "./Constants";
+import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from "./Constants";
 
 const initialState = []
 
@@ -85,6 +85,15 @@ const currentPage = (state = 0, action) => {
   }
 };
 
+const scrolled = (state = false, action) => {
+  switch (action.type) {
+    case SHOW_SCROLL:
+      return action.scrolled;
+    default:
+      return state;
+  }
+};
+
 // COMBINE REDUCERS //
 export default combineReducers({
   content,
@@ -95,5 +104,6 @@ export default combineReducers({
   restartTrigger,
   currentUnit,
   currentPage,
+  scrolled,
   mobile
 });

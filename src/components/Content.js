@@ -15,7 +15,6 @@ class Content extends Component {
   }
 
   render() {
-    console.log(this.props.content)
     return (
       <div role="main" id={'contentArea'} className={'contentArea ' + this.props.fontSize }>
         <div className={'topMiniNav'}>

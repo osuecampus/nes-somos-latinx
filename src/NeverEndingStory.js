@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent } from "./redux/Actions";
+import { loadContent, showScroll } from "./redux/Actions";
 
 // COMPONENTS //
 import { Header, Footer, GA } from "react-starter";
@@ -10,7 +10,6 @@ import { Header, Footer, GA } from "react-starter";
 // VIEWS //
 import ContentView from "./view/ContentView";
 import SidebarView from "./view/SidebarView";
-
 
 // CSS //
 import "./assets/css/styles.css";
@@ -25,6 +24,14 @@ class App extends Component {
     this.props.loadContent();
     this.detectDimensions();
     window.addEventListener("resize", this.detectDimensions.bind(this));
+    window.addEventListener('scroll', () =>{  
+      if(document.body.scrollTop > 200){ 
+        this.props.showScroll(true);
+      }
+      else{
+        this.props.showScroll(false);
+      }
+    });
   }
 
   detectDimensions() {
@@ -65,7 +72,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    loadContent: () => dispatch(loadContent())
+    loadContent: () => dispatch(loadContent()),
+    showScroll: (boolean) => dispatch(showScroll(boolean)),
   };
 };
 
