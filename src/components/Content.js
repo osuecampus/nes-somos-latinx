@@ -57,7 +57,9 @@ class Content extends Component {
 
 
 {this.props.content[0] ? 
-(this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id });} )) : null }
+  (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {
+    const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id, details: block.details });
+  })) : null }
 
 
 

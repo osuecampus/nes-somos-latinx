@@ -1,49 +1,50 @@
 {
-    "name": "never-ending-story",
-    "version": "1.0.0",
-    "description": "A content presentation application",
-    "main": "index.js",
-    "homepage":"./",
-    "repository": "https://github.com/osuecampus/never-ending-story",
-    "author": "Austin Spaeth <austinspaeth@msn.com>",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-      "start": "webpack-dev-server --mode development --open ",
-      "hot": "webpack-dev-server --mode development --open --hot ",
-      "silent": "webpack-dev-server --mode development --hot ",
-      "commit": "npx git-cz",
-      "build": "webpack --mode production"
-    },
-    "devDependencies": {
-      "@babel/core": "^7.1.2",
-      "@babel/preset-env": "^7.1.0",
-      "@babel/preset-react": "^7.0.0",
-      "babel-loader": "^8.0.4",
-      "babel-plugin-transform-object-rest-spread": "^6.26.0",
-      "copy-webpack-plugin": "^4.5.3",
-      "css-loader": "^1.0.0",
-      "cz-conventional-changelog": "^2.1.0",
-      "html-webpack-plugin": "^3.2.0",
-      "prettier": "1.14.3",
-      "style-loader": "^0.23.1",
-      "webpack": "^4.20.2",
-      "webpack-cli": "^3.1.2",
-      "webpack-dev-server": "^3.1.9"
-    },
-    "dependencies": {
-      "@babel/plugin-proposal-class-properties": "^7.1.0",
-      "react": "^16.5.2",
-      "react-dom": "^16.5.2",
-      "react-redux": "^5.0.7",
-      "react-starter": "git+ssh://git@github.com/osuecampus/react-starter.git",
-      "redux": "^4.0.1",
-      "redux-thunk": "^2.3.0",
-      "uuid": "^3.3.2"
-    },
-    "config": {
-      "commitizen": {
-        "path": "./node_modules/cz-conventional-changelog"
-      }
+  "name": "never-ending-story",
+  "version": "1.0.0",
+  "description": "A content presentation application",
+  "main": "index.js",
+  "homepage": "./",
+  "repository": "https://github.com/osuecampus/never-ending-story",
+  "author": "Austin Spaeth <austinspaeth@msn.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open ",
+    "hot": "webpack-dev-server --mode development --open --hot ",
+    "silent": "webpack-dev-server --mode development --hot ",
+    "commit": "npx git-cz",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "copy-webpack-plugin": "^4.5.3",
+    "css-loader": "^1.0.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "1.14.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "aphrodite": "^2.2.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-starter": "git+ssh://git@github.com/osuecampus/react-starter.git",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
+}

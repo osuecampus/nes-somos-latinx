@@ -558,14 +558,27 @@ footer {
 }
 
 /* CONTENT STYLES */
+section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
 .small{
-    font-size:14px;
+    font-size:22px;
+}
+.small p{
+    font-size:22px;
 }
 .medium {
-    font-size:18px;
+    font-size:28px;
+}
+.medium p{
+    font-size:28px;
 }
 .large{
-    font-size:22px;
+    font-size:32px;
+}
+.large p{
+    font-size:32px;
 }
 .rightArrow polygon{
     fill:#e82c00
