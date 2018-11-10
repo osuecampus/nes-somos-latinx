@@ -477,6 +477,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 0px;
 }
+
 .unitBlock {
     width: calc(100% - 100px);
     height: 79px;
@@ -507,6 +508,10 @@ footer {
     overflow:hidden;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
+}
+.treeBranch:focus {
+    outline: 0;
+    background: #9e2e06;
 }
 .downProgress {
     position: absolute;
@@ -541,6 +546,10 @@ footer {
     color: #fff;
     cursor:pointer;
     transition:all .2s ease-in-out;
+}
+.unitPage:focus{
+    outline: 0;
+    background:rgba(0,0,0,.05);
 }
 .unitPage:hover{
     background:rgba(0,0,0,.05);

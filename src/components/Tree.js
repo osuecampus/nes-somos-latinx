@@ -45,7 +45,7 @@ class Tree extends Component {
             
             <div ref={'hidden'+plot.id} className={'hiddenPages'}>
             { plot.content.map((plex) => { return (
-                <div tabIndex={'2'} onClick={() => {this.pageChoice(plot.id, plex.id)}} key={plex.id} className={'unitPage'}>
+                <div tabIndex={'2'} onKeyDown={(event) => event.keyCode == 32 ? (this.pageChoice(plot.id, plex.id)):null}  onClick={() => {this.pageChoice(plot.id, plex.id)}} key={plex.id} className={'unitPage'}>
                   <a href={'#'}>{plex.title}</a>
                 </div>
             )})}
