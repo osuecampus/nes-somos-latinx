@@ -6,9 +6,11 @@ import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 
 // BLOCKS //
 import ImageText from "../blocks/ImageText";
+import Text from "../blocks/Text";
 
 const components = {
-  ImageText: ImageText
+  ImageText: ImageText,
+  Text: Text
 };
 
 class Content extends Component {

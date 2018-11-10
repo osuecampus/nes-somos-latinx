@@ -33,6 +33,7 @@ const ss = StyleSheet.create({
     borderRadius:10,
     '@media (max-width: 700px)': {
       width: '100%',
+      marginBottom:25
     }
   },
   text:{

@@ -10,21 +10,26 @@
             "content": [
                 {
                     "id": 0,
-                    "title" : "Unit Introduction",
+                    "title" : "Introduction",
                     "blocks":[
                         {
                             "id":0,
                             "type":"ImageText",
                             "details":
-                            
                                 {
                                     "layout":"left",
                                     "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
                                     "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xJirH-Iq04RVptMQ_yOJuJFpHempJ-JpZ.jpg",
                                     "alt": "People having a conversation in a hallway"
                                 }
-                            
-                            
+                        },
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin Unit 1, please click on the \"Unit 1 Reflection Guide\" link below to download/print a note-taking sheet."
+                            }
                         }
                     ]
                 },
