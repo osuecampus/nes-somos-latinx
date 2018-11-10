@@ -39,6 +39,14 @@
                                 "text":"Click the button to download and print the Unit 1 Reflection Guide",
                                 "link":"http://www.google.com/"
                             }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Remember, this is a tool for your learning and a resource you can use as you continue to work as a peer educator. Additionally, depending on your training format, your supervisor may ask you to show or submit your reflection notes as a confirmation that you’ve done the work."
+                            }
                         }
                     ]
                 },
