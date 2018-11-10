@@ -7,10 +7,12 @@ import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 // BLOCKS //
 import ImageText from "../blocks/ImageText";
 import Text from "../blocks/Text";
+import DownloadBox from "../blocks/DownloadBox";
 
 const components = {
   ImageText: ImageText,
-  Text: Text
+  Text: Text,
+  DownloadBox: DownloadBox
 };
 
 class Content extends Component {
