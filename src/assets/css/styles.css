@@ -98,6 +98,7 @@ footer {
     width: calc(93% - 60px);
     margin-right: 60px;
     max-width:960px;
+    min-width:400px;
 }
 
 /* TOOLBAR COMPONENT */
