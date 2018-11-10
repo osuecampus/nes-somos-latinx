@@ -10,7 +10,7 @@
             "content": [
                 {
                     "id": 0,
-                    "title" : "Introduction",
+                    "title" : "Unit Introduction",
                     "blocks":[
                         {
                             "id":0,
@@ -23,6 +23,7 @@
                                     "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xJirH-Iq04RVptMQ_yOJuJFpHempJ-JpZ.jpg"
                                 }
                             ]
+                            
                         }
                     ]
                 },

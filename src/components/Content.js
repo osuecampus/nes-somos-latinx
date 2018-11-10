@@ -4,6 +4,13 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 
+// BLOCKS //
+import ImageText from "../blocks/ImageText";
+
+const components = {
+  ImageText: ImageText
+};
+
 class Content extends Component {
   componentDidMount() {
 
@@ -46,6 +53,19 @@ class Content extends Component {
         <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
         <h1 className={'pageIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].title:null}</h1>
         
+
+
+
+{this.props.content[0] ? 
+(this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id });} )) : null }
+
+
+
+
+
+
+
+
       </div>
     );
   }
