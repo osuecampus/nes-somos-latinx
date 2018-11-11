@@ -72,7 +72,16 @@
                             {
                                 "text":"If you think back to some of the experiences you’ve had that felt most “helpful” - you may notice the importance of feeling listened to and feeling like the other person cares about your success. In contrast, perhaps you can remember a time when you didn’t feel listened to or supported."
                             }
-                        }                       
+                        },
+                        {
+                            "id":7,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        }                  
                     ]
                 },
                 {

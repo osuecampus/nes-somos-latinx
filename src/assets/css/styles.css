@@ -602,6 +602,9 @@ p{
 .small p{
     font-size:24px;
 }
+.small .pageIntro{
+    font-size:50px;
+}
 .medium {
     font-size:28px;
 }
@@ -613,6 +616,9 @@ p{
 }
 .large p{
     font-size:32px;
+}
+.large .pageIntro{
+    font-size:70px;
 }
 .rightArrow polygon{
     fill:#0e5bea
