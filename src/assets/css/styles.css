@@ -89,6 +89,22 @@ footer {
     overflow: hidden;
     transition: width 1s ease-in-out;
 }
+.beginningNode{
+    display: flex;
+    pointer-events:none;
+    align-items: center;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+}
+#begin {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+#begin path {
+    fill: #808080;
+}
 .fullScreen {
     width: 100%!important;
 }
@@ -581,10 +597,10 @@ p{
     color: #303030;
 }
 .small{
-    font-size:26px;
+    font-size:24px;
 }
 .small p{
-    font-size:26px;
+    font-size:24px;
 }
 .medium {
     font-size:28px;
@@ -612,7 +628,7 @@ p{
     display: flex;
     border-bottom: 1px solid #f0f0f0;
     color:#303030;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     padding-top: 6px;
     justify-content: space-between;
     margin-bottom: 25px;
@@ -655,7 +671,6 @@ p{
     color: #303030;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 25px;
 }
 
 /* MOBILE STYLES */
