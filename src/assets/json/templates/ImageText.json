@@ -1,0 +1,11 @@
+{
+    "id":0,
+    "type":"ImageText",
+    "details":
+        {
+            "layout":"left",
+            "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
+            "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xJirH-Iq04RVptMQ_yOJuJFpHempJ-JpZ.jpg",
+            "alt": "People having a conversation in a hallway"
+        }
+}
