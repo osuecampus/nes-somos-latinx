@@ -102,7 +102,7 @@ footer {
     width: calc(93% - 60px);
     margin-right: 60px;
     max-width:960px;
-    min-width:400px;
+    min-width: 300px;
 }
 
 /* TOOLBAR COMPONENT */
@@ -649,12 +649,13 @@ p{
 }
 .pageIntro{
     text-align: center;
-    font-size: 45px;
+    font-size: 65px;
     margin: 0px;
     font-weight: 900;
     color: #303030;
     padding-left: 25px;
     padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 /* MOBILE STYLES */
