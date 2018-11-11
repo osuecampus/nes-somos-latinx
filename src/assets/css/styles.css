@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700');
 
 body{
-    background:#d73f09;
+    background:#1f60e2;
     margin: 0px 0px 0px;
 }
 footer {
@@ -13,6 +13,9 @@ footer {
 .darkLook {
     color: #fcfcfc!important;
     background: #202020!important;
+}
+.darkLook p{
+    color:#fcfcfc!important;
 }
 .dark {
     background: #303030;
@@ -50,7 +53,10 @@ footer {
     background:transparent!important;
 }
 .darkLook .pageTitle{
-    color:#fcfcfc;
+    color:#d0d0d0;
+}
+.darkLook .topMiniPrevious:hover .pageTitle, .darkLook .topMiniNext:hover .pageTitle{
+    color:#ffffff!important;
 }
 .darkLook .pageDirection{
     color:#afafaf;
@@ -69,20 +75,18 @@ footer {
 /* CONTENT VIEW */
 .contentView{
     width: calc(100% - 450px);
-    min-height: 115%;
-    padding-top: calc(15% + 25px);
-    margin-top: -15%;
-    padding-bottom:55px;
-    margin-bottom: calc(-15% - 55px);
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 175px);
+    flex-direction: column;
+    background: #fcfcfc;
     position: relative;
     transform: translate3d(0);
     z-index: 2;
     box-shadow: 0px 0px 50px rgba(0,0,0,.10);
-    overflow:hidden;
+    overflow: hidden;
     transition: width 1s ease-in-out;
 }
 .fullScreen {
@@ -145,7 +149,7 @@ footer {
     margin-top: 15px;
 }
 .toolPlaceholder:hover path,.toolPlaceholder:focus path{
-    fill:#d73f09!important;
+    fill:#0e5bea!important;
 }
 .accessibilityGroup {
     background: #efefef;
@@ -177,10 +181,10 @@ footer {
 .fontChange {
     position: absolute;
     left: 5000px;
-    width: 150px;
+    width: 175px;
     height: 65px;
-    background: #e82c00;
-    border-radius: 15px;
+    background: #0e5bea;
+    border-radius: 45px;
     display:flex;
     outline:0;
     top: -4px;
@@ -190,7 +194,7 @@ footer {
     color: #fff;
 }
 .fontChange:focus{
-    left: -160px;
+    left: -185px;
 }
 .fontChange h3 {
     margin: 0;
@@ -204,12 +208,12 @@ footer {
 .speechChange {
     position: absolute;
     left: 5000px;
-    width: 120px;
+    width: 130px;
     height: 65px;
-    background: #e82c00;
-    border-radius: 15px;
-    display:flex;
-    outline:0;
+    background: #0e5bea;
+    border-radius: 45px;
+    display: flex;
+    outline: 0;
     top: 75px;
     justify-content: center;
     align-items: center;
@@ -217,7 +221,7 @@ footer {
     color: #fff;
 }
 .speechChange:focus{
-    left: -130px;
+    left: -140px;
 }
 .speechChange h3 {
     margin: 0;
@@ -231,10 +235,10 @@ footer {
 .themeChange {
     position: absolute;
     left: 5000px;
-    width: 120px;
+    width: 130px;
     height: 65px;
-    background: #e82c00;
-    border-radius: 15px;
+    background: #0e5bea;
+    border-radius: 45px;
     display: flex;
     outline: 0;
     top: 34px;
@@ -244,7 +248,7 @@ footer {
     color: #fff;
 }
 .themeChange:focus{
-    left: -130px;
+    left: -140px;
 }
 .themeChange h3 {
     margin: 0;
@@ -273,7 +277,7 @@ footer {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #da2800;
+    background: #0046bb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +295,7 @@ footer {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #da2800;
+    background: #0046bb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,7 +311,7 @@ footer {
     fill:#fff;
 }
 .voiceSelection:hover{
-    background:#fb441a;
+    background:#196fff;
 }
 .fontSelection {
     width: 34px;
@@ -315,7 +319,7 @@ footer {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #da2800;
+    background: #0046bb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +329,7 @@ footer {
     transition: all .2s ease-in-out;
 }
 .fontSelection:hover{
-    background:#fb441a;
+    background:#196fff;
 }
 .fontSmall svg {
     width: 8px;
@@ -340,8 +344,8 @@ footer {
     width: 18px;
 }
 .activeSize {
-    background: #f5520a;
-    border: 2px solid #ff6e2d;
+    background: #2874ff;
+    border: 2px solid #659cff;
 }
 .themeLight:hover{
     background:#fff!important;
@@ -395,7 +399,7 @@ footer {
 .searchHolder {
     height: 60px;
     min-height: 60px;
-    background: #DC592A;
+    background: #0f49b5;
     width: 90%;
     border-radius: 45px;
     margin-top: 25px;
@@ -443,12 +447,12 @@ footer {
     display:none;
 }
 .searchInput:hover{
-    background:rgba(255,255,255,.1);
+    background: rgba(0, 0, 0, 0.15);
 }
 .searchInput:focus{
-    background: rgb(255, 255, 255);
-    border: 2px solid rgba(255,255,255,.25);
-    color: #505050;
+    background: rgba(0, 0, 0, 0.15);
+    border: 2px solid rgb(60, 128, 255);
+    color: #ffffff;
 }
 .searchHolder ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba(255,255,255,1);
@@ -471,7 +475,7 @@ footer {
     opacity:1
 }
 .treeHolder {
-    background: #CA3B08;
+    background: #0f49b5;
     width: 90%;
     border-radius: 20px;
     margin-top: 20px;
@@ -511,7 +515,7 @@ footer {
 }
 .treeBranch:focus {
     outline: 0;
-    background: #9e2e06;
+    background: #0e3d96;
 }
 .downProgress {
     position: absolute;
@@ -528,7 +532,7 @@ footer {
 }
 .hiddenPages {
     width: 100%;
-    background: #b33200;
+    background: #0e50bd;
     display: none;
 }
 .activePage{
@@ -574,12 +578,13 @@ section{
 p{
     margin-top:0px;
     margin-bottom:0px;
+    color: #303030;
 }
 .small{
-    font-size:22px;
+    font-size:26px;
 }
 .small p{
-    font-size:22px;
+    font-size:26px;
 }
 .medium {
     font-size:28px;
@@ -594,13 +599,13 @@ p{
     font-size:32px;
 }
 .rightArrow polygon{
-    fill:#e82c00
+    fill:#0e5bea
 }
 .rightArrow{
     position: absolute;
-    right: -16px;
-    top: 21px;
-    height: 24px;
+    right: -12px;
+    top: 11px;
+    width: 29px;
 }
 .topMiniNav {
     width: 100%;
@@ -623,11 +628,12 @@ p{
 .pageTitle {
     font-size: 15px;
     font-weight: 700;
+    color:#606060;
     cursor:pointer;
     transition:all .2s ease-in-out;
 }
 .topMiniPrevious:hover .pageTitle, .topMiniNext:hover .pageTitle{
-    color:#d73f09;
+    color:#000000;
     text-decoration:underline;
 }
 .pageDirection {

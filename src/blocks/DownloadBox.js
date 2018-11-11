@@ -26,7 +26,7 @@ const ss = StyleSheet.create({
       justifyContent:'space-between',
       alignItems:'center',
       flexDirection:'row',
-      background: 'rgba(0, 0, 0, 0.06)',
+      background: 'rgba(255,255,255,.1)',
       borderRadius: 10,
       border: '1px solid rgba(0,0,0,.15)',
       '@media (max-width: 700px)': {
@@ -42,21 +42,21 @@ const ss = StyleSheet.create({
     textAlign: 'center',
     padding: '18px 0px',
     fontWeight: '700',
-    borderRadius:10,
-    backgroundColor:'#d73f09',
+    borderRadius:45,
+    backgroundColor:'#1f60e2',
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
       width: '100%',
       marginTop:25
     },
     ':hover': {
-        backgroundColor: '#ff4c0d'
+        backgroundColor: '#0046bb'
     }
   },
   text:{
     width:'calc(100% - 250px)',
     fontFamily: 'Open Sans',
-    fontSize: 18,
+    fontSize: 20,
     lineHeight: '28px',
     '@media (max-width: 700px)': {
       width: '100%',

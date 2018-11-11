@@ -21,6 +21,7 @@ class ContentView extends Component {
 
     return (
       <div className={'contentView' + (this.props.mobile == 1 ? ' fullScreen' : ' showSidebar' ) + ' ' + this.props.theme }>
+        <div className={'blade'} />
         <Content />
         <Toolbar />
       </div>
