@@ -8,11 +8,13 @@ import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 import ImageText from "../blocks/ImageText";
 import Text from "../blocks/Text";
 import DownloadBox from "../blocks/DownloadBox";
+import Divider from "../blocks/Divider";
 
 const components = {
   ImageText: ImageText,
   Text: Text,
-  DownloadBox: DownloadBox
+  DownloadBox: DownloadBox,
+  Divider: Divider
 };
 
 class Content extends Component {
