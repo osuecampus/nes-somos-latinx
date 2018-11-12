@@ -89,7 +89,44 @@
                             {
                                 "text":"In her 1999 study, researcher Marcia Baxter Magolda asked students to “describe teaching environments that they found helpful in promoting their learning.” She discovered as a theme that students appreciated when teachers showed:"
                             }
-                        }              
+                        },
+                        {
+                            "id":9,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "revealText": "Click here to reveal the results",
+                                "text":"\"caring attitude towards students\"",
+                                "textTwo":"\"condern for the students\""
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While this looked different from student to student - the theme still emerged as an important element of her research and has been found in subsequent studies."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 2000, researcher Geneva Gay demonstrated that a caring relationship can impact the outcomes of learning. Her research indicated that:"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "revealText": "Click here to see what the research indicated",
+                                "text":"Caring makes people more willing to participate",
+                                "textTwo":"Caring encourages achievement",
+                                "textThree":"Caring prompts student effort and hard work"
+                            }
+                        }
                     ]
                 },
                 {

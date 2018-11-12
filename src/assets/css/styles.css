@@ -71,6 +71,9 @@ footer {
 .darkLook .topMiniNav{
     border-bottom-color:#404040;
 }
+.darkLook .lightenUp div{
+    color:#fcfcfc!important;
+}
 
 
 /* CONTENT VIEW */

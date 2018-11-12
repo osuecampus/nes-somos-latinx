@@ -1,0 +1,11 @@
+{
+    "id":1,
+    "type":"CardReveal",
+    "details":
+    {
+        "revealText": "Click to reveal the results",
+        "text":"\"caring attitude towards students\"",
+        "textTwo":"\"condern for the students\"",
+        "textThree":"\"third block of text\""
+    }
+}

@@ -12,7 +12,7 @@ export default class DownloadBox extends Component {
     return (
       <section className={css(ss.section)}>
         <p className={css(ss.text)}>{this.props.details.text}</p>
-        <a download className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>Download</a>
+        <a tabIndex={'4'} download className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>Download</a>
       </section>
     );
   }
