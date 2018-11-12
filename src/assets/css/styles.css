@@ -646,11 +646,12 @@ p{
 }
 .topMiniPrevious {
     text-align: left;
-    cursor:pointer;
+}
+.beginningNode{
+    pointer:default;
 }
 .topMiniNext {
     text-align: right;
-    cursor:pointer;
 }
 .pageTitle {
     font-size: 15px;
