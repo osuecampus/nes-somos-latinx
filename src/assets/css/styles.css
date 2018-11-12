@@ -65,7 +65,8 @@ footer {
     color:#afafaf;
 }
 .darklook .pageIntro{
-    color:#fcfcfc
+    color:#fcfcfc;
+    border-bottom-color:#404040;
 }
 .darkLook .topMiniNav{
     border-bottom-color:#404040;
@@ -117,7 +118,7 @@ footer {
 .contentArea{
     width: calc(93% - 60px);
     margin-right: 60px;
-    max-width:960px;
+    max-width:860px;
     min-width: 300px;
 }
 
@@ -638,6 +639,7 @@ p{
     padding-top: 6px;
     justify-content: space-between;
     margin-bottom: 25px;
+    margin-top: 8px;
 }
 .topMiniPrevious {
     text-align: left;
@@ -663,20 +665,20 @@ p{
     color: #505050;
 }
 .unitIntro{
-    text-align: center;
+    text-align: left;
     width: 100%;
     font-size: 14px;
-    color: #505050;
+    color: #707070;
     margin: 0px;
 }
 .pageIntro{
-    text-align: center;
-    font-size: 65px;
+    text-align: left;
+    font-size: 60px;
     margin: 0px;
     font-weight: 900;
     color: #303030;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 /* MOBILE STYLES */

@@ -81,7 +81,15 @@
                                 "format":"number",
                                 "character":"2"
                             }
-                        }                  
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In her 1999 study, researcher Marcia Baxter Magolda asked students to “describe teaching environments that they found helpful in promoting their learning.” She discovered as a theme that students appreciated when teachers showed:"
+                            }
+                        }              
                     ]
                 },
                 {
