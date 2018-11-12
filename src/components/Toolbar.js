@@ -27,7 +27,7 @@ componentDidMount(){
 }
 
 readMe(){
-    let pageText = window.document.getElementById('contentArea').innerText;
+    let pageText = window.document.getElementById('readableContent').innerText;
     this.props.setReaderText(pageText);
 }
 

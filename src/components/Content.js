@@ -63,15 +63,16 @@ class Content extends Component {
         
           </div>
         </div>
-        <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
-        <h1 className={'pageIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].title:null}</h1>
+        <div id={'readableContent'}>
+          <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
+          <h1 className={'pageIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].title:null}</h1>
         
-        {this.props.content[0] ? 
-          (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {
-            const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id, details: block.details });
-          })) 
-        : null }
-
+          {this.props.content[0] ? 
+            (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {
+              const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id, details: block.details });
+            })) 
+          : null }
+        </div>
       </div>
     );
   }
