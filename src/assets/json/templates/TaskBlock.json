@@ -1,0 +1,10 @@
+{
+    "id":4,
+    "type":"TaskBlock",
+    "details":
+    {
+        "color":"red",
+        "image":"1",
+        "text":""
+    }
+}

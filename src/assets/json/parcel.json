@@ -126,6 +126,16 @@
                                 "textTwo":"Caring encourages achievement",
                                 "textThree":"Caring prompts student effort and hard work"
                             }
+                        },
+                        {
+                            "id":13,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "text":"Reflection #1 - Fill out this section on your Notes Sheet"
+                            }
                         }
                     ]
                 },

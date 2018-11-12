@@ -10,13 +10,15 @@ import Text from "../blocks/Text";
 import DownloadBox from "../blocks/DownloadBox";
 import Divider from "../blocks/Divider";
 import CardReveal from "../blocks/CardReveal";
+import TaskBlock from "../blocks/TaskBlock";
 
 const components = {
   ImageText: ImageText,
   Text: Text,
   DownloadBox: DownloadBox,
   Divider: Divider,
-  CardReveal: CardReveal
+  CardReveal: CardReveal,
+  TaskBlock: TaskBlock
 };
 
 class Content extends Component {
