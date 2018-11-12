@@ -29,7 +29,7 @@ const ss = StyleSheet.create({
       }
   },
   image:{
-    width:'40%',
+    width:'50%',
     borderRadius:10,
     '@media (max-width: 700px)': {
       width: '100%',
@@ -37,7 +37,7 @@ const ss = StyleSheet.create({
     }
   },
   text:{
-    width:'55%',
+    width:'45%',
     fontFamily:'Crimson Text',
     '@media (max-width: 700px)': {
       width: '100%',
