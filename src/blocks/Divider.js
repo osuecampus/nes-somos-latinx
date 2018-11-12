@@ -26,6 +26,8 @@ const ss = StyleSheet.create({
       flexDirection:'row',
       background: '#0e5bea',
       borderRadius: 10,
+      marginTop:75,
+      marginBottom:75,
       height:3,
   },
   character:{
