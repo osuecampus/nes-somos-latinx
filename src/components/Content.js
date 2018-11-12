@@ -11,6 +11,7 @@ import DownloadBox from "../blocks/DownloadBox";
 import Divider from "../blocks/Divider";
 import CardReveal from "../blocks/CardReveal";
 import TaskBlock from "../blocks/TaskBlock";
+import SubjectBlock from "../blocks/SubjectBlock";
 
 const components = {
   ImageText: ImageText,
@@ -18,7 +19,8 @@ const components = {
   DownloadBox: DownloadBox,
   Divider: Divider,
   CardReveal: CardReveal,
-  TaskBlock: TaskBlock
+  TaskBlock: TaskBlock,
+  SubjectBlock: SubjectBlock
 };
 
 class Content extends Component {

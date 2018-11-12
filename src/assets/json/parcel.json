@@ -136,6 +136,41 @@
                                 "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
                                 "text":"Reflection #1 - Fill out this section on your Notes Sheet"
                             }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"A caring and supportive interaction can also enhance students’ sense of belonging at the institution, which is then magnified by the new levels of success they experience. This sets a positive cycle in motion, where care and accomplishment mutually reinforce student success."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"With that in mind, the first unit “Foundational Elements for Working Together” focuses on the interpersonal and communication-based elements that we use when working with and supporting another student’s learning."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"For Unit 1, we have chosen five important topics that provide the foundation for working with another person."
+                            }
                         }
                     ]
                 },
