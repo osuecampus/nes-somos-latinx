@@ -15,7 +15,6 @@ export default class TabbedContentExplorer extends Component {
   }
 
   setTab(id){
-    console.log(id);
     this.setState({currentTab: id});
   }
 

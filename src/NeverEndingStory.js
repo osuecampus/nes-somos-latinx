@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent, showScroll } from "./redux/Actions";
+import { loadContent, showScroll, setCurrentPage, setCurrentUnit} from "./redux/Actions";
 
 // COMPONENTS //
 import { Header, Footer, GA } from "react-starter";
@@ -21,6 +21,8 @@ class App extends Component {
   }
 
   componentDidMount() {
+    localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page')) : null;
+    localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;
     this.props.loadContent();
     this.detectDimensions();
     window.addEventListener("resize", this.detectDimensions.bind(this));
@@ -74,6 +76,8 @@ const mapDispatchToProps = dispatch => {
   return {
     loadContent: () => dispatch(loadContent()),
     showScroll: (boolean) => dispatch(showScroll(boolean)),
+    setCurrentPage: (value) => dispatch(setCurrentPage(value)),
+    setCurrentUnit: (value) => dispatch(setCurrentUnit(value)),
   };
 };
 

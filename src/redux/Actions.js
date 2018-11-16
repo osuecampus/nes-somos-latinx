@@ -70,6 +70,7 @@ export const restartReader = (value) => {
 // SET CURRENT UNIT ACTIONS //
 export const setCurrentUnitDispatch = (value) => ({ type: SET_CURRENT_UNIT, currentUnit: value});
 export const setCurrentUnit = (value) => {
+    localStorage.setItem("nes-current-unit", value);
     return (dispatch) => {
         dispatch(setCurrentUnitDispatch(value));
     }
@@ -78,6 +79,7 @@ export const setCurrentUnit = (value) => {
 // SET CURRENT PAGE ACTIONS //
 export const setCurrentPageDispatch = (value) => ({ type: SET_CURRENT_PAGE, currentPage: value});
 export const setCurrentPage = (value) => {
+    localStorage.setItem("nes-current-page", value);
     return (dispatch) => {
         dispatch(setCurrentPageDispatch(value));
     }
