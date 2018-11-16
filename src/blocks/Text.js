@@ -8,7 +8,6 @@ import { StyleSheet, css } from 'aphrodite';
 export default class Text extends Component {
 
   render() {
-    console.log(this.props.details.layout)
     return (
       <section className={css(ss.section)}>
         <p className={css(ss.text)}>{this.props.details.text}</p>

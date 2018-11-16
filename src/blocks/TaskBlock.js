@@ -38,6 +38,7 @@ const ss = StyleSheet.create({
     marginTop:20,
     paddingLeft:25,
     paddingRight:25,
+    textAlign:'center'
   },
   image:{
 

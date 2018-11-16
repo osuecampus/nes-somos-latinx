@@ -236,6 +236,74 @@
                                 "text":"Click on each skill below to reveal some simple examples of how they are honed in different contexts",
                                 "size": "bigger"
                             }
+                        },
+                        {
+                            "id":22,
+                            "type":"TabbedContentExplorer",
+                            "details":
+                            {
+
+                                "tabs":
+                                [
+                                    {
+                                        "id":0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-bullet-one.png",
+                                        "imageAlt":"Ear hearing sound",
+                                        "text":"Listening and Being Present"
+                                    },
+                                    {
+                                        "id":1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-bullet-two.png",
+                                        "imageAlt":"Hand with question mark",
+                                        "text":"Asking Questions or Prompting Thinking"
+                                    },
+                                    {
+                                        "id":2,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-bullet-three.png",
+                                        "imageAlt":"Binoculars",
+                                        "text":"Seeking Clarification"
+                                    },
+                                    {
+                                        "id":3,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-bullet-four.png",
+                                        "imageAlt":"Thumbs up with checkmark",
+                                        "text":"Validating Others"
+                                    },
+                                    {
+                                        "id":4,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-bullet-five.png",
+                                        "imageAlt":"Human head puzzle",
+                                        "text":"Building Self-Awareness"
+                                    }
+                                ],
+                                "browser":
+                                [
+                                    {
+                                        "id":0,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-one.png' alt='Doctor with a patient' title='Doctor with a patient'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Teachers become self-aware to avoid making assumptions or judgements about where a student falls on the learning spectrum</p></div>"
+                                    },
+                                    {
+                                        "id":1,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-two.png' alt='Teacher with a student' title='Teacher with a student'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Good leaders ask questions in order to reflect on past experiences, receive feedback, and identify future goals for the team</p></div>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-three.png' alt='A dog' title='A dog'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In your personal life with family, friends, or significant others, you can seek clarification in order to avoid misunderstandings</p></div>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-four.png' alt='Business people shaking hands' title='Business people shaking hands'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Supervisors can use validation to motivate and encourage their employees</p></div>"
+                                    },
+                                    {
+                                        "id":4,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-five.png' alt='Teacher with young student' title='Teacher with young student'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Teachers become self-aware to avoid making assumptions or judgements about where a student falls on the learning spectrum</p></div>"
+                                    },
+                                    {
+                                        "id":5,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose a tab above to display more information</p></div>"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },

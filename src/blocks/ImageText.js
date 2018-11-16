@@ -8,7 +8,6 @@ import { StyleSheet, css } from 'aphrodite';
 export default class ImageText extends Component {
 
   render() {
-    console.log(this.props.details.layout)
     return (
       <section className={css(ss.section)} style={{ flexDirection: (this.props.details.layout == 'left' ? 'row' : 'row-reverse') }}>
         <div className={css(ss.skeleton)}>

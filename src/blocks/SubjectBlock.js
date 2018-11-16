@@ -8,7 +8,6 @@ import { StyleSheet, css } from 'aphrodite';
 export default class SubjectBlock extends Component {
 
   render() {
-    console.log(this.props.details.layout)
     return (
       <section style={{ background: this.props.details.backgroundType == 'image' ? 'url('+this.props.details.backgroundValue+')' : this.props.detailsBackgroundType == 'none' ? 'transparent': this.props.details.backgroundValue }} className={css(ss.section)}>
         <p style={{ fontSize: this.props.details.size ? 'larger' : 'inherit', textAlign: this.props.details.align}} className={css(ss.text)}>{this.props.details.text}</p>
@@ -26,6 +25,6 @@ const ss = StyleSheet.create({
   text:{
     width:'100%',
     fontFamily:'Crimson Text',
-    fontWeight:'800'
+    fontWeight:'800',
   }
 });

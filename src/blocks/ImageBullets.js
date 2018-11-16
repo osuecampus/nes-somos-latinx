@@ -8,7 +8,6 @@ import { StyleSheet, css } from 'aphrodite';
 export default class ImageBullets extends Component {
 
   render() {
-    console.log(this.props.details)
     return (
       <section className={css(ss.section)}>
       
