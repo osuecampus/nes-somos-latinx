@@ -12,6 +12,7 @@ import Divider from "../blocks/Divider";
 import CardReveal from "../blocks/CardReveal";
 import TaskBlock from "../blocks/TaskBlock";
 import SubjectBlock from "../blocks/SubjectBlock";
+import ImageBullets from "../blocks/ImageBullets";
 
 const components = {
   ImageText: ImageText,
@@ -20,7 +21,8 @@ const components = {
   Divider: Divider,
   CardReveal: CardReveal,
   TaskBlock: TaskBlock,
-  SubjectBlock: SubjectBlock
+  SubjectBlock: SubjectBlock,
+  ImageBullets: ImageBullets
 };
 
 class Content extends Component {
