@@ -311,7 +311,17 @@
                     "id": 1,
                     "title" : "Listening and Being Present",
                     "blocks":[
-                        
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"There are many different ways to \"listen\" and everybody has a way of listening that is slightly different. Here are three concepts related to listening we will explore:",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png",
+                                    "alt": "Ear hearing sound"
+                                }
+                        }
                     ]
                 },
                 {

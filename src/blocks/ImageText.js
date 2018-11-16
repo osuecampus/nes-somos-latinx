@@ -43,8 +43,8 @@ const ss = StyleSheet.create({
     justifyContent:'center',
     alignItems:'center',
     backgroundColor:'rgba(134, 134, 134, 0.15)',
-    borderRadius:10,
-    overflow:'hidden',
+    borderRadius:'50%',
+   
     '@media (max-width: 700px)': {
       width: '100%',
       marginBottom:25
