@@ -13,6 +13,7 @@ import CardReveal from "../blocks/CardReveal";
 import TaskBlock from "../blocks/TaskBlock";
 import SubjectBlock from "../blocks/SubjectBlock";
 import ImageBullets from "../blocks/ImageBullets";
+import TabbedContentExplorer from "../blocks/TabbedContentExplorer";
 
 const components = {
   ImageText: ImageText,
@@ -22,7 +23,8 @@ const components = {
   CardReveal: CardReveal,
   TaskBlock: TaskBlock,
   SubjectBlock: SubjectBlock,
-  ImageBullets: ImageBullets
+  ImageBullets: ImageBullets,
+  TabbedContentExplorer: TabbedContentExplorer
 };
 
 class Content extends Component {

@@ -208,6 +208,34 @@
                                     "key":5
                                 }
                             ]
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"At first glance, these topics might seem like basic skills you use everyday, but when used well, they form the core of effective helping. No matter where you’re at currently, consider increasing your capacity and proficiency beyond what you already do. As you engage with each of these skills, think to yourself, what would the next level of this skill look like?"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"And keep in mind - these are foundational teaching skills. All of us continue to hone them because we use these skills every day in our work and in our relationships."
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "backgroundValue": "",
+                                "align": "center",
+                                "text":"Click on each skill below to reveal some simple examples of how they are honed in different contexts",
+                                "size": "bigger"
+                            }
                         }
                     ]
                 },
