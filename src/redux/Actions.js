@@ -22,6 +22,7 @@ export const loadContent = () => {
 // DETECT DIMENSIONS ACTIONS //
 export const detectDimensionsDispatcher = (value) => ({ type: DETECT_DIMENSIONS, mobile: value});
 export const detectDimensions = (value) => {
+    localStorage.setItem("nes-dimensions", value);
     return (dispatch) => {
         dispatch(detectDimensionsDispatcher(value));
     }
@@ -30,6 +31,7 @@ export const detectDimensions = (value) => {
 // CHANGE FONT SIZE ACTIONS //
 export const changeFontSizeDispatcher = (value) => ({ type: CHANGE_FONT_SIZE, fontSize: value});
 export const changeFontSize = (value) => {
+    localStorage.setItem("nes-font-size", value);
     return (dispatch) => {
         dispatch(changeFontSizeDispatcher(value));
     }
@@ -46,6 +48,7 @@ export const setReaderText = (value) => {
 // CHANGE THEME ACTIONS //
 export const changeThemeDispatcher = (value) => ({ type: CHANGE_THEME, theme: value});
 export const changeTheme = (value) => {
+    localStorage.setItem("nes-theme", value);
     return (dispatch) => {
         dispatch(changeThemeDispatcher(value));
     }
