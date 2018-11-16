@@ -75,6 +75,9 @@ const ss = StyleSheet.create({
     },
     ':focus sub': {
       color:'#fff'
+    },
+    '@media (max-width: 700px)': {
+      padding:0,
     }
   },
   image:{

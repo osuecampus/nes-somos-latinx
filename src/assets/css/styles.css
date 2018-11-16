@@ -78,7 +78,7 @@ footer {
 
 /* CONTENT VIEW */
 .contentView{
-    width: calc(100% - 450px);
+    width: calc(100% - 400px);
     padding-top: 25px;
     padding-bottom: 100px;
     display: flex;
@@ -129,7 +129,7 @@ footer {
 .toolbarHolder {
     width: 50px;
     position: fixed;
-    right: 470px;
+    right: 420px;
     transition: all 1s ease-in-out;
 }
 .expandGroup {
@@ -388,7 +388,7 @@ footer {
 
 /* SIDEBAR VIEW */
 .sidebarView {
-    width: 450px;
+    width: 400px;
     position: fixed;
     right: 0px;
     top: 0px;
