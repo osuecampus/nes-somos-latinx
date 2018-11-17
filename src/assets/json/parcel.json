@@ -435,6 +435,15 @@
                             {
                                 "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
                             }
+                        },
+                        {
+                            "id":10,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/1_gdN9lrBt83Qul1_GNwa5vzLxQChtWBT-stock-image.jpg",
+                                "imageAlt":"An island in the fog"
+                            }
                         }
                     ]
                 },
