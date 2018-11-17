@@ -14,6 +14,7 @@ import TaskBlock from "../blocks/TaskBlock";
 import SubjectBlock from "../blocks/SubjectBlock";
 import ImageBullets from "../blocks/ImageBullets";
 import TabbedContentExplorer from "../blocks/TabbedContentExplorer";
+import TextColumns from "../blocks/TextColumns";
 
 const components = {
   ImageText: ImageText,
@@ -24,13 +25,11 @@ const components = {
   TaskBlock: TaskBlock,
   SubjectBlock: SubjectBlock,
   ImageBullets: ImageBullets,
-  TabbedContentExplorer: TabbedContentExplorer
+  TabbedContentExplorer: TabbedContentExplorer,
+  TextColumns: TextColumns
 };
 
 class Content extends Component {
-  componentDidMount() {
-
-  }
 
   constructor(props) {
     super(props);
