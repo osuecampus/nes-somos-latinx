@@ -419,6 +419,22 @@
                                     "text":"diagnosing the problem or root cause"
                                 }
                             ]
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Hear from our peer educators how they’ve improved their listening over time."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
                         }
                     ]
                 },

@@ -16,6 +16,7 @@ import ImageBullets from "../blocks/ImageBullets";
 import TabbedContentExplorer from "../blocks/TabbedContentExplorer";
 import TextColumns from "../blocks/TextColumns";
 import TextBullets from "../blocks/TextBullets";
+import KalturaVideo from "../blocks/KalturaVideo";
 
 const components = {
   ImageText: ImageText,
@@ -28,7 +29,8 @@ const components = {
   ImageBullets: ImageBullets,
   TabbedContentExplorer: TabbedContentExplorer,
   TextColumns: TextColumns,
-  TextBullets: TextBullets
+  TextBullets: TextBullets,
+  KalturaVideo: KalturaVideo
 };
 
 class Content extends Component {
