@@ -321,6 +321,32 @@
                                     "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png",
                                     "alt": "Ear hearing sound"
                                 }
+                        },
+                        
+                        {
+                            "id":1,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "headline":"1",
+                                        "text":"Is your mind ready to listen to someone else?"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "headline":"2",
+                                        "text":"How do you demonstrate that you are listening?"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "headline":"3",
+                                        "text":"What are you hearing when you listen?"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },

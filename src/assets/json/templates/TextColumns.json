@@ -8,6 +8,7 @@
             {
                 "id": 0,
                 "image":"optional string",
+                "imageAlt": "alt for image",
                 "headline":"optional string",
                 "text":"text"
             }
