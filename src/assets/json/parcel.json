@@ -28,7 +28,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 1, please click on the \"Unit 1 Reflection Guide\" link below to download/print a note-taking sheet."
+                                "text":"Before you begin Unit 1, please click on the \"Download\" button below to download/print a note-taking sheet."
                             }
                         },
                         {
@@ -36,7 +36,7 @@
                             "type":"DownloadBox",
                             "details":
                             {
-                                "text":"Click the button to download and print the Unit 1 Reflection Guide",
+                                "text":"Unit 1 Reflection Guide",
                                 "link":"http://www.google.com/"
                             }
                         },
