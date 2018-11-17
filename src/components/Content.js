@@ -15,6 +15,7 @@ import SubjectBlock from "../blocks/SubjectBlock";
 import ImageBullets from "../blocks/ImageBullets";
 import TabbedContentExplorer from "../blocks/TabbedContentExplorer";
 import TextColumns from "../blocks/TextColumns";
+import TextBullets from "../blocks/TextBullets";
 
 const components = {
   ImageText: ImageText,
@@ -26,7 +27,8 @@ const components = {
   SubjectBlock: SubjectBlock,
   ImageBullets: ImageBullets,
   TabbedContentExplorer: TabbedContentExplorer,
-  TextColumns: TextColumns
+  TextColumns: TextColumns,
+  TextBullets: TextBullets
 };
 
 class Content extends Component {

@@ -234,7 +234,7 @@
                                 "backgroundValue": "",
                                 "align": "center",
                                 "text":"Click on each skill below to reveal some simple examples of how they are honed in different contexts",
-                                "size": "bigger"
+                                "size": ""
                             }
                         },
                         {
@@ -347,6 +347,78 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":2,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/qBuzvpYkwvyQBi0m_EuI1EyZIO5Ps1a9h-stock-image.jpg",
+                                "align": "center",
+                                "text":"Are you ready to listen?",
+                                "size": "larger"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Being ready to listen is a mental activity; when you’re listening you are:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Mentally and physically focused on the person in front of you so that you best understand their words and meaning, and create space so they may talk from their own experience."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"And you avoid:"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"thinking about what you’ll say next"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"thinking about random other things"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"starting a critique, counter-argument or rebuttal in your head"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"working on another task (like packing up or looking at your phone)"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"diagnosing the problem or root cause"
+                                }
+                            ]
                         }
                     ]
                 },

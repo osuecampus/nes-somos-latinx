@@ -1,0 +1,11 @@
+{
+    "id":1,
+    "type":"TextBullets",
+    "details":
+    [
+        {
+            "key":1,
+            "text":"thinking about what you’ll say next"
+        }
+    ]
+}

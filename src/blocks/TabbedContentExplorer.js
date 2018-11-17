@@ -47,7 +47,9 @@ const ss = StyleSheet.create({
       borderRadius:10
   },
   tabHold:{
-    width:'100%',
+    width:'calc(100% - 20px)',
+    paddingLeft:10,
+    paddingRight:10,
     borderBottom:'1px solid rgba(0,0,0,.2)',
     display:'flex',
     flexDirection:'row',
