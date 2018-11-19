@@ -23,6 +23,7 @@ const ss = StyleSheet.create({
       alignItems:'center',
   },
   image:{
-    width:'100%'
+    width:'100%',
+    borderRadius:10
   }
 });

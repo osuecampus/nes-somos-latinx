@@ -17,6 +17,8 @@ const ss = StyleSheet.create({
       width: '100%',
       display:'flex',
       alignItems:'center',
+      borderRadius:10,
+    overflow:'hidden',
   },
   video:{
     width:'100%',

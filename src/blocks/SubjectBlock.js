@@ -22,7 +22,8 @@ const ss = StyleSheet.create({
       display:'flex',
       alignItems:'center',
       backgroundPosition: 'left',
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
+      borderRadius:10
   },
   text:{
     width:'100%',
