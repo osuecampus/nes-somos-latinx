@@ -708,6 +708,158 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":28,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-3.mp3",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Optional: Want to practice listening to another scenario? Click the play button above."
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"So far, we've had a chance to talk about"
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Being mentally present while listening"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Demonstrating to the other person that you're listening"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Identifying what you're hearing when you're listening"
+                                }
+                            ]
+                        },
+                        {
+                            "id":32,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"4"
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before we move on, we have an additional idea to consider on what it means to listen to and understand someone else:"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We’ve all had conversations in which we’ve had to work hard to understand the person speaking due to a range of factors - background noise, style of speaking, accent, word choice."
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The good news? It turns out you can train your brain to listen and understand."
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"First, listen to this quick clip:"
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-4.mp3",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Was that clip difficult to understand? It was for us! Now, listen to this clip:"
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-5.mp3",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":40,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "text":"Reflection #2 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":41,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Our takeaway?"
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The more you work with someone, the more easily you’ll understand each other. Our brains are capable of adapting how we listen & process when someone else is speaking. Be aware of when you need to work harder to listen and embrace that experience as a new opportunity."
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Now that we've learned a bit about listening, let's continue.",
+                                "size": "bigger"
+                            }
                         }
                     ]
                 },
