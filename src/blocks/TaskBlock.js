@@ -30,6 +30,10 @@ const ss = StyleSheet.create({
       marginBottom:75,
       paddingTop:30,
       paddingBottom:30,
+      '@media (max-width: 700px)': {
+        width:'100%',
+        marginLeft:0
+      }
   },
   text:{
     color:'#000',

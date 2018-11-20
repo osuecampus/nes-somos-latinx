@@ -23,6 +23,7 @@ const ss = StyleSheet.create({
       overflow:'hidden',
       marginLeft:-250,
       display:'flex',
+      borderRadius:10,
       alignItems:'center',
   },
   image:{
