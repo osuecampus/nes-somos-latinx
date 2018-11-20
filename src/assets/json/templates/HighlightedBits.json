@@ -13,12 +13,12 @@
             {
                 "id":1,
                 "type":"highlight",
-                "hightlight":"red",
+                "highlight":"red",
                 "color":"black",
                 "text":"text"
             }
         ],
-        "legend":
+        "legends":
         [
             {
                 "id":1,

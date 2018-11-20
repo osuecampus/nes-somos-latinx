@@ -642,10 +642,72 @@
                                     "text":"What is her perception of what is going on? What observations or information does she offer?"
                                 },
                                 {
-                                    "key":1,
+                                    "key":3,
                                     "text":"What do you think she is feeling? What did you pick up on from her tone and words?"
                                 }
                             ]
+                        },
+                        {
+                            "id":27,
+                            "type":"HighlightedBits",
+                            "details":
+                            {
+                                "textBlocks":
+                                [
+                                    {
+                                        "id":0,
+                                        "type":"text",
+                                        "text":"I don't know what I'm doing wrong, I'm a sophmore now and I've been getting really bad grades since my first term here."
+                                    },
+                                    {
+                                        "id":1,
+                                        "type":"highlight",
+                                        "highlight":"#ce4848",
+                                        "color":"black",
+                                        "text":"My GPA was 2.0 after my first term, which is not okay,"
+                                    },
+                                    {
+                                        "id":2,
+                                        "type":"highlight",
+                                        "highlight":"#6abad8",
+                                        "color":"black",
+                                        "text":"I got A's and B's in high school. Since then I've been studying harder and harder, and I actually do understand the material! When I work with classmates on math or chemistry problems and participate in clas, I know what I'm talking about, but my grades don't show that."
+                                    },
+                                    {
+                                        "id":3,
+                                        "type":"highlight",
+                                        "highlight":"#7cc97c",
+                                        "color":"black",
+                                        "text":"If I had studied this hard in high school, I would've gotten all A's, so I really don't understand what's going on."
+                                    },
+                                    {
+                                        "id":4,
+                                        "type":"text",
+                                        "text":"The only time my grades are semi-okay are when there are essay or short answer exams, but the rest is just bad."
+                                    }
+                                ],
+                                "legends":
+                                [
+                                    {
+                                        "id":1,
+                                        "highlight":"#ce4848",
+                                        "color":"black",
+                                        "text":"Content, information: not happy with current grades; essay or short answer exams go better; taking math and chemistry this term."
+                                    },
+                                    {
+                                        "id":2,
+                                        "highlight":"#6abad8",
+                                        "color":"black",
+                                        "text":"Perception: feels like she's working hard already; fellts like she does know the material; high school was easier."
+                                    },
+                                    {
+                                        "id":3,
+                                        "highlight":"#7cc97c",
+                                        "color":"black",
+                                        "text":"Feelings or emotions: frustration, confusion, annoyed that the hard work isn't paying off."
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
