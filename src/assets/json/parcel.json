@@ -867,7 +867,162 @@
                     "id": 2,
                     "title" : "Asking Questions & Prompting Thinking",
                     "blocks":[
-                        
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"In the next two units, you’ll notice we often rely on questions to facilitate learning. There are many different ways to ask questions, let’s explore!",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-hand-left.png",
+                                    "alt": "Hand with question mark"
+                                }
+                        },
+                        {
+                            "id":1,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Here's why:",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We use questions because:"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Asking questions allows the students to engage actively in the learning process."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Asking a question allows the student to practice thinking - otherwise the student may not have an opportunity to speak or participate in the learning."
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Asking questions empowers the student to do the work themselves."
+                                }
+                            ]
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"But questions are also helpful as you build a relationship with your peer. They convey messages like:"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/yhjHXUTVuieJJyaL_WNa1QPdcBmfQHB5m.jpg",
+                                "imageAlt":"Students working collaboratively with a laptop"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                       
+                                        "text":"\"I want to hear from you\""
+                                    },{
+                                        "id": 1,
+                                       
+                                        "text":"\"Your answers are important\""
+                                    },
+                                    {
+                                        "id": 2,
+                                       
+                                        "text":"\"I trust your thinking\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"We said \"asking questions,\" but we actually mean:",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "headline":"1",
+                                        "text":"Asking open-ended questions"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "headline":"2",
+                                        "text":"Using open-ended prompts"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "headline":"3",
+                                        "text":"And paraphrasing"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/UzLYSacsdC3TN3_n_k3z4ZSyUts3WjaYt-stock-image.jpg",
+                                "align": "center",
+                                "text":"Open-Ended Questions",
+                                "size": "bigger"
+                            }
+                        }
                     ]
                 }
             ]

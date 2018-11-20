@@ -26,7 +26,7 @@ export default class AudioBlock extends Component {
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.row)}>
-          <audio className={css(ss.audio)} controls>
+          <audio tabIndex={'4'} className={css(ss.audio)} controls>
               <source src={this.props.details.audioUrl} type="audio/mp3" />
               <p>Your browser doesn't support HTML5 audio. Here is <a href={this.props.details.audioUrl}>link to the audio file</a> instead.</p>
           </audio>
