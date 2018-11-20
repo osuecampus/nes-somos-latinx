@@ -25,11 +25,13 @@ export default class AudioBlock extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <audio className={css(ss.audio)} controls>
-            <source src={this.props.details.audioUrl} type="audio/mp3" />
-            <p>Your browser doesn't support HTML5 audio. Here is <a href={this.props.details.audioUrl}>link to the audio file</a> instead.</p>
-        </audio>
-        <div tabIndex={'4'} onClick={() => this.showTranscript()} onKeyDown={(event) => event.keyCode == 32 ? this.showTranscript() : null } style={{display: this.state.buttonDisplay}} className={css(ss.button)}>Show a transcript of the audio file</div>
+        <div className={css(ss.row)}>
+          <audio className={css(ss.audio)} controls>
+              <source src={this.props.details.audioUrl} type="audio/mp3" />
+              <p>Your browser doesn't support HTML5 audio. Here is <a href={this.props.details.audioUrl}>link to the audio file</a> instead.</p>
+          </audio>
+          <div tabIndex={'4'} onClick={() => this.showTranscript()} onKeyDown={(event) => event.keyCode == 32 ? this.showTranscript() : null } style={{display: this.state.buttonDisplay}} className={css(ss.button)}>Transcript</div>
+        </div>
         <div style={{display: this.state.transcriptDisplay}} className={css(ss.transcript)}>{this.props.details.audioTranscript}</div>
       </section>
     );
@@ -46,16 +48,22 @@ const ss = StyleSheet.create({
   audio:{
       width:'100%',
   },
-  button:{
+  row:{
+    display:'flex',
+    flexDirection:'row',
     width:'100%',
+  },
+  button:{
+    width:150,
     height:55,
     border:'1px solid rgba(255,255,255,.25)',
     backgroundColor:'rgba(0,0,0,.08)',
     justifyContent:'center',
     alignItems:'center',
     borderRadius:45,
-    fontSize:20,
-    marginTop:25,
+    fontSize:16,
+    marginLeft:15,
+    fontWeight: '600',
     cursor:'pointer',
     transition:'all .2s ease-in-out',
     ':hover':{

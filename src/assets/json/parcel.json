@@ -459,7 +459,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                                "audioTranscript":"This audio clip contains no sound"
                             }
                         }
                     ]

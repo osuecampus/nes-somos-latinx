@@ -18,12 +18,14 @@ export default class SingleImage extends Component {
 
 const ss = StyleSheet.create({
   section: {
-      width: '100%',
+      width: 'calc(100% + 500px)',
+      maxHeight:400,
+      overflow:'hidden',
+      marginLeft:-250,
       display:'flex',
       alignItems:'center',
   },
   image:{
     width:'100%',
-    borderRadius:10
   }
 });
