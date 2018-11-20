@@ -181,6 +181,7 @@ body.darkLook {
 .toolbarHolder {
     width: 50px;
     position: fixed;
+    z-index:2;
     right: 420px;
     transition: all 1s ease-in-out;
 }

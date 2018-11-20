@@ -579,6 +579,73 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":21,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<ul><li>We’ve talked about how to mentally prepare yourself to listen, how to demonstrate that you’re listening to the other person, and finally we’ll practice listening.</li><li>When people speak, they offer a lot of information. In the following clip, listen to the speaker and think about the questions we ask on the right side.</li><li>Practice listening for those different layers of information!.</li></ul>",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/jhozpIHWFr_B_W8f_bXNOcZVaaX7H252v.jpg",
+                                    "alt": "A student helping a fellow student using a computer"
+                                }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Listening Activity - What are you hearing?",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-2.mp3",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Listen to this clip and consider the following questions below."
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"What is she talking about? What is happening in this scenario?"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"What is her perception of what is going on? What observations or information does she offer?"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"What do you think she is feeling? What did you pick up on from her tone and words?"
+                                }
+                            ]
                         }
                     ]
                 },
