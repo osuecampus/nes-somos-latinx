@@ -10,7 +10,7 @@ export default class OGB extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentTab: 0,
+      currentTab: 3,
     };
   }
 
@@ -21,15 +21,15 @@ export default class OGB extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
+        <div className={css(ss.browserHold, ss.text)} dangerouslySetInnerHTML={{__html: this.props.details.browser[this.state.currentTab].htmlContent}}></div>
         <div className={css(ss.tabHold)}>
-          {this.props.details.tabs.map((block) => 
-            <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id) : null } onClick={() => this.setTab(block.id)} tabIndex={'4'} key={block.id} className={css(ss.tab)}>
-              <img className={css(ss.image)} src={block.image} alt={block.imageAlt} title={block.imageAlt} />
-              <sub className={css(ss.subTitle)}>{block.text}</sub>
+            {this.props.details.tabs[this.state.currentTab] ? <img className={css(ss.image)} src={this.props.details.tabs[this.state.currentTab].image} alt={this.props.details.tabs[this.state.currentTab].imageAlt} title={this.props.details.tabs[this.state.currentTab].imageAlt} /> : <img className={css(ss.image)} src={this.props.details.tabs[0].image} alt={this.props.details.tabs[0].imageAlt} title={this.props.details.tabs[0].imageAlt} /> }
+                {this.props.details.tabs.map((block) => 
+                <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id) : null } onClick={() => this.setTab(block.id)} tabIndex={'4'} key={block.id} className={css(ss.tab)}>
+                    <p className={css(ss.link)}>{block.text}</p>
             </div>
           )}
         </div>
-        <div className={css(ss.browserHold)} dangerouslySetInnerHTML={{__html: this.props.details.browser[this.state.currentTab].htmlContent}}></div>
       </section>
     );
   }
@@ -37,35 +37,29 @@ export default class OGB extends Component {
 
 const ss = StyleSheet.create({
   section: {
-      width: '100%',
+      width: 'calc(100% - 30px)',
+      borderRadius:10,
+      padding:15,
+        backgroundColor:'rgba(192,192,192,.2)',
       display:'flex',
       alignItems:'center',
-      flexDirection:'column',
-      minHeight:100,
-      backgroundColor:'rgba(255, 255, 255, 0.1)',
-      border:'1px solid rgba(0,0,0,.15)',
-      borderRadius:10
-  },
-  tabHold:{
-    width:'calc(100% - 20px)',
-    paddingLeft:10,
-    paddingRight:10,
-    borderBottom:'1px solid rgba(0,0,0,.2)',
-    display:'flex',
-    flexDirection:'row',
-    justifyContent:'space-around',
-    alignItems:'center',
-    paddingTop:15,
-    paddingBottom:15
+      flexDirection:'row',
+      '@media (max-width: 700px)': {
+        flexDirection:'column-reverse'
+      }
   },
   tab:{
     display:'flex',
+    width:'calc(100% - 100px)',
     flexDirection:'column',
     justifyContent:'center',
-    alignItems:'center',
+    alignItems:'flex-end',
     outline:0,
     cursor:'pointer',
-    padding:20,
+    paddingLeft:0,
+    paddingRight:0,
+    paddingTop:15,
+    paddingBottom:15,
     borderRadius:10,
     transition:'all .2s ease-in-out',
     ':hover': {
@@ -74,40 +68,61 @@ const ss = StyleSheet.create({
     ':focus': {
       backgroundColor:'#0e5bea'
     },
-    ':focus sub': {
+    ':focus p': {
       color:'#fff'
     },
     '@media (max-width: 700px)': {
-      padding:0,
+        width:'calc(100% - 100px)',
     }
+
   },
   image:{
-    height:75,
-    width:75,
-    borderRadius:45,
-    '@media (max-width: 700px)': {
-      height:50,
-      width:50
-    }
+    height:200,
+    width:200,
+    borderRadius:'50%',
+    position:'absolute',
+    top:'50%',
+    left:0,
+    marginTop:-100,
+
   },
-  subTitle:{
-    fontSize:13,
+  link:{
+    fontSize:20,
     maxWidth:150,
+    paddingRight:15,
+    textAlign:'right',
     textAlign:'center',
     height:35,
     overflow:'hidden',
-    paddingTop:5,
-    lineHeight:1.25,
-    '@media (max-width: 700px)': {
-      display:'none'
-    }
+
   },
   text:{
     width:'100%',
     fontFamily:'Crimson Text',
+    fontSize:'smaller'
   },
   browserHold:{
-    backgroundColor: 'rgba(0,0,0,.05)',
-    width:'100%'
+    width:'100%',
+    paddingRight:15,
+    '@media (max-width: 700px)': {
+        paddingRight:0,
+        marginTop:15
+    },
+    ' p': {
+        fontSize:'smaller!important'
+    }
+  },
+  tabHold:{
+      width:335,
+      maxWidth:335,
+      minWidth:335,
+      flexDirection:'column',
+      position:'relative',
+      display:'flex',
+      alignItems:'flex-end',
+      '@media (max-width: 700px)': {
+        minWidth:300,
+        width:300
+      }
   }
 });

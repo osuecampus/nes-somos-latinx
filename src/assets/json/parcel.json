@@ -572,6 +572,10 @@
                                     {
                                         "id":2,
                                         "htmlContent":"<ul><li>Develop an awareness of how the student you work with listens.</li><li>Pay attention to how your own listening behavior is received - do they seem uncomfortable?</li><li>Learn about mirroring.</li></ul>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "htmlContent":"<p>Select okay, good or better to learn more..."
                                     }
                                 ]
                             }
