@@ -31,7 +31,11 @@ class SidebarView extends Component {
     return (
       <div role="navigation" className={'sidebarView'}>
         <div className={'branding'}>
-          <img src={'./assets/img/logo-dark.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
+          {this.props.theme == 'lightLook' ? 
+            <img src={'./assets/img/logo-light.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
+            :
+            <img src={'./assets/img/logo-dark.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
+          }
         </div>
         <div className={'titleHolder'}>
           <h1>{ this.props.content[0] ? this.props.content[0].config.title : null  }</h1>
@@ -57,6 +61,7 @@ class SidebarView extends Component {
 const mapStateToProps = state => {
   return {
     content: state.content,
+    theme: state.theme
   };
 };
 

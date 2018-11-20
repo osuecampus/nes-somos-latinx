@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700');
 
 body{
-    background:#1f60e2;
     margin: 0px 0px 0px;
 }
 footer {
@@ -14,9 +13,58 @@ footer {
     color: #fcfcfc!important;
     background: #202020!important;
 }
+.darkLook .titleHolder h1{
+    color:#fafafa;
+}
+.darkLook .searchInput:focus {
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(60, 128, 255);
+    color: #ffffff;
+}
+.darkLook .searchInput{
+    color:#fafafa;
+}
+.darkLook .unitBlock h2{
+    color:#fff;
+}
+.darkLook .unitPage a{
+    color:#fafafa;
+}
+.darkLook .unitPage:hover a{
+    color:#fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+body.darkLook {
+    background: #101010!important;
+}
+.darkLook .contentView {
+    border-right: 1px solid #303030;
+}
+.darkLook .searchHolder{
+    background:#303030;
+}
+.darkLook .treeHolder{
+    background:#303030;
+}
+.darkLook .treeBranch:focus{
+    background:#404040;
+}
+.darkLook .unitBlock{
+    outline:0;
+}
+.darkLook .hiddenPages{
+    background:#303030;
+}
 .darkLook p{
     color:#fcfcfc!important;
 }
+.darkLook #searchIcon path{
+    fill:#ffffff;
+}
+.darkLook .searchText {
+    color: #ffffff;
+}
+
 .dark {
     background: #303030;
   }
@@ -77,6 +125,7 @@ footer {
 .darkLook .lightenUp div{
     color:#fcfcfc!important;
 }
+
 
 
 /* CONTENT VIEW */
@@ -417,12 +466,12 @@ footer {
 .titleHolder h1 {
     font-size: 26px;
     margin: 0;
-    color: #ffff;
+    color: #303030;
 }
 .searchHolder {
     height: 60px;
     min-height: 60px;
-    background: #0f49b5;
+    background: #dfdfdf;
     width: 90%;
     border-radius: 45px;
     margin-top: 25px;
@@ -443,10 +492,10 @@ footer {
     height: 19px;
 }
 #searchIcon path{
-    fill:#ffffff;
+    fill:#303030;
 }
 .searchText {
-    color: #fff;
+    color: #303030;
     font-weight: 700;
     font-size: 17px;
     margin-left: 6px;
@@ -458,7 +507,7 @@ footer {
     background: rgba(255, 255, 255, 0);
     outline: 0;
     padding-left: 22px;
-    color: #fff;
+    color: #303030;
     font-size: 15px;
     font-weight: 500;
     border-radius: 45px;
@@ -473,9 +522,9 @@ footer {
     background: rgba(0, 0, 0, 0.15);
 }
 .searchInput:focus{
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 0.5);
     border: 2px solid rgb(60, 128, 255);
-    color: #ffffff;
+    color: #000000;
 }
 .searchHolder ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: rgba(255,255,255,1);
@@ -498,7 +547,7 @@ footer {
     opacity:1
 }
 .treeHolder {
-    background: #0f49b5;
+    background: #dfdfdf;
     width: 90%;
     border-radius: 20px;
     margin-top: 20px;
@@ -523,7 +572,7 @@ footer {
 .unitBlock h2 {
     font-weight: 600;
     font-size: 15px;
-    color: #fff;
+    color: #000000;
 }
 .contentTree .treeBranch:last-child {
     overflow:hidden;
@@ -538,7 +587,7 @@ footer {
 }
 .treeBranch:focus {
     outline: 0;
-    background: #0e3d96;
+    background: #c0c0c0;
 }
 .downProgress {
     position: absolute;
@@ -555,7 +604,7 @@ footer {
 }
 .hiddenPages {
     width: 100%;
-    background: #0e50bd;
+    background: #dfdfdf;
     display: none;
 }
 .activePage{
@@ -570,7 +619,7 @@ footer {
     padding-left: 20px;
     font-size: 14px;
     cursor:pointer;
-    color: #fff;
+    color: #000;
     cursor:pointer;
     transition:all .2s ease-in-out;
 }
@@ -582,16 +631,16 @@ footer {
     background:rgba(0,0,0,.05);
 }
 .unitPage a {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0);
     padding-bottom: 2px;
     cursor:pointer;
     transition:all .2s ease-in-out;
 }
 .unitPage:hover a{
-    color:#fff;
-    border-bottom:1px solid rgba(255,255,255,.4);
+    color:#000;
+    border-bottom:1px solid rgba(0,0,0,.4);
 }
 
 /* CONTENT STYLES */

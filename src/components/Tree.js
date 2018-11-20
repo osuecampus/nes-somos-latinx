@@ -39,7 +39,11 @@ class Tree extends Component {
             <div onClick={() => {this.addActivePage('hidden'+plot.id), this.addActiveUnit('unit'+plot.id)}} ref={'unit'+plot.id} className={'unitBlock'}>
               <h2>{plot.title}</h2>
               <div className={'downProgress'}>
-                <img alt="Show Pages" title="Show Pages" src={'./assets/img/icon-arrow.svg'} />
+                {this.props.theme == 'lightLook' ? 
+                  <img alt="Show Pages" title="Show Pages" src={'./assets/img/icon-arrow-light.svg'} />
+                  :
+                  <img alt="Show Pages" title="Show Pages" src={'./assets/img/icon-arrow.svg'} />
+                }
               </div>
             </div>
             
@@ -63,7 +67,8 @@ class Tree extends Component {
 
 const mapStateToProps = state => {
   return {
-      content: state.content
+      content: state.content,
+      theme: state.theme
   };
 };
 

@@ -49,6 +49,9 @@ export const setReaderText = (value) => {
 export const changeThemeDispatcher = (value) => ({ type: CHANGE_THEME, theme: value});
 export const changeTheme = (value) => {
     localStorage.setItem("nes-theme", value);
+    window.document.body.classList.remove('darkLook');
+    window.document.body.classList.remove('lightLook');
+    window.document.body.classList.add(value);
     return (dispatch) => {
         dispatch(changeThemeDispatcher(value));
     }
