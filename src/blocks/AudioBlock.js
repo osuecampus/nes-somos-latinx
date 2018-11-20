@@ -56,8 +56,8 @@ const ss = StyleSheet.create({
   button:{
     width:150,
     height:55,
-    border:'1px solid rgba(255,255,255,.25)',
-    backgroundColor:'rgba(0,0,0,.08)',
+    color:'#fff',
+    backgroundColor:'#1f60e2',
     justifyContent:'center',
     alignItems:'center',
     borderRadius:45,
@@ -67,7 +67,7 @@ const ss = StyleSheet.create({
     cursor:'pointer',
     transition:'all .2s ease-in-out',
     ':hover':{
-        backgroundColor:'#1f60e2',
+        backgroundColor: '#0046bb',
         color:'#fff',
     }
   },
