@@ -535,21 +535,27 @@
                         },
                         {
                             "id":20,
-                            "type":"TabbedContentExplorer",
+                            "type":"OGB",
                             "details":
                             {
                                 "tabs":
                                 [
                                     {
                                         "id":0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png",
+                                        "imageAlt":"Ear hearing sound graphic",
                                         "text":"Okay"
                                     },
                                     {
                                         "id":1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png",
+                                        "imageAlt":"Ear hearing sound graphic",
                                         "text":"Good"
                                     },
                                     {
                                         "id":2,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png",
+                                        "imageAlt":"Ear hearing sound graphic",
                                         "text":"Better"
                                     }
                                 ],
@@ -557,27 +563,15 @@
                                 [
                                     {
                                         "id":0,
-                                        "htmlContent":"Test"
+                                        "htmlContent":"<ul><li>Remove physical barriers (ear buds), and orient yourself physically towards the person.</li><li>Don't interrupt or talk over the other person.</li></ul>"
                                     },
                                     {
                                         "id":1,
-                                        "htmlContent":"Test"
+                                        "htmlContent":"<ul><li>Use your own preferences as a starting point. What helps you know someone is listening?</li><li>Use facial expressions, space/proximity, silence, varied eye contact, nodding, and other nonverbal communication.</li><li>Use verbal cues like \"mmhmmm\" or \"I see what you mean\"</li><li>Allow a pass after they finish speaking.</li></ul>"
                                     },
                                     {
                                         "id":2,
-                                        "htmlContent":"Test"
-                                    },
-                                    {
-                                        "id":3,
-                                        "htmlContent":""
-                                    },
-                                    {
-                                        "id":4,
-                                        "htmlContent":""
-                                    },
-                                    {
-                                        "id":5,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose a tab above to display more information</p></div>"
+                                        "htmlContent":"<ul><li>Develop an awareness of how the student you work with listens.</li><li>Pay attention to how your own listening behavior is received - do they seem uncomfortable?</li><li>Learn about mirroring.</li></ul>"
                                     }
                                 ]
                             }

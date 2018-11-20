@@ -19,6 +19,7 @@ import TextBullets from "../blocks/TextBullets";
 import KalturaVideo from "../blocks/KalturaVideo";
 import SingleImage from "../blocks/SingleImage";
 import AudioBlock from "../blocks/AudioBlock";
+import OGB from "../blocks/OGB";
 
 const components = {
   ImageText: ImageText,
@@ -34,7 +35,8 @@ const components = {
   TextBullets: TextBullets,
   KalturaVideo: KalturaVideo,
   SingleImage: SingleImage,
-  AudioBlock: AudioBlock
+  AudioBlock: AudioBlock,
+  OGB: OGB
 };
 
 class Content extends Component {
