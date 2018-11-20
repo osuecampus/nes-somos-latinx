@@ -19,7 +19,8 @@ export default class TaskBlock extends Component {
 
 const ss = StyleSheet.create({
   section: {
-      width: '100%',
+      width: 'calc(100% + 500px)',
+      marginLeft:-250,
       display:'flex',
       justifyContent:'center',
       alignItems:'center',
