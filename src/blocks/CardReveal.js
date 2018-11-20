@@ -42,7 +42,7 @@ const ss = StyleSheet.create({
   },
   card:{
     position: 'absolute',
-    backgroundColor: 'rgba(255,255,255,.1)',
+    backgroundColor: '#1f60e2',
     height: 250,
     width: 250,
     transform: 'rotateY(-0deg)',
@@ -51,7 +51,7 @@ const ss = StyleSheet.create({
     borderRadius: 10,
     display: 'flex',
     textAlign:'center',
-    color:'#404040',
+    color:'#fff',
     cursor:'pointer',
     justifyContent: 'center',
     alignItems: 'center',
@@ -59,8 +59,8 @@ const ss = StyleSheet.create({
     padding: 25,
     transition: 'all .2s ease-in-out',
     ':hover': {
-        border: '1px solid #505050',
-        backgroundColor: 'rgb(0, 0, 0, .05)'
+        border: '1px solid #1148b9',
+        backgroundColor: '#1148b9'
     }
   },
   reveal:{
