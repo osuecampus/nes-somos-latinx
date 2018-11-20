@@ -20,6 +20,7 @@ import KalturaVideo from "../blocks/KalturaVideo";
 import SingleImage from "../blocks/SingleImage";
 import AudioBlock from "../blocks/AudioBlock";
 import OGB from "../blocks/OGB";
+import HighlightedBits from "../blocks/HighlightedBits";
 
 const components = {
   ImageText: ImageText,
@@ -36,7 +37,8 @@ const components = {
   KalturaVideo: KalturaVideo,
   SingleImage: SingleImage,
   AudioBlock: AudioBlock,
-  OGB: OGB
+  OGB: OGB,
+  HighlightedBits: HighlightedBits
 };
 
 class Content extends Component {
