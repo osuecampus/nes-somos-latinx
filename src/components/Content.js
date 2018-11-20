@@ -18,6 +18,7 @@ import TextColumns from "../blocks/TextColumns";
 import TextBullets from "../blocks/TextBullets";
 import KalturaVideo from "../blocks/KalturaVideo";
 import SingleImage from "../blocks/SingleImage";
+import AudioBlock from "../blocks/AudioBlock";
 
 const components = {
   ImageText: ImageText,
@@ -32,7 +33,8 @@ const components = {
   TextColumns: TextColumns,
   TextBullets: TextBullets,
   KalturaVideo: KalturaVideo,
-  SingleImage: SingleImage
+  SingleImage: SingleImage,
+  AudioBlock: AudioBlock
 };
 
 class Content extends Component {

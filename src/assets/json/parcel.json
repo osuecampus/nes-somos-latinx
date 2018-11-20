@@ -444,6 +444,23 @@
                                 "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/1_gdN9lrBt83Qul1_GNwa5vzLxQChtWBT-stock-image.jpg",
                                 "imageAlt":"An island in the fog"
                             }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"A key component of listening is silence.  Here’s some silence to listen to:"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
                         }
                     ]
                 },
