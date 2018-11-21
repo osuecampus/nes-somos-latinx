@@ -464,20 +464,29 @@
                         },
                         {
                             "id":13,
-                            "type":"TextColumns",
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"What was your reaction?"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Did you find the silence calming? Relaxing? Exciting?"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Did it make you anxious? Susicious? Annoyed?"
+                                }
+                            ]
+                        },
+                        {
+                            "id":13.5,
+                            "type":"Text",
                             "details":
                             {
-                                "columns":
-                                [
-                                    {
-                                        "id": 0,
-                                        "text":"What was your reaction? Did you find the silence calming? Relaxing? Exciting? Did it make you anxious? Suspicious? Annoyed?"
-                                    },
-                                    {
-                                        "id":1,
-                                        "text":"Everyone has a different relationship to silence but it is an important part of a tutoring session. It’s giving the student time to think independently. Silence is what creates space in the conversation for the other person to talk. It’s what allows you to listen."
-                                    }
-                                ]
+                                "text":"Everyone has a different relationship to silence but it is an important part of a tutoring session. It’s giving the student time to think independently. Silence is what creates space in the conversation for the other person to talk. It’s what allows you to listen."
                             }
                         },
                         {
