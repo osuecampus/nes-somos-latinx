@@ -658,64 +658,50 @@
                         },
                         {
                             "id":27,
-                            "type":"HighlightedBits",
+                            "type":"Text",
                             "details":
                             {
-                                "textBlocks":
-                                [
-                                    {
-                                        "id":0,
-                                        "type":"text",
-                                        "text":"I don't know what I'm doing wrong, I'm a sophmore now and I've been getting really bad grades since my first term here."
-                                    },
-                                    {
-                                        "id":1,
-                                        "type":"highlight",
-                                        "highlight":"rgba(207, 71, 69, 0.05)",
-                                        "color":"#ce4848",
-                                        "text":"My GPA was 2.0 after my first term, which is not okay,"
-                                    },
-                                    {
-                                        "id":2,
-                                        "type":"highlight",
-                                        "highlight":"rgba(6, 123, 167, 0.05)",
-                                        "color":"#067ba7",
-                                        "text":"I got A's and B's in high school. Since then I've been studying harder and harder, and I actually do understand the material! When I work with classmates on math or chemistry problems and participate in clas, I know what I'm talking about, but my grades don't show that."
-                                    },
-                                    {
-                                        "id":3,
-                                        "type":"highlight",
-                                        "highlight":"rgba(0, 134, 0, 0.05)",
-                                        "color":"#008600",
-                                        "text":"If I had studied this hard in high school, I would've gotten all A's, so I really don't understand what's going on."
-                                    },
-                                    {
-                                        "id":4,
-                                        "type":"text",
-                                        "text":"The only time my grades are semi-okay are when there are essay or short answer exams, but the rest is just bad."
-                                    }
-                                ],
-                                "legends":
-                                [
-                                    {
-                                        "id":1,
-                                        "highlight":"#ce4848",
-                                        "color":"rgba(207, 71, 69, 0.05)",
-                                        "text":"Content, information: not happy with current grades; essay or short answer exams go better; taking math and chemistry this term."
-                                    },
-                                    {
-                                        "id":2,
-                                        "highlight":"#067ba7",
-                                        "color":"rgba(6, 123, 167, 0.05)",
-                                        "text":"Perception: feels like she's working hard already; fellts like she does know the material; high school was easier."
-                                    },
-                                    {
-                                        "id":3,
-                                        "highlight":"#008600",
-                                        "color":"rgba(0, 134, 0, 0.05)",
-                                        "text":"Feelings or emotions: frustration, confusion, annoyed that the hard work isn't paying off."
-                                    }
-                                ]
+                                "text":"I don't know what I'm doing wrong, I'm a sophmore now and I've been getting really bad grades since my first term here. My GPA was 2.0 after my first term, which is not okay..."
+                            }
+                        },
+                        {
+                            "id":27.1,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Content, information: not happy with current grades; essay or short answer exams go better; taking math and chemistry this term."
+                            }
+                        },
+                        {
+                            "id":27.2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"I got A's and B's in high school. Since then I've been studying harder and harder, and I actually do understand the material! When I work with classmates on math or chemistry problems and participate in clas, I know what I'm talking about, but my grades don't show that."
+                            }
+                        },
+                        {
+                            "id":27.3,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Perception: feels like she's working hard already; fellts like she does know the material; high school was easier."
+                            }
+                        },
+                        {
+                            "id":27.4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If I had studied this hard in high school, I would've gotten all A's, so I really don't understand what's going on. The only time my grades are semi-okay are when there are essay or short answer exams, but the rest is just bad."
+                            }
+                        },
+                        {
+                            "id":27.5,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Feelings or emotions: frustration, confusion, annoyed that the hard work isn't paying off."
                             }
                         },
                         {

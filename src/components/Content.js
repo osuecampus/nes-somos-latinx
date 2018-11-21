@@ -21,6 +21,7 @@ import SingleImage from "../blocks/SingleImage";
 import AudioBlock from "../blocks/AudioBlock";
 import OGB from "../blocks/OGB";
 import HighlightedBits from "../blocks/HighlightedBits";
+import QuoteBox from "../blocks/QuoteBox";
 
 const components = {
   ImageText: ImageText,
@@ -38,7 +39,8 @@ const components = {
   SingleImage: SingleImage,
   AudioBlock: AudioBlock,
   OGB: OGB,
-  HighlightedBits: HighlightedBits
+  HighlightedBits: HighlightedBits,
+  QuoteBox: QuoteBox
 };
 
 class Content extends Component {
