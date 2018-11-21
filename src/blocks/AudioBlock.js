@@ -68,7 +68,9 @@ const ss = StyleSheet.create({
     transition:'all .2s ease-in-out',
     ':hover':{
         backgroundColor: '#0046bb',
-        color:'#fff',
+    },
+    ':focus':{
+      backgroundColor: '#0046bb',
     }
   },
   transcript:{

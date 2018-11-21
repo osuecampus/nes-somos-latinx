@@ -16,7 +16,7 @@ export default class CardReveal extends Component {
     return (
       <section className={css(ss.section) + ' lightenUp'}>
         {this.props.details.cards.map((block) => 
-          <div className={css(ss.cardHolder)}>
+          <div key={block.id} className={css(ss.cardHolder)}>
             <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
               {block.revealText}
             </div>

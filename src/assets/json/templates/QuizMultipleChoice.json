@@ -26,17 +26,22 @@
             {
                 "id":0,
                 "connector":1,
-                "htmlContent":"\"I've heard students look at textbook examples, would that be helpful?\""
+                "text":"\"I've heard students look at textbook examples, would that be helpful?\""
             },
             {
                 "id":1,
                 "connector":0,
-                "htmlContent":"\"I'd reccomend reviewing your notes first, then checking the textbook.\""
+                "text":"\"I'd reccomend reviewing your notes first, then checking the textbook.\""
             },
             {
                 "id":2,
                 "connector":2,
-                "htmlContent":"\"Would you like to hear an idea? What if we look at examples from your notes?\""
+                "text":"\"Would you like to hear an idea? What if we look at examples from your notes?\""
+            },
+            {
+                "id":3,
+                "connector":99,
+                "text":"Great job! You've successfully matched everything."
             }
         ]
     }

@@ -10,26 +10,48 @@ export default class QuizMultipleChoice extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentTab: 3,
+      currentQuestion: 0,
+      currentAnswer: 0,
+      total: 0
     };
   }
 
-  setTab(id){
-    this.setState({currentTab: id});
+  componentDidMount(){
+    this.setState({ total: this.props.details.questions.length, currentAnswer: this.props.details.questions[0].connector});
+  }
+
+  setQuestion(id){
+    this.setState({currentQuestion: id + 1, currentAnswer: this.props.details.questions[id + 1].connector})
+  }
+  
+  checkAnswer(id, buttonClicked){
+    id == this.state.currentAnswer ? 
+         (this.refs.question.classList.add(css(ss.phaseOut)), 
+         this.refs[buttonClicked].classList.add(css(ss.correct)),
+         setTimeout(() => {this.setQuestion(this.state.currentQuestion), this.refs.question.classList.remove(css(ss.phaseOut))}, 300 ))
+    : 
+        (this.refs[buttonClicked].classList.add(css(ss.wrong)),
+        setTimeout(() => {this.refs[buttonClicked].classList.remove(css(ss.wrong))},1000))
   }
 
   render() {
     return (
       <section className={css(ss.section)}>
-        <div className={css(ss.browserHold, ss.text)} dangerouslySetInnerHTML={{__html: this.props.details.browser[this.state.currentTab].htmlContent}}></div>
-        <div className={css(ss.tabHold)}>
-            {this.props.details.tabs[this.state.currentTab] ? <img className={css(ss.image)} src={this.props.details.tabs[this.state.currentTab].image} alt={this.props.details.tabs[this.state.currentTab].imageAlt} title={this.props.details.tabs[this.state.currentTab].imageAlt} /> : <img className={css(ss.image)} src={this.props.details.tabs[0].image} alt={this.props.details.tabs[0].imageAlt} title={this.props.details.tabs[0].imageAlt} /> }
-                {this.props.details.tabs.map((block) => 
-                <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id) : null } onClick={() => this.setTab(block.id)} tabIndex={'4'} key={block.id} className={css(ss.tab)}>
-                    <p className={css(ss.link)}>{block.text}</p>
-            </div>
-          )}
+        <div className={css(ss.questionHold)}>
+            {this.props.details.questions[this.state.currentQuestion] ? 
+                <div ref={'question'} className={css(ss.question)}>
+                    <p className={css(ss.text)}>{this.props.details.questions[this.state.currentQuestion].text}</p>
+                </div>
+            : null }
         </div>
+        <div className={css(ss.answerHold)}>
+            {this.props.details.options.map((block) => 
+                <div ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
+                    {block.text}
+                </div>
+            )}
+        </div>
+        
       </section>
     );
   }
@@ -43,86 +65,83 @@ const ss = StyleSheet.create({
         backgroundColor:'rgba(192,192,192,.2)',
       display:'flex',
       alignItems:'center',
-      flexDirection:'row',
-      '@media (max-width: 700px)': {
-        flexDirection:'column-reverse'
-      }
+      flexDirection:'column',
   },
-  tab:{
+  question:{
+      opacity:1,
+      transform:'scale(1)',
+      transition: 'all .2s ease-in-out'
+  },
+  phaseOut:{
+    opacity:0,
+    transform:'scale(.6)',
+  },
+  questionHold:{
+    width:'100%',
+    maxWidth:650,
     display:'flex',
-    width:'calc(100% - 100px)',
-    flexDirection:'column',
     justifyContent:'center',
-    alignItems:'flex-end',
-    outline:0,
-    cursor:'pointer',
-    paddingLeft:0,
-    paddingRight:0,
-    paddingTop:15,
-    paddingBottom:15,
-    borderRadius:10,
-    transition:'all .2s ease-in-out',
-    ':hover': {
-      backgroundColor: 'rgb(0, 0, 0, .055)'
-    },
-    ':focus': {
-      backgroundColor:'#0e5bea'
-    },
-    ':focus p': {
-      color:'#fff'
-    },
-    '@media (max-width: 700px)': {
-        width:'calc(100% - 100px)',
-    }
-
-  },
-  image:{
-    height:200,
-    width:200,
-    borderRadius:'50%',
-    position:'absolute',
-    top:'50%',
-    left:0,
-    marginTop:-100,
-
-  },
-  link:{
-    fontSize:20,
-    maxWidth:150,
-    paddingRight:15,
-    textAlign:'right',
-    textAlign:'center',
-    height:35,
-    overflow:'hidden',
-
+    alignItems:'center',
+    paddingBottom:35,
+    paddingTop:50,
   },
   text:{
     width:'100%',
+    fontSize:'larger',
     fontFamily:'Crimson Text',
-    fontSize:'smaller'
+    textAlign:'center',
   },
-  browserHold:{
-    width:'100%',
-    paddingRight:15,
-    '@media (max-width: 700px)': {
-        paddingRight:0,
-        marginTop:15
-    },
-    ' p': {
-        fontSize:'smaller!important'
-    }
-  },
-  tabHold:{
-      width:335,
-      maxWidth:335,
-      minWidth:335,
-      flexDirection:'column',
-      position:'relative',
+  answerHold:{
+      width:'100%',
       display:'flex',
-      alignItems:'flex-end',
+      justifyContent:'center',
+      alignItems:'center',
+      paddingBottom:40,
       '@media (max-width: 700px)': {
-        minWidth:300,
-        width:300
+        flexDirection:'column'
+      },
+  },
+  answer:{
+      width:150,
+      height:55,
+      display:'flex',
+      justifyContent:'center',
+      alignItems:'center',
+      backgroundColor:'#0e5bea',
+      fontSize:16,
+      borderRadius:45,
+      margin:12,
+      cursor:'pointer',
+      fontWeight:'600',
+      color:'#fff',
+      transition: 'all .2s ease-in-out',
+        ':hover':{
+            backgroundColor: '#0046bb'
+        },
+        ':focus':{
+            backgroundColor: '#0046bb'
+        },
+        '@media (max-width: 700px)': {
+            width: '100%',
+            marginTop:5
+        },
+  },
+  correct:{
+      backgroundColor:'green',
+      ':focus':{
+          backgroundColor:'green'
+      },
+      ':hover':{
+          backgroundColor:'green'
       }
+  },
+  wrong:{
+      backgroundColor:'red',
+      ':focus':{
+        backgroundColor:'red'
+    },
+    ':hover':{
+        backgroundColor:'red'
+    }
   }
 });

@@ -1378,7 +1378,7 @@
                             }
                         },
                         {
-                            "id":41,
+                            "id":41.1,
                             "type":"Text",
                             "details":
                             {
@@ -1493,11 +1493,59 @@
                             }
                         },
                         {
-                            "id":1,
+                            "id":48,
                             "type":"Text",
                             "details":
                             {
                                 "text":"Drag the example language onto the category below. Remember, the good and better options leave room for student choice!"
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Okay"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"Good"
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"Better"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"\"I've heard students look at textbook examples, would that be helpful?\""
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":0,
+                                        "text":"\"I'd reccomend reviewing your notes first, then checking the textbook.\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"\"Would you like to hear an idea? What if we look at examples from your notes?\""
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":99,
+                                        "text":"Great job! You've successfully matched everything."
+                                    }
+                                ]
                             }
                         }
                     ]
