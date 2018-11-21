@@ -43,7 +43,7 @@ const ss = StyleSheet.create({
       marginBottom:75,
       height:250,
       position:'relative',
-      '@media (max-width: 700px)': {
+      '@media (max-width: 950px)': {
         flexDirection: 'column',
         height:'fit-content'
       }
@@ -54,7 +54,7 @@ const ss = StyleSheet.create({
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    '@media (max-width: 700px)': {
+    '@media (max-width: 950px)': {
       height:340
     }
   },
