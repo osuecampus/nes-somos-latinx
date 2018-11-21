@@ -7,22 +7,26 @@ import { StyleSheet, css } from 'aphrodite';
 
 export default class CardReveal extends Component {
 
-    cardReveal(){
-        this.card.classList.add(css(ss.cardFlip));
-        setTimeout(() => { this.reveal.classList.add(css(ss.revealFlip)) }, 200);
+    cardReveal(selectedCard, revealedCard){
+        this.refs[selectedCard].classList.add(css(ss.cardFlip));
+        setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
     }
 
   render() {
     return (
       <section className={css(ss.section) + ' lightenUp'}>
-        <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.cardReveal() : null } onClick={() => this.cardReveal()} ref={(card) => this.card = card} className={css(ss.card)}>
-            {this.props.details.revealText}
-        </div>
-        <div ref={(reveal) => this.reveal = reveal} className={css(ss.reveal)}>
-            {this.props.details.text ? <div className={css(ss.quoteBox)}>{this.props.details.text}</div> : null }
-            {this.props.details.textTwo ? <div className={css(ss.quoteBox)}>{this.props.details.textTwo}</div> : null }
-            {this.props.details.textThree ? <div className={css(ss.quoteBox)}>{this.props.details.textThree}</div> : null }
-        </div>
+        {this.props.details.cards.map((block) => 
+          <div className={css(ss.cardHolder)}>
+            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
+              {block.revealText}
+            </div>
+            <div ref={'reveal'+block.id} className={css(ss.reveal)}>
+              {block.text ? <div className={css(ss.quoteBox)}>{block.text}</div> : null }
+              {block.textTwo ? <div className={css(ss.quoteBox)}>{block.textTwo}</div> : null }
+              {block.textThree ? <div className={css(ss.quoteBox)}>{block.textThree}</div> : null }
+            </div>
+          </div>
+        )}
       </section>
     );
   }
@@ -38,7 +42,21 @@ const ss = StyleSheet.create({
       marginTop:75,
       marginBottom:75,
       height:250,
-      position:'relative'
+      position:'relative',
+      '@media (max-width: 700px)': {
+        flexDirection: 'column',
+        height:'fit-content'
+      }
+  },
+  cardHolder:{
+
+    flex:1,
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    '@media (max-width: 700px)': {
+      height:340
+    }
   },
   card:{
     position: 'absolute',

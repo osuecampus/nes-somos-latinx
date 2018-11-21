@@ -95,9 +95,14 @@
                             "type":"CardReveal",
                             "details":
                             {
-                                "revealText": "Click here to reveal the results",
-                                "text":"\"caring attitude towards students\"",
-                                "textTwo":"\"condern for the students\""
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Click here to reveal the results",
+                                        "text":"\"caring attitude towards students\"",
+                                        "textTwo":"\"condern for the students\""
+                                    }
+                                ]
                             }
                         },
                         {
@@ -121,10 +126,15 @@
                             "type":"CardReveal",
                             "details":
                             {
-                                "revealText": "Click here to see what the research indicated",
-                                "text":"Caring makes people more willing to participate",
-                                "textTwo":"Caring encourages achievement",
-                                "textThree":"Caring prompts student effort and hard work"
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Click here to see what the research indicated",
+                                        "text":"Caring makes people more willing to participate",
+                                        "textTwo":"Caring encourages achievement",
+                                        "textThree":"Caring prompts student effort and hard work"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1308,6 +1318,25 @@
                             "details":
                             {
                                 "text":"How would you paraphrase this? Click to reveal two options (below)"
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "One Way",
+                                        "text":"Peer Educator (paraphrasing): \"So, you've been putting a lot of time into the homework problems, but on each one of them you get stuck somewhere?\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Another Way",
+                                        "text":"Peer Educator (paraphrasing): \"What I hear you say is that a lot of time is put in, but it's hard to complete the problems because you get stuck when working through each of them?\""
+                                    }
+                                ]
                             }
                         }
                     ]
