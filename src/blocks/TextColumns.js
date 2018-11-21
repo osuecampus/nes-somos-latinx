@@ -11,7 +11,7 @@ export default class TextColumns extends Component {
     return (
       <section className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
-          <div className={css(ss.column)} key={block.id}>
+          <div style={{width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
             {block.image ? <img src={block.image} alt={block.imageAlt} title={block.imageAlt} /> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
@@ -42,7 +42,7 @@ const ss = StyleSheet.create({
   },
   column:{
     display:'flex',
-    padding:20,
+    padding:5,
     alignItems:'center',
     justifyContent:'flex-start',
     flexDirection:'column'

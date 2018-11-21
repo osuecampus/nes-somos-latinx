@@ -866,8 +866,7 @@
                             {
                                 "backgroundType": "none",
                                 "align": "center",
-                                "text":"Now that we've learned a bit about listening, let's continue.",
-                                "size": "bigger"
+                                "text":"Now that we've learned a bit about listening, let's continue."
                             }
                         }
                     ]
