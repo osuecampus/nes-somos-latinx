@@ -1497,7 +1497,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Drag the example language onto the category below. Remember, the good and better options leave room for student choice!"
+                                "text":"Click on the category that matches the quote shown below. Remember, the good and better options leave room for student choice!"
                             }
                         },
                         {
@@ -1546,6 +1546,16 @@
                                         "text":"Great job! You've successfully matched everything."
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id":50,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"So now that we’ve talked generally about different types of questions, let’s continue on to the next section."
                             }
                         }
                     ]
