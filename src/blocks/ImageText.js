@@ -42,7 +42,6 @@ const ss = StyleSheet.create({
     minHeight:250,
     justifyContent:'center',
     alignItems:'center',
-    backgroundColor:'rgba(134, 134, 134, 0.15)',
     borderRadius:'50%',
    
     '@media (max-width: 700px)': {

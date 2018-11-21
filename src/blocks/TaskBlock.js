@@ -36,7 +36,7 @@ const ss = StyleSheet.create({
       }
   },
   text:{
-    color:'#000',
+    color:'#fff',
     fontSize:22,
     fontWeight:'700',
     marginBottom:0,

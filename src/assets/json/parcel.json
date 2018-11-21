@@ -1030,6 +1030,299 @@
                                 "text":"Open-Ended Questions",
                                 "size": "bigger"
                             }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Open-ended questions are phrased to invite the other person to provide more of a response than a “yes” or no,” giving you a chance to hear more of their thinking and giving the student a chance to think more deeply themselves."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Examples:"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"What do you notice about the problem or question?"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"How would you like to approach our time together today?"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"What is the relationship between concept A and concept B?"
+                                }
+                            ]
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Hear some example questions that peer educators ask at the beginning, middle, or end of their session or conversations with students:"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Open-Ended Prompts"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":" <p>Some of the most effective open-ended questions aren’t questions at all.</p><p>An open-ended prompt is a statement that invites the student to engage in thinking or talking.</p><p>Examples:</p><ul><li>Tell me about what you’ve been working on since we last met.</li><li>Let’s talk through the problem up to the point you get stuck.</li><li>Describe what you already know about what the exam will be like.</li></ul>",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/vBW7mHOGFWLjQ_Sp_DFm3w3g_lp2k2U3D.jpg",
+                                    "alt": "Man working on a computer"
+                                }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Listen to our peer educators demonstrate some of the prompts they use through their sessions:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Beware of questions that:"
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<p style='font-weight:600'>Are actually advice masquerading as a question:</p><p>Example:</p><p>Don’t you take notes in class so you can review them later? (which implies they should)</p>",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/Pcf34_AYavB5qJ0W_NTUJ8J39M0bkjn8j-stock-image.jpg",
+                                    "alt": "Purple eye mask"
+                                }
+                        },
+                        {
+                            "id":24,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"or",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<p style='font-weight:600'>Leading the student to a specific answer you want to hear:</p><p>Example:</p><p>You understand this, right? (it would feel awkward to say ‘no’)</p>",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/qZrIW7-Ehqk98PdF_yoYM6DI2pOObTGNT-stock-image.jpg",
+                                    "alt": "Small dog on a leash"
+                                }
+                        },
+                        {
+                            "id":26,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Paraphrasing"
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<p>Paraphrase is to say back to the person what they just said but to pick up on the key idea or summarize the main thought.</p><p>“Let me make sure I’m understanding what you mean” [and then go on to summarize]</p><p>“It sounds like you’re saying” [and then offer a quick summary]</p>",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/8ZVO4HSXuz-m16ee_BdgGwwo2jvsXMDg2-stock-image.jpg",
+                                    "alt": "Two women talking to each other"
+                                }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We paraphrase to make sure we understand the other person and to gain clarity if we don’t. Paraphrasing also allows the person you are working with to hear their own words aloud, and said back to them. This can be an important technique in helping a student clarify their meaning or identify where they’re confused."
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Remember: We don’t paraphrase to improve on the idea, to change what they said, or to offer a suggestion. It’s a tool designed to check if you’re understanding what they said, not to offer your own thinking."
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Click on each peer educator to hear them demonstrate some paraphrasing language."
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"TabbedContentExplorer",
+                            "details":
+                            {
+
+                                "tabs":
+                                [
+                                    {
+                                        "id":0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-1.png",
+                                        "imageAlt":"Student 1",
+                                        "text":"Student One"
+                                    },
+                                    {
+                                        "id":1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-2.png",
+                                        "imageAlt":"Student 2",
+                                        "text":"Student Two"
+                                    },
+                                    {
+                                        "id":2,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-3.png",
+                                        "imageAlt":"Student 3",
+                                        "text":"Student Three"
+                                    },
+                                    {
+                                        "id":3,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-4.png",
+                                        "imageAlt":"Student 4",
+                                        "text":"Student Four"
+                                    }
+                                ],
+                                "browser":
+                                [
+                                    {
+                                        "id":0,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=0_5a26mlxu&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
+                                    },
+                                    {
+                                        "id":1,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-two.png' alt='Teacher with a student' title='Teacher with a student'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Good leaders ask questions in order to reflect on past experiences, receive feedback, and identify future goals for the team</p></div>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-three.png' alt='A dog' title='A dog'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In your personal life with family, friends, or significant others, you can seek clarification in order to avoid misunderstandings</p></div>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-four.png' alt='Business people shaking hands' title='Business people shaking hands'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Supervisors can use validation to motivate and encourage their employees</p></div>"
+                                    },
+                                    {
+                                        "id":4,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":5,
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose a tab above to display more information</p></div>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Time to practice!"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Review the text below and practice paraphrasing."
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: “It’s taking me hours and hours to do the homework. I start a problem and look at it and I think I know how to do it, but then part way through I get confused and get stuck. So I move on to the next problem. But the whole homework assignment is like that and in the end I’ve spent three hours and didn’t get a single problem done!”"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"How would you paraphrase this? Click to reveal two options (below)"
+                            }
                         }
                     ]
                 }
