@@ -1472,6 +1472,33 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":46,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"6"
+                            }
+                        },
+                        {
+                            "id":47,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Let's try a few different approaches"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Drag the example language onto the category below. Remember, the good and better options leave room for student choice!"
+                            }
                         }
                     ]
                 }
