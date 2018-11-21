@@ -23,7 +23,7 @@ export default class HighlightedBits extends Component {
         </div>
         <div className={css(ss.legends)}>
             {this.props.details.legends.map((block) =>
-                <div key={block.id} style={{background: block.highlight, color: block.color}} className={css(ss.legendHolder)}>
+                <div key={block.id} style={{borderLeft: '3px solid ' + block.highlight,  color: block.highlight}} className={css(ss.legendHolder)}>
                         {block.text}
                 </div>
             )}
@@ -52,7 +52,9 @@ const ss = StyleSheet.create({
     padding:15,
     marginTop:15,
     fontSize:'smaller',
-    borderRadius:10
+    borderRadius:0,
+    fontFamily:'Crimson Text',
+    fontSize:'smaller'
   },
   legendTitle:{
       width:'100%'

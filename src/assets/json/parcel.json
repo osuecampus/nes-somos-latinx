@@ -671,22 +671,22 @@
                                     {
                                         "id":1,
                                         "type":"highlight",
-                                        "highlight":"#ce4848",
-                                        "color":"black",
+                                        "highlight":"rgba(207, 71, 69, 0.05)",
+                                        "color":"#ce4848",
                                         "text":"My GPA was 2.0 after my first term, which is not okay,"
                                     },
                                     {
                                         "id":2,
                                         "type":"highlight",
-                                        "highlight":"#6abad8",
-                                        "color":"black",
+                                        "highlight":"rgba(6, 123, 167, 0.05)",
+                                        "color":"#067ba7",
                                         "text":"I got A's and B's in high school. Since then I've been studying harder and harder, and I actually do understand the material! When I work with classmates on math or chemistry problems and participate in clas, I know what I'm talking about, but my grades don't show that."
                                     },
                                     {
                                         "id":3,
                                         "type":"highlight",
-                                        "highlight":"#7cc97c",
-                                        "color":"black",
+                                        "highlight":"rgba(0, 134, 0, 0.05)",
+                                        "color":"#008600",
                                         "text":"If I had studied this hard in high school, I would've gotten all A's, so I really don't understand what's going on."
                                     },
                                     {
@@ -700,19 +700,19 @@
                                     {
                                         "id":1,
                                         "highlight":"#ce4848",
-                                        "color":"black",
+                                        "color":"rgba(207, 71, 69, 0.05)",
                                         "text":"Content, information: not happy with current grades; essay or short answer exams go better; taking math and chemistry this term."
                                     },
                                     {
                                         "id":2,
-                                        "highlight":"#6abad8",
-                                        "color":"black",
+                                        "highlight":"#067ba7",
+                                        "color":"rgba(6, 123, 167, 0.05)",
                                         "text":"Perception: feels like she's working hard already; fellts like she does know the material; high school was easier."
                                     },
                                     {
                                         "id":3,
-                                        "highlight":"#7cc97c",
-                                        "color":"black",
+                                        "highlight":"#008600",
+                                        "color":"rgba(0, 134, 0, 0.05)",
                                         "text":"Feelings or emotions: frustration, confusion, annoyed that the hard work isn't paying off."
                                     }
                                 ]
