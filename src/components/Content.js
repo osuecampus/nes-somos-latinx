@@ -22,6 +22,7 @@ import AudioBlock from "../blocks/AudioBlock";
 import OGB from "../blocks/OGB";
 import HighlightedBits from "../blocks/HighlightedBits";
 import QuoteBox from "../blocks/QuoteBox";
+import QuizMultipleChoice from "../blocks/QuizMultipleChoice";
 
 const components = {
   ImageText: ImageText,
@@ -40,7 +41,8 @@ const components = {
   AudioBlock: AudioBlock,
   OGB: OGB,
   HighlightedBits: HighlightedBits,
-  QuoteBox: QuoteBox
+  QuoteBox: QuoteBox,
+  QuizMultipleChoice: QuizMultipleChoice
 };
 
 class Content extends Component {
