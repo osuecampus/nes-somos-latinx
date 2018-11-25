@@ -1651,7 +1651,8 @@
                             {
                                 "backgroundType": "none",
                                 "align": "left",
-                                "text":"More than apples..."
+                                "text":"More than apples...",
+                                "size":"bigger"
                             }
                         },
                         {
@@ -1670,6 +1671,179 @@
                                 "text":"Follow the link to Pellegrino Ricarddi’s TED Talk on cross cultural communication. Watch the 8:14 - 9:15 min segment.",
                                 "button":"Ted Talk",
                                 "link":"https://youtu.be/YMyofREc5Jk?t=8m14s"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"After watching the video, consider the following:"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"How might different lenses and perspectives play out in peer education? And how does curiosity play into these different perspectives?"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Here’s one way this idea translates to peer education..."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As an example, if a student says ‘I have a question about math’ there may be numerous ways we make meaning of or interpret that statement. Click on the numbers below to explore."
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-students-image.jpg",
+                                "imageAlt":"Two students working together"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"\"I have a question about math.\"",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Possible Interpretation",
+                                        "text":"\"I didn't read or go to class. Can you tell me what is important from this chapter.\""
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Possible Interpretation",
+                                        "text":"\"I've been up all night studying and I don't understand this.\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Possible Interpretation",
+                                        "text":"\"I mostly understand this concept, but have a few questions.\""
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Possible Interpretation",
+                                        "text":"\"I can't study at home with my kids around and coming to tutoring is a place I can study.\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Possible Interpretation",
+                                        "text":"\"I'm not feeling confident, can you watch me work this problem?\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"4"
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"To prevent miscommunications or misunderstanding:"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Seek clarification and ask questions."
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Approaching the conversation with curiosity can be helpful in both allowing you to check your understanding, and also to gain more insight into what the other person meant, or at least pause your assumptions or interpretations."
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"How do we seek clarification?"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Prompts or questions like the these may help you clarify what the student means: "
                             }
                         }
                     ]

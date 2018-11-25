@@ -14,6 +14,7 @@ export default class TextColumns extends Component {
           <div style={{width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
             {block.image ? <img src={block.image} alt={block.imageAlt} title={block.imageAlt} /> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
+            {block.bold ? <h1 className={css(ss.bold)}>{block.bold}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
           </div>
         )}
@@ -45,7 +46,11 @@ const ss = StyleSheet.create({
     padding:5,
     alignItems:'center',
     justifyContent:'flex-start',
-    flexDirection:'column'
+    flexDirection:'column',
+    '@media (max-width: 700px)': {
+      width:'100%',
+      marginTop:25,
+    }
   },
   headline:{
     borderRadius:'50%',
@@ -60,5 +65,15 @@ const ss = StyleSheet.create({
     width:60,
     height:60,
     marginBottom:15
+  },
+  bold:{
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    textAlign:'center',
+    fontSize:'smaller',
+    fontWeight:'700',
+    margin:0,
+    marginBottom:10
   }
 });
