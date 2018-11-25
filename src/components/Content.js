@@ -23,6 +23,7 @@ import OGB from "../blocks/OGB";
 import HighlightedBits from "../blocks/HighlightedBits";
 import QuoteBox from "../blocks/QuoteBox";
 import QuizMultipleChoice from "../blocks/QuizMultipleChoice";
+import ExternalLinkBox from "../blocks/ExternalLinkBox";
 
 const components = {
   ImageText: ImageText,
@@ -42,7 +43,8 @@ const components = {
   OGB: OGB,
   HighlightedBits: HighlightedBits,
   QuoteBox: QuoteBox,
-  QuizMultipleChoice: QuizMultipleChoice
+  QuizMultipleChoice: QuizMultipleChoice,
+  ExternalLinkBox: ExternalLinkBox
 };
 
 class Content extends Component {
