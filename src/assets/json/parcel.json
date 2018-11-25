@@ -373,7 +373,7 @@
                             "details":
                             {
                                 "backgroundType": "image",
-                                "backgroundValue": "https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/qBuzvpYkwvyQBi0m_EuI1EyZIO5Ps1a9h-stock-image.jpg",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ocean.jpg",
                                 "align": "center",
                                 "text":"Are you ready to listen?",
                                 "size": "larger"
@@ -451,7 +451,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/1_gdN9lrBt83Qul1_GNwa5vzLxQChtWBT-stock-image.jpg",
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fog.jpg",
                                 "imageAlt":"An island in the fog"
                             }
                         },
@@ -540,7 +540,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/sGhuFCHGiNV9MwhR_AeVY9L0GbS18znVT.png",
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-studentrow.png",
                                 "imageAlt":"A variety of images of students"
                             }
                         },
@@ -606,7 +606,7 @@
                                 {
                                     "layout":"right",
                                     "htmlContent":"<ul><li>We’ve talked about how to mentally prepare yourself to listen, how to demonstrate that you’re listening to the other person, and finally we’ll practice listening.</li><li>When people speak, they offer a lot of information. In the following clip, listen to the speaker and think about the questions we ask on the right side.</li><li>Practice listening for those different layers of information!.</li></ul>",
-                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/jhozpIHWFr_B_W8f_bXNOcZVaaX7H252v.jpg",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twostudents.jpg",
                                     "alt": "A student helping a fellow student using a computer"
                                 }
                         },
@@ -942,7 +942,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/yhjHXUTVuieJJyaL_WNa1QPdcBmfQHB5m.jpg",
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twoguys.jpg",
                                 "imageAlt":"Students working collaboratively with a laptop"
                             }
                         },
@@ -1021,7 +1021,7 @@
                             "details":
                             {
                                 "backgroundType": "image",
-                                "backgroundValue": "https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/UzLYSacsdC3TN3_n_k3z4ZSyUts3WjaYt-stock-image.jpg",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-highway.jpg",
                                 "align": "center",
                                 "text":"Open-Ended Questions",
                                 "size": "bigger"
@@ -1095,7 +1095,7 @@
                                 {
                                     "layout":"right",
                                     "htmlContent":" <p>Some of the most effective open-ended questions aren’t questions at all.</p><p>An open-ended prompt is a statement that invites the student to engage in thinking or talking.</p><p>Examples:</p><ul><li>Tell me about what you’ve been working on since we last met.</li><li>Let’s talk through the problem up to the point you get stuck.</li><li>Describe what you already know about what the exam will be like.</li></ul>",
-                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/vBW7mHOGFWLjQ_Sp_DFm3w3g_lp2k2U3D.jpg",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-computer-repair.jpg",
                                     "alt": "Man working on a computer"
                                 }
                         },
@@ -1164,7 +1164,7 @@
                                 {
                                     "layout":"right",
                                     "htmlContent":"<p style='font-weight:600'>Leading the student to a specific answer you want to hear:</p><p>Example:</p><p>You understand this, right? (it would feel awkward to say ‘no’)</p>",
-                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/qZrIW7-Ehqk98PdF_yoYM6DI2pOObTGNT-stock-image.jpg",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-dog-leash.jpg",
                                     "alt": "Small dog on a leash"
                                 }
                         },
@@ -1194,7 +1194,7 @@
                                 {
                                     "layout":"left",
                                     "htmlContent":"<p>Paraphrase is to say back to the person what they just said but to pick up on the key idea or summarize the main thought.</p><p>“Let me make sure I’m understanding what you mean” [and then go on to summarize]</p><p>“It sounds like you’re saying” [and then offer a quick summary]</p>",
-                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/8ZVO4HSXuz-m16ee_BdgGwwo2jvsXMDg2-stock-image.jpg",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-two-girl.jpg",
                                     "alt": "Two women talking to each other"
                                 }
                         },
