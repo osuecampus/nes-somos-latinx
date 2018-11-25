@@ -2166,6 +2166,287 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 4,
+                    "title" : "Building Self-Awareness",
+                    "blocks":[
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Building awareness of our own assumptions, perspectives, and ideas can better position us to check those assumptions and practice empathy when working with others",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-left.png",
+                                    "alt": "Human head puzzle graphic"
+                                }
+                        },
+                        {
+                            "id":1,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We all have thoughts and assumptions in reaction to what we encounter.  Being aware of our assumptions as we ask thoughtful questions, seek clarification, and offer validation is important as we work towards our objectives for each session."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Therefore, it’s important for us to listen to ourselves, become more aware of our own thoughts, and recognize the impact our thoughts have on how we help a student."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Our Inner Voice"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We see the world through our own experiences, lenses, and perspectives. In the example below, note how the peer educator on the right is experiencing the session."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-self-aware-full.jpg",
+                                "imageAlt":"Two men laughing over work"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Tutor: \"I think this session is going really well!\"",
+                                        "text":"Student: \"This tutor is so nice, but I still don't understand!\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Tutor: \"He came in so prepared; he seems really on top of it.\"",
+                                        "text":"Student: \"How do I tell the tutor I'm stuck?\""
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Tutor: \"It seems like he's really understanding the content!\"",
+                                        "text":"Student: \"Oh my, this is going to be a really hard test!\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This example demonstrates how easy it can be to misinterpret a situation. The peer educator’s assumptions get in the way of understanding how the student is experiencing the session. This example is pretty simple, but there may be some instances when your assumptions can get in the way of working effectively with a student."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In addition to seeking clarity in the moment, you can continually work on identifying and checking your assumptions."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Peer Educator Voice",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"4"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Continuing the work outside of sessions..."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As we become more aware of our assumptions, we can:"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Explore what we believe and determine the accuracy of those beliefs"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Check assumptions by determining how accurate our assumptions are"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"Take informed actions based on the quality of evidence we were able to gather"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"Change or expand our beliefs as we learn from others"
+                                }
+                            ]
+                        },
+                        {
+                            "id":18,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"What can we do within in a session..."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Engage in activities that help you connect with the students you are working with."
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Listen"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Clarify"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"Validate"
+                                }
+                            ]
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Practice empathy"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"As you ask questions and really listen to what the student is saying, consider times you experienced similar situations emotions or thoughts."
+                                }
+                            ]
+                        },
+                        {
+                            "id":23,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Practice care - for yourself and those you are working with"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Making assumptions is something we all do from time to time. When you do make a wrong assumption, acknowledge the mistake and then move on, taking the learning with you."
+                                }
+                            ]
+                        },
+                        {
+                            "id":25,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"As with the other Unit 1 topics, building awareness is ongoing work. For now, let’s tie this all together!"
+                            }
+                        }
+                    ]
                 }
             ]
         }
