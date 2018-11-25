@@ -19,7 +19,7 @@
                                 {
                                     "layout":"left",
                                     "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
-                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xJirH-Iq04RVptMQ_yOJuJFpHempJ-JpZ.jpg",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-front-left.jpg",
                                     "alt": "People having a conversation in a hallway"
                                 }
                         },
@@ -143,7 +143,7 @@
                             "details":
                             {
                                 "color":"rgb(255, 88, 88)",
-                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
                                 "text":"Reflection #1 - Fill out this section on your Notes Sheet"
                             }
                         },
@@ -833,7 +833,7 @@
                             "details":
                             {
                                 "color":"rgb(255, 88, 88)",
-                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
                                 "text":"Reflection #2 - Fill out this section on your Notes Sheet"
                             }
                         },
@@ -1121,7 +1121,7 @@
                             "details":
                             {
                                 "color":"rgb(255, 88, 88)",
-                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
                                 "text":"Reflection #3 - Fill out this section on your Notes Sheet"
                             }
                         },
@@ -1345,7 +1345,7 @@
                             "details":
                             {
                                 "color":"rgb(255, 88, 88)",
-                                "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/F_BhZE2fdDseZF98_9AHPqZanuHArRVCb.png",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
                                 "text":"Reflection #4 - Fill out this section on your Notes Sheet"
                             }
                         },
@@ -1570,7 +1570,7 @@
                             "details":
                                 {
                                     "layout":"left",
-                                    "text":"We often interpret what others say through our own experiences, lenses, and perspectives. Seeking clarification is one way to establish trust and rapport with those with whom you work",
+                                    "text":"We often interpret what others say through our own experiences, lenses, and perspectives. Seeking clarification is one way to establish trust and rapport with those with whom you work.",
                                     "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-left-bin.png",
                                     "alt": "Binocular graphic"
                                 }
@@ -1893,6 +1893,276 @@
                                 "backgroundType": "none",
                                 "align": "center",
                                 "text":"Seeking clarification can help establish trust and rapport. So can validation. Let’s continue!"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title" : "Validating Others",
+                    "blocks":[
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"One of the ways we support the student in seeing their own capacity as a learner is through offering validation. This section provides information and examples on how to validate students.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-thumbsup-left.png",
+                                    "alt": "Thumbs up graphic with a checkmark in the middle"
+                                }
+                        },
+                        {
+                            "id":1,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In a 2011 article, researchers Susana Muñoz and Laura Rendon define validation as  “the intentional, proactive affirmation of students.”"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"It sounds like:"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"“You can do this!”"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"“You’re doing great work”"
+                                },
+                                {
+                                    "key":1,
+                                    "text":"“That was great, how you [ specific action ] just now”"
+                                }
+                            ]
+                        },
+                        {
+                            "id":5,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"What do we validate and how often?",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Validation is different than praise or compliments. It’s designed to focus on effort and process."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Click on the examples below to see how a peer educator might phrase validation in each case."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Learning through practice or mistakes",
+                                        "text": "\"Yes! On the second attempt, you fixed that mistake - nice job!\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Hard work and time invested",
+                                        "text": "\"I want to acknowledge you've put a lot of time into making that study guide!\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Recognizing something didn't work",
+                                        "text": "\"I think it's really helpful that you realized that strategy wasn't working.\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Self awareness about understanding/mastery",
+                                        "text": "\"That's a great observation! It sounds like you don't feel as confident with that topic - recognizing that is an important skill!\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"We can also normalize feelings, acknowledge experiences and share our own experiences. ",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Examples:"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "1",
+                                        "text":"\"That sounds frustrating\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "2",
+                                        "text":"\"I've had a similar experience\""
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "3",
+                                        "text":"\"I've heard that from other students\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "text":"Remember that normalizing feelings does not mean you need to agree - it is a way to acknowledge the experience that person had. It conveys “I hear you and I understand.”",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-right-validating.jpg",
+                                    "alt": "Two students doing homework with a laptop"
+                                }
+                        },
+                        {
+                            "id":15,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"3"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the video below, hear some examples of how peer educators validate students or normalize their experiences:"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #5 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"4"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Why is validation important?",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"There are experiences throughout our lives that can make us doubt our capacity or abilities. In college, this can be amplified by tests, interactions with someone who doesn’t support you, offhand comments from peers, and other environmental factors."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Your goal as a peer educator is to not only avoid adding to that doubt, but to do what you can to counteract it; to help the student see what they’re doing well and confirm their ability to learn."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"You can help students feel capable of learning!"
                             }
                         }
                     ]

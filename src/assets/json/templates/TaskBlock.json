@@ -3,8 +3,8 @@
     "type":"TaskBlock",
     "details":
     {
-        "color":"red",
-        "image":"1",
-        "text":""
+        "color":"rgb(255, 88, 88)",
+        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+        "text":"Reflection #1 - Fill out this section on your Notes Sheet"
     }
 }
