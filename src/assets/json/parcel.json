@@ -1845,6 +1845,55 @@
                             {
                                 "text":"Prompts or questions like the these may help you clarify what the student means: "
                             }
+                        },
+                        {
+                            "id":28,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Tell me more about that."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Could you tell me more about that?"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Would you mind clarifying what you meant by _______?"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Could you be more specific?"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"What do you mean by that?"
+                                },
+                                {
+                                    "key":6,
+                                    "text":"What I think I heard you say was ______, is that correct?"
+                                }
+                            ]
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Think about your own style: what phrases resonate with you?"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Seeking clarification can help establish trust and rapport. So can validation. Let’s continue!"
+                            }
                         }
                     ]
                 }
