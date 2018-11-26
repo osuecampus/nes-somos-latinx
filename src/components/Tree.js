@@ -58,17 +58,17 @@ class Tree extends Component {
                   :
                   <img alt="Show Pages" title="Show Pages" src={'./assets/img/icon-arrow.svg'} />
                 }
-                {localStorage.getItem('nes-progress-'+ plot.id) ?
+                { localStorage.getItem('nes-progress-'+ plot.id) ?
                 <CircularProgressbar
-                  percentage={ (Object.keys(JSON.parse(localStorage.getItem('nes-progress-'+ plot.id))).length / this.props.content[0].sections[this.props.currentUnit].content.length) * 100 }
+                  percentage={ (Object.keys(JSON.parse(localStorage.getItem('nes-progress-'+ plot.id))).length / this.props.content[0].sections[plot.id].content.length) * 100 }
                   styles={{
                     path: { stroke: this.props.theme == 'lightLook' ? 'rgba(0,0,0,.5)' : 'rgba(255,255,255,.5)', transition:'all .2s ease-in-out' },
                     root:{ width:26, height:26, position:'absolute', transition:'all .2s ease-in-out'}
                   }}
                 />
                 : null }
-                {localStorage.getItem('nes-progress-'+ plot.id) ?
-                (Object.keys(JSON.parse(localStorage.getItem('nes-progress-'+ plot.id))).length == this.props.content[0].sections[this.props.currentUnit].content.length) ? <svg id="done" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.6 220.81"><title>icon-checkmark</title><g><path className="checkmarkBlue" d="M0,110.19C-.69,51.51,47.52-.35,110.93,0,173,.35,220.68,51.32,220.6,110.6c-.07,58.22-46.7,110.45-110.57,110.21C44.42,220.56-1,166.75,0,110.19Zm90.74,19.65L60.3,100.54l-16.39,17.6q23,23.05,47.8,47.94L177,78,159.43,61.12Z"/><path className="checkmarkWhite" d="M90.76,129.84l68.67-68.72L177,78,91.71,166.08q-24.79-24.89-47.8-47.94l16.39-17.6Z"/></g></svg> : null 
+                { localStorage.getItem('nes-progress-'+ plot.id) ?
+                (Object.keys(JSON.parse(localStorage.getItem('nes-progress-'+ plot.id))).length == this.props.content[0].sections[plot.id].content.length) ? <svg id="done" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.6 220.81"><title>icon-checkmark</title><g><path className="checkmarkBlue" d="M0,110.19C-.69,51.51,47.52-.35,110.93,0,173,.35,220.68,51.32,220.6,110.6c-.07,58.22-46.7,110.45-110.57,110.21C44.42,220.56-1,166.75,0,110.19Zm90.74,19.65L60.3,100.54l-16.39,17.6q23,23.05,47.8,47.94L177,78,159.43,61.12Z"/><path className="checkmarkWhite" d="M90.76,129.84l68.67-68.72L177,78,91.71,166.08q-24.79-24.89-47.8-47.94l16.39-17.6Z"/></g></svg> : null 
                 : null }
               </div>
             </div>
