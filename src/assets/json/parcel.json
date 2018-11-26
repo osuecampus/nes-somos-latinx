@@ -2475,8 +2475,125 @@
                                         "id":2,
                                         "revealText": "Listening & Being Present",
                                         "html":"<p>Preparing yourself to listen, demonstrating that you are listening and clarifying what you are actually hearing show your peer that you are mentally and physically present.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png' style='width:100%; max-width:350px; border-radius:10px' alt='Ear hearing sound graphic' title='Ear hearing sound graphic' />"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Asking Questions and Prompting Thinking",
+                                        "html":"<p>Asking the right questions not only help you build a positive relationship with your peers but also empowers them to engage, to think and to take ownership of their learning.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-hand-left.png' style='width:100%; max-width:350px; border-radius:10px' alt='Hand with question mark inside' title='Hand with question mark inside' />"
+                                    },
+                                    {
+                                        "id":4,
+                                        "revealText": "Seeking Clarification",
+                                        "html":"<p>You build trust and rapport with your peers when you clarify what you think you heard from them and/or confirm their goals through their own lenses and perspectives, as to avoid working from misconceptions or eliminate misunderstandings.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-left-bin.png' style='width:100%; max-width:350px; border-radius:10px' alt='Binoculars' title='Binoculars' />"
+                                    },
+                                    {
+                                        "id":5,
+                                        "revealText": "Validating Others",
+                                        "html":"<p>Validating the student efforts and normalizing feelings is important to counteract self-doubt. You can help your peers see their true accomplishments and bring that to the forefront.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-hand-left.png' style='width:100%; max-width:350px; border-radius:10px' alt='Hand with a checkmark' title='Hand with a checkmark' />"
+                                    },
+                                    {
+                                        "id":6,
+                                        "revealText": "Building Self-Awareness",
+                                        "html":"<p>You cannot escape your own inner voice, lenses and perspectives, but you can be very aware of them and when they can detract from your peer learning experience. Be aware of your assumptions and refocus on your student.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-left.png' style='width:100%; max-width:350px; border-radius:10px' alt='Puzzle head graphic' title='Puzzle head graphic' />"
                                     }
                                 ]
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Wrapping Up Unit 1",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"These foundational elements of working together can give you a framework to build a caring relationship and to focus on the authentic experiences and goals of your peers."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"TBefore you move on to Unit 2, click here for a handout with the main takeaways from Unit 1 - a tool you can continue to use in your work as a peer educator."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Click the button to download and print the “Unit 1 Take-away Sheet”"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Unit 1 Take away sheet",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Download it, save it, print it! Have this at hand for a quick reference sheet when you need a reminder of the foundational elements of building a relationship and working with another person."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"ExternalLinkBox",
+                            "details":
+                            {
+                                "text":"References list and learning materials associated with this unit.",
+                                "button":"References",
+                                "link":"https://drive.google.com/file/d/1W1p29ee5L45iXNulYHXxggXSAZ9SOXFF/view?usp=sharing"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Looking ahead! Unit 2: “Empowering Students Through Collaborative Learning” is next. In this unit we move from understanding how to work together to understanding how you collaborate with the student to accomplish learning within the session."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"You’ve Completed Unit 1",
+                                "size": "bigger"
                             }
                         }
                     ]
