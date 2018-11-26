@@ -15,14 +15,97 @@
                     [
                         {
                             "id":0,
-                            "type":"ImageText",
+                            "type":"SubjectBlock",
                             "details":
-                                {
-                                    "layout":"left",
-                                    "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
-                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-front-left.jpg",
-                                    "alt": "People having a conversation in a hallway"
-                                }
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Welcome!",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This training, “Introduction to Student-Centered Peer Education,” was designed for anyone who is working in an academic support capacity with other students."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In this training, we use the term “peer educator” as a general term because it can apply to a range of types of positions. You may be tutoring, mentoring, coaching; working as a learning assistant, teaching assistant or peer advisor; or engaging in some other form of peer-to-peer education. Whatever the role, you’re preparing for right now, this training can provide valuable information, ideas, and opportunities to practice your approach to working with others."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The term “peer educator” begins with the term “peer.” While a common interpretation of “peer” is based on having a similar age, status, grade or ability, our use of the term describes the type of relationship that the educator has with the student: co-learner, an equal."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While peer educators may not necessarily be of the same age or grade, they engage with the student in a relationship that has the potential to create an approachable and open dynamic which can amplify the student’s learning."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"All this to say, regardless of the title of your position and the type of work you’re doing, the fundamentals from this training can be relevant if you are working with a student in an academic support capacity."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Training Development & Collaboration"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"A dynamic and diverse team of trainers, supervisors, and peer educators at Oregon State University collaborated to develop this training."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s meet the folks who contributed to this work!"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The content was written by our team of primary authors:"
+                            }
                         }
                     ]
                 }
@@ -34,7 +117,7 @@
             "content": [
                 {
                     "id": 0,
-                    "title" : "Introduction",
+                    "title" : "Unit 1 Introduction",
                     "blocks":[
                         {
                             "id":0,
