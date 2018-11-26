@@ -12,7 +12,7 @@ export default class TextColumns extends Component {
       <section className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
           <div style={{width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
-            {block.image ? <img src={block.image} alt={block.imageAlt} title={block.imageAlt} /> : null } 
+            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', borderRadius:10, height:200, overflow:'hidden'}}><img style={{width:'120%',}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
             {block.bold ? <h1 className={css(ss.bold)}>{block.bold}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
