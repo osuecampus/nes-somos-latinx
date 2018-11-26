@@ -53,7 +53,7 @@ body.darkLook {
     outline:0;
 }
 .darkLook .hiddenPages{
-    background:#303030;
+    background: rgba(0, 0, 0, 0.25);
 }
 .darkLook p{
     color:#fcfcfc!important;
@@ -607,7 +607,7 @@ body.darkLook {
 }
 .hiddenPages {
     width: 100%;
-    background: #dfdfdf;
+    background: rgba(255, 255, 255, 0.2);
     display: none;
 }
 .activePage{
@@ -628,8 +628,9 @@ body.darkLook {
     transition:all .2s ease-in-out;
 }
 .unitPage svg{
-    height: 15px;
+    height: 17px;
     right: 32px;
+    padding: 1px;
     position: absolute;
 }
 .checkmarkBlue{
