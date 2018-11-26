@@ -69,7 +69,13 @@ class Content extends Component {
                 Previous Page
               </div>
               </div>)
-              :null)
+              :
+                this.props.content[0].sections[this.props.currentUnit-1] ?
+                  <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage( (this.props.content[0].sections[this.props.currentUnit-1].content.length - 1) , (this.props.currentUnit-1)), this.props.setCurrentUnit((this.props.currentUnit-1)), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage((this.props.content[0].sections[this.props.currentUnit-1].content.length - 1), (this.props.currentUnit-1)), this.props.setCurrentUnit((this.props.currentUnit-1)), window.scrollTo(0,0))} className={'previousNode'}>
+                    <svg id="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.3 230.85"><title>Previous Unit</title><path d="M75.22,122.69c1.8,0,3.66.18,6.8.34-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.31-15.84,32.31-32c4.25-4.3,4.27-8.47.08-12.73Q87.37,92.82,70.81,76.48c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,5.82,6,11.78,11.78,17.64,17.7a30.66,30.66,0,0,1,2.35,3.09H53v14.92Z" transform="translate(0.05 0)"/><path d="M229,98.65c-5.24-37.1-25.26-65.1-58-83.37C142.41-.66,111.9-4.44,80.68,5.4,34,20.11,2.52,62,0,110.91c-.5,9.94,1.19,11.78,11.19,11.78H100V107.77H15.13a12,12,0,0,1-.14-2.16c5.1-36.7,23.08-65.17,56.86-81,66.56-31.18,140.83,15.48,143.23,87.18,0,1.12,0,2.23,0,3.35h15.11A124.62,124.62,0,0,0,229,98.65Z" transform="translate(0.05 0)"/><path d="M107.89,224.11c.38,4,2.63,5.95,7.21,6.15V215.75C110.08,216.63,107.47,219.79,107.89,224.11Z" transform="translate(0.05 0)"/><path d="M116.47,230.27c31.3-.93,58-12.8,79.88-34.93,22.48-22.77,34.13-49.75,33.89-80.2H215.13c.06,42.37-25.5,79.9-65.81,93.94-9.46,3.3-19.75,4.19-29.67,6.19-1.46.29-3,.21-4.46.46l-.09,0v14.51C115.54,230.28,116,230.28,116.47,230.27Z" transform="translate(0.05 0)"/><path d="M1,117.07c.93,31.3,12.8,58,34.93,79.88,22.77,22.49,49.75,34.14,80.2,33.9V215.73c-42.37.07-79.9-25.5-93.94-65.81C18.9,140.46,18,130.17,16,120.25c-.29-1.46-.21-3-.46-4.46a.24.24,0,0,1,0-.08H1C1,116.14,1,116.59,1,117.07Z" transform="translate(0.05 0)"/><path d="M143.62,109.8Q127.3,93.26,110.76,76.92c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,2.05,2.1,4.13,4.18,6.21,6.25L129,116.15l-7.31,7.31H122c-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.3-15.84,32.31-32C147.79,118.23,147.81,114.06,143.62,109.8Z" transform="translate(0.05 0)"/></svg>
+                     <div class="pageTitle">Previous Unit</div> 
+                  </div>
+                : null)
             :null}
             
           </div>
@@ -77,11 +83,20 @@ class Content extends Component {
           
             {this.props.content[0] ? 
               (this.props.content[0].sections[this.props.currentUnit].content[(Number(this.props.currentPage)+1)] ? 
-              (<div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0))}><div title={this.props.content[0].sections[this.props.currentUnit].content[Number(this.props.currentPage)+1].title} className={'pageTitle'}>
-                Next Page
-              </div>
-             </div>)
-              : null )
+                (<div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0))}>
+                  <div title={this.props.content[0].sections[this.props.currentUnit].content[Number(this.props.currentPage)+1].title} className={'pageTitle'}>
+                    Next Page
+                  </div>
+                </div>)
+              :
+                this.props.content[0].sections[this.props.currentUnit+1] ?
+                  <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(0, (this.props.currentUnit+1)), this.props.setCurrentUnit((this.props.currentUnit+1)), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(0, (this.props.currentUnit+1)), this.props.setCurrentUnit((this.props.currentUnit+1)), window.scrollTo(0,0))} className={'nextNode'}>
+                    <div class="pageTitle">Next Unit</div> 
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.3 230.85"><title>Next Unit</title><path d="M75.22,122.69c1.8,0,3.66.18,6.8.34-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.31-15.84,32.31-32c4.25-4.3,4.27-8.47.08-12.73Q87.37,92.82,70.81,76.48c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,5.82,6,11.78,11.78,17.64,17.7a30.66,30.66,0,0,1,2.35,3.09H53v14.92Z" transform="translate(0.05 0)"/><path d="M229,98.65c-5.24-37.1-25.26-65.1-58-83.37C142.41-.66,111.9-4.44,80.68,5.4,34,20.11,2.52,62,0,110.91c-.5,9.94,1.19,11.78,11.19,11.78H100V107.77H15.13a12,12,0,0,1-.14-2.16c5.1-36.7,23.08-65.17,56.86-81,66.56-31.18,140.83,15.48,143.23,87.18,0,1.12,0,2.23,0,3.35h15.11A124.62,124.62,0,0,0,229,98.65Z" transform="translate(0.05 0)"/><path d="M107.89,224.11c.38,4,2.63,5.95,7.21,6.15V215.75C110.08,216.63,107.47,219.79,107.89,224.11Z" transform="translate(0.05 0)"/><path d="M116.47,230.27c31.3-.93,58-12.8,79.88-34.93,22.48-22.77,34.13-49.75,33.89-80.2H215.13c.06,42.37-25.5,79.9-65.81,93.94-9.46,3.3-19.75,4.19-29.67,6.19-1.46.29-3,.21-4.46.46l-.09,0v14.51C115.54,230.28,116,230.28,116.47,230.27Z" transform="translate(0.05 0)"/><path d="M1,117.07c.93,31.3,12.8,58,34.93,79.88,22.77,22.49,49.75,34.14,80.2,33.9V215.73c-42.37.07-79.9-25.5-93.94-65.81C18.9,140.46,18,130.17,16,120.25c-.29-1.46-.21-3-.46-4.46a.24.24,0,0,1,0-.08H1C1,116.14,1,116.59,1,117.07Z" transform="translate(0.05 0)"/><path d="M143.62,109.8Q127.3,93.26,110.76,76.92c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,2.05,2.1,4.13,4.18,6.21,6.25L129,116.15l-7.31,7.31H122c-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.3-15.84,32.31-32C147.79,118.23,147.81,114.06,143.62,109.8Z" transform="translate(0.05 0)"/></svg>
+                  </div>
+                : 
+                <div className={'endNode'}>The End <svg id="end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.7 229.68"><title>icon-end</title><path d="M1.24,131.29c5.23,37,25.2,64.93,57.85,83.15,28.52,15.9,59,19.67,90.09,9.85,46.56-14.67,78-56.45,80.44-105.23.5-9.92-1.19-11.75-11.16-11.75H129.91v14.88h84.65a11.89,11.89,0,0,1,.14,2.15c-5.09,36.61-23,65-56.71,80.79C91.6,236.23,17.52,189.69,15.13,118.18c0-1.12-.05-2.23-.05-3.34H0A125.74,125.74,0,0,0,1.24,131.29Z"/><path d="M122,6.15c-.38-4-2.63-5.94-7.19-6.13V14.49C119.85,13.61,122.46,10.46,122,6.15Z"/><path d="M113.48,0C82.26.93,55.6,12.77,33.81,34.85,11.39,57.56-.24,84.47,0,114.84H15.08C15,72.58,40.51,35.15,80.72,21.14c9.43-3.29,19.7-4.18,29.59-6.17,1.46-.29,3-.21,4.45-.46l.09,0V0C114.41,0,114,0,113.48,0Z"/><rect x="114.03" y="72.95" width="16.11" height="83.53" rx="5.28" transform="translate(244.17 229.43) rotate(180)"/></svg></div>
+                )
             : null }
         
           </div>
@@ -107,7 +122,13 @@ class Content extends Component {
                 Previous Page
               </div>
               </div>)
-              :null)
+              :
+                this.props.content[0].sections[this.props.currentUnit-1] ?
+                  <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage( (this.props.content[0].sections[this.props.currentUnit-1].content.length - 1) , (this.props.currentUnit-1)), this.props.setCurrentUnit((this.props.currentUnit-1)), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage((this.props.content[0].sections[this.props.currentUnit-1].content.length - 1), (this.props.currentUnit-1)), this.props.setCurrentUnit((this.props.currentUnit-1)), window.scrollTo(0,0))} className={'previousNode'}>
+                    <svg id="previous" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.3 230.85"><title>Previous Unit</title><path d="M75.22,122.69c1.8,0,3.66.18,6.8.34-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.31-15.84,32.31-32c4.25-4.3,4.27-8.47.08-12.73Q87.37,92.82,70.81,76.48c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,5.82,6,11.78,11.78,17.64,17.7a30.66,30.66,0,0,1,2.35,3.09H53v14.92Z" transform="translate(0.05 0)"/><path d="M229,98.65c-5.24-37.1-25.26-65.1-58-83.37C142.41-.66,111.9-4.44,80.68,5.4,34,20.11,2.52,62,0,110.91c-.5,9.94,1.19,11.78,11.19,11.78H100V107.77H15.13a12,12,0,0,1-.14-2.16c5.1-36.7,23.08-65.17,56.86-81,66.56-31.18,140.83,15.48,143.23,87.18,0,1.12,0,2.23,0,3.35h15.11A124.62,124.62,0,0,0,229,98.65Z" transform="translate(0.05 0)"/><path d="M107.89,224.11c.38,4,2.63,5.95,7.21,6.15V215.75C110.08,216.63,107.47,219.79,107.89,224.11Z" transform="translate(0.05 0)"/><path d="M116.47,230.27c31.3-.93,58-12.8,79.88-34.93,22.48-22.77,34.13-49.75,33.89-80.2H215.13c.06,42.37-25.5,79.9-65.81,93.94-9.46,3.3-19.75,4.19-29.67,6.19-1.46.29-3,.21-4.46.46l-.09,0v14.51C115.54,230.28,116,230.28,116.47,230.27Z" transform="translate(0.05 0)"/><path d="M1,117.07c.93,31.3,12.8,58,34.93,79.88,22.77,22.49,49.75,34.14,80.2,33.9V215.73c-42.37.07-79.9-25.5-93.94-65.81C18.9,140.46,18,130.17,16,120.25c-.29-1.46-.21-3-.46-4.46a.24.24,0,0,1,0-.08H1C1,116.14,1,116.59,1,117.07Z" transform="translate(0.05 0)"/><path d="M143.62,109.8Q127.3,93.26,110.76,76.92c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,2.05,2.1,4.13,4.18,6.21,6.25L129,116.15l-7.31,7.31H122c-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.3-15.84,32.31-32C147.79,118.23,147.81,114.06,143.62,109.8Z" transform="translate(0.05 0)"/></svg>
+                    <div class="pageTitle">Previous Unit</div> 
+                  </div>
+                : null)
             :null}
             
           </div>
@@ -119,8 +140,17 @@ class Content extends Component {
                 Next Page
               </div>
              </div>)
-              :null)
-            :null}
+              :
+                this.props.content[0].sections[this.props.currentUnit+1] ?
+                  <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(0, (this.props.currentUnit+1)), this.props.setCurrentUnit((this.props.currentUnit+1)), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(0, (this.props.currentUnit+1)), this.props.setCurrentUnit((this.props.currentUnit+1)), window.scrollTo(0,0))} className={'nextNode'}>
+                    <div class="pageTitle">Next Unit</div> 
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230.3 230.85"><title>Next Unit</title><path d="M75.22,122.69c1.8,0,3.66.18,6.8.34-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.31-15.84,32.31-32c4.25-4.3,4.27-8.47.08-12.73Q87.37,92.82,70.81,76.48c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,5.82,6,11.78,11.78,17.64,17.7a30.66,30.66,0,0,1,2.35,3.09H53v14.92Z" transform="translate(0.05 0)"/><path d="M229,98.65c-5.24-37.1-25.26-65.1-58-83.37C142.41-.66,111.9-4.44,80.68,5.4,34,20.11,2.52,62,0,110.91c-.5,9.94,1.19,11.78,11.19,11.78H100V107.77H15.13a12,12,0,0,1-.14-2.16c5.1-36.7,23.08-65.17,56.86-81,66.56-31.18,140.83,15.48,143.23,87.18,0,1.12,0,2.23,0,3.35h15.11A124.62,124.62,0,0,0,229,98.65Z" transform="translate(0.05 0)"/><path d="M107.89,224.11c.38,4,2.63,5.95,7.21,6.15V215.75C110.08,216.63,107.47,219.79,107.89,224.11Z" transform="translate(0.05 0)"/><path d="M116.47,230.27c31.3-.93,58-12.8,79.88-34.93,22.48-22.77,34.13-49.75,33.89-80.2H215.13c.06,42.37-25.5,79.9-65.81,93.94-9.46,3.3-19.75,4.19-29.67,6.19-1.46.29-3,.21-4.46.46l-.09,0v14.51C115.54,230.28,116,230.28,116.47,230.27Z" transform="translate(0.05 0)"/><path d="M1,117.07c.93,31.3,12.8,58,34.93,79.88,22.77,22.49,49.75,34.14,80.2,33.9V215.73c-42.37.07-79.9-25.5-93.94-65.81C18.9,140.46,18,130.17,16,120.25c-.29-1.46-.21-3-.46-4.46a.24.24,0,0,1,0-.08H1C1,116.14,1,116.59,1,117.07Z" transform="translate(0.05 0)"/><path d="M143.62,109.8Q127.3,93.26,110.76,76.92c-3.88-3.85-7.87-4-11-.94-3.36,3.32-3.25,7.55.56,11.44,2.05,2.1,4.13,4.18,6.21,6.25L129,116.15l-7.31,7.31H122c-7.72,7.66-14.4,14.16-20.94,20.81-3.8,3.85-4,7.95-.8,11,3.34,3.25,7,3.11,11-.75q16.3-15.84,32.31-32C147.79,118.23,147.81,114.06,143.62,109.8Z" transform="translate(0.05 0)"/></svg>
+                  </div>
+              : 
+                
+                  <div className={'endNode'}>The End <svg id="end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.7 229.68"><title>icon-end</title><path d="M1.24,131.29c5.23,37,25.2,64.93,57.85,83.15,28.52,15.9,59,19.67,90.09,9.85,46.56-14.67,78-56.45,80.44-105.23.5-9.92-1.19-11.75-11.16-11.75H129.91v14.88h84.65a11.89,11.89,0,0,1,.14,2.15c-5.09,36.61-23,65-56.71,80.79C91.6,236.23,17.52,189.69,15.13,118.18c0-1.12-.05-2.23-.05-3.34H0A125.74,125.74,0,0,0,1.24,131.29Z"/><path d="M122,6.15c-.38-4-2.63-5.94-7.19-6.13V14.49C119.85,13.61,122.46,10.46,122,6.15Z"/><path d="M113.48,0C82.26.93,55.6,12.77,33.81,34.85,11.39,57.56-.24,84.47,0,114.84H15.08C15,72.58,40.51,35.15,80.72,21.14c9.43-3.29,19.7-4.18,29.59-6.17,1.46-.29,3-.21,4.45-.46l.09,0V0C114.41,0,114,0,113.48,0Z"/><rect x="114.03" y="72.95" width="16.11" height="83.53" rx="5.28" transform="translate(244.17 229.43) rotate(180)"/></svg></div>
+                )
+            : null}
         
           </div>
         </div>

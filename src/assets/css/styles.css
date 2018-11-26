@@ -53,7 +53,7 @@ body.darkLook {
     outline:0;
 }
 .darkLook .hiddenPages{
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.35);
 }
 .darkLook p{
     color:#fcfcfc!important;
@@ -153,12 +153,61 @@ body.darkLook {
     color: #707070;
     font-weight: 600;
 }
+.endNode{
+    display: flex;
+    pointer-events:none;
+    align-items: center;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+}
+.nextNode{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+}
+.previousNode{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 600;
+}
 #begin {
     width: 20px;
     height: 20px;
     margin-right: 6px;
 }
 #begin path {
+    fill: #808080;
+}
+#next {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+#next path {
+    fill: #808080;
+}
+
+#end {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+}
+#end path {
+    fill: #808080;
+}
+
+#previous {
+    transform:rotate(180deg);
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+#previous path {
     fill: #808080;
 }
 .fullScreen {
@@ -745,7 +794,7 @@ p{
     font-size: 15px;
     font-weight: 700;
     color:#606060;
-    cursor:pointer;
+    cursor:pointer!important;
     transition:all .2s ease-in-out;
 }
 .topMiniPrevious:hover .pageTitle, .topMiniNext:hover .pageTitle{

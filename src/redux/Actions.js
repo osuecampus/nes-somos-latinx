@@ -77,7 +77,7 @@ export const setCurrentUnitDispatch = (value) => ({ type: SET_CURRENT_UNIT, curr
 export const setCurrentUnit = (value) => {
     localStorage.setItem("nes-current-unit", value);
     return (dispatch) => {
-        dispatch(setCurrentUnitDispatch(value));
+        dispatch(setCurrentUnitDispatch(Number(value)));
     }
 }
 
