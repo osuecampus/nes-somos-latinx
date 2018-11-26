@@ -21,12 +21,19 @@ class App extends Component {
   }
 
   componentDidMount() {
-    localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : null;
-    localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;
-    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentUnit(0),setTimeout(()=>{this.props.setCurrentPage(0, 0)},50);localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;},80)
+    // SET LOCATION FROM LOCAL STORAGE //
+    setTimeout(() => {localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null},15);
+    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentPage(0, 0)},25);
+
+    // SET LOCATION IF FIRST TIME //
+    setTimeout(() => { this.props.currentUnit == 0 && this.props.currentPage == 0 ? this.props.setCurrentPage(0, 0): null; },100);
+
+    // SET UP ENVIRONMENT BASED ON LOCALSTORAGE PRESETS //
     localStorage.getItem('nes-font-size') ? this.props.changeFontSize(localStorage.getItem('nes-font-size')) : null;
     localStorage.getItem('nes-theme') ? this.props.changeTheme(localStorage.getItem('nes-theme')) : null;
     localStorage.getItem('nes-dimensions') == 'false' ? this.props.detectDimensions(false) : this.props.detectDimensions(true);
+
+    // LOAD CONTENT AND SET DIMENSIONS //
     this.props.loadContent();
     this.detectDimensions();
     window.addEventListener("resize", this.detectDimensions.bind(this));

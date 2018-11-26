@@ -600,6 +600,8 @@ body.darkLook {
     align-items: center;
 }
 .downProgress img {
+    border-radius: 45px;
+    overflow: hidden;
     width: 18px;
     transition: all .3s ease-in-out;
 }
@@ -700,8 +702,8 @@ p{
 }
 #done{
     background: #0e5bea;
-    height: 20px;
-    width: 20px;
+    height: 16px;
+    width: 16px;
     position: absolute;
     border-radius: 45px;
     padding: 5px;
