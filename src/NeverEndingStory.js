@@ -23,7 +23,7 @@ class App extends Component {
   componentDidMount() {
     localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : null;
     localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;
-    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentUnit(0),setTimeout(()=>{console.log('a'),this.props.setCurrentPage(0, 0)},100);localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;},80)
+    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentUnit(0),setTimeout(()=>{this.props.setCurrentPage(0, 0)},50);localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;},80)
     localStorage.getItem('nes-font-size') ? this.props.changeFontSize(localStorage.getItem('nes-font-size')) : null;
     localStorage.getItem('nes-theme') ? this.props.changeTheme(localStorage.getItem('nes-theme')) : null;
     localStorage.getItem('nes-dimensions') == 'false' ? this.props.detectDimensions(false) : this.props.detectDimensions(true);

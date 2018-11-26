@@ -101,7 +101,6 @@ export const showScroll = (boolean) => {
 
  // SET CURRENT UNIT ACTIONS //
 export const addProgress = (data, unit) => {
-    console.log('triggered')
     let progress = [];
     if(localStorage.getItem('nes-progress-'+ unit) === null){
         localStorage.setItem('nes-progress-'+ unit, JSON.stringify([]));
