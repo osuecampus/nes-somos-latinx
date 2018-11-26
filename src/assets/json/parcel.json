@@ -2168,7 +2168,7 @@
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "title" : "Building Self-Awareness",
                     "blocks":[
                         {
@@ -2449,18 +2449,34 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "title" : "Review and Complete Unit",
                     "blocks":[
                         {
                             "id":0,
-                            "type":"SubjectBlock",
+                            "type":"Text",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "align": "left",
-                                "text":"Let’s Review! What are the foundational elements of working together?",
-                                "size": "bigger"
+                                "text":"Let’s Review! What are the foundational elements of working together?"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Caring matters",
+                                        "html":"<p>The foundational elements we discussed in this unit can help you build an authentic and caring relationship with your peer. Caring positively impacts the learning you do together, enhances sense of belonging and reinforces student success.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-acc-1.jpg' style='width:100%; max-width:350px; border-radius:10px' alt='Two women taking a selfie' title='Two women taking a selfie' />"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Listening & Being Present",
+                                        "html":"<p>Preparing yourself to listen, demonstrating that you are listening and clarifying what you are actually hearing show your peer that you are mentally and physically present.</p><br/><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ear-left.png' style='width:100%; max-width:350px; border-radius:10px' alt='Ear hearing sound graphic' title='Ear hearing sound graphic' />"
+                                    }
+                                ]
                             }
                         }
                     ]

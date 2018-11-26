@@ -7,23 +7,30 @@ import { StyleSheet, css } from 'aphrodite';
 
 export default class AccordionReveal extends Component {
 
-    cardReveal(selectedCard, revealedCard){
-        this.refs[selectedCard].classList.add(css(ss.cardFlip));
-        setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
+    accordionReveal(selectedAccordion, revealedAccordion){
+      this.refs[revealedAccordion].classList.toggle(css(ss.hide));
+      this.refs[revealedAccordion].classList.toggle(css(ss.show));
+      this.refs[selectedAccordion].classList.toggle(css(ss.plus));
+      this.refs[selectedAccordion].classList.toggle(css(ss.minus));
     }
 
   render() {
+    
+    
+
     return (
       <section className={css(ss.section) + ' lightenUp'}>
-        {this.props.details.cards.map((block) => 
-          <div key={block.id} className={css(ss.cardHolder)}>
-            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
+        {this.props.details.accordions.map((block) => 
+          <div key={block.id} className={css(ss.accordion)}>
+            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.accordionReveal('accordion'+block.id, 'reveal'+block.id) : null } onClick={() => this.accordionReveal('accordion'+block.id, 'reveal'+block.id)} ref={'accordion'+block.id} className={css(ss.accordionTitle, ss.plus)}>
               {block.revealText}
+              
+              <plus className={css(ss.plusNegative)}>+</plus>
+              <negative className={css(ss.plusNegative)}>-</negative>
             </div>
-            <div ref={'reveal'+block.id} className={css(ss.reveal)}>
-              {block.text ? <div className={css(ss.quoteBox)}>{block.text}</div> : null }
-              {block.textTwo ? <div className={css(ss.quoteBox)}>{block.textTwo}</div> : null }
-              {block.textThree ? <div className={css(ss.quoteBox)}>{block.textThree}</div> : null }
+            <div ref={'reveal'+block.id} className={css(ss.reveal, ss.hide)}>
+              {block.text ? <div className={css(ss.text)}>{block.text}</div> : null }
+              {block.html ? <div className={css(ss.html)} dangerouslySetInnerHTML={{__html: block.html}}/> : null }
             </div>
           </div>
         )}
@@ -36,75 +43,82 @@ const ss = StyleSheet.create({
   section: {
       width: '100%',
       display:'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      flexDirection:'row',
+      flexDirection:'column',
       marginTop:75,
       marginBottom:75,
-      height:250,
-      position:'relative',
-      '@media (max-width: 950px)': {
-        flexDirection: 'column',
-        height:'fit-content'
-      }
+      border:'1px solid #acacac',
+      borderRadius:10,
+      overflow:'hidden',
+      backgroundColor:'rgba(255,255,255,.05)'
   },
-  cardHolder:{
-
-    flex:1,
+  plus:{
+    ':nth-child(1n) > plus':{
+      display:'flex'
+    },
+    ':nth-child(1n) > negative':{
+      display:'none'
+    }
+  },
+  minus:{
+    ':nth-child(1n) > plus':{
+      display:'none'
+    },
+    ':nth-child(1n) > negative':{
+      display:'flex'
+    }
+  },
+  hide:{
+    display:'none',
+  },
+  show:{
+    display:'flex',
+  },
+  accordion:{
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    '@media (max-width: 950px)': {
-      height:340
+    flexDirection:'column'
+  },
+  accordionTitle:{
+    width:'calc(100% - 50px)',
+    fontFamily:'Crimson Text',
+    display:'flex',
+    position:'relative',
+    fontWeight:'600',
+    outline:0,
+    position:'relative',
+    textAlign:'left',
+    borderBottom:'1px solid rgba(200,200,200,.25)',
+    padding:25,
+    cursor:'pointer',
+    transition:'all .2s ease-in-out',
+    ':hover':{
+      backgroundColor:'rgba(200,200,200,.1)',
+      color:'#0e5bea'
+    },
+    ':focus':{
+      backgroundColor:'rgba(200,200,200,.1)',
+      color:'#0e5bea'
     }
   },
-  card:{
-    position: 'absolute',
-    backgroundColor: '#1f60e2',
-    height: 250,
-    width: 250,
-    transform: 'rotateY(-0deg)',
-    backfaceVisibility: 'hidden',
-    border: '1px solid rgba(0,0,0,.15)',
-    borderRadius: 10,
-    display: 'flex',
-    textAlign:'center',
-    color:'#fff',
-    cursor:'pointer',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontFamily:'Crimson Text',
-    padding: 25,
-    transition: 'all .2s ease-in-out',
-    ':hover': {
-        border: '1px solid #1148b9',
-        backgroundColor: '#1148b9'
-    }
+  plusNegative:{
+    position:'absolute',
+    right:25,
+    top:15,
+    fontSize:36,
+    fontWeight:'900'
   },
   reveal:{
-    position: 'absolute',
-    backgroundColor: '#1f60e2',
-    height: 250,
-    width: 250,
-    transform: 'rotateY(-90deg)',
-    backfaceVisibility: 'hidden',
-    border: '1px solid #1f60e2',
-    color:'#fff',
-    textAlign:'center',
-    borderRadius: 10,
+    width:'calc(100% - 50px)',
     fontSize:'smaller',
     fontFamily:'Crimson Text',
+    paddingTop:75,
+    paddingBottom:75,
     flexDirection:'column',
-    display: 'flex',
-    justifyContent: 'space-around',
+    borderBottom:'1px solid rgba(200,200,200,.25)',
     alignItems: 'center',
     padding: 25,
+    backgroundColor:'rgba(255,255,255,.05)',
     transition: 'all .2s ease-in-out',
   },
-  cardFlip:{
-      transform:'rotateY(90deg)',
-  },
-  revealFlip:{
-    transform:'rotateY(0deg)',
-},
 });
