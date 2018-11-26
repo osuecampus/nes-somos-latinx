@@ -10,7 +10,6 @@ export const loadContent = () => {
                 if (!response.ok) {
                     throw Error(response.statusText);
                 }
-               
                 return response;
             })
             .then((response) => response.json())
@@ -107,10 +106,10 @@ export const addProgress = (data, unit) => {
         localStorage.setItem('nes-progress-'+ unit, JSON.stringify([]));
     }
     progress = JSON.parse(localStorage.getItem('nes-progress-'+ unit));
-    progress.includes(data) ?
+    progress.includes(Number(data)) ?
         null
     :
-        progress.push(data),
+        progress.push(Number(data)),
         localStorage.setItem('nes-progress-' + unit, JSON.stringify(progress));
     return (dispatch) => {
       
