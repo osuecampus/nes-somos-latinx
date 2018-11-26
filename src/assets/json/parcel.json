@@ -162,6 +162,36 @@
                                     "alt": "Ruta",
                                     "caption":"Ruta"
                                 }
+                        },
+                        {
+                            "id":15,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
+                                "audioTranscript":"This audio clip contains no sound"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"\"My name is Abbey. I’ve been an academic coach at Oregon State for two years. I also have several years combined experience working as a teacher’s assistant, life skills peer tutor, and math tutor. My favorite thing about being a peer educator is getting to see and take part in the process of students discovering solutions for themselves that they didn’t even think possible prior to our conversations.\"",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/dc3zUM6g41grzamT_Dyt2GbXx-3FrrTXq.jpg",
+                                    "alt": "Abbey",
+                                    "caption":"Abbey"
+                                }
+                        },
+                        {
+                            "id":15,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
+                                "audioTranscript":"This audio clip contains no sound"
+                            }
                         }
                     ]
                 }
