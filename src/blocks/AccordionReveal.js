@@ -24,9 +24,8 @@ export default class AccordionReveal extends Component {
           <div key={block.id} className={css(ss.accordion)}>
             <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.accordionReveal('accordion'+block.id, 'reveal'+block.id) : null } onClick={() => this.accordionReveal('accordion'+block.id, 'reveal'+block.id)} ref={'accordion'+block.id} className={css(ss.accordionTitle, ss.plus)}>
               {block.revealText}
-              
-              <plus className={css(ss.plusNegative)}>+</plus>
-              <negative className={css(ss.plusNegative)}>-</negative>
+              <sup className={css(ss.plusNegative)}>+</sup>
+              <sub className={css(ss.plusNegative)}>-</sub>
             </div>
             <div ref={'reveal'+block.id} className={css(ss.reveal, ss.hide)}>
               {block.text ? <div className={css(ss.text)}>{block.text}</div> : null }
@@ -52,18 +51,18 @@ const ss = StyleSheet.create({
       backgroundColor:'rgba(255,255,255,.05)'
   },
   plus:{
-    ':nth-child(1n) > plus':{
+    ':nth-child(1n) > sup':{
       display:'flex'
     },
-    ':nth-child(1n) > negative':{
+    ':nth-child(1n) > sub':{
       display:'none'
     }
   },
   minus:{
-    ':nth-child(1n) > plus':{
+    ':nth-child(1n) > sup':{
       display:'none'
     },
-    ':nth-child(1n) > negative':{
+    ':nth-child(1n) > sub':{
       display:'flex'
     }
   },

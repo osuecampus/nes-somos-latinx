@@ -616,6 +616,7 @@ body.darkLook {
 }
 .unitPage {
     padding-top: 15px;
+    position:relative;
     padding-bottom: 15px;
     padding-left: 20px;
     font-size: 14px;
@@ -623,6 +624,20 @@ body.darkLook {
     color: #000;
     cursor:pointer;
     transition:all .2s ease-in-out;
+}
+.unitPage svg{
+    height: 15px;
+    right: 32px;
+    position: absolute;
+}
+.checkmarkBlue{
+    fill:#0e5bea
+}
+.checkmarkWhite{
+    fill:#fff
+}
+.unitPage path{
+  
 }
 .unitPage:focus{
     outline: 0;

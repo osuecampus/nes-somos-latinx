@@ -2352,11 +2352,11 @@
                                     "text":"Check assumptions by determining how accurate our assumptions are"
                                 },
                                 {
-                                    "key":1,
+                                    "key":3,
                                     "text":"Take informed actions based on the quality of evidence we were able to gather"
                                 },
                                 {
-                                    "key":1,
+                                    "key":4,
                                     "text":"Change or expand our beliefs as we learn from others"
                                 }
                             ]
@@ -2393,7 +2393,7 @@
                                     "text":"Clarify"
                                 },
                                 {
-                                    "key":1,
+                                    "key":3,
                                     "text":"Validate"
                                 }
                             ]

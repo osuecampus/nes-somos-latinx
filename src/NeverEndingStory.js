@@ -21,9 +21,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page')) : null;
+    localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : null;
     localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;
-    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page')) : null;localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;},80)
+    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : null;localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null;},80)
     localStorage.getItem('nes-font-size') ? this.props.changeFontSize(localStorage.getItem('nes-font-size')) : null;
     localStorage.getItem('nes-theme') ? this.props.changeTheme(localStorage.getItem('nes-theme')) : null;
     localStorage.getItem('nes-dimensions') == 'false' ? this.props.detectDimensions(false) : this.props.detectDimensions(true);
@@ -72,7 +72,9 @@ class App extends Component {
 const mapStateToProps = state => {
   return {
     mobile: state.mobile,
-    theme: state.theme
+    theme: state.theme,
+    currentPage: state.currentPage,
+    currentUnit: state.currentUnit
   };
 };
 
@@ -80,7 +82,7 @@ const mapDispatchToProps = dispatch => {
   return {
     loadContent: () => dispatch(loadContent()),
     showScroll: (boolean) => dispatch(showScroll(boolean)),
-    setCurrentPage: (value) => dispatch(setCurrentPage(value)),
+    setCurrentPage: (value, unit) => dispatch(setCurrentPage(value, unit)),
     setCurrentUnit: (value) => dispatch(setCurrentUnit(value)),
     detectDimensions: (value) => dispatch(detectDimensions(value)),
     changeFontSize: (value) => dispatch(changeFontSize(value)),
