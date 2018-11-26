@@ -134,6 +134,34 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We received invaluable contributions from a dedicated group of reviewers: Charlie Beckers, Marjorie Coffey, Alexsandra Cortés, Chris Gasser, Todd Gibbs, Dr. Elizabeth Jones, Jeff Kenney, Caitlin McVay, and Sarah Norek."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Five experienced peer educators offered perspectives, ideas, and examples of how they approach their work with students."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"\"My name is Ruta and I’ve been a tutor and academic coach for a year. I enjoy working as a peer educator as a way of collaborating with students to help with their academic success and providing them an opportunity to build on their skills academically. Personally, it has been helpful working alongside the students because I’ve adopted some new learning techniques as well.\"",
+                                    "image":"https://courses.ecampus.oregonstate.edu/oer/peer-ed/content/assets/xw_kRnvsxC_AkhuX_YSPGWmoTWM3g65Vg.jpg",
+                                    "alt": "Ruta",
+                                    "caption":"Ruta"
+                                }
                         }
                     ]
                 }
