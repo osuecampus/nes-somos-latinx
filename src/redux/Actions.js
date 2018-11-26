@@ -87,8 +87,6 @@ export const setCurrentPageDispatch = (value) => ({ type: SET_CURRENT_PAGE, curr
 export const setCurrentPage = (value, unit) => {
     localStorage.setItem("nes-current-page", value);
     return (dispatch) => {
-        console.log(unit);
-        console.log(value);
         dispatch(setCurrentPageDispatch(value));
         unit ? dispatch(addProgress(value, unit)) : null
     }
@@ -104,7 +102,6 @@ export const showScroll = (boolean) => {
 
  // SET CURRENT UNIT ACTIONS //
 export const addProgress = (data, unit) => {
-    console.log('win?', data, unit);
     let progress = [];
     if(localStorage.getItem('nes-progress-'+ unit) === null){
         localStorage.setItem('nes-progress-'+ unit, JSON.stringify([]));
