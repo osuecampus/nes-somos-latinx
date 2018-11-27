@@ -7,10 +7,19 @@ import { StyleSheet, css } from 'aphrodite';
 
 export default class CardReveal extends Component {
 
-    cardReveal(selectedCard, revealedCard){
-        this.refs[selectedCard].classList.add(css(ss.cardFlip));
-        setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
-    }
+  cardReveal(selectedCard, revealedCard){
+    this.refs[selectedCard].classList.add(css(ss.cardFlip));
+    setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
+  }
+  componentWillReceiveProps(props){
+
+    let revealFlip = window.document.querySelectorAll('.'+css(ss.revealFlip));
+    let cardFlip = window.document.querySelectorAll('.'+css(ss.cardFlip));
+
+    [].forEach.call(revealFlip, (div) => {div.classList.remove(css(ss.revealFlip))});
+    [].forEach.call(cardFlip, (div) => {div.classList.remove(css(ss.cardFlip))});
+    
+}
 
   render() {
     return (
