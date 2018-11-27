@@ -173,7 +173,7 @@
                             }
                         },
                         {
-                            "id":16,
+                            "id":14,
                             "type":"ImageText",
                             "details":
                                 {
@@ -185,7 +185,7 @@
                                 }
                         },
                         {
-                            "id":17,
+                            "id":15,
                             "type":"AudioBlock",
                             "details":
                             {
