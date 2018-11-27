@@ -200,6 +200,9 @@ body.darkLook {
 #end path {
     fill: #808080;
 }
+#end rect {
+    fill: #808080;
+}
 
 #previous {
     transform:rotate(180deg);
