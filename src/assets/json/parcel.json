@@ -3398,6 +3398,75 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 2,
+                    "title" : "Support Through Collaboration",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"We mentioned that collaborative interactions can both produce better learning and empower students, but what does that collaboration look like?"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a starting place, collaborative learning relies heavily on the techniques you learned in Unit 1 (asking questions, paraphrasing, validating, etc.)."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In addition, this section will provide a brief introduction to some other techniques:"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Identifying the Zone of Proximal Development (ZPD), which builds awareness of how student development and growth happens"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"“Scaffolding” activities, which helps students build skills and independence over time"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"“Investigating together,” which demonstrates how to facilitate learning through questions and prompts"
+                                }
+                            ]
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The Zone of Proximal Development (ZPD) concept was introduced by Psychologist Lev Vygotsky in the 1930’s. Vygotsky posited that development often occurs in the space between what a learner can do independently and what a learner can’t yet do, even with help."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Zone of Proximal Development",
+                                "size": "bigger"
+                            }
+                        }
+                    ]
                 }
             ]
         }
