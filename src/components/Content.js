@@ -25,6 +25,7 @@ import QuoteBox from "../blocks/QuoteBox";
 import QuizMultipleChoice from "../blocks/QuizMultipleChoice";
 import ExternalLinkBox from "../blocks/ExternalLinkBox";
 import AccordionReveal from "../blocks/AccordionReveal";
+import SectionedArrow from "../blocks/SectionedArrow";
 
 const components = {
   ImageText: ImageText,
@@ -46,7 +47,8 @@ const components = {
   QuoteBox: QuoteBox,
   QuizMultipleChoice: QuizMultipleChoice,
   ExternalLinkBox: ExternalLinkBox,
-  AccordionReveal: AccordionReveal
+  AccordionReveal: AccordionReveal,
+  SectionedArrow: SectionedArrow
 };
 
 class Content extends Component {

@@ -3465,6 +3465,28 @@
                                 "text":"Zone of Proximal Development",
                                 "size": "bigger"
                             }
+                        },
+                        {
+                            "id":7,
+                            "type":"SectionedArrow",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "background":"#0e5bea",
+                                    "text":"Things you can do on your own."
+                                },
+                                {
+                                    "key":2,
+                                    "background":"#0845b7",
+                                    "text":"Things you can do with some help."
+                                },
+                                {
+                                    "key":3,
+                                    "background":"#163e8a",
+                                    "text":"Things you can't do yet, even with help."
+                                }
+                            ]
                         }
                     ]
                 }
