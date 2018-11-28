@@ -30,6 +30,8 @@ const ss = StyleSheet.create({
       border: '1px solid rgba(0,0,0,.15)',
       '@media (max-width: 700px)': {
         flexDirection: 'column',
+        width:'calc(100% - 70px)',
+        padding:0
       }
   },
   button:{
@@ -45,8 +47,10 @@ const ss = StyleSheet.create({
     backgroundColor:'#1f60e2',
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
-      width: '100%',
-      marginTop:25
+      width: 'calc(100% - 70px)',
+      marginTop:25,
+      marginLeft:0,
+      marginBottom:35,
     },
     ':hover': {
         backgroundColor: '#0046bb'
@@ -59,6 +63,8 @@ const ss = StyleSheet.create({
     lineHeight: '28px',
     '@media (max-width: 700px)': {
       width: '100%',
+      textAlign:'center',
+      marginTop:35,
     }
   }
 });

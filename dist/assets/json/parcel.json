@@ -173,7 +173,7 @@
                             }
                         },
                         {
-                            "id":14,
+                            "id":16,
                             "type":"ImageText",
                             "details":
                                 {
@@ -185,7 +185,7 @@
                                 }
                         },
                         {
-                            "id":15,
+                            "id":17,
                             "type":"AudioBlock",
                             "details":
                             {
@@ -2538,18 +2538,22 @@
                             [
                                 {
                                     "key":1,
+                                    "number":"1",
                                     "text":"Explore what we believe and determine the accuracy of those beliefs"
                                 },
                                 {
                                     "key":2,
+                                    "number":"2",
                                     "text":"Check assumptions by determining how accurate our assumptions are"
                                 },
                                 {
                                     "key":3,
+                                    "number":"3",
                                     "text":"Take informed actions based on the quality of evidence we were able to gather"
                                 },
                                 {
                                     "key":4,
+                                    "number":"4",
                                     "text":"Change or expand our beliefs as we learn from others"
                                 }
                             ]

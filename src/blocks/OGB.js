@@ -45,7 +45,10 @@ const ss = StyleSheet.create({
       alignItems:'center',
       flexDirection:'row',
       '@media (max-width: 700px)': {
-        flexDirection:'column-reverse'
+        flexDirection:'column-reverse',
+        padding:0,
+        paddingTop:20,
+        paddingBottom:20,
       }
   },
   tab:{
@@ -99,7 +102,12 @@ const ss = StyleSheet.create({
   text:{
     width:'100%',
     fontFamily:'Crimson Text',
-    fontSize:'smaller'
+    fontSize:'smaller',
+    '@media (max-width: 700px)': {
+      marginTop:15,
+      textAlign:'center',
+      width:'calc(100% - 30px)'
+  }
   },
   browserHold:{
     width:'100%',

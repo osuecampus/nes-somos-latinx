@@ -66,11 +66,19 @@ const ss = StyleSheet.create({
       display:'flex',
       alignItems:'center',
       flexDirection:'column',
+      '@media (max-width: 700px)': {
+        padding:0,
+        paddingTop:15,
+        paddingBottom:15
+    }
   },
   question:{
       opacity:1,
       transform:'scale(1)',
-      transition: 'all .2s ease-in-out'
+      transition: 'all .2s ease-in-out',
+      '@media (max-width: 700px)': {
+        width:'calc(100% - 30px)',
+    }
   },
   phaseOut:{
     opacity:0,
@@ -122,7 +130,7 @@ const ss = StyleSheet.create({
             backgroundColor: '#0046bb'
         },
         '@media (max-width: 700px)': {
-            width: '100%',
+            width: 'calc(100% - 30px)',
             marginTop:5
         },
   },
