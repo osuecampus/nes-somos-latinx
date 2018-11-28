@@ -3115,6 +3115,273 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 2,
+            "title": "Unit 2: Empowering Students through Collaborative Learning",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Unit 2 Introduction",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"This unit explores some foundational elements we use when supporting another student’s learning.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit2-left.jpg",
+                                    "alt": "Two ladies working together on a laptop"
+                                }
+                        },
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin Unit 2, please click on the “ Unit 2 Reflection Guide” link below to download/print a note-taking sheet."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Click the button to download and print the Unit 2 Handout",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"At the beginning of this training, we set up three key objectives for each peer education interaction or session. Your goals are to:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "number":"1",
+                                    "text":"Support the student in recognizing their own capacity as a learner."
+                                },
+                                {
+                                    "key":2,
+                                    "number":"2",
+                                    "text":"Engage the student in thinking strategies and activities to master content."
+                                },
+                                {
+                                    "key":3,
+                                    "number":"3",
+                                    "text":"Help the student to identify tools and resources available to them."
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In this unit our focus is on the second goal. There are many ways to learn information and skills associated with course content, so we will emphasize having a general understanding of how learning happens, acknowledging our own learning behaviors and preferences, and being open to and flexible about the different ways students may approach learning."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title" : "Helping Someone Learn",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"There are many ways to learn."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Within one course you may get information in lecture, read about concepts in a textbook, watch videos, complete practice problems or online homework, and more. Each of these activities has a different role to play in how we acquire and retain new information."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Additionally, each person has a different way of learning that works best for them. We’re not talking about learning styles; we’re talking about how each person brings their prior experiences and skills to the learning environment. We help others learn by maximizing their strengths and assisting them in building new learning strategies."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In some learning environments we may experience a passive model of learning where the educator is giving the information to the student, who receives it. John Bransford (How People Learn, 2000) called this “teaching by telling,” and Paolo Friere (Pedagogy of the Oppressed, 1970) talked about the “banking model of education.”"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"This model for learning creates a passive interaction because it does not require the student do anything active with the information.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-women-speaking.jpg",
+                                    "alt": "Three women speaking together.",
+                                    "caption":"Photo by Gradikaa on Unsplash"
+                                }
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In contrast, research from the field of education and learning sciences argues that a more active approach makes learning more effective and collaborative for the student."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Terry Doyle and Todd Zakrajsek (2013) write that learning new material requires active engagement with the information, such as:"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Finding connections and patterns in information"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Applying new information to a problem or question you haven’t seen before"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Practice, practice, practice!"
+                                }                                
+                            ]
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Knowing that learning new material requires active engagement, we can use our role and interactions intentionally to create space for students to engage."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Doyle and Zakrajsek (2013) go on to summarize:"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"“The primary message from neuroscience researchers is relatively simple: ‘The one who does the work does the learning’ (Doyle 2008, p. 63). Only when you practice, read, write, think, talk, collaborate, and reflect, does your brain make permanent connections. Your teachers [and peer educators] cannot do this for you”"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"(Doyle & Zakrajsek, 2013, p.12)"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #1 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"So, when we do the work of thinking, our brain is actively learning new information and practicing it for later retrieval. If you do the work for the student, the student will not experience the full benefit of long-term learning."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When we shift from the passive model then the learning process can become a collaborative endeavor with the student. Collaboration in peer education may look like:"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-onefour.png",
+                                        "imageAlt": "Two students working on a laptop",
+                                        "text":"Working through a problem together - alternating steps."
+                                    },
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twofour.png",
+                                        "imageAlt": "Two students working on a white board",
+                                        "text":"The students creating a concept map on the whiteboard, while you ask prompting questions like \"what else?\""
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-threefour.png",
+                                        "imageAlt": "A girl working on a laptop",
+                                        "text":"Answering a question from a practice test independently and then comparing answers."
+                                    },
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fourfour.png",
+                                        "imageAlt": "A woman reading a book.",
+                                        "text":"Comparing answers and discussing how you each approached the question."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }]
