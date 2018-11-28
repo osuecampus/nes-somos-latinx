@@ -135,6 +135,7 @@ body.darkLook {
     align-items: center;
     min-height: calc(100% - 175px);
     flex-direction: column;
+    overflow:hidden;
     background: #fcfcfc;
     position: relative;
     transform: translate3d(0);
@@ -216,14 +217,24 @@ body.darkLook {
 .mobile .showSidebar {
     width: 0px!important;
 }
+.mobile .contentView{
+    overflow:visible;
+}
+.mobile .contentArea{
+    overflow:hidden;
+}
 .mobile .showSidebar .accessibilityGroup{
     display:none;
+}
+.mobile section{
+    width:100%!important;
+    margin-left:0px!important;
 }
 .contentArea{
     width: calc(93% - 60px);
     margin-right: 60px;
     max-width:860px;
-    overflow:hidden;
+
     padding: 2px;
     padding-bottom: 17px;
 }
