@@ -3378,6 +3378,24 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a peer educator, you have a chance to help the student engage actively in the content – to help them do the work of learning. Not only will this produce better learning for the student, but the collaborative interaction has the potential to be a more empowering experience for the student as well."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Let’s learn a bit more about what your collaborative role in the learning process may look like by examining some of the theories and techniques that describe this work."
+                            }
                         }
                     ]
                 }

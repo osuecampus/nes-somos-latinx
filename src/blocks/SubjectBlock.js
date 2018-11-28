@@ -45,7 +45,7 @@ const ss = StyleSheet.create({
   text:{
     width:'100%',
     fontFamily:'Open Sans',
-    fontWeight:'800',
+    fontWeight:'700',
     color:'#000'
   }
 });
