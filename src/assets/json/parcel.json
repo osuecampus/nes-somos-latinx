@@ -3487,6 +3487,565 @@
                                     "text":"Things you can't do yet, even with help."
                                 }
                             ]
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The ZPD concept has a few important features:"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"It acknowledges that students already possess skills and strengths which can help them to reach their goal."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"It acknowledges a student’s ability to learn and develop."
+                                },
+                                {
+                                    "key":3,
+                                    "text":"It describes how development occurs when the learner is introduced to something they can’t do on their own while having support for completing the task."
+                                }
+                            ]
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"How do we help students get from what they can comfortably do on their own to learning what they are currently unable to do?"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This process is what psychologists call “scaffolding.”"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The term “scaffolding” gets its name from the temporary structures put in place to help support builders, prior to the completion of a building."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the context of learning, scaffolding refers to the support the learner receives as they complete tasks that lead towards greater understanding."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Over time the scaffolding itself decreases as the student grows in their ability to independently identify and complete tasks."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s unpack this concept with an example . . . When someone learns to ride a bicycle, they learn a series of skills, and as they improve in each area, they advance to a more complex skill needed for the final task."
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This is important for growth and learning because:"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"If they only ever work on what they can already do on their own, they may not become an independent bike rider"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"If they jump into something too difficult that they cannot yet do (technical mountain biking), it may be unproductive, frustrating, or -in this case-dangerous"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"The ideal spot is in between the two - the zone where they are working on subsequently complex steps with exposure to and guidance/support from someone else"
+                                }
+                            ]
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In our example of riding a bike, scaffolding could look like breaking the task down into smaller and simpler parts to make it manageable for the learner."
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-onefive.png",
+                                        "imageAlt": "A kid riding a tricycle",
+                                        "text":"Tricycles allow a child to practice steering and pedaling."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twofive.png",
+                                        "imageAlt": "A kid riding a bike up a ramp.",
+                                        "text":"Scoot bikes allow a child to practice balancing and staying upright."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-threefive.png",
+                                        "imageAlt": "Old woman with a child on a bicycle",
+                                        "text":"Someone holding a seat allows the child to learn how to balance and stop."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fourfive.png",
+                                        "imageAlt": "Children riding bikes up the hill.",
+                                        "text":"Flat roads with minimal traffic and few hills allows the child to learn how to brake on their own."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fivefive.png",
+                                        "imageAlt": "Kid doing a wheelie.",
+                                        "text":"Independence allows the child to apply all they've learned as they encounter new situations."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the examples above, the helper is providing support in various ways, until the child has mastered that element of learning to ride a bicycle. In each image, the helper is aware of the Zone of Proximal Development and has provided an appropriate scaffold or help for the child’s current skill level."
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a peer educator in a helping role, you will acknowledge and build off of what the student can already do on their own, while providing support and guidance as they take on the new tasks."
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In some instances, you may help the student with the task before gradually removing your support until they can do it on their own."
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s watch a small clip of a tutoring session."
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Listen to how Ruta approaches this scenario.",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In this scenario, Ruta demonstrated a number of techniques:"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Technique 1",
+                                        "text":"Giving space for Conner to work on the problem until he wasn't making progress; this showed her that he might need more help in order to move forward."
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Technique 2",
+                                        "text":"Offering to... (add more content later)"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Technique 3",
+                                        "text":"(more content)"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s see another example of how questions can create a scaffolding effect that encourages students to move in the right direction while also promoting independence."
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the following dialogue, the peer educator guides the students in making connections between the new information and their existing knowledge. Additionally, the peer educator creates opportunities for them to summarize their learning and apply it to new scenarios as appropriate."
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Professor of Education and researcher Marcia Baxter Magolda describes this activity as “investigating together.”"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Investigating togeter - What does it look like?"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: What do you notice about this type of problem?"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: It's asking me to solve for x."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: What else?"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Inviting reflection; encouraging thinking."
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: There's an x and an x squared in the problem."
+                            }
+                        },
+                        {
+                            "id":40,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: Does this remind you of anything you've learned about?"
+                            }
+                        },
+                        {
+                            "id":41,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: We learned about using the quadratic equation."
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: Great! Explain the connection."
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Connecting to existing knowledge; draw out & expand."
+                            }
+                        },
+                        {
+                            "id":44,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: I need to use the values a, b, c."
+                            }
+                        },
+                        {
+                            "id":45,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: Okay so you're saying you need to identify a, b, and c, and then... [leave space for student to finish]"
+                            }
+                        },
+                        {
+                            "id":46,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Summarizing; prompting thinking."
+                            }
+                        },
+                        {
+                            "id":47,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: If I know the values of a, b, c, I can use the quadratic equation to find the two values of x."
+                            }
+                        },
+                        {
+                            "id":48,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: Okay, let's do that."
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Encouraging; prompting action."
+                            }
+                        },
+                        {
+                            "id":50,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Student: [completes the problem]"
+                            }
+                        },
+                        {
+                            "id":51,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Peer Educator: But what about if you replaced b with negative number, how would that impact the problem?"
+                            }
+                        },
+                        {
+                            "id":52,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Nudging to apply in a new environment/scenario."
+                            }
+                        },
+                        {
+                            "id":53,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s take a moment to recap what we’ve just covered. From the concepts above, here are some key reflection questions to take away:"
+                            }
+                        },
+                        {
+                            "id":54,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"The ZPD Concept",
+                                        "text":"Can they complete their task with no help at all, with some help from me, or are they unable to complete their task unless I help them? What level of support will be helpful?"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Scaffolding Support",
+                                        "text":"How much guidance and support will I provide, what questions will I ask or what suggestions might I make, and when will I step back?"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Investigating Together",
+                                        "text":"What questions will give the student room to think about the content? When can I pause in my own paraphrasing to let the student complete the thought and take the next step?"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":55,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In short, there are many ways to work collaboratively with a student, but the all involve meeting the student where they are in their learning and providing support to get to where they want to be."
+                            }
+                        },
+                        {
+                            "id":56,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Explaining Your Role and Approach"
+                            }
+                        },
+                        {
+                            "id":57,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Taking a few moments to explain your role and approach to the session can help students manage their expectations and prevent frustration.This explanation will help them understand why at times you may encourage them to find an answer instead of providing it or why you may ask them to work through a problem instead of simply showing them how to do it."
+                            }
+                        },
+                        {
+                            "id":57,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Click on the peer educator photos hear how Ruta and Abbey explain their role at the beginning of a session:"
+                            }
+                        },
+                        {
+                            "id":58,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":59,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"I trust that you are a better expert on yourself than I am, so my role in this session is not to give you advice, but rather to prompt you with questions and an occasional suggestion to deepen your own thinking about this topic and ensure that the solutions you come up with make the most sense for you since every student is unique."
+                            }
+                        },
+                        {
+                            "id":60,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":61,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before we start this session, I wanted to share that my role is mainly to guide you in coming up with different learning strategies and techniques that are helpful for you in finding the solutions to specific problems.  By doing so, I’ll be asking you questions throughout the process of solving."
+                            }
+                        },
+                        {
+                            "id":62,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #2 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":63,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Once you have a shared understanding about the session and your role, you can use different learning activities to help a student at various points in their learning process. Let’s explore that idea further."
+                            }
                         }
                     ]
                 }
