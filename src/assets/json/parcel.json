@@ -3797,7 +3797,7 @@
                             {
                                 "backgroundType": "none",
                                 "align": "center",
-                                "text":"Investigating togeter - What does it look like?"
+                                "text":"Investigating together - What does it look like?"
                             }
                         },
                         {
@@ -4061,6 +4061,40 @@
                                 "backgroundType": "none",
                                 "align": "center",
                                 "text":"Once you have a shared understanding about the session and your role, you can use different learning activities to help a student at various points in their learning process. Let’s explore that idea further."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title" : "Learning Activities",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Your Toolbox of Learning Activities",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Within the realm of collaborative learning, there are many ways to approach learning activities within a session. The student’s experience, strengths, and goals for the session --as well as the course, its design, and the broader discipline-- all impact which activities make the most sense for your time together."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In this section, we’ll look at a range of learning activities and how they relate to the session goals. Having a breadth of options for ways to engage with the content or course material will allow you to be flexible in the session and adjust to what the student needs."
                             }
                         }
                     ]
