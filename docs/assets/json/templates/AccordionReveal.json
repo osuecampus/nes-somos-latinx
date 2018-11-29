@@ -1,0 +1,15 @@
+{
+    "id":1,
+    "type":"AccordionReveal",
+    "details":
+    {
+        "accordions":[
+            {
+                "id":1,
+                "revealText": "Click to reveal the results",
+                "text":"Text block goes here",
+                "html":"You can use html in this block. Only use text or html, not both"
+            }
+        ]
+    }
+}

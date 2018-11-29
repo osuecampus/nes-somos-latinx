@@ -1,0 +1,18 @@
+{
+    "id":1,
+    "type":"TextColumns",
+    "details":
+    {
+        "columns":
+        [
+            {
+                "id": 0,
+                "image":"optional string",
+                "imageAlt": "alt for image",
+                "headline":"optional 1 character string",
+                "bold":"Larger bold text at the top",
+                "text":"text"
+            }
+        ]
+    }
+}

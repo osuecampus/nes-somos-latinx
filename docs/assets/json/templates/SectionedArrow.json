@@ -1,0 +1,22 @@
+{
+    "id":1,
+    "type":"SectionedArrow",
+    "details":
+    [
+        {
+            "key":1,
+            "background":"color",
+            "text":"thinking about what you’ll say next"
+        },
+        {
+            "key":2,
+            "background":"color",
+            "text":"thinking about what you’ll say next"
+        },
+        {
+            "key":3,
+            "background":"color",
+            "text":"thinking about what you’ll say next"
+        }
+    ]
+}

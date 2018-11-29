@@ -1,0 +1,12 @@
+{
+    "id":1,
+    "type":"SubjectBlock",
+    "details":
+    {
+        "backgroundType": "none || image || color",
+        "backgroundValue": "url || color",
+        "align": "center || left || right",
+        "text":"Text goes here",
+        "size": "bigger"
+    }
+}

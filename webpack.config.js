@@ -13,6 +13,9 @@ const copyWebpackPlugin = new CopyWebpackPlugin([{
 );
 
 module.exports = {
+  output: {
+    path: __dirname + '/docs'
+  },
   module: {
     rules: [
       {

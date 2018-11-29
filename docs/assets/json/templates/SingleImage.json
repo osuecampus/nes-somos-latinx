@@ -1,0 +1,9 @@
+{
+    "id":1,
+    "type":"SingleImage",
+    "details":
+    {
+        "url":"image url",
+        "imageAlt":"An island in the fog"
+    }
+}

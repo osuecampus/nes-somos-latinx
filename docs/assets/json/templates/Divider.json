@@ -1,0 +1,9 @@
+{
+    "id":4,
+    "type":"Divider",
+    "details":
+    {
+        "format":"number",
+        "character":"1"
+    }
+}

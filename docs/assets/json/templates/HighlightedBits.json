@@ -1,0 +1,31 @@
+{
+    "id":1,
+    "type":"HighlightedBits",
+    "details":
+    {
+        "textBlocks":
+        [
+            {
+                "id":0,
+                "type":"text",
+                "text":"text"
+            },
+            {
+                "id":1,
+                "type":"highlight",
+                "highlight":"red",
+                "color":"black",
+                "text":"text"
+            }
+        ],
+        "legends":
+        [
+            {
+                "id":1,
+                "highlight":"red",
+                "color":"black",
+                "text":"This is text explaining the highlight"
+            }
+        ]
+    }
+}
