@@ -515,6 +515,12 @@ body.darkLook {
     align-items: center;
     transition: all .5s ease-in-out;
 }
+.activeTreeUnit {
+    border-left: 2px solid #0055f2;
+}
+.activeTreePage {
+    border-left: 5px solid #0055f2;
+}
 .branding{
     width: 90%;
     margin-top: 25px;
