@@ -24,7 +24,9 @@ export default class TabbedContentExplorer extends Component {
         <div className={css(ss.tabHold)}>
           {this.props.details.tabs.map((block) => 
             <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id) : null } onClick={() => this.setTab(block.id)} tabIndex={'4'} key={block.id} className={css(ss.tab)}>
-              <img className={css(ss.image)} src={block.image} alt={block.imageAlt} title={block.imageAlt} />
+              <div className={css(ss.imgHold)}>
+                <img className={css(ss.image)} src={block.image} alt={block.imageAlt} title={block.imageAlt} />
+              </div>
               <sub className={css(ss.subTitle)}>{block.text}</sub>
             </div>
           )}
@@ -81,14 +83,22 @@ const ss = StyleSheet.create({
       padding:0,
     }
   },
-  image:{
+  imgHold:{
     height:75,
     width:75,
     borderRadius:45,
+    overflow:'hidden',
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
     '@media (max-width: 700px)': {
       height:50,
       width:50
     }
+  },
+  image:{
+    height:'100%',
+    width:'auto',
   },
   subTitle:{
     fontSize:13,

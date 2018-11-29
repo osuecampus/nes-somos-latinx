@@ -1746,27 +1746,27 @@
                                 [
                                     {
                                         "id":0,
-                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-1.png",
-                                        "imageAlt":"Student 1",
-                                        "text":"Student One"
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-dylan.jpg",
+                                        "imageAlt":"Dylan",
+                                        "text":"Dylan"
                                     },
                                     {
                                         "id":1,
-                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-2.png",
-                                        "imageAlt":"Student 2",
-                                        "text":"Student Two"
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-paola.jpg",
+                                        "imageAlt":"Paola",
+                                        "text":"Paola"
                                     },
                                     {
                                         "id":2,
-                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-3.png",
-                                        "imageAlt":"Student 3",
-                                        "text":"Student Three"
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg",
+                                        "imageAlt":"Abbey",
+                                        "text":"Abbey"
                                     },
                                     {
                                         "id":3,
-                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-student-4.png",
-                                        "imageAlt":"Student 4",
-                                        "text":"Student Four"
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg",
+                                        "imageAlt":"Ruta",
+                                        "text":"Ruta"
                                     }
                                 ],
                                 "browser":
