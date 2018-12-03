@@ -56,7 +56,6 @@ class Tree extends Component {
   }
 
   render() {
-    console.log(this.state.mobileView);
     return (
       <div className={'contentTree'}>
 

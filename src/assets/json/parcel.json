@@ -497,7 +497,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":48,
                             "type":"Text",
                             "details":
                             {
@@ -505,7 +505,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":49,
                             "type":"Text",
                             "details":
                             {
@@ -3365,7 +3365,7 @@
                                         "text":"Working through a problem together - alternating steps."
                                     },
                                     {
-                                        "id": 0,
+                                        "id": 1,
                                         "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twofour.png",
                                         "imageAlt": "Two students working on a white board",
                                         "text":"The students creating a concept map on the whiteboard, while you ask prompting questions like \"what else?\""
@@ -3387,7 +3387,7 @@
                                         "text":"Answering a question from a practice test independently and then comparing answers."
                                     },
                                     {
-                                        "id": 0,
+                                        "id": 1,
                                         "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fourfour.png",
                                         "imageAlt": "A woman reading a book.",
                                         "text":"Comparing answers and discussing how you each approached the question."
@@ -4004,7 +4004,7 @@
                             }
                         },
                         {
-                            "id":57,
+                            "id":57.5,
                             "type":"Text",
                             "details":
                             {
@@ -4258,6 +4258,390 @@
                                 "color":"rgb(255, 88, 88)",
                                 "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
                                 "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title" : "Getting Stuck",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Learning is a process. There will be moments where a student may get stuck in their progress and moments where they have a question you don’t know the answer to."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s explore both of these situations and identify some possible ways to respond that fit within our collaborative approach and the session objectives."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When Students Get Stuck"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Getting “stuck” can look different for everyone. Student A may quickly say “I don’t know” when they haven’t spent very long thinking about it. Student B may say “I don’t know” because they’re frustrated at how long they’ve been trying to understand."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s pause for a moment to consider what it feels like to get stuck."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #4 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In your own reflection you may have identified that getting stuck can be a frustrating experience. It’s helpful to identify how you feel in that situation, but also to acknowledge that each person has a different emotional response to encountering learning-related challenges."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As we talk about some of the more concrete possibilities for responding in the moment, consider the impact for the student if you can:"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Show empathy in the moment"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Withhold judgment of the student"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Demonstrate flexibility in how to proceed"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Be open to feedback and the possibility that what you’ve been doing may not be working for them"
+                                }
+                            ]
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As the peer educator, you have an opportunity to work with the student to determine how best to proceed."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If they are willing, they could keep trying to work through the problem or process, or they could work together with you if that would make it feel more do-able."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If they are frustrated, they may want to gather more information, see you attempt this or a similar problem, or take a break and work on something else."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Because it’s hard to guess what someone else needs, this is another moment to empower the student with choice and let them decide how they want to proceed."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"You may ask:"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"“Are you up for working through this together?”"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"“Would you like to attempt it again?”"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"“What would be most helpful right now?”"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"“Would it be helpful to take a break and work on something else?”"
+                                }
+                            ]
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Or make a suggestion:"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"“Maybe we can start by going back to the textbook?”"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"“Would it be helpful to switch back and forth and we’ll describe it together?”"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"“This can be a frustrating topic. Let’s do this first one together”"
+                                }
+                            ]
+                        },
+                        {
+                            "id":18,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Ruta's Approach"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Abbey's Approach"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When students get stuck, we can bring empathy and flexibility to the situation as a way of creating an empowering learning environment."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Now let’s look at what happens when the peer educator gets “stuck.”"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When You Don't Know An Answer",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Most peer educators encounter a moment when a student has a question they are unable to answer. Each student is coming in with a unique set of questions and not all questions will be in your areas of expertise. As the peer educator, you won’t always know the answer, and the good news is you don’t have to!"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"These situations give you the opportunity to model other valuable skills and strategies for problem solving."
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Additionally, when students see that you as the peer educator may not always know the answer, they might feel more comfortable sharing and processing their challenges with you. These moments can build rapport and strengthen the relationship."
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When you don’t know the answer to a question, here’s are some things you can do:"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Acknowledge that you don’t know, while maintaining rapport",
+                                        "text":"As a starting place, you can repeat or paraphrase the question to be sure you’re understanding correctly. You may then acknowledge that you don’t know the answer, but  that you are committed to helping them find it. For example: “I’m not as familiar with this topic, let’s find out more together” or “It’s been a while since I took this class, let’s look this up to be sure you’ve got the correct information.” In both examples you provide a rationale and a path forward."
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Model a process for finding the information",
+                                        "text":"You have a great opportunity to demonstrate how you would find an answer to a question, and to role modeling this answer-seeking learning strategy. For example: “Let’s look in the textbook or lecture notes to see if we can find more information on this topic” or “I wonder if there is a video on Khan academy that would help us.” This approach allows the student to observe your process of solving a problem and provides ideas for what their own process might look like moving forward."
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Make referrals to additional resources",
+                                        "text":"If you’ve taken advantage of the tools in front of you in the moment, you may consider making a referral to another resource: other peer educators or tutors, professors or TAs in office hours, or the student’s classmates. You may ask “Who else could we talk to for their perspective on this?” or say “It would be great to get a concrete answer to this question. Would it make sense to ask the instructor?”. This technique will ensure the student has access to the most accurate information and demonstrates your commitment to helping them answer the question."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s dig a bit further into this final technique: making referrals to other resources."
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Seeking help and knowing how to ask for help are valuable skills, and yet it takes effort to learn these skills.  We know it doesn’t always feel easy to ask for help - it can be an adjustment and it can feel like there are societal stigmas in doing so."
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a peer educator you are in a great position to normalize help seeking and promote the idea that asking for help is what successful students do."
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"You can do this by talking about resources and sharing your own experience using resources when relevant. Hear why Ruta, Connor, and Abbey talk to students about resources:"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In addition to normalizing help-seeking and promoting resource use, you have the opportunity to help students realize the range of resources and support they have available to them."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Knowing about and referring to other resources is a strategy we’ll explore further in Unit 3. For now, we just want to emphasize the invaluable role peer educators play in helping students identify and connect to resources."
                             }
                         }
                     ]
