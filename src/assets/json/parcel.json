@@ -5442,6 +5442,431 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 4,
+                    "title" : "\"W\" is Welcome",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 1: \"W\" is for \"Welcome\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-w.png",
+                                    "alt": "W puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Have you ever walked into a room where everyone stared at you but no one said anything? Or entered a space and been unsure of what to do first?"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Creating a welcoming space for students starts with the physical environment and your initial interaction. Let’s explore these two topics:"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Arranging the space"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Greeting"
+                                }
+                            ]
+                        },
+                        {
+                            "id":5,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Arranging the Space"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Ideally, you will have an opportunity to arrange the physical environment to create an optimal space for learning."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you have the ability to choose where you meet with a student, the following ideas will help you think about where you can find a good space for working together."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you are meeting in a space already designated for your work, there still may be small things you can do to create a welcoming environment within the space itself."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Consider what makes a space welcoming to you:"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #2 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While your own reflection on welcoming spaces is a great start, remember we all experience spaces differently. Part of this activity may help you move beyond your own preferences to create an environment that works for the student as well."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-classroom.jpg",
+                                "imageAlt":"An empty classroom"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"The Window",
+                                        "text":"Natural lighting and fresh air can make a space more comfortable. In indoor spaces, consider if there is adequate ligting for the task/conversation."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"The Text on the Chalkboard",
+                                        "text":"Take note of when the room is available and for how long. If you don’t have the space reserved, you will want to plan accordingly so it doesn’t interrupt your session."
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Stack of Books",
+                                        "text":"Coordinate with the student to ensure you have the appropriate materials for the session. Access to a laptop, computer, or tablet may be helpful in some instances. The course textbook and other study accessories can be helpful as well."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Pair of Desks",
+                                        "text":"Moveable chairs are nice because you can set up the space yourself. If the desks are too close, spread them out; too far away, bring them closer. If you’re meeting more than one person, set up enough chairs so everyone feels welcome. Also be aware that some students may prefer to sit with their back to a wall or corner."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Wherever",
+                                        "text":"This classroom space appears empty - which would mean fewer distractions and reduced noise during your conversation. In many instances however, it can be helpful to meet in a more public setting. Talk to your supervisor further about the location you’ll be working in or err on the side of a public space in the library."
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Eraser/Check Tray on the Chalkboard",
+                                        "text":"It’s nice to have chalkboards or whiteboards in your space for working on problems or diagrams, particularly if you don’t have a lot of room on the table or desks. If you aren’t sure there will be chalk or markers available, consider bringing some with you."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"The Empty Desk",
+                                        "text":"Take note of a space cluttered with chairs or furniture. This arrangement would be difficult to navigate for someone using a wheelchair."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As you can tell, there are many ways the space itself can impact how someone experience a feeling of welcome. As you arrange your space to create a positive learning environment think about the following questions:"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Is there space for you and the student to do work?"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"What support tools (whiteboard, markers, textbooks, computers, notepads, etc.) would help the session?"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"What is the noise level of the space and the surrounding area?"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"What can you do? What do you have control over?"
+                                }
+                            ]
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"After your initial meeting, you can check in with the student about the space. Was this a good space for meeting? What worked about the space? What could be improved? Was there anything about the space or area that made it hard to focus?"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Greeting"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Once the space is set up, your initial greeting to the student is another way to make them feel welcomed to your session or interaction."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"An effective greeting can:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Confirm for a student that they’re in the right place"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Build rapport in the helping relationships"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Get the session started off on the right note"
+                                }
+                            ]
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s hear from some of our peer educators about how they set a positive tone in the opening of their sessions."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Hear how our peer educators set a positive tone in their sessions."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Hear how our peer educators set a positive tone in their sessions."
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"TabbedContentExplorer",
+                            "details":
+                            {
+                                "tabs":
+                                [
+                                    {
+                                        "id":0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg",
+                                        "imageAlt":"Abbey",
+                                        "text":"Abbey's Response"
+                                    },
+                                    {
+                                        "id":1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg",
+                                        "imageAlt":"Ruta",
+                                        "text":"Ruta's Response"
+                                    }
+                                ],
+                                "browser":
+                                [
+                                    {
+                                        "id":0,
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width:100%' /></div>"
+                                    },
+                                    {
+                                        "id":1,
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width:100%' /></div>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":3,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":4,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":5,
+                                        "htmlContent":"<div style='display:flex;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose a name above to show their response...<p/></div>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Introduce yourself or greet them by name to help them feel welcome, invite them to settle in"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"Help the student transition into the session, especially they seems rushed"
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"Checking in on a task from last time, demonstrate that you remember and care"
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":3,
+                                        "text":"Explain how you approach your role"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"\"I've heard students look at textbook examples, would that be helpful?\""
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":0,
+                                        "text":"\"I'd reccomend reviewing your notes first, then checking the textbook.\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"\"Would you like to hear an idea? What if we look at examples from your notes?\""
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":99,
+                                        "text":"Great job! You've successfully matched everything."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         }
