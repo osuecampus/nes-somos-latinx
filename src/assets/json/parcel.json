@@ -5285,6 +5285,161 @@
                                 "alt":"A graphical model of McDonald's Tutor Cycle. Click or focus to show in text form",
                                 "html":"<h3 style='margin:0; margin-bottom:-50px;'>McDonald's Tutor Cycle (1994)</h3><br><ol><li>Greeting & Climate Setting</li><li>Identification of Task</li><li>Breaking Task Into Parts</li><li>Indentification of Thought Process</li><li>Set An Agenda</li><li>Address the Task</li><li>Summarize the Content</li><li>Summarize the Process</li><li>Confirmation of Process</li><li>What's Next?</li><li>Arrange & Plan Next Session</li><li>Close & Goodbye</li></ol>"
                             }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While the model has some important components, we’ve created an adaptation of this model that focuses your attention on 4 key phases of the peer education session."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The WISE model places the emphasis on working collaboratively with the student to accomplish each phase."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"A Simplified Approach - \"WISE\" Peer Education"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<b>Welcome</b><p>Set up the space, greet the student.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-w.png",
+                                    "alt": "W puzzle piece"
+                                }
+                        },
+                        {
+                            "id":6,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<b>Identify Goals & Approach</b><p>Identify the goals for the session and map out how you’ll approach your time together.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-i.png",
+                                    "alt": "I puzzle piece"
+                                }
+                        },
+                        {
+                            "id":7,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<b>Support Their Learning</b><p>Address the task, work through the content to achieve the goals; engage all the strategies of working together.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-s.png",
+                                    "alt": "S puzzle piece"
+                                }
+                        },
+                        {
+                            "id":8,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<b>End with Purpose</b><p>Summarize the learning, validate, identify next steps, and offer resources when possible.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-e.png",
+                                    "alt": "E puzzle piece"
+                                }
+                        },
+                        {
+                            "id":9,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Although represented equally in the diagram, the four phases of session structure W-I-S-E are likely not divided equally when you look at a timeline of a tutoring session.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-wise.png",
+                                    "alt": "Wise puzzle"
+                                }
+                        },
+                        {
+                            "id":10,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For example, one possible timeline for a 50 minute session:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Welcome",
+                                        "text":"1-2 Minutes. Set up the space, greet the student"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Identify Goals & Approach",
+                                        "text":"5-8 Minutes. Identify goals for the session & map out how you'll approach your time together."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Support Their Learning",
+                                        "text":"30-40 Minutes. Address the task, work through the content to acheive the goals; engage all the strategies of working together (examples demonstrated in Unit 2)."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"End With Purpose",
+                                        "text":"5-8 Minutes. Summarize the learning, validate, identify next steps & offer resources when possible."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Again we emphasize flexibility in the session flow, however, let’s dive deeper into each of these phases."
+                            }
                         }
                     ]
                 }
