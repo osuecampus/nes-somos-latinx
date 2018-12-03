@@ -5276,6 +5276,16 @@
                     "title" : "The WISE Model",
                     "blocks":
                     [
+                        {
+                            "id":1,
+                            "type":"AccessibleImageModel",
+                            "details":
+                            {
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-mcdonald.png",
+                                "alt":"A graphical model of McDonald's Tutor Cycle. Click or focus to show in text form",
+                                "html":"<h3 style='margin:0; margin-bottom:-50px;'>McDonald's Tutor Cycle (1994)</h3><br><ol><li>Greeting & Climate Setting</li><li>Identification of Task</li><li>Breaking Task Into Parts</li><li>Indentification of Thought Process</li><li>Set An Agenda</li><li>Address the Task</li><li>Summarize the Content</li><li>Summarize the Process</li><li>Confirmation of Process</li><li>What's Next?</li><li>Arrange & Plan Next Session</li><li>Close & Goodbye</li></ol>"
+                            }
+                        }
                     ]
                 }
             ]

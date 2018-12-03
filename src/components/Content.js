@@ -27,6 +27,7 @@ import ExternalLinkBox from "../blocks/ExternalLinkBox";
 import AccordionReveal from "../blocks/AccordionReveal";
 import SectionedArrow from "../blocks/SectionedArrow";
 import YoutubeVideo from "../blocks/YoutubeVideo";
+import AccessibleImageModel from "../blocks/AccessibleImageModel";
 
 const components = {
   ImageText: ImageText,
@@ -50,7 +51,8 @@ const components = {
   ExternalLinkBox: ExternalLinkBox,
   AccordionReveal: AccordionReveal,
   SectionedArrow: SectionedArrow,
-  YoutubeVideo: YoutubeVideo
+  YoutubeVideo: YoutubeVideo,
+  AccessibleImageModel: AccessibleImageModel
 };
 
 class Content extends Component {
