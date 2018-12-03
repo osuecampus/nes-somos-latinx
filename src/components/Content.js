@@ -26,6 +26,7 @@ import QuizMultipleChoice from "../blocks/QuizMultipleChoice";
 import ExternalLinkBox from "../blocks/ExternalLinkBox";
 import AccordionReveal from "../blocks/AccordionReveal";
 import SectionedArrow from "../blocks/SectionedArrow";
+import YoutubeVideo from "../blocks/YoutubeVideo";
 
 const components = {
   ImageText: ImageText,
@@ -48,7 +49,8 @@ const components = {
   QuizMultipleChoice: QuizMultipleChoice,
   ExternalLinkBox: ExternalLinkBox,
   AccordionReveal: AccordionReveal,
-  SectionedArrow: SectionedArrow
+  SectionedArrow: SectionedArrow,
+  YoutubeVideo: YoutubeVideo
 };
 
 class Content extends Component {
