@@ -4645,6 +4645,172 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 5,
+                    "title" : "Review and Complete Unit",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 2,  we’ve talked about:"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Collaborating with the student throughout the learning process"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Scaffolding support for students at different stages of learning"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Identifying learning activities that fit various session goals"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Responding when a student gets stuck"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Modeling problem solving when you don’t know an answer to a question"
+                                },
+                                {
+                                    "key":6,
+                                    "text":"Engaging in resource referral to support the student"
+                                }
+                            ]
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s wrap up this unit by revisiting our student scenarios and applying the learning from these topics."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In each of the scenarios, we’ll imagine we’ve been working with the student during the session, so you’ll notice that we have a bit more information than we did before."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you click on the examples, think about what you’ve learned in this unit and how you might respond to each scenario."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Letty is struggling with a few of the concepts from Organic Chemistry. After a bit of work together, she can describe some of the concepts, but is overwhelmed by the amount of information.",
+                                        "html":"<p>Letty feels overwhelmed by the amount of information in front of her. You might:</p><ul><li>Check in with her about what she wants to focus on or if she needs a break.</li><li>Share how you tackled the volume of information when you took the class.</li><li>Plan ahead for to design a study guide to use for review and practice.</li><li>Offer some additional resources to support her beyond this session.</li></ul>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Jackson has a homework problem from math class that’s really stumping him. Jackson figured out his homework problem and worked through the others and you still have time left.",
+                                        "html":"<p>Jackson figured out the homework problem and there’s time left to continue working together. You might:</p><ul><li>Practice variations of the problems without looking at examples or without help from you.</li><li>Brainstorm possible errors that students might make on this type of problem.</li><li>Mix up the problem types and practice identifying the type of problem each is and how to solve it.</li></ul>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Erin has a midterm in their psychology class in 4 days and wants to make sure they are prepared. Erin wants to review the parts of the brain, however you find you can’t quite remember some of the nuances of the material either.",
+                                        "html":"<p>Erin has a midterm in 4 days and while you’ve been able to help a lot, you’re not as clear on some of the information:</p><ul><li>Offer to practice recall while asking questions from the book (you can see the answers).</li><li>Model finding the answers by looking at course materials or online resources.</li><li>Recommend they send an email or stop by office hours between now and the exam to clarify the question.</li></ul>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Wrapping Up Unit 2",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 2, we discussed strategies for working together and becoming co-learners during the process. These are strategies and tools help you empower the student in their own learning process."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you move on, click below for a handout with the main takeaways from Unit 2 - a tool you can continue to use in your work as a peer educator."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Unit 2 Takeaways",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Download it, save it, print it! Have this at hand for a quick reference sheet when you need a reminder of the how to empower students through collaborative learning."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"ExternalLinkBox",
+                            "details":
+                            {
+                                "text":"Reference list and learning materials associated with this unit",
+                                "button":"Click Here",
+                                "link":"https://youtu.be/YMyofREc5Jk?t=8m14s"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 3, “Creating a Supportive Structure for Learning”, we will explore concrete ways to organize your session to help the student meet their goals while attending to our key objectives for peer educator sessions."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"You've completed unit 2"
+                            }
+                        }
+                    ]
                 }
             ]
         }

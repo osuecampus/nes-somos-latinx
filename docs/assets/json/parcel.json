@@ -497,7 +497,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":48,
                             "type":"Text",
                             "details":
                             {
@@ -505,7 +505,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":49,
                             "type":"Text",
                             "details":
                             {
@@ -3365,7 +3365,7 @@
                                         "text":"Working through a problem together - alternating steps."
                                     },
                                     {
-                                        "id": 0,
+                                        "id": 1,
                                         "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-twofour.png",
                                         "imageAlt": "Two students working on a white board",
                                         "text":"The students creating a concept map on the whiteboard, while you ask prompting questions like \"what else?\""
@@ -3387,7 +3387,7 @@
                                         "text":"Answering a question from a practice test independently and then comparing answers."
                                     },
                                     {
-                                        "id": 0,
+                                        "id": 1,
                                         "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-fourfour.png",
                                         "imageAlt": "A woman reading a book.",
                                         "text":"Comparing answers and discussing how you each approached the question."
@@ -3797,7 +3797,7 @@
                             {
                                 "backgroundType": "none",
                                 "align": "center",
-                                "text":"Investigating togeter - What does it look like?"
+                                "text":"Investigating together - What does it look like?"
                             }
                         },
                         {
@@ -4004,7 +4004,7 @@
                             }
                         },
                         {
-                            "id":57,
+                            "id":57.5,
                             "type":"Text",
                             "details":
                             {
@@ -4061,6 +4061,753 @@
                                 "backgroundType": "none",
                                 "align": "center",
                                 "text":"Once you have a shared understanding about the session and your role, you can use different learning activities to help a student at various points in their learning process. Let’s explore that idea further."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title" : "Learning Activities",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Your Toolbox of Learning Activities",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Within the realm of collaborative learning, there are many ways to approach learning activities within a session. The student’s experience, strengths, and goals for the session --as well as the course, its design, and the broader discipline-- all impact which activities make the most sense for your time together."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In this section, we’ll look at a range of learning activities and how they relate to the session goals. Having a breadth of options for ways to engage with the content or course material will allow you to be flexible in the session and adjust to what the student needs."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Each student will likely have different goals for wanting to work with you. One student may want help on a homework problem or assignment. One may want to better understand a concept from lecture or lab. Another may want help preparing for an exam by prioritizing and practicing important concepts. Luckily there are many learning activities available. Here’s a brief list of learning activities that you might consider in your work with students:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Describe ideas and concepts in their own words"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Organize diagrams, graphs into statements, descriptions"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Write out questions and answers that could show up on the test"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Connect lecture notes with the book"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Write exam questions"
+                                },
+                                {
+                                    "key":6,
+                                    "text":"Practice multiple choice questions"
+                                },
+                                {
+                                    "key":7,
+                                    "text":"Write paragraphs"
+                                },
+                                {
+                                    "key":8,
+                                    "text":"Arrange information into lists, words into hierarchies"
+                                },
+                                {
+                                    "key":9,
+                                    "text":"Redraw graphs and images from memory"
+                                },
+                                {
+                                    "key":10,
+                                    "text":"Create study sheets"
+                                },
+                                {
+                                    "key":11,
+                                    "text":"Take a practice exam or mix up practice problems"
+                                },
+                                {
+                                    "key":12,
+                                    "text":"Explain new ideas to other people"
+                                },
+                                {
+                                    "key":13,
+                                    "text":"Teach the material to someone else"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Let’s explore a few of these learning activities in the context of a session."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For each scenario below, click on heading to view some of the example activities that might be a good fit for that student’s session goal."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Letty is struggling with a few of the concepts from Organic Chemistry",
+                                        "html":"<p>Sample activities that would help Letty meet her goal:</p><ul><li>Letty could use her lecture notes and teach you concepts using her notes. When she gets stuck, you could walk her through deconstructing what she knows and what’s confusing.</li><li>You can use the questions at the back of the textbook chapter to quiz her, and she can identify what she knows and what is confusing.</li><li>You and Letty could look through the concepts in the book and take turns explaining concepts to each other in your own words.</li><li>Letty could draw out a concept map connecting concepts and include examples showing application of each concept (either on sheet of paper/white board).</li><li>You could write out chemistry reactions and Letty could explain what you’re doing as you go. Then you could switch roles.</li></ul>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Jackson has a homework problem from math class that's really stumping him",
+                                        "html":"<p>Sample activities that would help Jackson meet his goal:</p><ul><li>Jackson could talk through his understanding of the problem: What type of problem is it? What does he notice about it? What concepts might apply? How far did he get solving it? What equations or techniques might be useful?</li><li>You could look for similar problems in lecture notes or textbook and ask Jackson to talk through the steps in the example.</li><li>Together, you could look for explanations online of how to solve that problem type (khan academy/wolfram alpha) and watch them. You could then ask Jackson to summarize what he took away from the video.</li><li>You could identify a similar problem and each of you solve it, noting the steps or process involved. You could then compare your approach and discuss it.</li><li>You could ask questions as you walk through solving the problem (versus solving it for them): How do you want to start this problem? What if we tried looking at the graph first? What do you think we do next?</li></ul>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Erin has a midterm in their psychology class in 4 days and wants to make sure they are prepared",
+                                        "html":"<p>Sample activities that would help Erin meet their goal:</p><ul><li>Erin could pull out notes from lecture and teach you sections from their notes, looking for places they are stuck.</li><li>You and Erin could create a concept map for the topics on the test and talk about what still feels confusing vs. where they feel confident.</li><li>Erin could work through some practice test questions, mixing up content from all of the sections and topics, or take a practice test if one is available.</li><li>In areas that need more work, you could do some thinking exercises like compare/contrast, or identifying examples in real life scenarios.</li><li>Having identified places that need more attention, you could work together to identify ways to study and create a study plan for the next 4 days.</li></ul>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Given the breadth of possible learning activities, it may feel overwhelming to consider which tasks are appropriate for which types of settings. Some factors that will help you narrow your choices include:"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"The course, content, and discipline. Some types of course material lend themselves well to working through problems, while others lend themselves to summarizing ideas aloud or talking through differences."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"The goals of the session. If a student is learning the content for the first time, some activities associated with improving understanding and comprehension are more appropriate than those that emphasize retrieving the information through practicing recall."
+                                },
+                                {
+                                    "key":3,
+                                    "text":"The student. Many students are able to identify what types of activities work best for their learning. In Unit 3, we’ll talk through how to get their input on both the session goals and the learning activities."
+                                }
+                            ]
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a tool for your sessions, we’ve created a handy reference sheet of learning activities associated with different cognitive tasks and desired outcomes."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Learning Activities Reference Sheet",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title" : "Getting Stuck",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Learning is a process. There will be moments where a student may get stuck in their progress and moments where they have a question you don’t know the answer to."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s explore both of these situations and identify some possible ways to respond that fit within our collaborative approach and the session objectives."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When Students Get Stuck"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Getting “stuck” can look different for everyone. Student A may quickly say “I don’t know” when they haven’t spent very long thinking about it. Student B may say “I don’t know” because they’re frustrated at how long they’ve been trying to understand."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s pause for a moment to consider what it feels like to get stuck."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #4 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In your own reflection you may have identified that getting stuck can be a frustrating experience. It’s helpful to identify how you feel in that situation, but also to acknowledge that each person has a different emotional response to encountering learning-related challenges."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As we talk about some of the more concrete possibilities for responding in the moment, consider the impact for the student if you can:"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Show empathy in the moment"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Withhold judgment of the student"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Demonstrate flexibility in how to proceed"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Be open to feedback and the possibility that what you’ve been doing may not be working for them"
+                                }
+                            ]
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As the peer educator, you have an opportunity to work with the student to determine how best to proceed."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If they are willing, they could keep trying to work through the problem or process, or they could work together with you if that would make it feel more do-able."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If they are frustrated, they may want to gather more information, see you attempt this or a similar problem, or take a break and work on something else."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Because it’s hard to guess what someone else needs, this is another moment to empower the student with choice and let them decide how they want to proceed."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"You may ask:"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"“Are you up for working through this together?”"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"“Would you like to attempt it again?”"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"“What would be most helpful right now?”"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"“Would it be helpful to take a break and work on something else?”"
+                                }
+                            ]
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Or make a suggestion:"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"“Maybe we can start by going back to the textbook?”"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"“Would it be helpful to switch back and forth and we’ll describe it together?”"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"“This can be a frustrating topic. Let’s do this first one together”"
+                                }
+                            ]
+                        },
+                        {
+                            "id":18,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Ruta's Approach"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Abbey's Approach"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When students get stuck, we can bring empathy and flexibility to the situation as a way of creating an empowering learning environment."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Now let’s look at what happens when the peer educator gets “stuck.”"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When You Don't Know An Answer",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Most peer educators encounter a moment when a student has a question they are unable to answer. Each student is coming in with a unique set of questions and not all questions will be in your areas of expertise. As the peer educator, you won’t always know the answer, and the good news is you don’t have to!"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"These situations give you the opportunity to model other valuable skills and strategies for problem solving."
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Additionally, when students see that you as the peer educator may not always know the answer, they might feel more comfortable sharing and processing their challenges with you. These moments can build rapport and strengthen the relationship."
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"When you don’t know the answer to a question, here’s are some things you can do:"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Acknowledge that you don’t know, while maintaining rapport",
+                                        "text":"As a starting place, you can repeat or paraphrase the question to be sure you’re understanding correctly. You may then acknowledge that you don’t know the answer, but  that you are committed to helping them find it. For example: “I’m not as familiar with this topic, let’s find out more together” or “It’s been a while since I took this class, let’s look this up to be sure you’ve got the correct information.” In both examples you provide a rationale and a path forward."
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Model a process for finding the information",
+                                        "text":"You have a great opportunity to demonstrate how you would find an answer to a question, and to role modeling this answer-seeking learning strategy. For example: “Let’s look in the textbook or lecture notes to see if we can find more information on this topic” or “I wonder if there is a video on Khan academy that would help us.” This approach allows the student to observe your process of solving a problem and provides ideas for what their own process might look like moving forward."
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Make referrals to additional resources",
+                                        "text":"If you’ve taken advantage of the tools in front of you in the moment, you may consider making a referral to another resource: other peer educators or tutors, professors or TAs in office hours, or the student’s classmates. You may ask “Who else could we talk to for their perspective on this?” or say “It would be great to get a concrete answer to this question. Would it make sense to ask the instructor?”. This technique will ensure the student has access to the most accurate information and demonstrates your commitment to helping them answer the question."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s dig a bit further into this final technique: making referrals to other resources."
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Seeking help and knowing how to ask for help are valuable skills, and yet it takes effort to learn these skills.  We know it doesn’t always feel easy to ask for help - it can be an adjustment and it can feel like there are societal stigmas in doing so."
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a peer educator you are in a great position to normalize help seeking and promote the idea that asking for help is what successful students do."
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"You can do this by talking about resources and sharing your own experience using resources when relevant. Hear why Ruta, Connor, and Abbey talk to students about resources:"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In addition to normalizing help-seeking and promoting resource use, you have the opportunity to help students realize the range of resources and support they have available to them."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Knowing about and referring to other resources is a strategy we’ll explore further in Unit 3. For now, we just want to emphasize the invaluable role peer educators play in helping students identify and connect to resources."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title" : "Review and Complete Unit",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 2,  we’ve talked about:"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Collaborating with the student throughout the learning process"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Scaffolding support for students at different stages of learning"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Identifying learning activities that fit various session goals"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Responding when a student gets stuck"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Modeling problem solving when you don’t know an answer to a question"
+                                },
+                                {
+                                    "key":6,
+                                    "text":"Engaging in resource referral to support the student"
+                                }
+                            ]
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s wrap up this unit by revisiting our student scenarios and applying the learning from these topics."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In each of the scenarios, we’ll imagine we’ve been working with the student during the session, so you’ll notice that we have a bit more information than we did before."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you click on the examples, think about what you’ve learned in this unit and how you might respond to each scenario."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Letty is struggling with a few of the concepts from Organic Chemistry. After a bit of work together, she can describe some of the concepts, but is overwhelmed by the amount of information.",
+                                        "html":"<p>Letty feels overwhelmed by the amount of information in front of her. You might:</p><ul><li>Check in with her about what she wants to focus on or if she needs a break.</li><li>Share how you tackled the volume of information when you took the class.</li><li>Plan ahead for to design a study guide to use for review and practice.</li><li>Offer some additional resources to support her beyond this session.</li></ul>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Jackson has a homework problem from math class that’s really stumping him. Jackson figured out his homework problem and worked through the others and you still have time left.",
+                                        "html":"<p>Jackson figured out the homework problem and there’s time left to continue working together. You might:</p><ul><li>Practice variations of the problems without looking at examples or without help from you.</li><li>Brainstorm possible errors that students might make on this type of problem.</li><li>Mix up the problem types and practice identifying the type of problem each is and how to solve it.</li></ul>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Erin has a midterm in their psychology class in 4 days and wants to make sure they are prepared. Erin wants to review the parts of the brain, however you find you can’t quite remember some of the nuances of the material either.",
+                                        "html":"<p>Erin has a midterm in 4 days and while you’ve been able to help a lot, you’re not as clear on some of the information:</p><ul><li>Offer to practice recall while asking questions from the book (you can see the answers).</li><li>Model finding the answers by looking at course materials or online resources.</li><li>Recommend they send an email or stop by office hours between now and the exam to clarify the question.</li></ul>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Wrapping Up Unit 2",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 2, we discussed strategies for working together and becoming co-learners during the process. These are strategies and tools help you empower the student in their own learning process."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you move on, click below for a handout with the main takeaways from Unit 2 - a tool you can continue to use in your work as a peer educator."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Unit 2 Takeaways",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Download it, save it, print it! Have this at hand for a quick reference sheet when you need a reminder of the how to empower students through collaborative learning."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"ExternalLinkBox",
+                            "details":
+                            {
+                                "text":"Reference list and learning materials associated with this unit",
+                                "button":"Click Here",
+                                "link":"https://youtu.be/YMyofREc5Jk?t=8m14s"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Unit 3, “Creating a Supportive Structure for Learning”, we will explore concrete ways to organize your session to help the student meet their goals while attending to our key objectives for peer educator sessions."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"You've completed unit 2"
                             }
                         }
                     ]

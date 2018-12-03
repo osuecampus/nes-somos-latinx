@@ -515,7 +515,6 @@ body.darkLook {
     align-items: center;
     transition: all .5s ease-in-out;
 }
-
 .activeTreePage {
     border-left: 5px solid #0055f2;
 }
