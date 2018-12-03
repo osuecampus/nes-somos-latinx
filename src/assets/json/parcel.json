@@ -4813,6 +4813,30 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 3,
+            "title": "Unit 3: Creating A Supportive Structure For Learning",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Unit 3 Introduction",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-trees.jpg",
+                                "align": "left",
+                                "text":"This unit explores how to structure the peer education session to support student learning."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }]
