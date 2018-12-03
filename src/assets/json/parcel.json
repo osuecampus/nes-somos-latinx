@@ -4833,6 +4833,253 @@
                                 "align": "left",
                                 "text":"This unit explores how to structure the peer education session to support student learning."
                             }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin Unit 3, please click on the download button below to download/print a note-taking sheet."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Click the button to download and print the Unit 3 Reflection Guide",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a reminder, each peer education interaction provides you the opportunity to accomplish three key objectives:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "number":"1",
+                                    "text":"Support the student in recognizing their own capacity as a learner/student"
+                                },
+                                {
+                                    "key":2,
+                                    "number":"2",
+                                    "text":"Engage the student in thinking strategies and activities to master content"
+                                },
+                                {
+                                    "key":3,
+                                    "number":"3",
+                                    "text":"Help the student to identify tools and resources available to them"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The structure and design of the session or interaction plays a role in accomplishing these objectives."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Depending on the type of peer education, the session may be a set block of time (50 minutes, for example) or a shorter interaction. Keep that variation in mind as the strategies in this unit can be adapted to fit a range of different formats."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title" : "Creating Structure",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Why is session structure important?"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When you structure the interaction or session, it:"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Provides clarity for you and the student about what you’ll spend your time doing, which in turn, will make the time feel more productive for both of you"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Keeps you both on task, ensuring you accomplish the goal(s) you set within the time you have"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Helps to pace and organize the session"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Allows the student to focus on the content instead of the clock"
+                                }
+                            ]
+                        },
+                        {
+                            "id":4,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Who creates structure?"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some students you work with may come to you and want to lead the session:"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"“Here’s what I want to work on; here’s what I want to get out of our time  together”"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some students may not be sure of how best to spend the time, and want to defer to you to structure the format:"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"“I don’t know what to work on first”"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If there are multiple students in a session, or if a student is unclear, you may want to facilitate a group brainstorm to identify goals, and ultimately propose a structure based on what you hear."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"But it is not a rigid structure..."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Ultimately, you’ll want to come to each session able to structure the time if needed, but ready to be flexible if the student wants to guide your focus."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Regardless, your session will feel more productive to the student if you create buy-in by providing opportunities for the student(s) to have some choice and control over their learning and to guide the process."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Throughout a session, look for opportunities to provide some choices."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title" : "Preparing for the Session",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-book.jpg",
+                                "align": "left",
+                                "text":"Creating a supportive structure for learning begins before the session itself. It begins with your own preparation and pre-work."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"It takes work to be a peer educator. Just as teachers prepare for class, you should prepare for your peer education sessions."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Preparation for the session will give you confidence to focus on what is happening within the session and will create a better experience for the student."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For each peer educator, feeling “prepared” may look different. This is a great time to think about how specific activities, routines, and tasks can help you arrive at your session feeling ready to focus on the student (or students)."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some routines may include positive language and affirmations to pump you up:"
+                            }
                         }
                     ]
                 }

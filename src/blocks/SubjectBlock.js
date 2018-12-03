@@ -11,9 +11,9 @@ export default class SubjectBlock extends Component {
     return (
       <section style={{ height: this.props.details.backgroundType == 'image' ||  this.props.details.backgroundType == 'color' ? 350 : 'initial',   background: this.props.details.backgroundType == 'image' ? 'url('+this.props.details.backgroundValue+')' : this.props.detailsBackgroundType == 'none' ? 'transparent': this.props.details.backgroundValue }} className={css(ss.section, (this.props.details.backgroundType == 'image' ? ss.wideLoad : null))}>
         <p style={{ fontSize: this.props.details.size ? 'larger' : 'inherit', textAlign: this.props.details.align}} className={css(ss.text,(this.props.details.backgroundType == 'image' ? ss.overlay : null) ) }>
-          <div className={css(ss.innerText)}>
+          <span className={css(ss.innerText)}>
             {this.props.details.text}
-          </div>
+          </span>
         </p>
       </section>
     );
@@ -50,12 +50,12 @@ const ss = StyleSheet.create({
     width:'100%',
     fontFamily:'Open Sans',
     fontWeight:'700',
-    color:'#000',
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
   },
   innerText:{
-    maxWidth:860
+    maxWidth:860,
+    width:'100%',
   }
 });
