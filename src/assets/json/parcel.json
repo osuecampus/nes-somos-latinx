@@ -4096,6 +4096,169 @@
                             {
                                 "text":"In this section, we’ll look at a range of learning activities and how they relate to the session goals. Having a breadth of options for ways to engage with the content or course material will allow you to be flexible in the session and adjust to what the student needs."
                             }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Each student will likely have different goals for wanting to work with you. One student may want help on a homework problem or assignment. One may want to better understand a concept from lecture or lab. Another may want help preparing for an exam by prioritizing and practicing important concepts. Luckily there are many learning activities available. Here’s a brief list of learning activities that you might consider in your work with students:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Describe ideas and concepts in their own words"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Organize diagrams, graphs into statements, descriptions"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Write out questions and answers that could show up on the test"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Connect lecture notes with the book"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Write exam questions"
+                                },
+                                {
+                                    "key":6,
+                                    "text":"Practice multiple choice questions"
+                                },
+                                {
+                                    "key":7,
+                                    "text":"Write paragraphs"
+                                },
+                                {
+                                    "key":8,
+                                    "text":"Arrange information into lists, words into hierarchies"
+                                },
+                                {
+                                    "key":9,
+                                    "text":"Redraw graphs and images from memory"
+                                },
+                                {
+                                    "key":10,
+                                    "text":"Create study sheets"
+                                },
+                                {
+                                    "key":11,
+                                    "text":"Take a practice exam or mix up practice problems"
+                                },
+                                {
+                                    "key":12,
+                                    "text":"Explain new ideas to other people"
+                                },
+                                {
+                                    "key":13,
+                                    "text":"Teach the material to someone else"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Let’s explore a few of these learning activities in the context of a session."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For each scenario below, click on heading to view some of the example activities that might be a good fit for that student’s session goal."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Letty is struggling with a few of the concepts from Organic Chemistry",
+                                        "html":"<p>Sample activities that would help Letty meet her goal:</p><ul><li>Letty could use her lecture notes and teach you concepts using her notes. When she gets stuck, you could walk her through deconstructing what she knows and what’s confusing.</li><li>You can use the questions at the back of the textbook chapter to quiz her, and she can identify what she knows and what is confusing.</li><li>You and Letty could look through the concepts in the book and take turns explaining concepts to each other in your own words.</li><li>Letty could draw out a concept map connecting concepts and include examples showing application of each concept (either on sheet of paper/white board).</li><li>You could write out chemistry reactions and Letty could explain what you’re doing as you go. Then you could switch roles.</li></ul>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Jackson has a homework problem from math class that's really stumping him",
+                                        "html":"<p>Sample activities that would help Jackson meet his goal:</p><ul><li>Jackson could talk through his understanding of the problem: What type of problem is it? What does he notice about it? What concepts might apply? How far did he get solving it? What equations or techniques might be useful?</li><li>You could look for similar problems in lecture notes or textbook and ask Jackson to talk through the steps in the example.</li><li>Together, you could look for explanations online of how to solve that problem type (khan academy/wolfram alpha) and watch them. You could then ask Jackson to summarize what he took away from the video.</li><li>You could identify a similar problem and each of you solve it, noting the steps or process involved. You could then compare your approach and discuss it.</li><li>You could ask questions as you walk through solving the problem (versus solving it for them): How do you want to start this problem? What if we tried looking at the graph first? What do you think we do next?</li></ul>"
+                                    },
+                                    {
+                                        "id":3,
+                                        "revealText": "Erin has a midterm in their psychology class in 4 days and wants to make sure they are prepared",
+                                        "html":"<p>Sample activities that would help Erin meet their goal:</p><ul><li>Erin could pull out notes from lecture and teach you sections from their notes, looking for places they are stuck.</li><li>You and Erin could create a concept map for the topics on the test and talk about what still feels confusing vs. where they feel confident.</li><li>Erin could work through some practice test questions, mixing up content from all of the sections and topics, or take a practice test if one is available.</li><li>In areas that need more work, you could do some thinking exercises like compare/contrast, or identifying examples in real life scenarios.</li><li>Having identified places that need more attention, you could work together to identify ways to study and create a study plan for the next 4 days.</li></ul>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Given the breadth of possible learning activities, it may feel overwhelming to consider which tasks are appropriate for which types of settings. Some factors that will help you narrow your choices include:"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"The course, content, and discipline. Some types of course material lend themselves well to working through problems, while others lend themselves to summarizing ideas aloud or talking through differences."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"The goals of the session. If a student is learning the content for the first time, some activities associated with improving understanding and comprehension are more appropriate than those that emphasize retrieving the information through practicing recall."
+                                },
+                                {
+                                    "key":3,
+                                    "text":"The student. Many students are able to identify what types of activities work best for their learning. In Unit 3, we’ll talk through how to get their input on both the session goals and the learning activities."
+                                }
+                            ]
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a tool for your sessions, we’ve created a handy reference sheet of learning activities associated with different cognitive tasks and desired outcomes."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Learning Activities Reference Sheet",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
                         }
                     ]
                 }

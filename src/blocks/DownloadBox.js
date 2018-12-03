@@ -10,8 +10,10 @@ export default class DownloadBox extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <p className={css(ss.text)}>{this.props.details.text}</p>
-        <a tabIndex={'4'} download className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>Download</a>
+        <div className={css(ss.innerBox)}>
+          <p className={css(ss.text)}>{this.props.details.text}</p>
+          <a tabIndex={'4'} download className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>Download</a>
+        </div>
       </section>
     );
   }
@@ -19,20 +21,24 @@ export default class DownloadBox extends Component {
 
 const ss = StyleSheet.create({
   section: {
-      width: 'calc(100% - 70px)',
-      display:'flex',
-      padding:35,
-      justifyContent:'space-between',
-      alignItems:'center',
-      flexDirection:'row',
-      background: 'rgba(255,255,255,.1)',
-      borderRadius: 10,
-      border: '1px solid rgba(0,0,0,.15)',
-      '@media (max-width: 700px)': {
-        flexDirection: 'column',
-        width:'calc(100% - 70px)',
-        padding:0
-      }
+    display:'flex',
+    width:'100%',
+  },
+  innerBox:{
+    width: 'calc(100% - 70px)',
+    display:'flex',
+    padding:35,
+    justifyContent:'space-between',
+    alignItems:'center',
+    flexDirection:'row',
+    background: 'rgba(255,255,255,.1)',
+    borderRadius: 10,
+    border: '1px solid rgba(0,0,0,.15)',
+    '@media (max-width: 700px)': {
+      flexDirection: 'column',
+      width:'100%',
+      padding:0
+    }
   },
   button:{
     width:200,
