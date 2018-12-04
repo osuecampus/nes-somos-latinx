@@ -28,6 +28,7 @@ import AccordionReveal from "../blocks/AccordionReveal";
 import SectionedArrow from "../blocks/SectionedArrow";
 import YoutubeVideo from "../blocks/YoutubeVideo";
 import AccessibleImageModel from "../blocks/AccessibleImageModel";
+import MessengerBubble from "../blocks/MessengerBubble";
 
 const components = {
   ImageText: ImageText,
@@ -52,7 +53,8 @@ const components = {
   AccordionReveal: AccordionReveal,
   SectionedArrow: SectionedArrow,
   YoutubeVideo: YoutubeVideo,
-  AccessibleImageModel: AccessibleImageModel
+  AccessibleImageModel: AccessibleImageModel,
+  MessengerBubble: MessengerBubble
 };
 
 class Content extends Component {

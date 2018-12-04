@@ -5882,6 +5882,78 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": 5,
+                    "title" : "\"I\" is \"Identify Goals and Approach\"",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 2: \"I\" is for \"Identify Goals & Approach\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-i.png",
+                                    "alt": "I puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The “I” in WISE peer education is a reminder to identify the goal before starting on the tasks. The result will be a more focused session and it will be easier for both of you to stay on task, pace the timing, and feel successful at the end."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"It can be easy to dive in and start working right away, but it is important to spend a few moments to collaboratively identify the goals and tasks of the session, and to let the student think through how to approach these goal and tasks."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"There are many ways to approach this, but the following will provide an example of how to support a student in identifying a goal for the session and then how they might approach meeting that goal. As a guideline, dedicate at least five minutes at the beginning of each session for this work."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Identifying what to work on and the goal of the session"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"What do you want to work on during our time together today?"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I have a test next week I'm worried about."
+                            }
+                        }
+                    ]
                 }
             ]
         }
