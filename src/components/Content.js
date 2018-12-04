@@ -29,6 +29,7 @@ import SectionedArrow from "../blocks/SectionedArrow";
 import YoutubeVideo from "../blocks/YoutubeVideo";
 import AccessibleImageModel from "../blocks/AccessibleImageModel";
 import MessengerBubble from "../blocks/MessengerBubble";
+import TimelineArrow from "../blocks/TimelineArrow";
 
 const components = {
   ImageText: ImageText,
@@ -54,7 +55,8 @@ const components = {
   SectionedArrow: SectionedArrow,
   YoutubeVideo: YoutubeVideo,
   AccessibleImageModel: AccessibleImageModel,
-  MessengerBubble: MessengerBubble
+  MessengerBubble: MessengerBubble,
+  TimelineArrow: TimelineArrow
 };
 
 class Content extends Component {

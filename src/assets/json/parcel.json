@@ -5952,6 +5952,423 @@
                                 "side": "right",
                                 "text":"I have a test next week I'm worried about."
                             }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"This isn’t a lot of information yet. You’d have to guess to determine what their biggest concerns are. Better to keep digging a bit!"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"So you've got a test next week you're worried about."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"Tell me more about how we might use our time today related to that test."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I'm not sure how to study for it and I'm really confused on the last concepts from Chapter 3."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Ah ha! There's more information!"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"So you'd like to feel more confident in Chapter 3 content and talk through how to study. Is one or the other more important as a starting place?"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I guess the Chapter 3 material - that might take the longest."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"The student gets to decide where to start! That's ideal."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"Great! So we'll focus our time on Chapter 3 and if we run out of time, I can point you towards some tools for making a study plan later. Sound ok?"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Checking for consensus before moving on."
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the previous scenario, you’ve worked with the student to identify a focus for your time together; to determine what you will work on."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin the work, it can be helpful to have a similar conversation about how you will approach the work."
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Given the amount of time you have together, the format of your session, and the scope of the work, you may already have some ideas about how to approach the goal and what types of activities or tasks will help."
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If possible, give the student a chance to come up with an approach first as they may have already tried some activities or they may have an idea of what they think will work best for them."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Determining activities to achieve the session goal",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s say you are working with a student and have identified that their session goals is to:"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Review of course content from the past week."
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Here are some of the questions, prompts, or suggestions our peer educators often use to identify how to approach the session goal."
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"TimelineArrow",
+                            "details":
+                            {
+                                "events":
+                                [
+                                    {
+                                        "id": 0,
+                                        "background":"#444",
+                                        "color":"#ffffff",
+                                        "text":"If the student is able to identify activities to help achieve the goal"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "background":"#0e5bea",
+                                        "color":"#ffffff",
+                                        "text":"What do you want to be able to do at the end of our session?"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"What types of activities have helped you learn this content in the past?"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"Would it be helpful to walk through the lecture notes and identify where you're stuck?"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"Let's start with some review of the concepts and then do practice problems."
+                                    },
+                                    {
+                                        "id": 5,
+                                        "background":"#444",
+                                        "color":"#ffffff",
+                                        "text":"If the student needs help from the peer educator to identify activities to achieve the goal."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"All of these prompts may be appropriate in one context or another, and knowing the range of possibilities gives you options."
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Another way to identify how to approach the goal is to ask the student about their own awareness of how they learn. In this scenario (the session goal was to review course content from the past week), our peer educators brainstormed the following questions:"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "left",
+                                "text":"How have you used the textbook in hte past to learn concepts?"
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "right",
+                                "text":"What other learning resources besides the textbook or lecture are useful in this course? How and in what ways?"
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "left",
+                                "text":"What helps you understand the material? Reading? Listening? Summarizing in your own words? Writing it down?"
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "right",
+                                "text":"How have you used the textbook in the past to learn concepts?"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Once you’ve got a sense of the student’s goal:"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"My Session Goal: Review course content from the past week; ensure understanding of each problem type."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"And the types of activities that will help the student achieve that goal:"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Use the lecture notes as a guide for the types of problems I need to know"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Work through/talk through example problems so I know the steps involved"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Try out new problems and explain what I’m doing as I go"
+                                }
+                            ]
+                        },
+                        {
+                            "id":39,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"It's time to begin those activities!"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title" : "\"S\" is \"Support Their Learning\"",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 3: \"S\" is for \"Support Their Learning\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-s.png",
+                                    "alt": "S puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Much of what happens in the “S” stage of WISE peer education is the work of completing tasks and activities associated with the session goal."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Since Unit 2 focused heavily on the types of activities that assist learning and approach the learning collaboratively, this section will highlight additional ways you will create support in this learning environment."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As you engage in the various learning activities and tasks associated with helping the student reach their goals, you have many opportunities to provide support in the learning process. Many of these build off of topics from earlier units:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Acknowledging insights and accomplishments"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Calling attention to learning when it happens"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Validating effort and hard work"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Normalizing frustration or the ups and downs of the learning process"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Offering more practice or additional challenge when appropriate"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Let's Practice!",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Since you’ve had a chance to see some of these techniques in unit 1 and unit 2, let’s try them in some scenario work. Select the strategies that you would use for each of the scenarios below."
+                            }
                         }
                     ]
                 }
