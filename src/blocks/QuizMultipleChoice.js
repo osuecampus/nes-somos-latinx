@@ -25,10 +25,11 @@ export default class QuizMultipleChoice extends Component {
   }
   
   checkAnswer(id, buttonClicked){
+    this.state.currentAnswer == 99 ? null :
     id == this.state.currentAnswer ? 
          (this.refs.question.classList.add(css(ss.phaseOut)), 
          this.refs[buttonClicked].classList.add(css(ss.correct)),
-         setTimeout(() => {this.setQuestion(this.state.currentQuestion), this.refs.question.classList.remove(css(ss.phaseOut))}, 300 ))
+         setTimeout(() => {this.setQuestion(this.state.currentQuestion), this.refs.question.classList.remove(css(ss.phaseOut)),  this.refs[buttonClicked].classList.remove(css(ss.correct))}, 1200 ))
     : 
         (this.refs[buttonClicked].classList.add(css(ss.wrong)),
         setTimeout(() => {this.refs[buttonClicked].classList.remove(css(ss.wrong))},1000))

@@ -5846,20 +5846,35 @@
                                     {
                                         "id":0,
                                         "connector":1,
-                                        "text":"\"I've heard students look at textbook examples, would that be helpful?\""
+                                        "text":"\"You feeling ready?\" or \"Do you need a minute?\""
                                     },
                                     {
                                         "id":1,
-                                        "connector":0,
-                                        "text":"\"I'd reccomend reviewing your notes first, then checking the textbook.\""
+                                        "connector":2,
+                                        "text":"\"How did your exam go last week?\""
                                     },
                                     {
                                         "id":2,
-                                        "connector":2,
-                                        "text":"\"Would you like to hear an idea? What if we look at examples from your notes?\""
+                                        "connector":3,
+                                        "text":"\"I am here to _____, is that what you have in mind? Does that work for you?\""
                                     },
                                     {
                                         "id":3,
+                                        "connector":0,
+                                        "text":"\"My name is ___ it is nice to meet you!\""
+                                    },
+                                    {
+                                        "id":4,
+                                        "connector":1,
+                                        "text":"\"Is there anything you need before we start? Water? Bathroom break?\""
+                                    },
+                                    {
+                                        "id":5,
+                                        "connector":0,
+                                        "text":"\"I'm glad to see you again, Jose! Have a seat!\" (gesturing to a chair or spot a"
+                                    },
+                                    {
+                                        "id":6,
                                         "connector":99,
                                         "text":"Great job! You've successfully matched everything."
                                     }
