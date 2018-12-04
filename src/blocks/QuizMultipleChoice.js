@@ -46,7 +46,7 @@ export default class QuizMultipleChoice extends Component {
         </div>
         <div className={css(ss.answerHold)}>
             {this.props.details.options.map((block) => 
-                <div ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
+                <div style={{width: 'calc('+ ((1/this.props.details.options.length)*100) + '% - 60px)'}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
                     {block.text}
                 </div>
             )}
@@ -110,14 +110,15 @@ const ss = StyleSheet.create({
       },
   },
   answer:{
-      width:150,
-      height:55,
+      padding:15,
+      minHeight:130,
+      textAlign:'center',
       display:'flex',
       justifyContent:'center',
       alignItems:'center',
       backgroundColor:'#0e5bea',
-      fontSize:16,
-      borderRadius:45,
+      fontSize:15,
+      borderRadius:10,
       margin:12,
       cursor:'pointer',
       fontWeight:'600',
@@ -130,7 +131,7 @@ const ss = StyleSheet.create({
             backgroundColor: '#0046bb'
         },
         '@media (max-width: 700px)': {
-            width: 'calc(100% - 30px)',
+            width: 'calc(100% - 60px)',
             marginTop:5
         },
   },
