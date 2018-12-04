@@ -1,0 +1,8 @@
+{
+    "id":1,
+    "type":"YoutubeVideo",
+    "details":
+    {
+        "youtubeUrl":"https://www.youtube.com/embed/qR3rK0kZFkg"
+    }
+}

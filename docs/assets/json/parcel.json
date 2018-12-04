@@ -4813,6 +4813,1566 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 3,
+            "title": "Unit 3: Creating A Supportive Structure For Learning",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Unit 3 Introduction",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-trees.jpg",
+                                "align": "left",
+                                "text":"This unit explores how to structure the peer education session to support student learning."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin Unit 3, please click on the download button below to download/print a note-taking sheet."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"DownloadBox",
+                            "details":
+                            {
+                                "text":"Click the button to download and print the Unit 3 Reflection Guide",
+                                "link":"http://www.google.com/"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As a reminder, each peer education interaction provides you the opportunity to accomplish three key objectives:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "number":"1",
+                                    "text":"Support the student in recognizing their own capacity as a learner/student"
+                                },
+                                {
+                                    "key":2,
+                                    "number":"2",
+                                    "text":"Engage the student in thinking strategies and activities to master content"
+                                },
+                                {
+                                    "key":3,
+                                    "number":"3",
+                                    "text":"Help the student to identify tools and resources available to them"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The structure and design of the session or interaction plays a role in accomplishing these objectives."
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Depending on the type of peer education, the session may be a set block of time (50 minutes, for example) or a shorter interaction. Keep that variation in mind as the strategies in this unit can be adapted to fit a range of different formats."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title" : "Creating Structure",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Why is session structure important?"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When you structure the interaction or session, it:"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Provides clarity for you and the student about what you’ll spend your time doing, which in turn, will make the time feel more productive for both of you"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Keeps you both on task, ensuring you accomplish the goal(s) you set within the time you have"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Helps to pace and organize the session"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Allows the student to focus on the content instead of the clock"
+                                }
+                            ]
+                        },
+                        {
+                            "id":4,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Who creates structure?"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some students you work with may come to you and want to lead the session:"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"“Here’s what I want to work on; here’s what I want to get out of our time  together”"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some students may not be sure of how best to spend the time, and want to defer to you to structure the format:"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"“I don’t know what to work on first”"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If there are multiple students in a session, or if a student is unclear, you may want to facilitate a group brainstorm to identify goals, and ultimately propose a structure based on what you hear."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"But it is not a rigid structure..."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Ultimately, you’ll want to come to each session able to structure the time if needed, but ready to be flexible if the student wants to guide your focus."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Regardless, your session will feel more productive to the student if you create buy-in by providing opportunities for the student(s) to have some choice and control over their learning and to guide the process."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Throughout a session, look for opportunities to provide some choices."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title" : "Preparing for the Session",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-book.jpg",
+                                "align": "left",
+                                "text":"Creating a supportive structure for learning begins before the session itself. It begins with your own preparation and pre-work."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"It takes work to be a peer educator. Just as teachers prepare for class, you should prepare for your peer education sessions."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Preparation for the session will give you confidence to focus on what is happening within the session and will create a better experience for the student."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For each peer educator, feeling “prepared” may look different. This is a great time to think about how specific activities, routines, and tasks can help you arrive at your session feeling ready to focus on the student (or students)."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Some routines may include positive language and affirmations to pump you up:"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"https://www.youtube.com/embed/qR3rK0kZFkg"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Other routines may be non-verbal and can empower you, make you feel comfortable, or help you achieve focus and quiet your mind as in the case of meditation."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-collage.png",
+                                "imageAlt":"A collage of students around campus"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"You know yourself best and you’ll be able to identify activities that can help you feel energized and ready to focus. If you don’t have a lot of time, even a few deep breaths and a conscious attempt to set aside distracting or stressful thoughts can help you prepare to work with another student."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"In addition to your personal preparation, there are also tasks associated with preparing for the session:",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Reviewing prior notes or reminding yourself about the previous session you had with this student."
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Reviewing content areas that would be helpful for that particular session"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Engaging in a personal inventory to gauge stress level and distractions - are you able to focus?"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Brainstorming, setting goals, or identifying areas of focus for yourself as the peer educator"
+                                }
+                            ]
+                        },
+                        {
+                            "id":13,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Hear our peer educators explain what works for them as they prepare:"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Ruta's Preparation"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"If I’ve worked with a student before, for coaching I quickly skim through my notes from our last appointment and prepare follow-up questions from those notes.  If it’s a new student, to keep track of information during our appointment, I prepare four main questions beforehand such as what brought them in today, what their goal is for their appointment, the techniques that they are using at the moment, and what new strategies can they come up with on their own that would benefit their learning experience.  Usually when I’m stressed, I like to distract myself from whatever is overwhelming me through the preparation before appointments, or if someone is in the office, having a casual conversation is helpful for me as well.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg",
+                                    "alt": "Ruta",
+                                    "caption":"Ruta"
+                                }
+                        },
+                        {
+                            "id":16,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"Url of MP3 file",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Abbey's Preparation"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"If I’ve worked with a student before, I typically review notes from our last conversation, specifically paying attention to what their takeaways or next steps were from our last session so that I can check-in on how those are going. If it’s a new student, I’ll check to see if they have any specific topics they want to work and do a quick mental brainstorm about what resources or activities might be helpful for that topic if they seem applicable during our conversation. Finally, on days where I’m feeling emotionally drained, distracted, or stressed, I’ll take a deep breath before the appointment and maybe a short walk around the room to clear my head and recenter myself so that I can be fully present for the student.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg",
+                                    "alt": "Abbey",
+                                    "caption":"Abbey"
+                                }
+                        },
+                        {
+                            "id":19,
+                            "type":"AudioBlock",
+                            "details":
+                            {
+                                "audioUrl":"Url of MP3 file",
+                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #1 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Once prepared, you’ll be ready to begin the session itself."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"No two helping sessions look the same, and often there are differences in the type of session depending on the type of peer education. One-on-one subject tutoring, facilitated group study, mentoring or coaching all may look different."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Additionally the needs and interests of the student(s) will impact the structure of the design as well, so flexibility is key."
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"However, at this point, we’re going to work on the general parts of a tutoring or helping session, knowing they may differ depending on context, goals and needs."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title" : "The WISE Model",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"AccessibleImageModel",
+                            "details":
+                            {
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-mcdonald.png",
+                                "alt":"A graphical model of McDonald's Tutor Cycle. Click or focus to show in text form",
+                                "html":"<h3 style='margin:0; margin-bottom:-50px;'>McDonald's Tutor Cycle (1994)</h3><br><ol><li>Greeting & Climate Setting</li><li>Identification of Task</li><li>Breaking Task Into Parts</li><li>Indentification of Thought Process</li><li>Set An Agenda</li><li>Address the Task</li><li>Summarize the Content</li><li>Summarize the Process</li><li>Confirmation of Process</li><li>What's Next?</li><li>Arrange & Plan Next Session</li><li>Close & Goodbye</li></ol>"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While the model has some important components, we’ve created an adaptation of this model that focuses your attention on 4 key phases of the peer education session."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The WISE model places the emphasis on working collaboratively with the student to accomplish each phase."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"A Simplified Approach - \"WISE\" Peer Education"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<b>Welcome</b><p>Set up the space, greet the student.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-w.png",
+                                    "alt": "W puzzle piece"
+                                }
+                        },
+                        {
+                            "id":6,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<b>Identify Goals & Approach</b><p>Identify the goals for the session and map out how you’ll approach your time together.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-i.png",
+                                    "alt": "I puzzle piece"
+                                }
+                        },
+                        {
+                            "id":7,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "htmlContent":"<b>Support Their Learning</b><p>Address the task, work through the content to achieve the goals; engage all the strategies of working together.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-s.png",
+                                    "alt": "S puzzle piece"
+                                }
+                        },
+                        {
+                            "id":8,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"right",
+                                    "htmlContent":"<b>End with Purpose</b><p>Summarize the learning, validate, identify next steps, and offer resources when possible.</p>",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-e.png",
+                                    "alt": "E puzzle piece"
+                                }
+                        },
+                        {
+                            "id":9,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Although represented equally in the diagram, the four phases of session structure W-I-S-E are likely not divided equally when you look at a timeline of a tutoring session.",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-wise.png",
+                                    "alt": "Wise puzzle"
+                                }
+                        },
+                        {
+                            "id":10,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For example, one possible timeline for a 50 minute session:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Welcome",
+                                        "text":"1-2 Minutes. Set up the space, greet the student"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Identify Goals & Approach",
+                                        "text":"5-8 Minutes. Identify goals for the session & map out how you'll approach your time together."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Support Their Learning",
+                                        "text":"30-40 Minutes. Address the task, work through the content to acheive the goals; engage all the strategies of working together (examples demonstrated in Unit 2)."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"End With Purpose",
+                                        "text":"5-8 Minutes. Summarize the learning, validate, identify next steps & offer resources when possible."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Again we emphasize flexibility in the session flow, however, let’s dive deeper into each of these phases."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title" : "\"W\" is Welcome",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 1: \"W\" is for \"Welcome\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-w.png",
+                                    "alt": "W puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Have you ever walked into a room where everyone stared at you but no one said anything? Or entered a space and been unsure of what to do first?"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Creating a welcoming space for students starts with the physical environment and your initial interaction. Let’s explore these two topics:"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Arranging the space"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Greeting"
+                                }
+                            ]
+                        },
+                        {
+                            "id":5,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Arranging the Space"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Ideally, you will have an opportunity to arrange the physical environment to create an optimal space for learning."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you have the ability to choose where you meet with a student, the following ideas will help you think about where you can find a good space for working together."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you are meeting in a space already designated for your work, there still may be small things you can do to create a welcoming environment within the space itself."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"Consider what makes a space welcoming to you:"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #2 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"While your own reflection on welcoming spaces is a great start, remember we all experience spaces differently. Part of this activity may help you move beyond your own preferences to create an environment that works for the student as well."
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-classroom.jpg",
+                                "imageAlt":"An empty classroom"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"The Window",
+                                        "text":"Natural lighting and fresh air can make a space more comfortable. In indoor spaces, consider if there is adequate ligting for the task/conversation."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"The Text on the Chalkboard",
+                                        "text":"Take note of when the room is available and for how long. If you don’t have the space reserved, you will want to plan accordingly so it doesn’t interrupt your session."
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Stack of Books",
+                                        "text":"Coordinate with the student to ensure you have the appropriate materials for the session. Access to a laptop, computer, or tablet may be helpful in some instances. The course textbook and other study accessories can be helpful as well."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"Pair of Desks",
+                                        "text":"Moveable chairs are nice because you can set up the space yourself. If the desks are too close, spread them out; too far away, bring them closer. If you’re meeting more than one person, set up enough chairs so everyone feels welcome. Also be aware that some students may prefer to sit with their back to a wall or corner."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "bold":"Wherever",
+                                        "text":"This classroom space appears empty - which would mean fewer distractions and reduced noise during your conversation. In many instances however, it can be helpful to meet in a more public setting. Talk to your supervisor further about the location you’ll be working in or err on the side of a public space in the library."
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Eraser/Check Tray on the Chalkboard",
+                                        "text":"It’s nice to have chalkboards or whiteboards in your space for working on problems or diagrams, particularly if you don’t have a lot of room on the table or desks. If you aren’t sure there will be chalk or markers available, consider bringing some with you."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "bold":"The Empty Desk",
+                                        "text":"Take note of a space cluttered with chairs or furniture. This arrangement would be difficult to navigate for someone using a wheelchair."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As you can tell, there are many ways the space itself can impact how someone experience a feeling of welcome. As you arrange your space to create a positive learning environment think about the following questions:"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Is there space for you and the student to do work?"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"What support tools (whiteboard, markers, textbooks, computers, notepads, etc.) would help the session?"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"What is the noise level of the space and the surrounding area?"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"What can you do? What do you have control over?"
+                                }
+                            ]
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"After your initial meeting, you can check in with the student about the space. Was this a good space for meeting? What worked about the space? What could be improved? Was there anything about the space or area that made it hard to focus?"
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"2"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Greeting"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Once the space is set up, your initial greeting to the student is another way to make them feel welcomed to your session or interaction."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"An effective greeting can:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Confirm for a student that they’re in the right place"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Build rapport in the helping relationships"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Get the session started off on the right note"
+                                }
+                            ]
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s hear from some of our peer educators about how they set a positive tone in the opening of their sessions."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Hear how our peer educators set a positive tone in their sessions."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"KalturaVideo",
+                            "details":
+                            {
+                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Hear how our peer educators set a positive tone in their sessions."
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"TabbedContentExplorer",
+                            "details":
+                            {
+                                "tabs":
+                                [
+                                    {
+                                        "id":0,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg",
+                                        "imageAlt":"Abbey",
+                                        "text":"Abbey's Response"
+                                    },
+                                    {
+                                        "id":1,
+                                        "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg",
+                                        "imageAlt":"Ruta",
+                                        "text":"Ruta's Response"
+                                    }
+                                ],
+                                "browser":
+                                [
+                                    {
+                                        "id":0,
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width:100%' /></div>"
+                                    },
+                                    {
+                                        "id":1,
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width:100%' /></div>"
+                                    },
+                                    {
+                                        "id":2,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":3,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":4,
+                                        "htmlContent":""
+                                    },
+                                    {
+                                        "id":5,
+                                        "htmlContent":"<div style='display:flex;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose a name above to show their response...<p/></div>"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Introduce yourself or greet them by name to help them feel welcome, invite them to settle in"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"Help the student transition into the session, especially they seems rushed"
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"Checking in on a task from last time, demonstrate that you remember and care"
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":3,
+                                        "text":"Explain how you approach your role"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"\"You feeling ready?\" or \"Do you need a minute?\""
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":2,
+                                        "text":"\"How did your exam go last week?\""
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":3,
+                                        "text":"\"I am here to _____, is that what you have in mind? Does that work for you?\""
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":0,
+                                        "text":"\"My name is ___ it is nice to meet you!\""
+                                    },
+                                    {
+                                        "id":4,
+                                        "connector":1,
+                                        "text":"\"Is there anything you need before we start? Water? Bathroom break?\""
+                                    },
+                                    {
+                                        "id":5,
+                                        "connector":0,
+                                        "text":"\"I'm glad to see you again, Jose! Have a seat!\" (gesturing to a chair or spot a"
+                                    },
+                                    {
+                                        "id":6,
+                                        "connector":99,
+                                        "text":"Great job! You've successfully matched everything."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "title" : "\"I\" is \"Identify Goals and Approach\"",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 2: \"I\" is for \"Identify Goals & Approach\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-i.png",
+                                    "alt": "I puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The “I” in WISE peer education is a reminder to identify the goal before starting on the tasks. The result will be a more focused session and it will be easier for both of you to stay on task, pace the timing, and feel successful at the end."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"It can be easy to dive in and start working right away, but it is important to spend a few moments to collaboratively identify the goals and tasks of the session, and to let the student think through how to approach these goal and tasks."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"There are many ways to approach this, but the following will provide an example of how to support a student in identifying a goal for the session and then how they might approach meeting that goal. As a guideline, dedicate at least five minutes at the beginning of each session for this work."
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Identifying what to work on and the goal of the session"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"What do you want to work on during our time together today?"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I have a test next week I'm worried about."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"This isn’t a lot of information yet. You’d have to guess to determine what their biggest concerns are. Better to keep digging a bit!"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"So you've got a test next week you're worried about."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"Tell me more about how we might use our time today related to that test."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I'm not sure how to study for it and I'm really confused on the last concepts from Chapter 3."
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Ah ha! There's more information!"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"So you'd like to feel more confident in Chapter 3 content and talk through how to study. Is one or the other more important as a starting place?"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "Student",
+                                "side": "right",
+                                "text":"I guess the Chapter 3 material - that might take the longest."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"The student gets to decide where to start! That's ideal."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "name": "You",
+                                "side": "left",
+                                "text":"Great! So we'll focus our time on Chapter 3 and if we run out of time, I can point you towards some tools for making a study plan later. Sound ok?"
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"Checking for consensus before moving on."
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the previous scenario, you’ve worked with the student to identify a focus for your time together; to determine what you will work on."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Before you begin the work, it can be helpful to have a similar conversation about how you will approach the work."
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Given the amount of time you have together, the format of your session, and the scope of the work, you may already have some ideas about how to approach the goal and what types of activities or tasks will help."
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If possible, give the student a chance to come up with an approach first as they may have already tried some activities or they may have an idea of what they think will work best for them."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Divider",
+                            "details":
+                            {
+                                "format":"number",
+                                "character":"1"
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Determining activities to achieve the session goal",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s say you are working with a student and have identified that their session goals is to:"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Review of course content from the past week."
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Here are some of the questions, prompts, or suggestions our peer educators often use to identify how to approach the session goal."
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"TimelineArrow",
+                            "details":
+                            {
+                                "events":
+                                [
+                                    {
+                                        "id": 0,
+                                        "background":"#444",
+                                        "color":"#ffffff",
+                                        "text":"If the student is able to identify activities to help achieve the goal"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "background":"#0e5bea",
+                                        "color":"#ffffff",
+                                        "text":"What do you want to be able to do at the end of our session?"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"What types of activities have helped you learn this content in the past?"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"Would it be helpful to walk through the lecture notes and identify where you're stuck?"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "background":"#0e5bea",
+                                        "color":"#fff",
+                                        "text":"Let's start with some review of the concepts and then do practice problems."
+                                    },
+                                    {
+                                        "id": 5,
+                                        "background":"#444",
+                                        "color":"#ffffff",
+                                        "text":"If the student needs help from the peer educator to identify activities to achieve the goal."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"All of these prompts may be appropriate in one context or another, and knowing the range of possibilities gives you options."
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Another way to identify how to approach the goal is to ask the student about their own awareness of how they learn. In this scenario (the session goal was to review course content from the past week), our peer educators brainstormed the following questions:"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "left",
+                                "text":"How have you used the textbook in hte past to learn concepts?"
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "right",
+                                "text":"What other learning resources besides the textbook or lecture are useful in this course? How and in what ways?"
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "left",
+                                "text":"What helps you understand the material? Reading? Listening? Summarizing in your own words? Writing it down?"
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"MessengerBubble",
+                            "details":
+                            {
+                                "side": "right",
+                                "text":"How have you used the textbook in the past to learn concepts?"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"TaskBlock",
+                            "details":
+                            {
+                                "color":"rgb(255, 88, 88)",
+                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
+                                "text":"Reflection #3 - Fill out this section on your Notes Sheet"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Once you’ve got a sense of the student’s goal:"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"QuoteBox",
+                            "details":
+                            {
+                                "text":"My Session Goal: Review course content from the past week; ensure understanding of each problem type."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"And the types of activities that will help the student achieve that goal:"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Use the lecture notes as a guide for the types of problems I need to know"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Work through/talk through example problems so I know the steps involved"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Try out new problems and explain what I’m doing as I go"
+                                }
+                            ]
+                        },
+                        {
+                            "id":39,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "center",
+                                "text":"It's time to begin those activities!"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "title" : "\"S\" is \"Support Their Learning\"",
+                    "blocks":
+                    [
+                        {
+                            "id":1,
+                            "type":"ImageText",
+                            "details":
+                                {
+                                    "layout":"left",
+                                    "text":"Phase 3: \"S\" is for \"Support Their Learning\"",
+                                    "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-puzzle-s.png",
+                                    "alt": "S puzzle piece"
+                                }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Much of what happens in the “S” stage of WISE peer education is the work of completing tasks and activities associated with the session goal."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Since Unit 2 focused heavily on the types of activities that assist learning and approach the learning collaboratively, this section will highlight additional ways you will create support in this learning environment."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"As you engage in the various learning activities and tasks associated with helping the student reach their goals, you have many opportunities to provide support in the learning process. Many of these build off of topics from earlier units:"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":1,
+                                    "text":"Acknowledging insights and accomplishments"
+                                },
+                                {
+                                    "key":2,
+                                    "text":"Calling attention to learning when it happens"
+                                },
+                                {
+                                    "key":3,
+                                    "text":"Validating effort and hard work"
+                                },
+                                {
+                                    "key":4,
+                                    "text":"Normalizing frustration or the ups and downs of the learning process"
+                                },
+                                {
+                                    "key":5,
+                                    "text":"Offering more practice or additional challenge when appropriate"
+                                }
+                            ]
+                        },
+                        {
+                            "id":6,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "none",
+                                "align": "left",
+                                "text":"Let's Practice!",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Since you’ve had a chance to see some of these techniques in unit 1 and unit 2, let’s try them in some scenario work. Select the strategies that you would use for each of the scenarios below."
+                            }
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }]
