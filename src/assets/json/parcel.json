@@ -6369,6 +6369,44 @@
                             {
                                 "text":"Since you’ve had a chance to see some of these techniques in unit 1 and unit 2, let’s try them in some scenario work. Select the strategies that you would use for each of the scenarios below."
                             }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuizMultipleChoices",
+                            "details":
+                            {
+                                "question": "You’ve spent 30 minutes working on balancing chemistry equations and Maisie is starting to get frustrated that she can’t do it without looking at the example problem. She’s mastered most of the process, but keeps mixing up two steps. She’s also worried you’ll run out of time in the session before she can work through the other topics.",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "valid":true,
+                                        "text":"Acknowledging insights and accomplishments"
+                                    },
+                                    {
+                                        "id":1,
+                                        "valid":true,
+                                        "text":"Calling attention to learning when it happens"
+                                    },
+                                    {
+                                        "id":2,
+                                        "valid":false,
+                                        "text":"Validating effort and hard work"
+                                    },
+                                    {
+                                        "id":3,
+                                        "valid":false,
+                                        "text":"Normalizing frustration or the ups and downs of the learning process"
+                                    },
+                                    {
+                                        "id":4,
+                                        "valid":false,
+                                        "text":"Offering more practice or additional challenge when appropriate"
+                                    }
+                                ],
+                                "wrongStatement": "You got it wrong",
+                                "correctStatement": "You got it correct"
+                            }
                         }
                     ]
                 }

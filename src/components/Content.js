@@ -30,6 +30,7 @@ import YoutubeVideo from "../blocks/YoutubeVideo";
 import AccessibleImageModel from "../blocks/AccessibleImageModel";
 import MessengerBubble from "../blocks/MessengerBubble";
 import TimelineArrow from "../blocks/TimelineArrow";
+import QuizMultipleChoices from "../blocks/QuizMultipleChoices";
 
 const components = {
   ImageText: ImageText,
@@ -56,7 +57,8 @@ const components = {
   YoutubeVideo: YoutubeVideo,
   AccessibleImageModel: AccessibleImageModel,
   MessengerBubble: MessengerBubble,
-  TimelineArrow: TimelineArrow
+  TimelineArrow: TimelineArrow,
+  QuizMultipleChoices: QuizMultipleChoices
 };
 
 class Content extends Component {

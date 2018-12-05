@@ -3,11 +3,7 @@
     "type":"QuizMultipleChoices",
     "details":
     {
-        "question":
-        {
-            "id":0,
-                "text":"Okay"
-        },
+        "question":"Question goes here",
         "options":
         [
             {
@@ -17,12 +13,12 @@
             },
             {
                 "id":1,
-                "connector":1,
+                "valid":true,
                 "text":"Good"
             },
             {
                 "id":2,
-                "connector":2,
+                "valid":false,
                 "text":"Better"
             }
         ],
