@@ -1,0 +1,32 @@
+{
+    "id":1,
+    "type":"QuizMultipleChoices",
+    "details":
+    {
+        "question":
+        {
+            "id":0,
+                "text":"Okay"
+        },
+        "options":
+        [
+            {
+                "id":0,
+                "valid":true,
+                "text":"Okay"
+            },
+            {
+                "id":1,
+                "connector":1,
+                "text":"Good"
+            },
+            {
+                "id":2,
+                "connector":2,
+                "text":"Better"
+            }
+        ],
+        "wrongStatement": "You got it wrong",
+        "correctStatement": "You got it correct"
+    }
+}
