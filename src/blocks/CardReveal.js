@@ -67,8 +67,9 @@ const ss = StyleSheet.create({
     }
   },
   cardText:{
-    padding:20,
+    padding:15,
     color:'#fff',
+    fontSize:'smaller'
   },
   card:{
     position: 'absolute',
@@ -104,6 +105,7 @@ const ss = StyleSheet.create({
     color:'#fff',
     textAlign:'center',
     borderRadius: 10,
+    overflow:'auto',
     fontSize:'smaller',
     fontFamily:'Crimson Text',
     flexDirection:'column',
