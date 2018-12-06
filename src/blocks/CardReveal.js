@@ -69,7 +69,6 @@ const ss = StyleSheet.create({
   cardText:{
     padding:20,
     color:'#fff',
-    fontSize:'smaller'
   },
   card:{
     position: 'absolute',
@@ -97,8 +96,8 @@ const ss = StyleSheet.create({
   reveal:{
     position: 'absolute',
     backgroundColor: '#1f60e2',
-    height: 250,
-    width: 250,
+    height: 275,
+    width: 275,
     transform: 'rotateY(-90deg)',
     backfaceVisibility: 'hidden',
     border: '1px solid #1f60e2',
