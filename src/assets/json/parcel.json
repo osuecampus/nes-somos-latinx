@@ -1,6 +1,8 @@
 [{
     "config": {
-        "title":"An Introduction to Student-Centered Peer Education"
+        "title":"An Introduction to Student-Centered Peer Education",
+        "search": false,
+        "progressBar": true
     },
     "sections": 
     [
