@@ -137,21 +137,21 @@ const ss = StyleSheet.create({
         },
   },
   correct:{
-      backgroundColor:'green',
+      backgroundColor:'#31a900',
       ':focus':{
-          backgroundColor:'green'
+          backgroundColor:'#31a900'
       },
       ':hover':{
-          backgroundColor:'green'
+          backgroundColor:'#31a900'
       }
   },
   wrong:{
-      backgroundColor:'red',
+      backgroundColor:'#e25714',
       ':focus':{
-        backgroundColor:'red'
+        backgroundColor:'#e25714'
     },
     ':hover':{
-        backgroundColor:'red'
+        backgroundColor:'#e25714'
     }
   }
 });

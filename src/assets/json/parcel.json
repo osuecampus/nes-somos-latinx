@@ -6402,12 +6402,12 @@
                                     },
                                     {
                                         "id":2,
-                                        "valid":false,
+                                        "valid":true,
                                         "text":"Validating effort and hard work"
                                     },
                                     {
                                         "id":3,
-                                        "valid":false,
+                                        "valid":true,
                                         "text":"Normalizing frustration or the ups and downs of the learning process"
                                     },
                                     {
@@ -6416,8 +6416,7 @@
                                         "text":"Offering more practice or additional challenge when appropriate"
                                     }
                                 ],
-                                "wrongStatement": "You got it wrong",
-                                "correctStatement": "You got it correct"
+                                "correctStatement": "Perhaps you noticed that Maisie is getting frustrated and worried about the time. This may be a good time to validate the learning that she has done already, and normalize the complexity of learning those two steps. At that point you could check in with her about whether or not to continue working on these equations or switch to a different topic and she can practice this further on her own."
                             }
                         }
                     ]

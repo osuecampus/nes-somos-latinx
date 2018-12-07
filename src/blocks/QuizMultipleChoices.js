@@ -7,20 +7,18 @@ import { StyleSheet, css } from 'aphrodite';
 
 export default class QuizMultipleChoices extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentQuestion: 0,
-      currentAnswer: 0,
-      total: 0
-    };
+  componentDidMount(){
+        this.correct = 0;
+        this.total = 0;
+        this.props.details.options.forEach((option) => {
+            option.valid == true ? (this.total = this.total+1) : null
+        });
   }
 
   
   checkAnswer(id, buttonClicked){
-      console.log(id, buttonClicked);
     id == true ? 
-         (this.refs[buttonClicked].classList.add(css(ss.correct)))
+         (this.refs[buttonClicked].classList.add(css(ss.correct)), this.correct = this.correct + 1, console.log(this.correct), this.correct == this.total ? (this.refs.missionAccomplished.classList.add(css(ss.greatJob)), this.refs.missionStatement.classList.add(css(ss.correctResponse))) : null )
     : 
         (this.refs[buttonClicked].classList.add(css(ss.wrong)))
   }
@@ -42,6 +40,8 @@ export default class QuizMultipleChoices extends Component {
                 </div>
             )}
         </div>
+        <div ref={'missionAccomplished'} className={css(ss.hiddenJob)}>Great Job!</div>
+        <p ref={'missionStatement'} className={css(ss.hiddenResponse)}>{this.props.details.correctStatement}</p>
         
       </section>
     );
@@ -94,6 +94,29 @@ const ss = StyleSheet.create({
     width:'100%',
     fontFamily:'Crimson Text',
     textAlign:'center',
+    color:'#fff',
+    fontSize:'smaller'
+  },
+  hiddenJob:{
+    fontSize:0,
+    marginBottom:0,
+    transition:'all .2s ease-in-out',
+  },
+  hiddenResponse:{
+    fontSize:0,
+    maxWidth:650,
+    marginBottom:0,
+    fontFamily:'Crimson Text',
+    transition:'all .2s ease-in-out',
+  },
+  greatJob:{
+    fontWeight:'900',
+    marginBottom:10,
+    fontSize:36,
+  },
+  correctResponse:{
+    marginBottom:30,
+    fontSize:'smaller'
   },
   answerHold:{
       width:'100%',
@@ -109,8 +132,7 @@ const ss = StyleSheet.create({
       display:'flex',
       justifyContent:'center',
       alignItems:'center',
-      backgroundColor:'rgba(100,100,100,.25)',
-      fontSize:15,
+      backgroundColor:'#0e5bea',
       borderRadius:10,
       width:'calc(100% - 100px)',
       margin:12,
@@ -127,31 +149,23 @@ const ss = StyleSheet.create({
         },
   },
   correct:{
-      backgroundColor:'green',
+      backgroundColor:'#31a900',
       color:'#fff',
       ':focus':{
-          backgroundColor:'green'
+          backgroundColor:'#31a900'
       },
       ':hover':{
-          backgroundColor:'green'
-      },
-      ':first-child':{
-        
-        color:'#fff'
-    }
+          backgroundColor:'#31a900'
+      }
   },
   wrong:{
-    backgroundColor:'red',
+    backgroundColor:'#e25714',
     color:'#fff',
     ':focus':{
-        backgroundColor:'red'
+        backgroundColor:'#e25714'
     },
     ':hover':{
-        backgroundColor:'red'
-    },
-    ':first-child':{
-
-        color:'#fff'
+        backgroundColor:'#e25714'
     }
   }
 });
