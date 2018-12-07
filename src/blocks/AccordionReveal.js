@@ -78,6 +78,9 @@ const ss = StyleSheet.create({
     alignItems:'center',
     flexDirection:'column'
   },
+  html:{
+    width:'100%'
+  },
   accordionTitle:{
     width:'calc(100% - 75px)',
     fontFamily:'Crimson Text',
