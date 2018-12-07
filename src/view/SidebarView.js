@@ -42,12 +42,12 @@ class SidebarView extends Component {
           <h1>{ this.props.content[0] ? this.props.content[0].config.title : null  }</h1>
         </div>
 
-        { this.props.content[0] ? this.props.content[0].config.search ? 
-          <SearchBar />
-        : null : null}
-
         { this.props.content[0] ? this.props.content[0].config.progressBar ? 
           <ProgressBar />
+        : null : null}
+
+        { this.props.content[0] ? this.props.content[0].config.search ? 
+          <SearchBar />
         : null : null}
 
         <div className={'treeHolder'}>

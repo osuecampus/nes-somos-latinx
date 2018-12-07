@@ -537,12 +537,36 @@ body.darkLook {
 .progressHolder {
     height: 60px;
     min-height: 60px;
-    width: 90%;
+    width: 88%;
+    flex-direction:column;
     display:flex;
     justify-content:center;
     align-items:center;
     margin-top: 25px;
     position: relative;
+}
+.progressBar{
+    width: 100%;
+    height: 7px;
+    background: #dfdfdf;
+    border-radius: 36px;
+    overflow: hidden;
+}
+.progressLine{
+    height: 6px;
+    margin-top: 1px;
+    margin-left: 0px;
+    background: #0e5bea;
+    width: 15%;
+    border-radius: 16px;
+    transition: all .5s ease-in-out;
+}
+.progressText{
+    width: 100%;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #505050;
 }
 .searchHolder {
     height: 60px;

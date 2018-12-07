@@ -12,10 +12,13 @@ class SearchBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      searchContents: ''
     };
   }
 
-
+  setSearch(e){
+    this.setState({searchContents: e.target.value})
+  }
 
   render() {
     return (
