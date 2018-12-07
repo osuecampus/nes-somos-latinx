@@ -3159,7 +3159,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 2, please click on the “ Unit 2 Reflection Guide” link below to download/print a note-taking sheet."
+                                "text":"Before you begin Unit 2, please click on the \"Download\" button below to download/print a note-taking sheet."
                             }
                         },
                         {
@@ -3167,8 +3167,8 @@
                             "type":"DownloadBox",
                             "details":
                             {
-                                "text":"Click the button to download and print the Unit 2 Handout",
-                                "link":"http://www.google.com/"
+                                "text":"Unit 2 Reflection Guide",
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-handout-2.pdf"
                             }
                         },
                         {
@@ -3733,7 +3733,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_ieitn9ri"
                             }
                         },
                         {
@@ -4018,7 +4018,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_3ydqt1k1"
                             }
                         },
                         {
@@ -4034,7 +4034,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_e7b8k5eb"
                             }
                         },
                         {
@@ -4249,7 +4249,7 @@
                             "details":
                             {
                                 "text":"Learning Activities Reference Sheet",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-2-learning-activities.pdf"
                             }
                         },
                         {
@@ -4465,7 +4465,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_qzplwda3"
                             }
                         },
                         {
@@ -4483,7 +4483,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_3accagpm"
                             }
                         },
                         {
@@ -4617,7 +4617,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_gu7xnfih"
                             }
                         },
                         {
@@ -4773,7 +4773,7 @@
                             "details":
                             {
                                 "text":"Unit 2 Takeaways",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-2-takeaways.pdf"
                             }
                         },
                         {
@@ -4841,7 +4841,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 3, please click on the download button below to download/print a note-taking sheet."
+                                "text":"Before you begin Unit 3, please click on the \"Download\" button below to download/print a note-taking sheet."
                             }
                         },
                         {
@@ -4849,8 +4849,8 @@
                             "type":"DownloadBox",
                             "details":
                             {
-                                "text":"Click the button to download and print the Unit 3 Reflection Guide",
-                                "link":"http://www.google.com/"
+                                "text":"Unit 3 Reflection Guide",
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-handout.pdf"
                             }
                         },
                         {
@@ -5194,8 +5194,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"Url of MP3 file",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-ruta-prep.mp3",
+                                "audioTranscript":"If I’ve worked with a student before, for coaching I quickly skim through my notes from our last appointment and prepare follow-up questions from those notes.  If it’s a new student, to keep track of information during our appointment, I prepare four main questions beforehand such as what brought them in today, what their goal is for their appointment, the techniques that they are using at the moment, and what new strategies can they come up with on their own that would benefit their learning experience.  Usually when I’m stressed, I like to distract myself from whatever is overwhelming me through the preparation before appointments, or if someone is in the office, having a casual conversation is helpful for me as well.”"
                             }
                         },
                         {
@@ -5223,8 +5223,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"Url of MP3 file",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-abbey-prep.mp3",
+                                "audioTranscript":"If I’ve worked with a student before, I typically review notes from our last conversation, specifically paying attention to what their takeaways or next steps were from our last session so that I can check-in on how those are going. If it’s a new student, I’ll check to see if they have any specific topics they want to work and do a quick mental brainstorm about what resources or activities might be helpful for that topic if they seem applicable during our conversation. Finally, on days where I’m feeling emotionally drained, distracted, or stressed, I’ll take a deep breath before the appointment and maybe a short walk around the room to clear my head and recenter myself so that I can be fully present for the student."
                             }
                         },
                         {
@@ -5790,11 +5790,11 @@
                                 [
                                     {
                                         "id":0,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width:100%' /></div>"
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width: calc(100% - 60px);border-radius: 10px;margin-bottom: 15px;' /></div>"
                                     },
                                     {
                                         "id":1,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width:100%' /></div>"
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width: calc(100% - 60px);border-radius: 10px;margin-bottom: 15px;' /></div>"
                                     },
                                     {
                                         "id":2,

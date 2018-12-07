@@ -11,7 +11,7 @@ export default class DownloadBox extends Component {
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.innerBox)}>
-          <p className={css(ss.text)}><img alt={'PDF Download Icon'} className={css(ss.icon)} src={'../assets/img/icon-pdf.svg'} />  {this.props.details.text}</p>
+          <p className={css(ss.text)}><img alt={'PDF Download Icon'} className={css(ss.icon)} src={'./assets/img/icon-pdf.svg'} />  {this.props.details.text}</p>
           <a tabIndex={'4'} download className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>Download</a>
         </div>
       </section>

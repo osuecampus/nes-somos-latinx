@@ -1,6 +1,8 @@
 [{
     "config": {
-        "title":"An Introduction to Student-Centered Peer Education"
+        "title":"An Introduction to Student-Centered Peer Education",
+        "search": false,
+        "progressBar": true
     },
     "sections": 
     [
@@ -168,8 +170,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-ruta.mp3",
+                                "audioTranscript":"My name is Ruta and I’ve been a tutor and academic coach for a year.  I enjoy working as a peer educator as a way of collaborating with students to help with their academic success and providing them an opportunity to build on their skills academically.  Personally, it has been helpful working alongside the students because I’ve adopted some new learning techniques as well."
                             }
                         },
                         {
@@ -189,8 +191,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-abbey.mp3",
+                                "audioTranscript":"My name is Abbey. I’ve been an academic coach at Oregon State for two years. I also have several years combined experience working as a teacher’s assistant, life skills peer tutor, and math tutor. My favorite thing about being a peer educator is getting to see and take part in the process of students discovering solutions for themselves that they didn’t even think possible prior to our conversations."
                             }
                         },
                         {
@@ -210,8 +212,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-connor.mp3",
+                                "audioTranscript":"My name is Conner and I’m a Junior here at Oregon State University majoring in Bio-Health Science with a minor in Chemistry and partaking in the Medical Humanities Certificate program offered here at OSU. I tutor the hard sciences some of which include General Chemistry, Organic Chemistry, and Biology. I’ve been an academic coach for one year, and I fell into this role given my profound adoration for the position. I’m extremely passionate about what I do, and what I value most is facilitating the success of students here at OSU while unleashing their fullest potential. Getting to witness deep enrichment, and assisting in the understanding of the coursework in which I tutor allows for an engaging environment that strongly fits the mission of the EOP program in which I tutor for. These reasons among many, are why I chose to be an EOP tutor."
                             }
                         },
                         {
@@ -231,8 +233,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-dylan.mp3",
+                                "audioTranscript":"My name is Dylan and this is my third year as a tutor for TRiO. I am a senior studying to become a math teacher, so tutoring seemed to be a good introduction to becoming an educator. Being able to help students learn challenging material and pushing them to think deeper."
                             }
                         },
                         {
@@ -252,8 +254,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-paola.mp3",
+                                "audioTranscript":"My name is Paola Mendoza and I’ve been an academic coach at OSU for the last two years. I am a senior pursuing double degrees in Psychology and Sociology. What’s been the most inspiring for me as a peer educator and an academic coach is being able to assist students in looking at a problem or a goal from a new perspective, in order to reach a resolution or a new strategy for success."
                             }
                         },
                         {
@@ -549,7 +551,7 @@
                             "details":
                             {
                                 "text":"Unit 1 Reflection Guide",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-reflection-worksheet-1.pdf"
                             }
                         },
                         {
@@ -955,7 +957,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_lh0ebj0t"
                             }
                         },
                         {
@@ -1148,7 +1150,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-2.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"I don’t know what I’m doing wrong, I’m a sophomore now and have been getting really bad grades since my first term here. My GPA was 2.0 after my first term, which is not okay. I got A’s and B’s in high school. Since then, I’ve been studying harder and harder and I actually do understand the material! When I work with classmates on MTH or CH problems and participate in class, I know what I’m talking about, but my grades don’t show that. If I had studied this hard in high school, I would’ve had all A’s, so I really don’t understand what’s going on. The only time my grades are semi-okay are when there are essay or or short-answer exams, but the rest is just bad."
                             }
                         },
                         {
@@ -1232,7 +1234,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-3.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"I’m taking ENGR 201 and I’m not getting along with my lab group, which is making it hard for me to learn the material. We’ve been getting C’s on our lab reports, but I feel it’s because I’m the only one doing any work and I just can’t keep up. I don’t know how I can fully learn the material when I feel like I’m teaching myself and don’t have help from my group. I’m really overwhelmed and am concerned that with the tests already being so difficult, I won’t pass the class with these lab grades. I just don’t know how to be successful in this class when I have so many things to focus on."
                             }
                         },
                         {
@@ -1319,7 +1321,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-4.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"Audio is purposefully inaudible."
                             }
                         },
                         {
@@ -1336,7 +1338,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-5.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"Rain and sunshine create rainbows."
                             }
                         },
                         {
@@ -1587,7 +1589,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_r8i1sy4x"
                             }
                         },
                         {
@@ -1624,7 +1626,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_1teql2i4"
                             }
                         },
                         {
@@ -1773,19 +1775,19 @@
                                 [
                                     {
                                         "id":0,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=0_5a26mlxu&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_723e6a46&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":1,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-two.png' alt='Teacher with a student' title='Teacher with a student'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Good leaders ask questions in order to reflect on past experiences, receive feedback, and identify future goals for the team</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_vh5xceaf&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":2,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-three.png' alt='A dog' title='A dog'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In your personal life with family, friends, or significant others, you can seek clarification in order to avoid misunderstandings</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_aldm9m96&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":3,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-four.png' alt='Business people shaking hands' title='Business people shaking hands'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Supervisors can use validation to motivate and encourage their employees</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_7y9hfddv&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":4,
@@ -2634,7 +2636,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_07rxwdvr"
                             }
                         },
                         {
@@ -3080,7 +3082,7 @@
                             "details":
                             {
                                 "text":"Unit 1 Take away sheet",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-1-takeaway.pdf"
                             }
                         },
                         {
@@ -3157,7 +3159,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 2, please click on the “ Unit 2 Reflection Guide” link below to download/print a note-taking sheet."
+                                "text":"Before you begin Unit 2, please click on the \"Download\" button below to download/print a note-taking sheet."
                             }
                         },
                         {
@@ -3165,8 +3167,8 @@
                             "type":"DownloadBox",
                             "details":
                             {
-                                "text":"Click the button to download and print the Unit 2 Handout",
-                                "link":"http://www.google.com/"
+                                "text":"Unit 2 Reflection Guide",
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-handout-2.pdf"
                             }
                         },
                         {
@@ -3731,7 +3733,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_ieitn9ri"
                             }
                         },
                         {
@@ -4016,7 +4018,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_3ydqt1k1"
                             }
                         },
                         {
@@ -4032,7 +4034,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_e7b8k5eb"
                             }
                         },
                         {
@@ -4247,7 +4249,7 @@
                             "details":
                             {
                                 "text":"Learning Activities Reference Sheet",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-2-learning-activities.pdf"
                             }
                         },
                         {
@@ -4463,7 +4465,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_qzplwda3"
                             }
                         },
                         {
@@ -4481,7 +4483,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_3accagpm"
                             }
                         },
                         {
@@ -4615,7 +4617,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_gu7xnfih"
                             }
                         },
                         {
@@ -4771,7 +4773,7 @@
                             "details":
                             {
                                 "text":"Unit 2 Takeaways",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-2-takeaways.pdf"
                             }
                         },
                         {
@@ -4839,7 +4841,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 3, please click on the download button below to download/print a note-taking sheet."
+                                "text":"Before you begin Unit 3, please click on the \"Download\" button below to download/print a note-taking sheet."
                             }
                         },
                         {
@@ -4847,8 +4849,8 @@
                             "type":"DownloadBox",
                             "details":
                             {
-                                "text":"Click the button to download and print the Unit 3 Reflection Guide",
-                                "link":"http://www.google.com/"
+                                "text":"Unit 3 Reflection Guide",
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-handout.pdf"
                             }
                         },
                         {
@@ -5192,8 +5194,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"Url of MP3 file",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-ruta-prep.mp3",
+                                "audioTranscript":"If I’ve worked with a student before, for coaching I quickly skim through my notes from our last appointment and prepare follow-up questions from those notes.  If it’s a new student, to keep track of information during our appointment, I prepare four main questions beforehand such as what brought them in today, what their goal is for their appointment, the techniques that they are using at the moment, and what new strategies can they come up with on their own that would benefit their learning experience.  Usually when I’m stressed, I like to distract myself from whatever is overwhelming me through the preparation before appointments, or if someone is in the office, having a casual conversation is helpful for me as well.”"
                             }
                         },
                         {
@@ -5221,8 +5223,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"Url of MP3 file",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-3-abbey-prep.mp3",
+                                "audioTranscript":"If I’ve worked with a student before, I typically review notes from our last conversation, specifically paying attention to what their takeaways or next steps were from our last session so that I can check-in on how those are going. If it’s a new student, I’ll check to see if they have any specific topics they want to work and do a quick mental brainstorm about what resources or activities might be helpful for that topic if they seem applicable during our conversation. Finally, on days where I’m feeling emotionally drained, distracted, or stressed, I’ll take a deep breath before the appointment and maybe a short walk around the room to clear my head and recenter myself so that I can be fully present for the student."
                             }
                         },
                         {
@@ -5788,11 +5790,11 @@
                                 [
                                     {
                                         "id":0,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width:100%' /></div>"
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In a first meeting with a student:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I greet each student by their name, shake their hand, and clarify if I pronounced their name correctly.</li><li>I will give them a short spiel about the structure of the session and my role in it to help the student understand the process.</li><li>I’ll ask, “How does that sound to you?,” to check-in before we get started in case anything came up in the intro that they have questions about.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>These actions help make the student feel safe because they know that they are known and valued and what to expect from our time together. With any appointment, it’s important for me to pay attention to body language and verbal cues. If the student arrives and seems stressed or distracted, I may say “do you need a minute or two to get settled in?”</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-abbey.jpg' alt='Abbey' title='Abbey' style='width: calc(100% - 60px);border-radius: 10px;margin-bottom: 15px;' /></div>"
                                     },
                                     {
                                         "id":1,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width:100%' /></div>"
+                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>When a student returns that I’ve worked with before:</p><ul style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'><li>I ask questions based on what was discussed in the last meeting. That could range from asking about homework from recitation to meeting with the professor/TA during office hours.</li><li>Sometimes I ask for an update on any homework or exams - that way we can discuss what was the most and least beneficial for them from the previous session.  Sometimes when a student seems frustrated and I know they had a midterm, I ask about the midterm.</li><li>Depending on their response I might paraphrase before asking asking what they wanted to focus on for the day.</li></ul><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>I do this as a way of empathizing with the student and acknowledging any frustration, so the student knows someone understands and can relate to their experience.</p><img src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-ruta.jpg' alt='Ruta' title='Ruta' style='width: calc(100% - 60px);border-radius: 10px;margin-bottom: 15px;' /></div>"
                                     },
                                     {
                                         "id":2,
@@ -6368,6 +6370,44 @@
                             "details":
                             {
                                 "text":"Since you’ve had a chance to see some of these techniques in unit 1 and unit 2, let’s try them in some scenario work. Select the strategies that you would use for each of the scenarios below."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"QuizMultipleChoices",
+                            "details":
+                            {
+                                "question": "You’ve spent 30 minutes working on balancing chemistry equations and Maisie is starting to get frustrated that she can’t do it without looking at the example problem. She’s mastered most of the process, but keeps mixing up two steps. She’s also worried you’ll run out of time in the session before she can work through the other topics.",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "valid":true,
+                                        "text":"Acknowledging insights and accomplishments"
+                                    },
+                                    {
+                                        "id":1,
+                                        "valid":true,
+                                        "text":"Calling attention to learning when it happens"
+                                    },
+                                    {
+                                        "id":2,
+                                        "valid":false,
+                                        "text":"Validating effort and hard work"
+                                    },
+                                    {
+                                        "id":3,
+                                        "valid":false,
+                                        "text":"Normalizing frustration or the ups and downs of the learning process"
+                                    },
+                                    {
+                                        "id":4,
+                                        "valid":false,
+                                        "text":"Offering more practice or additional challenge when appropriate"
+                                    }
+                                ],
+                                "wrongStatement": "You got it wrong",
+                                "correctStatement": "You got it correct"
                             }
                         }
                     ]
