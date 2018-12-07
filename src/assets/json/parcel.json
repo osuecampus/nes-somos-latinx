@@ -170,8 +170,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-ruta.mp3",
+                                "audioTranscript":"My name is Ruta and I’ve been a tutor and academic coach for a year.  I enjoy working as a peer educator as a way of collaborating with students to help with their academic success and providing them an opportunity to build on their skills academically.  Personally, it has been helpful working alongside the students because I’ve adopted some new learning techniques as well."
                             }
                         },
                         {
@@ -191,8 +191,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-abbey.mp3",
+                                "audioTranscript":"My name is Abbey. I’ve been an academic coach at Oregon State for two years. I also have several years combined experience working as a teacher’s assistant, life skills peer tutor, and math tutor. My favorite thing about being a peer educator is getting to see and take part in the process of students discovering solutions for themselves that they didn’t even think possible prior to our conversations."
                             }
                         },
                         {
@@ -212,8 +212,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-connor.mp3",
+                                "audioTranscript":"My name is Conner and I’m a Junior here at Oregon State University majoring in Bio-Health Science with a minor in Chemistry and partaking in the Medical Humanities Certificate program offered here at OSU. I tutor the hard sciences some of which include General Chemistry, Organic Chemistry, and Biology. I’ve been an academic coach for one year, and I fell into this role given my profound adoration for the position. I’m extremely passionate about what I do, and what I value most is facilitating the success of students here at OSU while unleashing their fullest potential. Getting to witness deep enrichment, and assisting in the understanding of the coursework in which I tutor allows for an engaging environment that strongly fits the mission of the EOP program in which I tutor for. These reasons among many, are why I chose to be an EOP tutor."
                             }
                         },
                         {
@@ -233,8 +233,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-dylan.mp3",
+                                "audioTranscript":"My name is Dylan and this is my third year as a tutor for TRiO. I am a senior studying to become a math teacher, so tutoring seemed to be a good introduction to becoming an educator. Being able to help students learn challenging material and pushing them to think deeper."
                             }
                         },
                         {
@@ -254,8 +254,8 @@
                             "type":"AudioBlock",
                             "details":
                             {
-                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-1.mp3",
-                                "audioTranscript":"This audio clip contains no sound"
+                                "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-intro-paola.mp3",
+                                "audioTranscript":"My name is Paola Mendoza and I’ve been an academic coach at OSU for the last two years. I am a senior pursuing double degrees in Psychology and Sociology. What’s been the most inspiring for me as a peer educator and an academic coach is being able to assist students in looking at a problem or a goal from a new perspective, in order to reach a resolution or a new strategy for success."
                             }
                         },
                         {
@@ -551,7 +551,7 @@
                             "details":
                             {
                                 "text":"Unit 1 Reflection Guide",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-reflection-worksheet-1.pdf"
                             }
                         },
                         {
@@ -957,7 +957,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_lh0ebj0t"
                             }
                         },
                         {
@@ -1150,7 +1150,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-2.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"I don’t know what I’m doing wrong, I’m a sophomore now and have been getting really bad grades since my first term here. My GPA was 2.0 after my first term, which is not okay. I got A’s and B’s in high school. Since then, I’ve been studying harder and harder and I actually do understand the material! When I work with classmates on MTH or CH problems and participate in class, I know what I’m talking about, but my grades don’t show that. If I had studied this hard in high school, I would’ve had all A’s, so I really don’t understand what’s going on. The only time my grades are semi-okay are when there are essay or or short-answer exams, but the rest is just bad."
                             }
                         },
                         {
@@ -1234,7 +1234,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-3.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"I’m taking ENGR 201 and I’m not getting along with my lab group, which is making it hard for me to learn the material. We’ve been getting C’s on our lab reports, but I feel it’s because I’m the only one doing any work and I just can’t keep up. I don’t know how I can fully learn the material when I feel like I’m teaching myself and don’t have help from my group. I’m really overwhelmed and am concerned that with the tests already being so difficult, I won’t pass the class with these lab grades. I just don’t know how to be successful in this class when I have so many things to focus on."
                             }
                         },
                         {
@@ -1321,7 +1321,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-4.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"Audio is purposefully inaudible."
                             }
                         },
                         {
@@ -1338,7 +1338,7 @@
                             "details":
                             {
                                 "audioUrl":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/audio-0-2-5.mp3",
-                                "audioTranscript":"This is a transcript of the audio file for accessibility"
+                                "audioTranscript":"Rain and sunshine create rainbows."
                             }
                         },
                         {
@@ -1589,7 +1589,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_r8i1sy4x"
                             }
                         },
                         {
@@ -1626,7 +1626,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_1teql2i4"
                             }
                         },
                         {
@@ -1775,19 +1775,19 @@
                                 [
                                     {
                                         "id":0,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=0_5a26mlxu&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_723e6a46&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":1,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-two.png' alt='Teacher with a student' title='Teacher with a student'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Good leaders ask questions in order to reflect on past experiences, receive feedback, and identify future goals for the team</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_vh5xceaf&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":2,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-three.png' alt='A dog' title='A dog'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>In your personal life with family, friends, or significant others, you can seek clarification in order to avoid misunderstandings</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_aldm9m96&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":3,
-                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><img style='padding:25px; height:180px' src='https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-tab-four.png' alt='Business people shaking hands' title='Business people shaking hands'/><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Supervisors can use validation to motivate and encourage their employees</p></div>"
+                                        "htmlContent":"<div style='display:flex; flex-wrap:wrap; width:100%;justify-content:center;align-items:center'><iframe className={css(ss.video)} id='kaltura_player' src='https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241?iframeembed=true&playerId=kaltura_player&entry_id=1_7y9hfddv&flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;&wid=0_3pz7wngf'} width='100%' height='400px' allowFullScreen allow='autoplay *; fullscreen *; encrypted-media *' frameBorder='0' title='Kaltura Player'></iframe></div>"
                                     },
                                     {
                                         "id":4,
@@ -2636,7 +2636,7 @@
                             "type":"KalturaVideo",
                             "details":
                             {
-                                "kalturaUrl":"https://cdnapisec.kaltura.com/p/391241/sp/39124100/embedIframeJs/uiconf_id/22119142/partner_id/391241"
+                                "kalturaUrl":"1_07rxwdvr"
                             }
                         },
                         {
@@ -3082,7 +3082,7 @@
                             "details":
                             {
                                 "text":"Unit 1 Take away sheet",
-                                "link":"http://www.google.com/"
+                                "link":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-unit-1-takeaway.pdf"
                             }
                         },
                         {
