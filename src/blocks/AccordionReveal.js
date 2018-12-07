@@ -79,7 +79,7 @@ const ss = StyleSheet.create({
     flexDirection:'column'
   },
   accordionTitle:{
-    width:'calc(100% - 50px)',
+    width:'calc(100% - 75px)',
     fontFamily:'Crimson Text',
     display:'flex',
     position:'relative',
@@ -89,6 +89,7 @@ const ss = StyleSheet.create({
     textAlign:'left',
     borderBottom:'1px solid rgba(200,200,200,.25)',
     padding:25,
+    paddingRight:50,
     cursor:'pointer',
     transition:'all .2s ease-in-out',
     ':hover':{
