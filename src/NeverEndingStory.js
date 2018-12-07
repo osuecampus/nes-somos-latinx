@@ -56,7 +56,7 @@ class App extends Component {
   }
 
   restart(){
-    this.forceUpdate();
+    setTimeout(()=>{this.forceUpdate()},50)
   }
 
   render() {
