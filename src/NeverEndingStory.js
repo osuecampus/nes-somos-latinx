@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // SET LOCATION FROM LOCAL STORAGE //
+
     setTimeout(() => {localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null},15);
     setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentPage(0, 0)},25);
 
@@ -55,6 +55,10 @@ class App extends Component {
     }
   }
 
+  restart(){
+    this.forceUpdate();
+  }
+
   render() {
     let footerTheme = 'light';
     if(this.props.theme == 'lightLook'){
@@ -64,21 +68,38 @@ class App extends Component {
       footerTheme = 'dark';
     }
 
+
+
+
+    
+
+
+
+
     return (
+    
       <div ref={'app'} style={{height:'100%'}}>
+        { this.props.content[0] ? 
+        this.props.content[0].sections[localStorage.getItem('nes-current-unit')] && this.props.content[0].sections[localStorage.getItem('nes-current-unit')].content[localStorage.getItem('nes-current-page')]  ?
+          <div>
         <SidebarView />
         <ContentView />
         <div className={footerTheme + (this.props.mobile == 1 ? ' showLogo' : ' hideLogo' )}>
           <Footer theme={footerTheme} />
         </div>
+        </div>
+        : (localStorage.setItem('nes-current-unit', 0), (localStorage.setItem('nes-current-page', 0)), this.restart()) : null }
       </div>
-    );
+      
+    )
+    
   }
 }
 
 const mapStateToProps = state => {
   return {
     mobile: state.mobile,
+    content: state.content,
     theme: state.theme,
     currentPage: state.currentPage,
     currentUnit: state.currentUnit
