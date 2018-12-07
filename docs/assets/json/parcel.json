@@ -5588,11 +5588,6 @@
                                         "id": 1,
                                         "bold":"The Text on the Chalkboard",
                                         "text":"Take note of when the room is available and for how long. If you don’t have the space reserved, you will want to plan accordingly so it doesn’t interrupt your session."
-                                    },
-                                    {
-                                        "id": 2,
-                                        "bold":"Stack of Books",
-                                        "text":"Coordinate with the student to ensure you have the appropriate materials for the session. Access to a laptop, computer, or tablet may be helpful in some instances. The course textbook and other study accessories can be helpful as well."
                                     }
                                 ]
                             }
@@ -5613,11 +5608,26 @@
                                         "id": 1,
                                         "bold":"Wherever",
                                         "text":"This classroom space appears empty - which would mean fewer distractions and reduced noise during your conversation. In many instances however, it can be helpful to meet in a more public setting. Talk to your supervisor further about the location you’ll be working in or err on the side of a public space in the library."
-                                    },
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":11.5,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
                                     {
                                         "id": 2,
                                         "bold":"Eraser/Check Tray on the Chalkboard",
                                         "text":"It’s nice to have chalkboards or whiteboards in your space for working on problems or diagrams, particularly if you don’t have a lot of room on the table or desks. If you aren’t sure there will be chalk or markers available, consider bringing some with you."
+                                    },
+                                    {
+                                        "id": 2,
+                                        "bold":"Stack of Books",
+                                        "text":"Coordinate with the student to ensure you have the appropriate materials for the session. Access to a laptop, computer, or tablet may be helpful in some instances. The course textbook and other study accessories can be helpful as well."
                                     }
                                 ]
                             }
@@ -6392,12 +6402,12 @@
                                     },
                                     {
                                         "id":2,
-                                        "valid":false,
+                                        "valid":true,
                                         "text":"Validating effort and hard work"
                                     },
                                     {
                                         "id":3,
-                                        "valid":false,
+                                        "valid":true,
                                         "text":"Normalizing frustration or the ups and downs of the learning process"
                                     },
                                     {
@@ -6406,8 +6416,7 @@
                                         "text":"Offering more practice or additional challenge when appropriate"
                                     }
                                 ],
-                                "wrongStatement": "You got it wrong",
-                                "correctStatement": "You got it correct"
+                                "correctStatement": "Perhaps you noticed that Maisie is getting frustrated and worried about the time. This may be a good time to validate the learning that she has done already, and normalize the complexity of learning those two steps. At that point you could check in with her about whether or not to continue working on these equations or switch to a different topic and she can practice this further on her own."
                             }
                         }
                     ]

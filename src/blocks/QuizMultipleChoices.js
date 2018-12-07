@@ -106,6 +106,7 @@ const ss = StyleSheet.create({
     fontSize:0,
     maxWidth:650,
     marginBottom:0,
+    width:'calc(100% - 30px)',
     fontFamily:'Crimson Text',
     transition:'all .2s ease-in-out',
   },
@@ -150,6 +151,7 @@ const ss = StyleSheet.create({
   },
   correct:{
       backgroundColor:'#31a900',
+      pointerEvents:'none',
       color:'#fff',
       ':focus':{
           backgroundColor:'#31a900'
