@@ -24,6 +24,12 @@ footer {
 .darkLook .searchInput{
     color:#fafafa;
 }
+.darkLook .progressBar{
+    background: #303030;
+}
+.darkLook .progressText{
+    color: #dedede;
+}
 .darkLook .unitBlock h2{
     color:#fff;
 }
@@ -553,8 +559,8 @@ body.darkLook {
     overflow: hidden;
 }
 .progressLine{
-    height: 6px;
-    margin-top: 1px;
+    height: 7px;
+    margin-top: 0px;
     margin-left: 0px;
     background: #0e5bea;
     width: 15%;
