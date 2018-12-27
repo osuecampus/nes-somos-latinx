@@ -33,8 +33,8 @@ class ProgressBar extends Component {
         unit.content.forEach((pages) => {
             total = total+1;
         });
-        window.localStorage.getItem('nes-progress-'+unit.id) ?
-            progress = progress + JSON.parse(window.localStorage.getItem('nes-progress-'+unit.id)).length
+        window.localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+unit.id) ?
+            progress = progress + JSON.parse(window.localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+unit.id)).length
         : null
     });
 

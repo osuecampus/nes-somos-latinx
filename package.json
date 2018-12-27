@@ -1,6 +1,6 @@
 {
   "name": "never-ending-story",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A content presentation application",
   "main": "index.js",
   "homepage": "./",
@@ -34,6 +34,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "aphrodite": "^2.2.3",
+    "dotenv-webpack": "^1.6.0",
     "react": "^16.5.2",
     "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.5.2",

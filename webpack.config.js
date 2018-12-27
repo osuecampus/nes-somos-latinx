@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
     template: "./src/index.html",
@@ -16,6 +17,9 @@ module.exports = {
   output: {
     path: __dirname + '/docs'
   },
+  node: {
+    fs: 'empty'
+  },
   module: {
     rules: [
       {
@@ -31,5 +35,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [htmlWebpackPlugin, copyWebpackPlugin]
+  plugins: [htmlWebpackPlugin, copyWebpackPlugin, new Dotenv()]
 };

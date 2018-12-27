@@ -21,7 +21,7 @@ export const loadContent = () => {
 // DETECT DIMENSIONS ACTIONS //
 export const detectDimensionsDispatcher = (value) => ({ type: DETECT_DIMENSIONS, mobile: value});
 export const detectDimensions = (value) => {
-    localStorage.setItem("nes-dimensions", value);
+    localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-dimensions", value);
     return (dispatch) => {
         dispatch(detectDimensionsDispatcher(value));
     }
@@ -30,7 +30,7 @@ export const detectDimensions = (value) => {
 // CHANGE FONT SIZE ACTIONS //
 export const changeFontSizeDispatcher = (value) => ({ type: CHANGE_FONT_SIZE, fontSize: value});
 export const changeFontSize = (value) => {
-    localStorage.setItem("nes-font-size", value);
+    localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-font-size", value);
     return (dispatch) => {
         dispatch(changeFontSizeDispatcher(value));
     }
@@ -47,7 +47,7 @@ export const setReaderText = (value) => {
 // CHANGE THEME ACTIONS //
 export const changeThemeDispatcher = (value) => ({ type: CHANGE_THEME, theme: value});
 export const changeTheme = (value) => {
-    localStorage.setItem("nes-theme", value);
+    localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-theme", value);
     window.document.body.classList.remove('darkLook');
     window.document.body.classList.remove('lightLook');
     window.document.body.classList.add(value);
@@ -75,7 +75,7 @@ export const restartReader = (value) => {
 // SET CURRENT UNIT ACTIONS //
 export const setCurrentUnitDispatch = (value) => ({ type: SET_CURRENT_UNIT, currentUnit: value});
 export const setCurrentUnit = (value) => {
-    localStorage.setItem("nes-current-unit", value);
+    localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-current-unit", value);
     return (dispatch) => {
         dispatch(setCurrentUnitDispatch(Number(value)));
     }
@@ -84,7 +84,7 @@ export const setCurrentUnit = (value) => {
 // SET CURRENT PAGE ACTIONS //
 export const setCurrentPageDispatch = (value) => ({ type: SET_CURRENT_PAGE, currentPage: value});
 export const setCurrentPage = (value, unit) => {
-    localStorage.setItem("nes-current-page", value);
+    localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-current-page", value);
     return (dispatch) => {
         dispatch(setCurrentPageDispatch(value));
         unit !== null ? dispatch(addProgress(value, unit)) : null
@@ -102,15 +102,15 @@ export const showScroll = (boolean) => {
  // SET CURRENT UNIT ACTIONS //
 export const addProgress = (data, unit) => {
     let progress = [];
-    if(localStorage.getItem('nes-progress-'+ unit) === null){
-        localStorage.setItem('nes-progress-'+ unit, JSON.stringify([]));
+    if(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+ unit) === null){
+        localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-progress-'+ unit, JSON.stringify([]));
     }
-    progress = JSON.parse(localStorage.getItem('nes-progress-'+ unit));
+    progress = JSON.parse(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+ unit));
     progress.includes(Number(data)) ?
         null
     :
         progress.push(Number(data)),
-        localStorage.setItem('nes-progress-' + unit, JSON.stringify(progress));
+        localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-progress-' + unit, JSON.stringify(progress));
     return (dispatch) => {
       
     }

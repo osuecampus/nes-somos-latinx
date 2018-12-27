@@ -11,6 +11,7 @@ import { Header, Footer, GA } from "react-starter";
 import ContentView from "./view/ContentView";
 import SidebarView from "./view/SidebarView";
 
+
 // CSS //
 import "./assets/css/styles.css";
 
@@ -22,16 +23,16 @@ class App extends Component {
 
   componentDidMount() {
 
-    setTimeout(() => {localStorage.getItem('nes-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-current-unit')) : null},15);
-    setTimeout(() => {localStorage.getItem('nes-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-current-page'), this.props.currentUnit) : this.props.setCurrentPage(0, 0)},25);
+    setTimeout(() => {localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit') ? this.props.setCurrentUnit(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')) : null},15);
+    setTimeout(() => {localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-page') ? this.props.setCurrentPage(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-page'), this.props.currentUnit) : this.props.setCurrentPage(0, 0)},25);
 
     // SET LOCATION IF FIRST TIME //
     setTimeout(() => { this.props.currentUnit == 0 && this.props.currentPage == 0 ? this.props.setCurrentPage(0, 0): null; },100);
 
     // SET UP ENVIRONMENT BASED ON LOCALSTORAGE PRESETS //
-    localStorage.getItem('nes-font-size') ? this.props.changeFontSize(localStorage.getItem('nes-font-size')) : null;
-    localStorage.getItem('nes-theme') ? this.props.changeTheme(localStorage.getItem('nes-theme')) : null;
-    localStorage.getItem('nes-dimensions') == 'false' ? this.props.detectDimensions(false) : this.props.detectDimensions(true);
+    localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-font-size') ? this.props.changeFontSize(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-font-size')) : null;
+    localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-theme') ? this.props.changeTheme(localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-theme')) : null;
+    localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-dimensions') == 'false' ? this.props.detectDimensions(false) : this.props.detectDimensions(true);
 
     // LOAD CONTENT AND SET DIMENSIONS //
     this.props.loadContent();
@@ -80,7 +81,7 @@ class App extends Component {
     
       <div ref={'app'} style={{height:'100%'}}>
         { this.props.content[0] ? 
-        this.props.content[0].sections[localStorage.getItem('nes-current-unit')] && this.props.content[0].sections[localStorage.getItem('nes-current-unit')].content[localStorage.getItem('nes-current-page')]  ?
+        this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')] && this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')].content[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-page')]  ?
           <div>
         <SidebarView />
         <ContentView />
@@ -88,7 +89,7 @@ class App extends Component {
           <Footer theme={footerTheme} />
         </div>
         </div>
-        : (localStorage.setItem('nes-current-unit', 0), (localStorage.setItem('nes-current-page', 0)), this.restart()) : null }
+        : (localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-current-unit', 0), (localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-current-page', 0)), this.restart()) : null }
       </div>
       
     )
