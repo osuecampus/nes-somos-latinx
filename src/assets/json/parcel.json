@@ -2,7 +2,7 @@
     "config": {
         "title":"Default Project Title",
         "search": false,
-        "progressBar": true
+        "progressBar": false
     },
     "sections": 
     [
