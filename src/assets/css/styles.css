@@ -521,6 +521,16 @@ body.darkLook {
     align-items: center;
     transition: all .5s ease-in-out;
 }
+.sidebar-left .sidebarView {
+    right: initial;
+    left: 0px;
+}
+.sidebar-left .contentView {
+    left: 400px;
+}
+.sidebar-left .toolbarHolder{
+    right: 20px;
+}
 .activeTreePage {
     border-left: 5px solid #0055f2;
 }

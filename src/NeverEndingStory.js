@@ -68,17 +68,9 @@ class App extends Component {
       footerTheme = 'dark';
     }
 
-
-
-
-    
-
-
-
-
     return (
     
-      <div ref={'app'} style={{height:'100%'}}>
+      <div ref={'app'} className={ 'sidebar-'+ ( this.props.content[0] ? this.props.content[0].config.sidebar : '')} style={{height:'100%'}}>
         { this.props.content[0] ? 
         this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')] && this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')].content[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-page')]  ?
           <div>
