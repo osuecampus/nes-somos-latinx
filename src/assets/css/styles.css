@@ -526,7 +526,9 @@ body.darkLook {
     left: 0px;
 }
 .sidebar-left .contentView {
-    left: 400px;
+    right: 0px;
+    position:fixed;
+    overflow: hidden;
 }
 .sidebar-left .toolbarHolder{
     right: 20px;
@@ -920,6 +922,7 @@ p{
     right: 50%;
     max-width: 450px;
     margin-right: -225px;
+    left: initial!important;
 }
 @media (max-width:500px){
     .mobile .sidebarView {
