@@ -139,7 +139,7 @@ body.darkLook {
     padding-bottom: 86px;
     display: flex;
     align-items: center;
-    min-height: calc(100% - 175px);
+    min-height: calc(100% - 162px);
     flex-direction: column;
     overflow:hidden;
     background: #fcfcfc;
