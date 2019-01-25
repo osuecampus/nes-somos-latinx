@@ -5970,6 +5970,23 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+osu-application@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/osu-application/-/osu-application-0.1.7.tgz#4f729ee9c7b8a954a97aaaa209341e2a2dc189cb"
+  integrity sha512-l2EtevBOdrE8Y1Gbl3jVlr6MTOydHF4/bIrS40SFlAtVu4gBvXeMHC0Z2v/XH2qrt/DN1j4vIt6sQaNY0dpwkg==
+  dependencies:
+    osu-ui "^0.4.3"
+
+osu-auth@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/osu-auth/-/osu-auth-1.1.4.tgz#2fab420f9b6d829f93d2a95b78f8e8e469795c7d"
+  integrity sha512-Y/LzxExosmSf9iYZdbHKWtdnfT4fYVrvD+nWkg6YIhF+FEHkwOCNAbNz6E81cJd/bk4aN3KDrtscT/950vVNIw==
+
+osu-ui@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/osu-ui/-/osu-ui-0.4.3.tgz#5fdc92957debf122bdde0edc7e1ab4cc7ab2aec9"
+  integrity sha512-BeQBHh8cuowYmA/K83feqXsJA4mBMD6NcWGumx5txpjePPM6++6R03+KUgidRHn95G4YDVh8rV0CLh/XCO/NbA==
+
 p-defer@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"

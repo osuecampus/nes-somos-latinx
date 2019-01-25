@@ -5,12 +5,11 @@ import { connect } from "react-redux";
 import { loadContent, showScroll, setCurrentPage, setCurrentUnit, detectDimensions, changeFontSize, changeTheme} from "./redux/Actions";
 
 // COMPONENTS //
-import { Header, Footer, GA } from "react-starter";
+import { Header, Footer, GA } from "osu-application";
 
 // VIEWS //
 import ContentView from "./view/ContentView";
 import SidebarView from "./view/SidebarView";
-
 
 // CSS //
 import "./assets/css/styles.css";

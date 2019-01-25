@@ -35,6 +35,8 @@
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "aphrodite": "^2.2.3",
     "dotenv-webpack": "^1.6.0",
+    "osu-application": "^0.1.7",
+    "osu-auth": "^1.1.4",
     "react": "^16.5.2",
     "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.5.2",
