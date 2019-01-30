@@ -527,7 +527,7 @@ body.darkLook {
 }
 .sidebar-left .contentView {
     right: 0px;
-    position:fixed;
+    position:absolute;
     overflow: hidden;
 }
 .sidebar-left .toolbarHolder{

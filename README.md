@@ -19,7 +19,8 @@ To setup your project, you just need to start filling out the JSON document in `
     "config": {
         "title":"Default Project Title",
         "search": false,
-        "progressBar": false
+        "progressBar": false,
+        "sidebar": "left"
     },
     "sections": 
     [
@@ -44,6 +45,7 @@ To setup your project, you just need to start filling out the JSON document in `
 * `title` - This is the title of your application that will be displayed to users.
 * `search` - Search is not yet complete, but in the future this would show you a search dialog in the sidebar.
 * `progressBar` - Setting this to true will show users an overall progress bar in the sidebar, along with checkmarks denoting pages users have read.
+* `sidebar` - Sets which side of the screen the sidebar is located. Default is right.
 
 #### Sections
 
