@@ -42,5 +42,5 @@ export default {
   AccordionReveal,
   YoutubeVideo,
   MessengerBubble,
-  Markdowns
+  Markdown
 }
