@@ -521,6 +521,18 @@ body.darkLook {
     align-items: center;
     transition: all .5s ease-in-out;
 }
+.sidebar-left .sidebarView {
+    right: initial;
+    left: 0px;
+}
+.sidebar-left .contentView {
+    right: 0px;
+    position:absolute;
+    overflow: hidden;
+}
+.sidebar-left .toolbarHolder{
+    right: 20px;
+}
 .activeTreePage {
     border-left: 5px solid #0055f2;
 }
@@ -910,6 +922,7 @@ p{
     right: 50%;
     max-width: 450px;
     margin-right: -225px;
+    left: initial!important;
 }
 @media (max-width:500px){
     .mobile .sidebarView {

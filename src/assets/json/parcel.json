@@ -1,9 +1,9 @@
 [{
     "config": {
-        "title":"W19 - Breslin",
+        "title":"The Never Ending Story",
         "search": false,
         "progressBar": false,
-        "sidebar": "left"
+        "sidebar": "right"
     },
     "sections": 
     [
@@ -23,22 +23,7 @@
                             {
                                 "text":"Before you begin Unit 1, please click on the \"Unit 1 Reflection Guide\" link below to download/print a note-taking sheet."
                             }
-                        }
-                    ]
-                },
-                {
-                    "id": 1,
-                    "title" : "Summary",
-                    "blocks":
-                    [
-                        {
-                            "id":1,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"Before you begin Unit 1, please click on the \"Unit 1 Reflection Guide\" link below to download/print a note-taking sheet."
-                            }
-                        }
+                        }                        
                     ]
                 }
             ]

@@ -5,61 +5,7 @@ import { connect } from "react-redux";
 import { setCurrentUnit, setCurrentPage } from "../redux/Actions";
 
 // BLOCKS //
-import ImageText from "../blocks/ImageText";
-import Text from "../blocks/Text";
-import DownloadBox from "../blocks/DownloadBox";
-import Divider from "../blocks/Divider";
-import CardReveal from "../blocks/CardReveal";
-import TaskBlock from "../blocks/TaskBlock";
-import SubjectBlock from "../blocks/SubjectBlock";
-import ImageBullets from "../blocks/ImageBullets";
-import TabbedContentExplorer from "../blocks/TabbedContentExplorer";
-import TextColumns from "../blocks/TextColumns";
-import TextBullets from "../blocks/TextBullets";
-import KalturaVideo from "../blocks/KalturaVideo";
-import SingleImage from "../blocks/SingleImage";
-import AudioBlock from "../blocks/AudioBlock";
-import OGB from "../blocks/OGB";
-import HighlightedBits from "../blocks/HighlightedBits";
-import QuoteBox from "../blocks/QuoteBox";
-import QuizMultipleChoice from "../blocks/QuizMultipleChoice";
-import ExternalLinkBox from "../blocks/ExternalLinkBox";
-import AccordionReveal from "../blocks/AccordionReveal";
-import SectionedArrow from "../blocks/SectionedArrow";
-import YoutubeVideo from "../blocks/YoutubeVideo";
-import AccessibleImageModel from "../blocks/AccessibleImageModel";
-import MessengerBubble from "../blocks/MessengerBubble";
-import TimelineArrow from "../blocks/TimelineArrow";
-import QuizMultipleChoices from "../blocks/QuizMultipleChoices";
-
-const components = {
-  ImageText: ImageText,
-  Text: Text,
-  DownloadBox: DownloadBox,
-  Divider: Divider,
-  CardReveal: CardReveal,
-  TaskBlock: TaskBlock,
-  SubjectBlock: SubjectBlock,
-  ImageBullets: ImageBullets,
-  TabbedContentExplorer: TabbedContentExplorer,
-  TextColumns: TextColumns,
-  TextBullets: TextBullets,
-  KalturaVideo: KalturaVideo,
-  SingleImage: SingleImage,
-  AudioBlock: AudioBlock,
-  OGB: OGB,
-  HighlightedBits: HighlightedBits,
-  QuoteBox: QuoteBox,
-  QuizMultipleChoice: QuizMultipleChoice,
-  ExternalLinkBox: ExternalLinkBox,
-  AccordionReveal: AccordionReveal,
-  SectionedArrow: SectionedArrow,
-  YoutubeVideo: YoutubeVideo,
-  AccessibleImageModel: AccessibleImageModel,
-  MessengerBubble: MessengerBubble,
-  TimelineArrow: TimelineArrow,
-  QuizMultipleChoices: QuizMultipleChoices
-};
+import blocks from '../blocks';
 
 class Content extends Component {
 
@@ -119,7 +65,7 @@ class Content extends Component {
         
           {this.props.content[0] ? 
             (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block) => {
-              const MyComponent = components[block.type]; return React.createElement(MyComponent, { key: block.id, details: block.details });
+              const MyComponent = blocks[block.type]; return React.createElement(MyComponent, { key: block.id, details: block.details });
             })) 
           : null }
         </div>

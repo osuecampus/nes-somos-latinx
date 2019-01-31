@@ -1,6 +1,6 @@
 {
   "name": "never-ending-story",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A content presentation application",
   "main": "index.js",
   "homepage": "./",
@@ -40,6 +40,7 @@
     "react": "^16.5.2",
     "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.5.2",
+    "react-markdown": "^4.0.6",
     "react-redux": "^5.0.7",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
