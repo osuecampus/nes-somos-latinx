@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { loadContent, showScroll, setCurrentPage, setCurrentUnit, detectDimensions, changeFontSize, changeTheme} from "./redux/Actions";
 
 // COMPONENTS //
-import { Header, Footer, GA } from "osu-application";
+import { Footer } from "osu-application";
 
 // VIEWS //
 import ContentView from "./view/ContentView";

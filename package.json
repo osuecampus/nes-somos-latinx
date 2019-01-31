@@ -41,7 +41,6 @@
     "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
-    "react-starter": "git+ssh://git@github.com/osuecampus/react-starter.git",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "uuid": "^3.3.2"
