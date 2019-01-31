@@ -56,8 +56,6 @@ class Tree extends Component {
   }
 
   render() {
-
-    console.log(this.props.content[0].sections.length)
     
     return (
       <div className={'contentTree'}>
