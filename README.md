@@ -51,6 +51,6 @@ To setup your project, you just need to start filling out the JSON document in `
 
 Each object inside of `sections` is a unit. Units must contain pages, which are the objects placed inside sections[x].content. Inside the page objects, you then have a `blocks` array which is where you'll take templates from the `src/assets/json/templates` folder to generate content on your pages.
 
-### The Future
+### Custom Blocks
 
-This project is still under development. Things coming soon will be the search function, the ability to move the sidebar to the left side of the screen, and more. This documentation will also expand to help get people started on developing new blocks.
+To use custom blocks installed from NPM, yarn install them into your project then import it into blocks.js. You'll also need to add it to the default export.
