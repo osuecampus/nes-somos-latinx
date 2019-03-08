@@ -51,6 +51,10 @@ To setup your project, you just need to start filling out the JSON document in `
 
 Each object inside of `sections` is a unit. Units must contain pages, which are the objects placed inside sections[x].content. Inside the page objects, you then have a `blocks` array which is where you'll take templates from the `src/assets/json/templates` folder to generate content on your pages.
 
-### Custom Blocks
+### Using Custom Blocks
 
-To use custom blocks installed from NPM, yarn install them into your project then import it into blocks.js. You'll also need to add it to the default export.
+To use custom blocks installed from NPM, yarn install them into your project then import it into blocks.js. You'll also need to add it to the default export. You can also add them to the blocks folder in src. Just make sure to update `src/blocks.js` with the correct path to your block.
+
+### Creating Custom Blocks
+
+To create custom blocks, visit https://github.com/osuecampus/nes-block-template and follow the instructions to build a block.

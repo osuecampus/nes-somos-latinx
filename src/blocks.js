@@ -18,6 +18,7 @@ import AccordionReveal from "./blocks/AccordionReveal";
 import YoutubeVideo from "./blocks/YoutubeVideo";
 import MessengerBubble from "./blocks/MessengerBubble";
 import Markdown from './blocks/Markdown';
+import BlockName from 'nes-block-template';
 
 // CUSTOM BLOCKS //
 
@@ -42,5 +43,6 @@ export default {
   AccordionReveal,
   YoutubeVideo,
   MessengerBubble,
-  Markdown
+  Markdown,
+  BlockName
 }
