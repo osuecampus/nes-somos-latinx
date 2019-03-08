@@ -69,4 +69,4 @@ Edit the `src/index.js` file to change what JSX is shown when your block is call
 
 To test your component as you are editing it, run `yarn link`, then go to your NES folder and run `yarn link nes-block-blockname`. Run `yarn start` (or build) in your custom block folder and you should be able to access it by following the instructions in the *using custom blocks* section. 
 
-Once you are satisfied with it's functionality, push it to Github and alert Austin. Once a code review is performed, it will be pushed to NPM where you will be able to `yarn install nes-block-blockname` into your project.
+Once you are satisfied with it's functionality, fill out the readme and push it to Github and alert Austin. Once a code review is performed, it will be pushed to NPM where you will be able to `yarn install nes-block-blockname` into your project.
