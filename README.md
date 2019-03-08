@@ -55,27 +55,25 @@ Each object inside of `sections` is a unit. Units must contain pages, which are 
 
 NES ships with a small number of standard blocks that you can use in your project. Below is a short description of what each one does. Template JSON for use in your parcel can be found in `src/assets/json/templates/`.
 
-````
-AccordionReveal - Collapsable views where you can display text and images
-AudioBlock - Play audio files with hidable transcriptions
-CardReveal - Display up to 3 cards that display content on one side, and when clicked flip and show different content
-Divider - A simple line divider
-DownloadBox - A box with a button to download a file and a description of the file
-ExternalLinkBox - Exactly like DownloadBox, just it's an external link that opens in a new window
-ImageBullets - A bulleted list using images
-ImageText - Image shown side by side with text
-KalturaVideo - Show a Kaltura video
-Markdown - Write custom markdown
-MessengerBubble - An iOS-like messenger bubble conversation
-QuoteBox - A highlighted box of text
-SingleImage - Display one image
-SubjectBlock - A subject block of text
-TabbedContentExplorer - Display content in tabs
-Text - Just text, nothing special
-TextBullets - A bulleted list of text
-TextColumns - Columns of text
-YoutubeVideo - Show a Youtube video
-````
+`AccordionReveal` - Collapsable views where you can display text and images
+`AudioBlock` - Play audio files with hidable transcriptions
+`CardReveal` - Display up to 3 cards that display content on one side, and when clicked flip and show different content
+`Divider` - A simple line divider
+`DownloadBox` - A box with a button to download a file and a description of the file
+`ExternalLinkBox` - Exactly like DownloadBox, just it's an external link that opens in a new window
+`ImageBullets` - A bulleted list using images
+`ImageText` - Image shown side by side with text
+`KalturaVideo` - Show a Kaltura video
+`Markdown` - Write custom markdown
+`MessengerBubble` - An iOS-like messenger bubble conversation
+`QuoteBox` - A highlighted box of text
+`SingleImage` - Display one image
+`SubjectBlock` - A subject block of text
+`TabbedContentExplorer` - Display content in tabs
+`Text` - Just text, nothing special
+`TextBullets` - A bulleted list of text
+`TextColumns` - Columns of text
+`YoutubeVideo` - Show a Youtube video
 
 ### Using Custom Blocks
 
