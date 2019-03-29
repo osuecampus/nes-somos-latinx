@@ -18,9 +18,12 @@ import AccordionReveal from "./blocks/AccordionReveal";
 import YoutubeVideo from "./blocks/YoutubeVideo";
 import MessengerBubble from "./blocks/MessengerBubble";
 import Markdown from './blocks/Markdown';
-import BlockName from 'nes-block-template';
 
 // CUSTOM BLOCKS //
+import Carousel from "./blocks/Carousel";
+import TaskBlock from "./blocks/TaskBlock";
+import QuizMultipleChoice from "./blocks/QuizMultipleChoice";
+import Survey from "./blocks/Survey";
 
 
 // EXPORT LIST //
@@ -30,9 +33,12 @@ export default {
   DownloadBox,
   Divider,
   CardReveal,
+  Carousel,
   SubjectBlock,
+  Survey,
   ImageBullets,
   TabbedContentExplorer,
+  TaskBlock,
   TextColumns,
   TextBullets,
   KalturaVideo,
@@ -44,5 +50,5 @@ export default {
   YoutubeVideo,
   MessengerBubble,
   Markdown,
-  BlockName
+  QuizMultipleChoice
 }

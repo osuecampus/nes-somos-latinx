@@ -93,6 +93,56 @@ NES ships with a small number of standard blocks that you can use in your projec
 
 `YoutubeVideo` - Show a Youtube video
 
+### Unique Blocks for this Project
+
+`Carousel` - Simple Image Carousel
+```
+{
+  "id":12,
+  "type":"Carousel",
+  "details":
+  {
+    "images": [
+      {
+        "imageAlt": "cat",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1280px-Cat03.jpg"
+      },
+      {
+        "imageAlt": "dog",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg"
+      }
+    ]
+  }
+}
+```
+
+`Survey` - User response survey with hardcoded responses
+```
+{
+  "id":7,
+  "type":"Survey",
+  "details":
+  {
+    "question": "How many times have you cursed while working with CSS?",
+    "options": [
+      { 
+        "answer": "one",
+        "value": "30%"
+      },
+      {
+        "answer": "two",
+        "value": "20%"
+      },
+      {
+        "answer": "three",
+        "value": "50%"
+      }
+    ]
+  }
+}
+```
+
+
 ### Using Custom Blocks
 
 To use custom blocks installed from NPM, yarn install them into your project then import it into blocks.js. You'll also need to add it to the default export. You can also add them to the blocks folder in src. Just make sure to update `src/blocks.js` with the correct path to your block.
