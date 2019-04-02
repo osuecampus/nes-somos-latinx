@@ -33,8 +33,7 @@
                                     {
                                         "id":0,
                                         "revealText": "Video Transcript",
-                                        "text":"Text block goes here",
-                                        "html":"You can use html in this block. Only use text or html, not both"
+                                        "text":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish. However, away from home and at school almost everything we handled in English. Apart from language there were also differences between customs and small details between the typical American culture and the culture of my family. It is much more difficult to navigate environments and relationships for someone who does not know 'how the current flows.' This is why it’s so valuable to know ourselves well and learn how the ideas and ways that we bring are perceived by other people; from the way we behave, dress, communicate, work, and even our expectations towards others. It is equally valuable and important to know the cultures of others. For me, understanding all that over time gave me an advantage in school, clubs, college, and even in my work because now I can adapt more easily to the people and environments that surround me. This was something I started to realized when I was young, during elementary school when I realized that somehow I had a double-personality or double-identity. I was Ruben at home with my family and close friends, but at school and out of the home I was Jose. My way of being and of thinking changed depending on where and with whom I was. Eventually I became more aware of these changes. Today my understanding of others and myself brings me ease and advantages that I would not have without this knowledge."
                                     }
                                 ]
                             }
@@ -105,18 +104,26 @@
                             "type":"Survey",
                             "details":
                             {
-                              "question": "How many times have you cursed while working with CSS?",
+                              "question": "Which do you feel most comfortable with?",
                               "options": [
                                 { 
-                                  "answer": "one",
+                                  "answer": "Hispanic",
                                   "value": "30%"
                                 },
                                 {
-                                  "answer": "two",
+                                  "answer": "Latino",
                                   "value": "20%"
                                 },
                                 {
-                                  "answer": "This is a lot of text to just say three and even more text to make it to the second line",
+                                  "answer": "Latinx",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Latina",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Other",
                                   "value": "50%"
                                 }
                               ]
@@ -172,7 +179,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"​Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%."
+                                "text":"​“Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half (51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%."
                             }
                         },
                         {
@@ -307,12 +314,28 @@
                         },
                         {
                             "id":23,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for two surveys"
+                              "question": "Which term best identifies you?",
+                              "options": [
+                                { 
+                                  "answer": "Immigrant to US",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "1st Generation, USA-born",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "2nd Generation, USA-born",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "3rd Generation, USA-born",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -386,12 +409,20 @@
                         },
                         {
                             "id":31,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Which do you prefer?",
+                              "options": [
+                                { 
+                                  "answer": "Hispanic/Latinx",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Country of Origin",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -456,12 +487,20 @@
                         },
                         {
                             "id":38,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Do you consider yourself a typical American?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -619,12 +658,24 @@
                         },
                         {
                             "id":52,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "From these three identity aspects, which do you connect with?",
+                              "options": [
+                                { 
+                                  "answer": "Race",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Ethnicity",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Latino",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -636,7 +687,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Resources",
-                                        "text":"Resources to be provided"
+                                        "html":"<ol> <li>http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/</li> <li>http://www.pewhispanic.org/2004/03/19/generational-differences/ </li> </ol>"
                                     }
                                 ]
                             }
@@ -790,16 +841,6 @@
                         },
                         {
                             "id":14,
-                            "type":"TaskBlock",
-                            "details":
-                            {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
-                            }
-                        },
-                        {
-                            "id":15,
                             "type":"SingleImage",
                             "details":
                             {
@@ -808,17 +849,37 @@
                             }
                         },
                         {
-                            "id":16,
-                            "type":"TaskBlock",
+                            "id":15,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "What is your highest level of education?",
+                              "options": [
+                                { 
+                                  "answer": "Less than high school",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "High school diploma/GED",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Associates degree",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Bachelors degree",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Masters degree",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":17,
+                            "id":16,
                             "type":"Text",
                             "details":
                             {
@@ -826,7 +887,7 @@
                             }
                         },
                         {
-                            "id":18,
+                            "id":17,
                             "type":"SingleImage",
                             "details":
                             {
@@ -835,7 +896,7 @@
                             }
                         },
                         {
-                            "id":19,
+                            "id":18,
                             "type":"Text",
                             "details":
                             {
@@ -843,16 +904,16 @@
                             }
                         },
                         {
-                            "id":20,
+                            "id":19,
                             "type":"SingleImage",
                             "details":
                             {
                                 "url":"./assets/img/Images/Chart3.png",
-                                "imageAlt":"Three people studying at a coffee shop"
+                                "imageAlt":"College entry by race"
                             }
                         },
                         {
-                            "id":21,
+                            "id":20,
                             "type":"Text",
                             "details":
                             {
@@ -860,7 +921,7 @@
                             }
                         },
                         {
-                            "id":22,
+                            "id":21,
                             "type":"SingleImage",
                             "details":
                             {
@@ -869,7 +930,7 @@
                             }
                         },
                         {
-                            "id":23,
+                            "id":22,
                             "type":"Text",
                             "details":
                             {
@@ -877,17 +938,41 @@
                             }
                         },
                         {
-                            "id":24,
-                            "type":"TaskBlock",
+                            "id":23,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "What is your goal? What level of education do you want to achieve?",
+                              "options": [
+                                { 
+                                  "answer": "High school or equivalent",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Associate (technical school) degree",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Bachelors Degree",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Masters Degree",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Professional school (medical,law)",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Doctorate",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":25,
+                            "id":24,
                             "type":"SingleImage",
                             "details":
                             {
@@ -896,29 +981,43 @@
                             }
                         },
                         {
-                            "id":26,
+                            "id":25,
                             "type":"SingleImage",
                             "details":
                             {
                                 "url":"./assets/img/Images/Chart4.png",
-                                "imageAlt":"People doing a lab with bananas in a classroom"
+                                "imageAlt":"1st year college retention by race"
                             }
                         },
                         {
-                            "id":27,
+                            "id":26,
                             "type":"SingleImage",
                             "details":
                             {
                                 "url":"./assets/img/Images/Chart5.png",
-                                "imageAlt":"People doing a lab with bananas in a classroom"
+                                "imageAlt":"Bachelor degree completion by race"
                             }
                         },
                         {
-                            "id":28,
+                            "id":27,
                             "type":"Text",
                             "details":
                             {
                                 "text":"Remember our conversation at the beginning?This number can speak for itself... "
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"<ol> <li>http://www.pewhispanic.org/2014/04/29/2012-statistical-infor-mation-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</li> <li>http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf</li> <li>http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/</li> <li>https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/</li> <li>http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/</li></ol>"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -945,8 +1044,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Video Transcript",
-                                        "text":"Text block goes here",
-                                        "html":"You can use html in this block. Only use text or html, not both"
+                                        "html":"<p>My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different.</p> <p>At home my mom would speak in English with me most of the time, also in school and classes I would also speak English but at home it was a mix of languages and communications, one screaming over the other, using a little bit of “Spanglish,” A lot of Spanish here.</p> <p>My grandfather would always correct me with my words. When I would say “apoyo” oh my god he would always correct me and say it’s “apoyo.” Something so wonderful that I didn’t think was different, it didn’t seem different and now when I think about my life it’s a piece of my history. I think about how I’m raising my children different, and how i can pass on to them a little bit of that language, how can I give them that experience because it’s an incredible memory of mine. Looking at how families talk to one another and how they communicate-- and also how they share with the language.</p> "
                                     }
                                 ]
                             }
@@ -1054,23 +1152,92 @@
                         },
                         {
                             "id":12,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/Images/Map-US.png",
+                                "imageAlt":"US silhouette map"
+                            }
+                        },
+                        {
+                            "id":13,
                             "type":"Carousel",
                             "details":
                             {
                                 "images": [
                                     {
-                                        "imageAlt": "cat",
-                                        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1280px-Cat03.jpg"
+                                        "imageAlt": "1850",
+                                        "url": "./assets/img/Images/map1850.jpg"
                                     },
                                     {
-                                        "imageAlt": "dog",
-                                        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg"
+                                        "imageAlt": "1860",
+                                        "url": "./assets/img/Images/map1860.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1870",
+                                        "url": "./assets/img/Images/map1870.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1880",
+                                        "url": "./assets/img/Images/map1880.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1900",
+                                        "url": "./assets/img/Images/map1900.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1910",
+                                        "url": "./assets/img/Images/map1910.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1920",
+                                        "url": "./assets/img/Images/map1920.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1930",
+                                        "url": "./assets/img/Images/map1930.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1940",
+                                        "url": "./assets/img/Images/map1940.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1950",
+                                        "url": "./assets/img/Images/map1950.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1960",
+                                        "url": "./assets/img/Images/map1960.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1970",
+                                        "url": "./assets/img/Images/map1970.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1980",
+                                        "url": "./assets/img/Images/map1980.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "1990",
+                                        "url": "./assets/img/Images/map1990.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "2000",
+                                        "url": "./assets/img/Images/map2000.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "2010",
+                                        "url": "./assets/img/Images/map2010.jpg"
+                                    },
+                                    {
+                                        "imageAlt": "2013",
+                                        "url": "./assets/img/Images/map2013.jpg"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id":13,
+                            "id":14,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1082,7 +1249,7 @@
                             }
                         },
                         {
-                            "id":14,
+                            "id":15,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1094,7 +1261,7 @@
                             }
                         },
                         {
-                            "id":15,
+                            "id":16,
                             "type":"Text",
                             "details":
                             {
@@ -1102,7 +1269,7 @@
                             }
                         },
                         {
-                            "id":16,
+                            "id":17,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1111,17 +1278,25 @@
                             }
                         },
                         {
-                            "id":17,
-                            "type":"TaskBlock",
+                            "id":18,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "What are your thoughts? Do you believe that immigrants face more challenges in regards to their education?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":18,
+                            "id":19,
                             "type":"QuizMultipleChoice",
                             "details":
                             {
@@ -1169,7 +1344,7 @@
                             }
                         },
                         {
-                            "id":19,
+                            "id":20,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1178,7 +1353,7 @@
                             }
                         },
                         {
-                            "id":20,
+                            "id":21,
                             "type":"TaskBlock",
                             "details":
                             {
@@ -1188,7 +1363,7 @@
                             }
                         },
                         {
-                            "id":21,
+                            "id":22,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1200,7 +1375,7 @@
                             }
                         },
                         {
-                            "id":22,
+                            "id":23,
                             "type":"Text",
                             "details":
                             {
@@ -1208,7 +1383,7 @@
                             }
                         },
                         {
-                            "id":23,
+                            "id":24,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1220,7 +1395,7 @@
                             }
                         },
                         {
-                            "id":24,
+                            "id":25,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1229,7 +1404,7 @@
                             }
                         },
                         {
-                            "id":25,
+                            "id":26,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1238,7 +1413,7 @@
                             }
                         },
                         {
-                            "id":26,
+                            "id":27,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1250,7 +1425,7 @@
                             }
                         },
                         {
-                            "id":27,
+                            "id":28,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1259,7 +1434,7 @@
                             }
                         },
                         {
-                            "id":28,
+                            "id":29,
                             "type":"Text",
                             "details":
                             {
@@ -1267,7 +1442,7 @@
                             }
                         },
                         {
-                            "id":29,
+                            "id":30,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1279,7 +1454,7 @@
                             }
                         },
                         {
-                            "id":30,
+                            "id":31,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1288,7 +1463,7 @@
                             }
                         },
                         {
-                            "id":31,
+                            "id":32,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1300,7 +1475,7 @@
                             }
                         },
                         {
-                            "id":32,
+                            "id":33,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1312,7 +1487,7 @@
                             }
                         },
                         {
-                            "id":33,
+                            "id":34,
                             "type":"Text",
                             "details":
                             {
@@ -1320,7 +1495,7 @@
                             }
                         },
                         {
-                            "id":34,
+                            "id":35,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1332,7 +1507,7 @@
                             }
                         },
                         {
-                            "id":35,
+                            "id":36,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1341,7 +1516,7 @@
                             }
                         },
                         {
-                            "id":36,
+                            "id":37,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1353,7 +1528,7 @@
                             }
                         },
                         {
-                            "id":37,
+                            "id":38,
                             "type":"Text",
                             "details":
                             {
@@ -1361,7 +1536,7 @@
                             }
                         },
                         {
-                            "id":38,
+                            "id":39,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1373,7 +1548,7 @@
                             }
                         },
                         {
-                            "id":39,
+                            "id":40,
                             "type":"Text",
                             "details":
                             {
@@ -1381,7 +1556,7 @@
                             }
                         },
                         {
-                            "id":40,
+                            "id":41,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1393,7 +1568,7 @@
                             }
                         },
                         {
-                            "id":41,
+                            "id":42,
                             "type":"Text",
                             "details":
                             {
@@ -1401,7 +1576,7 @@
                             }
                         },
                         {
-                            "id":42,
+                            "id":43,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1410,7 +1585,7 @@
                             }
                         },
                         {
-                            "id":43,
+                            "id":44,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1419,7 +1594,7 @@
                             }
                         },
                         {
-                            "id":44,
+                            "id":45,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1428,7 +1603,7 @@
                             }
                         },
                         {
-                            "id":45,
+                            "id":46,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1440,7 +1615,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":47,
                             "type":"Text",
                             "details":
                             {
@@ -1448,7 +1623,7 @@
                             }
                         },
                         {
-                            "id":47,
+                            "id":48,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1457,7 +1632,7 @@
                             }
                         },
                         {
-                            "id":48,
+                            "id":49,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1469,7 +1644,7 @@
                             }
                         },
                         {
-                            "id":49,
+                            "id":50,
                             "type":"Text",
                             "details":
                             {
@@ -1477,7 +1652,7 @@
                             }
                         },
                         {
-                            "id":50,
+                            "id":51,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1486,7 +1661,7 @@
                             }
                         },
                         {
-                            "id":51,
+                            "id":52,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1495,7 +1670,7 @@
                             }
                         },
                         {
-                            "id":52,
+                            "id":53,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1504,7 +1679,7 @@
                             }
                         },
                         {
-                            "id":53,
+                            "id":54,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1516,7 +1691,7 @@
                             }
                         },
                         {
-                            "id":54,
+                            "id":55,
                             "type":"Text",
                             "details":
                             {
@@ -1524,7 +1699,7 @@
                             }
                         },
                         {
-                            "id":55,
+                            "id":56,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1533,17 +1708,25 @@
                             }
                         },
                         {
-                            "id":56,
-                            "type":"TaskBlock",
+                            "id":57,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Which one are you?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":57,
+                            "id":58,
                             "type":"QuizMultipleChoice",
                             "details":
                             {
@@ -1576,7 +1759,7 @@
                             }
                         },
                         {
-                            "id":58,
+                            "id":59,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1585,7 +1768,7 @@
                             }
                         },
                         {
-                            "id":59,
+                            "id":60,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1597,7 +1780,7 @@
                             }
                         },
                         {
-                            "id":60,
+                            "id":61,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1606,7 +1789,7 @@
                             }
                         },
                         {
-                            "id":61,
+                            "id":62,
                             "type":"TaskBlock",
                             "details":
                             {
@@ -1616,11 +1799,25 @@
                             }
                         },
                         {
-                            "id":62,
+                            "id":63,
                             "type":"Text",
                             "details":
                             {
                                 "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth. Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population. In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall. Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055."
+                            }
+                        },
+                        {
+                            "id":64,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"<ol> <li>http://www.pewresearch.org/-fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants</li> <li>https://clas.berkeley.edu/research/immigration-latino-mi-gration-and-us-foreign-policy/</li> <li>https://www.migrationpolicy.org/article/central-ameri-can-immigrants-united-states</li> <li>https://www.migrationpolicy.org/article/south-ameri-can-immigrants-united-states</li> <li>http://www.pewhispanic.org/2015/09/28/modern-immigra-tion-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/</li> <li>https://www.migrationpolicy.org/research/timeline-1790</li> <li>http://www.pewresearch.org/-fact-tank/2015/02/11/states-su-ing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/</li></ol>"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -1647,7 +1844,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Video Transcript",
-                                        "html":"</p>I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia.</p> <p>Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life.</p><p>They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States.</p> <p>Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.</p> <p>The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages.</p> <p>For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.</p> <p>Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!</p>"
+                                        "html":"<p>I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia.</p> <p>Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life.</p><p>They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States.</p> <p>Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.</p> <p>The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages.</p> <p>For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.</p> <p>Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!</p>"
                                     }
                                 ]
                             }
@@ -1732,16 +1929,42 @@
                         },
                         {
                             "id":10,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for 2 surveys"
+                              "question": "Is your family's financial situation a concern for you?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
                             "id":11,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Are you concerned about your future personal finances?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":12,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1750,7 +1973,7 @@
                             }
                         },
                         {
-                            "id":12,
+                            "id":13,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1759,7 +1982,7 @@
                             }
                         },
                         {
-                            "id":13,
+                            "id":14,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1771,7 +1994,7 @@
                             }
                         },
                         {
-                            "id":14,
+                            "id":15,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1783,7 +2006,7 @@
                             }
                         },
                         {
-                            "id":15,
+                            "id":16,
                             "type":"Text",
                             "details":
                             {
@@ -1791,7 +2014,7 @@
                             }
                         },
                         {
-                            "id":16,
+                            "id":17,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1803,17 +2026,37 @@
                             }
                         },
                         {
-                            "id":17,
-                            "type":"TaskBlock",
+                            "id":18,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for 3 surveys"
+                              "question": "What is your highest level of education?",
+                              "options": [
+                                { 
+                                  "answer": "Elementary school or less",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Some high school",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "High school diploma/GED",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "Some college",
+                                  "value": "50%"
+                                },
+                                {
+                                  "answer": "College degree",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":18,
+                            "id":19,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1822,7 +2065,7 @@
                             }
                         },
                         {
-                            "id":19,
+                            "id":20,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1831,7 +2074,7 @@
                             }
                         },
                         {
-                            "id":20,
+                            "id":21,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1843,7 +2086,7 @@
                             }
                         },
                         {
-                            "id":21,
+                            "id":22,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1855,7 +2098,7 @@
                             }
                         },
                         {
-                            "id":22,
+                            "id":23,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1867,7 +2110,7 @@
                             }
                         },
                         {
-                            "id":23,
+                            "id":24,
                             "type":"Text",
                             "details":
                             {
@@ -1875,7 +2118,7 @@
                             }
                         },
                         {
-                            "id":24,
+                            "id":25,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1887,7 +2130,7 @@
                             }
                         },
                         {
-                            "id":25,
+                            "id":26,
                             "type":"Text",
                             "details":
                             {
@@ -1895,7 +2138,7 @@
                             }
                         },
                         {
-                            "id":26,
+                            "id":27,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1907,7 +2150,7 @@
                             }
                         },
                         {
-                            "id":27,
+                            "id":28,
                             "type":"Text",
                             "details":
                             {
@@ -1915,7 +2158,7 @@
                             }
                         },
                         {
-                            "id":28,
+                            "id":29,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1927,7 +2170,7 @@
                             }
                         },
                         {
-                            "id":29,
+                            "id":30,
                             "type":"Text",
                             "details":
                             {
@@ -1935,17 +2178,25 @@
                             }
                         },
                         {
-                            "id":30,
-                            "type":"TaskBlock",
+                            "id":31,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "How many times have you cursed while working with CSS?",
+                              "options": [
+                                { 
+                                  "answer": "Work for an institution or company",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Have your own business",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":31,
+                            "id":32,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1954,7 +2205,7 @@
                             }
                         },
                         {
-                            "id":32,
+                            "id":33,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -1966,7 +2217,7 @@
                             }
                         },
                         {
-                            "id":33,
+                            "id":34,
                             "type":"Text",
                             "details":
                             {
@@ -1974,7 +2225,7 @@
                             }
                         },
                         {
-                            "id":34,
+                            "id":35,
                             "type":"SingleImage",
                             "details":
                             {
@@ -1983,7 +2234,7 @@
                             }
                         },
                         {
-                            "id":35,
+                            "id":36,
                             "type":"TaskBlock",
                             "details":
                             {
@@ -1993,7 +2244,7 @@
                             }
                         },
                         {
-                            "id":36,
+                            "id":37,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -2005,7 +2256,7 @@
                             }
                         },
                         {
-                            "id":37,
+                            "id":38,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -2017,7 +2268,7 @@
                             }
                         },
                         {
-                            "id":38,
+                            "id":39,
                             "type":"Text",
                             "details":
                             {
@@ -2025,29 +2276,37 @@
                             }
                         },
                         {
-                            "id":39,
+                            "id":40,
                             "type":"SubjectBlock",
                             "details":
                             {
                                 "backgroundType": "none",
                                 "backgroundValue": "url || color",
                                 "align": "center",
-                                "text":"How can we change the future of the Latino community Think about it!",
+                                "text":"How can we change the future of the Latino community? Think about it!",
                                 "size": "bigger"
                             }
                         },
                         {
-                            "id":40,
-                            "type":"TaskBlock",
+                            "id":41,
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "Do you believe that poverty can change your outcome in life?",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
-                            "id":41,
+                            "id":42,
                             "type":"SingleImage",
                             "details":
                             {
@@ -2056,16 +2315,16 @@
                             }
                         },
                         {
-                            "id":42,
+                            "id":43,
                             "type":"SingleImage",
                             "details":
                             {
                                 "url":"./assets/img/Images/Earnings-Chart.png",
-                                "imageAlt":"Family in a classroom"
+                                "imageAlt":"Earnings and tax for various education levels"
                             }
                         },
                         {
-                            "id":43,
+                            "id":44,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -2077,7 +2336,7 @@
                             }
                         },
                         {
-                            "id":44,
+                            "id":45,
                             "type":"Text",
                             "details":
                             {
@@ -2085,7 +2344,7 @@
                             }
                         },
                         {
-                            "id":45,
+                            "id":46,
                             "type":"TaskBlock",
                             "details":
                             {
@@ -2095,7 +2354,7 @@
                             }
                         },
                         {
-                            "id":46,
+                            "id":47,
                             "type":"SubjectBlock",
                             "details":
                             {
@@ -2107,11 +2366,25 @@
                             }
                         },
                         {
-                            "id":47,
+                            "id":48,
                             "type":"Text",
                             "details":
                             {
                                 "text":"Consider these important factors: First: Median earnings. With the same degree, what are the groups making more money? And the ones making less? Second: Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!"
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"<ol> <li> https://www.census.gov/library/visualiza-tions/2014/demo/poverty_measure-how.html</li> <li>http://www.pewresearch.org/-fact-tank/2014/06/26/u-s-hispan-ic-and-asian-populations-growing-but-for-different-reasons/</li> <li>http://www.pewhispanic.org/2014/06/19/lati-no-jobs-growth-driven-by-u-s-born/</li> <li>MPI tabulation of data from the U.S. Census Bureau 2014 ACS</li> <li>Pew Research Center tabulations of Current Population Survey Data</li> <li> https://trends.collegeboard.org/sites/default/files/edu-cation-pays-2016-full-report.pdf </li></ol>"
+                                    }
+                                ]
                             }
                         }
 
@@ -2139,7 +2412,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Video Transcript",
-                                        "html":"Text coming"
+                                        "html":"<p>Well, to begin my name is Miguel Ruiz. I am 13 years old and I attend Linus Pauling. I’m an only child, my dad and mom and it’s only us three. What I like the most besides riding horses is the, “soga”, “floreo de soga” “los piales” and in general the “charreadas.”</p> <p>Well, when I was younger, I’ve seen pictures where my parents dress would always dress me with boots and a sombrero. We have always had horses.</p> <p>One day we decided to have our horses here in the United States. When we decided to have horses here we met a lot of people and luckily I met a man named Antonio Huerta and he taught me alot about the “charreria” besides what my dad taught me about horses. I have always said let’s not lose the customs of our mexican parents and we should always be prideful of being mexican and put on the clothes right because that’s what represents our lives.</p>"
                                     }
                                 ]
                             }
@@ -2465,7 +2738,7 @@
                             "details":
                             {
                                 "url":"./assets/img/Images/Dominant-Language-Graphic.png",
-                                "imageAlt":"Percenages of Spanish dominant, English dominant, and English dominant"
+                                "imageAlt":"Percentages of Spanish dominant, English dominant, and English dominant"
                             }
                         },
                         {
@@ -2815,6 +3088,20 @@
                             "details":
                             {
                                 "text":"For example, government workers in California who hold bilingual positions earn an extra $.58 an hour, according to the state's Department of Personnel Administration Web site. In Washington County, Oregon, employees in \"bilingual positions\" who spend 15-20 percent of their time in \"regular and frequent use\" of their bilingual skills earn an extra $30 per pay period. Bilingualism can boost your competitiveness in the job market. A second language will make your resume stand out when companies are seeking employees who can connect with diverse audiences."
+                            }
+                        },
+                        {
+                            "id":56,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"<ol> <li>http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/</li> <li>https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/</li> <li>Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.</li> <li>https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf</li> <li>ttp://aboutworldlanguages.com/indigenous-languages-of-south-america</li> <li>https://www.sciencedaily.com/releases/2014/11/141112084504.htm</li> </ol>"
+                                    }
+                                ]
                             }
                         }
                     ]
