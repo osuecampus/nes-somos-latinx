@@ -31,9 +31,9 @@ const ss = StyleSheet.create({
     justifyContent:'space-between',
     alignItems:'center',
     flexDirection:'row',
-    background: 'rgba(255,255,255,.1)',
+    background: 'rgb(241, 241, 241)',
     borderRadius: 10,
-    border: '1px solid rgba(0,0,0,.15)',
+    border: '0px solid rgba(0,0,0,.0)',
     '@media (max-width: 700px)': {
       flexDirection: 'column',
       width:'100%',
@@ -41,15 +41,15 @@ const ss = StyleSheet.create({
     }
   },
   button:{
-    width:200,
+    minWidth:180,
     fontFamily: 'Open Sans',
-    fontSize: 22,
+    fontSize: 18,
     color: '#fff',
     textDecoration: 'none',
     textAlign: 'center',
     padding: '18px 0px',
-    fontWeight: '700',
-    borderRadius:45,
+    fontWeight: '500',
+    borderRadius:8,
     backgroundColor:'#1f60e2',
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
@@ -65,7 +65,7 @@ const ss = StyleSheet.create({
   text:{
     width:'calc(100% - 250px)',
     fontFamily: 'Open Sans',
-    fontSize: 20,
+    fontSize: 16,
     lineHeight: '28px',
     '@media (max-width: 700px)': {
       width: '100%',

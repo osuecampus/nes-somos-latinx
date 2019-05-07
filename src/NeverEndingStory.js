@@ -6,6 +6,7 @@ import { loadContent, showScroll, setCurrentPage, setCurrentUnit, detectDimensio
 
 // COMPONENTS //
 import { Footer } from "osu-application";
+import { Link, Route, Redirect } from 'react-router-dom';
 
 // VIEWS //
 import ContentView from "./view/ContentView";
@@ -59,6 +60,9 @@ class App extends Component {
     setTimeout(()=>{this.forceUpdate()},50)
   }
 
+
+
+
   render() {
     let footerTheme = 'light';
     if(this.props.theme == 'lightLook'){
@@ -70,9 +74,16 @@ class App extends Component {
 
     return (
     
+      
       <div ref={'app'} className={ 'sidebar-'+ ( this.props.content[0] ? this.props.content[0].config.sidebar : '')} style={{height:'100%'}}>
-        { this.props.content[0] ? 
-        this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')] && this.props.content[0].sections[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-unit')].content[localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-current-page')]  ?
+
+      <Route exact path="/:unit/:page" exact render={ (route) => <div>
+      {this.props.setCurrentUnit(route.match.params.unit)}
+      {this.props.setCurrentPage(route.match.params.page)}
+        {
+          this.props.content[0] ? 
+        
+        this.props.content[0].sections[route.match.params.unit] && this.props.content[0].sections[route.match.params.unit].content[route.match.params.page] ?
           <div>
         <SidebarView />
         <ContentView />
@@ -80,8 +91,15 @@ class App extends Component {
           <Footer theme={footerTheme} />
         </div>
         </div>
-        : (localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-current-unit', 0), (localStorage.setItem('nes-' + process.env.PROJECT_NAME + '-current-page', 0)), this.restart()) : null }
-      </div>
+        : <Redirect to="/0/0"/> : null }
+
+</div> } />
+
+<Route path="/:unit" exact render={(route) => (<Redirect to={'/'+route.match.params.unit+'/0'}/>) }  />
+<Route path="/" exact render={(route) => (<Redirect to={'/0/0'}/>) }  />
+
+        </div>
+      
       
     )
     

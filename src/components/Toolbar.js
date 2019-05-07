@@ -17,10 +17,12 @@ class Toolbar extends Component {
 
 changeSize(size){
     this.props.changeFontSize(size);
+    window.document.activeElement.blur();
 }
 
 changeTheme(theme){
     this.props.changeTheme(theme);
+    window.document.activeElement.blur();
 }
 
 componentDidMount(){

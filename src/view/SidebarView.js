@@ -10,9 +10,6 @@ import ProgressBar from "../components/ProgressBar";
 import SearchBar from "../components/SearchBar";
 
 class SidebarView extends Component {
-  componentDidMount() {
-
-  }
 
   constructor(props) {
     super(props);
@@ -24,7 +21,6 @@ class SidebarView extends Component {
   setSearch(e){
     this.setState({searchContents: e.target.value})
   }
-
 
   render() {
 

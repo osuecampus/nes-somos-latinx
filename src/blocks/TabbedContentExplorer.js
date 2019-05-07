@@ -14,8 +14,9 @@ export default class TabbedContentExplorer extends Component {
     };
   }
 
-  setTab(id){
+  setTab(id,url){
     this.setState({currentTab: id});
+    window.open(url, '_blank')
   }
 
   render() {
@@ -23,7 +24,7 @@ export default class TabbedContentExplorer extends Component {
       <section className={css(ss.section)}>
         <div className={css(ss.tabHold)}>
           {this.props.details.tabs.map((block) => 
-            <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id) : null } onClick={() => this.setTab(block.id)} tabIndex={'4'} key={block.id} className={css(ss.tab)}>
+            <div onKeyDown={(event) => event.keyCode == 32 ? this.setTab(block.id,block.link) : null } onClick={() => this.setTab(block.id,block.link)} tabIndex={'4'} key={block.id} className={css(ss.tab, this.state.currentTab == block.id && ss.activeTab)}>
               <div className={css(ss.imgHold)}>
                 <img className={css(ss.image)} src={block.image} alt={block.imageAlt} title={block.imageAlt} />
               </div>
@@ -43,16 +44,15 @@ const ss = StyleSheet.create({
       display:'flex',
       alignItems:'center',
       flexDirection:'column',
-      minHeight:100,
-      backgroundColor:'rgba(255, 255, 255, 0.1)',
-      border:'1px solid rgba(0,0,0,.15)',
+      backgroundColor:'rgba(255, 255, 255, 0.0)',
+      border:'0px solid rgba(0,0,0,.15)',
       borderRadius:10
   },
   tabHold:{
     width:'calc(100% - 20px)',
     paddingLeft:10,
     paddingRight:10,
-    borderBottom:'1px solid rgba(0,0,0,.2)',
+    borderBottom:'0px solid rgba(0,0,0,0)',
     display:'flex',
     flexDirection:'row',
     justifyContent:'space-around',
@@ -74,14 +74,14 @@ const ss = StyleSheet.create({
       backgroundColor: 'rgb(0, 0, 0, .055)'
     },
     ':focus': {
-      backgroundColor:'#0e5bea'
-    },
-    ':focus sub': {
-      color:'#fff'
+      backgroundColor:'rgb(0, 0, 0, .1)'
     },
     '@media (max-width: 700px)': {
       padding:0,
     }
+  },
+  activeTab:{
+    backgroundColor:'rgb(0, 0, 0, .055)',
   },
   imgHold:{
     height:75,
@@ -104,7 +104,6 @@ const ss = StyleSheet.create({
     fontSize:13,
     maxWidth:150,
     textAlign:'center',
-    height:35,
     overflow:'hidden',
     paddingTop:5,
     lineHeight:1.25,
@@ -117,7 +116,7 @@ const ss = StyleSheet.create({
     fontFamily:'Crimson Text',
   },
   browserHold:{
-    backgroundColor: 'rgba(0,0,0,.05)',
+    backgroundColor: 'rgba(0,0,0,.0)',
     width:'100%'
   }
 });
