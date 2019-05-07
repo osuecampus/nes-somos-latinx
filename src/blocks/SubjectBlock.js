@@ -9,7 +9,7 @@ export default class SubjectBlock extends Component {
 
   render() {
     return (
-      <section style={{ height: this.props.details.backgroundType == 'image' ||  this.props.details.backgroundType == 'color' ? 350 : 'initial',   background: this.props.details.backgroundType == 'image' ? 'url('+this.props.details.backgroundValue+')' : this.props.detailsBackgroundType == 'none' ? 'transparent': this.props.details.backgroundValue }} className={css(ss.section, (this.props.details.backgroundType == 'image' ? ss.wideLoad : null))}>
+      <section style={{ height: this.props.details.backgroundType == 'image' ||  this.props.details.backgroundType == 'color' ? 280 : 'initial',   background: this.props.details.backgroundType == 'image' ? 'url('+this.props.details.backgroundValue+')' : this.props.detailsBackgroundType == 'none' ? 'transparent': this.props.details.backgroundValue }} className={css(ss.section, (this.props.details.backgroundType == 'image' ? ss.wideLoad : null))}>
         <p style={{ fontSize: this.props.details.size ? 'larger' : 'inherit', textAlign: this.props.details.align}} className={css(ss.text,(this.props.details.backgroundType == 'image' ? ss.overlay : null) ) }>
           <span className={css(ss.innerText)}>
             {this.props.details.text}
@@ -27,12 +27,11 @@ const ss = StyleSheet.create({
       alignItems:'center',
       backgroundPosition: 'left',
       backgroundSize: 'cover',
-      borderRadius:10,
       overflow:'hidden'
   },
   wideLoad:{
-    width: 'calc(100% + 500px)',
-    marginLeft:-250,
+    width: '100%',
+    marginLeft:0,
     '@media (max-width: 700px)': {
       width:'100%',
       marginLeft:0
@@ -44,7 +43,8 @@ const ss = StyleSheet.create({
     justifyContent:'center',
     alignItems:'center',
     color:'#fff',
-    backgroundColor:'rgba(30, 96, 231, 0.8)'
+    backgroundColor: 'rgba(42, 0, 140, 0.4)',
+    background: 'linear-gradient(160deg, rgba(42, 0, 140, 0.8) 0%, rgba(42,0,140,0) 100%), rgba(42, 0, 140, 0.4)'
   },
   text:{
     width:'100%',
@@ -53,6 +53,7 @@ const ss = StyleSheet.create({
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
+    textShadow:'0 1px 4px rgba(0, 0, 0, 0)'
   },
   innerText:{
     maxWidth:860,

@@ -71,8 +71,12 @@ class Content extends Component {
           </div>
         </div>
         <div id={'readableContent'}>
-          <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
+                {this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title == 'Home' ? null :
+                  <h2 className={'unitIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title:null}</h2>
+                : null }
+          {this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].title == 'Home' ? null :
           <h1 className={'pageIntro'}>{this.props.content[0] ? this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].title:null}</h1>
+          : null }
         
           {this.props.content[0] ? 
             (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block, index) => {

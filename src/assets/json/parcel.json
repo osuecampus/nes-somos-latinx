@@ -1,6 +1,6 @@
 [{
     "config": {
-        "title":"W19 - Breslin",
+        "title":"Somos LatinX",
         "search": false,
         "progressBar": false,
         "sidebar": "left"
@@ -9,7 +9,77 @@
     [
         {
             "id": 0,
-            "title": "Somos Latinx",
+            "title": "Home",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Home",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-somos-latinx/212301013_aed5c02949_b.jpg",
+                                "align": "center",
+                                "text":"Welcome to the LatinX Community",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"./assets/img/home-stories.svg",
+                                        "imageAlt": "Stories",
+                                        "imageHeight":250,
+                                        "url":"./#/1/0"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "image":"./assets/img/home-education.svg",
+                                        "imageAlt": "Education",
+                                        "imageHeight":250,
+                                        "url":"./#/2/0"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "image":"./assets/img/home-resources.svg",
+                                        "imageAlt": "Resources",
+                                        "imageHeight":250,
+                                        "url":"./#/3/0"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Stories",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Home",
+                    "blocks":
+                    [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Education",
             "content": [
                 {
                     "id": 0,
@@ -2817,6 +2887,48 @@
                                 "text":"For example, government workers in California who hold bilingual positions earn an extra $.58 an hour, according to the state's Department of Personnel Administration Web site. In Washington County, Oregon, employees in \"bilingual positions\" who spend 15-20 percent of their time in \"regular and frequent use\" of their bilingual skills earn an extra $30 per pay period. Bilingualism can boost your competitiveness in the job market. A second language will make your resume stand out when companies are seeking employees who can connect with diverse audiences."
                             }
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Resources",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Home",
+                    "blocks":
+                    [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "About",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Home",
+                    "blocks":
+                    [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Contact",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Home",
+                    "blocks":
+                    [
+                        
                     ]
                 }
             ]

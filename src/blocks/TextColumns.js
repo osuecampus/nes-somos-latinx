@@ -7,12 +7,16 @@ import { StyleSheet, css } from 'aphrodite';
 
 export default class TextColumns extends Component {
 
+  launchUrl(url){
+    window.location.href = url
+  }
+
   render() {
     return (
       <section className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
-          <div style={{width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
-            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', borderRadius:10, height:235, overflow:'hidden'}}><img style={{maxHeight:'100%',borderRadius:10}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
+          <div onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
+            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235, overflow:'hidden'}}><img style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
             {block.bold ? <h1 className={css(ss.bold)}>{block.bold}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }

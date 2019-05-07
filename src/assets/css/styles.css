@@ -9,6 +9,11 @@ footer {
     height: 200px;
 }
 
+.somosLogo{
+    height: 34px;
+}
+
+
 /* THEMES */
 .darkLook {
     color: #fcfcfc!important;
@@ -296,7 +301,7 @@ body.darkLook {
     margin-top: 15px;
 }
 .toolPlaceholder:hover path,.toolPlaceholder:focus path{
-    fill:#0e5bea!important;
+    fill:#aa0176!important;
 }
 .accessibilityGroup {
     background: #efefef;
@@ -542,8 +547,8 @@ body.darkLook {
     top:25px;
 }
 .activeTreePage {
-    border-left: 5px solid #0055f2;
-    color: #0055f2!important
+    border-left: 5px solid #aa0076;
+    color: #aa0076!important
 }
 .darkLook .activeTreePage{
     border-left: 5px solid #ffa42b;
@@ -555,10 +560,11 @@ body.darkLook {
     margin-bottom: 25px;
 }
 .logo{
-    height: 50px;
+    height: 30px;
 }
 .titleHolder{
     width: 90%;
+    margin-top: 40px;
 }
 .titleHolder h1 {
     font-size: 26px;
@@ -587,7 +593,7 @@ body.darkLook {
     height: 7px;
     margin-top: 0px;
     margin-left: 0px;
-    background: #0e5bea;
+    background: #aa0176;
     width: 15%;
     border-radius: 16px;
     transition: all .5s ease-in-out;
@@ -696,14 +702,14 @@ body.darkLook {
 
 .unitBlock {
     width: calc(100% - 100px);
-    height: 79px;
+    height: 60px;
     display: flex;
     position:relative;
     align-items: center;
     padding-left: 20px;
     padding-right: 80px;
     cursor:pointer;
-    border-bottom: 1px solid rgba(204, 146, 146, 0.2);
+    border-bottom: 1px solid #efefef;
     transition: all .2s ease-in-out;
 }
 .unitBlock:hover{
@@ -719,6 +725,7 @@ body.darkLook {
 }
 .unitBlock h2 svg{
     height:20px;
+    width:20px;
     margin-right:8px;
 }
 .unitBlock h2 svg path{
@@ -743,16 +750,16 @@ body.darkLook {
 }
 
 .activeUnit  h2{
-    color:#0055f2
+    color:#aa0076
 }
 .darkLook .activeUnit h2{
     color: #ffa32a!important;
 }
 .activeUnit  h2 path{
-    fill:#0055f2
+    fill:#aa0076
 }
 .activeUnit  .downProgress path{
-    fill:#0055f2;
+    fill:#aa0076;
 }
 .darkLook .activeUnit h2 path{
     fill:#ffa32a!important
@@ -884,7 +891,7 @@ p{
     width: 29px;
 }
 #done{
-    background: #0e5bea;
+    background: #aa0176;
     height: 16px;
     width: 16px;
     position: absolute;

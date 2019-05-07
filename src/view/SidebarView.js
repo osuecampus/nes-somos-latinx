@@ -27,15 +27,8 @@ class SidebarView extends Component {
 
     return (
       <div role="navigation" className={'sidebarView'}>
-        <div className={'branding'}>
-          {this.props.theme == 'lightLook' ? 
-            <img src={'./assets/img/logo-light.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
-            :
-            <img src={'./assets/img/logo-dark.svg'} className={'logo'} alt={'Oregon State University'} title={'Oregon State University'} />
-          }
-        </div>
         <div className={'titleHolder'}>
-          <h1>{ this.props.content[0] ? this.props.content[0].config.title : null  }</h1>
+          <img className={'somosLogo'} src={'../assets/img/somos-logo.svg'} />
         </div>
 
         { this.props.content[0] ? this.props.content[0].config.progressBar ? 
