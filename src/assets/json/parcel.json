@@ -195,6 +195,16 @@
                             }
                         },
                         {
+                            "id":1.5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)"
+                            }
+                        },
+                        {
                             "id":2,
                             "type":"SubjectBlock",
                             "details":
@@ -213,7 +223,7 @@
                             }
                         },
                         {
-                            "id":3,
+                            "id":3.5,
                             "type":"Text",
                             "details":
                             {
@@ -222,23 +232,19 @@
                         },
                         {
                             "id":4,
-                            "type":"TextColumns",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "columns":
+                                "cards":
                                 [
                                     {
                                         "id": 0,
-                                        "bold":"Latino",
+                                        "revealText":"Latino",
                                         "text":"Latino refers to the culture or origins of people from countries (or cultures) that were onceunder Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians areconsidered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins."
                                     },
                                     {
                                         "id": 1,
-                                        "headline":"VS"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "bold":"Hispanic",
+                                        "revealText":"Hispanic",
                                         "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, CentralAmerica, and most of South America where Spanish is the primary language)."
                                     }
                                 ]

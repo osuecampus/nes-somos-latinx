@@ -25,6 +25,7 @@ import TaskBlock from "./blocks/TaskBlock";
 import QuizMultipleChoice from "./blocks/QuizMultipleChoice";
 import Survey from "./blocks/Survey";
 import TextReveal from "./blocks/TextReveal";
+import OlgasParallax from "./blocks/OlgasParallax";
 
 
 // EXPORT LIST //
@@ -52,5 +53,6 @@ export default {
   MessengerBubble,
   Markdown,
   QuizMultipleChoice,
-  TextReveal
+  TextReveal,
+  OlgasParallax
 }
