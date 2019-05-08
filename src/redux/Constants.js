@@ -9,3 +9,4 @@ export const RESTART_READER = "RESTART_READER";
 export const SET_CURRENT_UNIT = "SET_CURRENT_UNIT";
 export const SET_CURRENT_PAGE = "SET_CURRENT_PAGE";
 export const SHOW_SCROLL = "SHOW_SCROLL";
+export const SET_LANGUAGE = "SET_LANGUAGE";

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, css } from 'aphrodite';
+import { callbackify } from "util";
 
 // details.layout
 // details.text
@@ -15,9 +16,11 @@ export default class TextColumns extends Component {
     return (
       <section className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
-          <div onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column)} key={block.id}>
-            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235, overflow:'hidden'}}><img style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
+          <div onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column, block.youtube && ss.youtubeColumn)} key={block.id}>
+            {block.youtube ? <img className={css(ss.spinner)} src={'./assets/img/loading-white.apng'} /> : null}
+            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
+            {block.youtube ? <iframe className={css(ss.video)} src={'https://www.youtube.com/embed/'+block.youtube} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope;" allowFullScreen></iframe> : null }
             {block.bold ? <h1 className={css(ss.bold)}>{block.bold}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
           </div>
@@ -32,12 +35,40 @@ const ss = StyleSheet.create({
       width: '100%',
       display:'flex',
       flexDirection:'row',
+      position:'relative',
       justifyContent:'space-around',
       alignItems:'flex-start',
       '@media (max-width: 700px)': {
         flexDirection: 'column',
         alignItems:'center',
       }
+  },
+  spinner:{
+    position:'absolute',
+    top:83,
+    width:42,
+    opacity:.5,
+  },
+
+  video:{
+    width:'calc(100% - 30px)',
+    marginTop:15,
+    position:'relative',
+    zIndex:2
+  },
+  youtubeColumn:{
+    background:'#08bb99',
+    color:'#fff',
+    margin:10,
+    width:'calc(100% - 30px)'
+  },
+  images:{
+    position:'relative',
+    top:0,
+    transition: 'all .2s ease-in-out',
+    ':hover':{
+      top:-5
+    }
   },
   text:{
     width:'100%',
@@ -78,6 +109,8 @@ const ss = StyleSheet.create({
     fontSize:'smaller',
     fontWeight:'700',
     margin:0,
-    marginBottom:10
+    marginTop:10,
+    marginBottom:10,
+    textShadow: '0 1px 5px rgba(0,0,0,.3)'
   }
 });

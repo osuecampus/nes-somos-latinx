@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // REDUX //
 import { connect } from "react-redux";
-import { loadContent, loadAnswers } from "../redux/Actions";
+import { setLanguage } from "../redux/Actions";
 
 // COMPONENTS //
 import Tree from "../components/Tree";
@@ -22,13 +22,28 @@ class SidebarView extends Component {
     this.setState({searchContents: e.target.value})
   }
 
-  render() {
+  setLanguage(){
+    this.props.language == 'en' ?
+      this.props.setLanguage('es')
+      : this.props.setLanguage('en')
+  }
 
+  render() {
+    let language = this.props.language == 'en' ? '' : ' esActive';
 
     return (
       <div role="navigation" className={'sidebarView'}>
         <div className={'titleHolder'}>
           <img className={'somosLogo'} src={'../assets/img/somos-logo.svg'} />
+        </div>
+
+        <div className={'languageHolder'}>
+          <div className={'languagetitle'}>
+            En Espa&ntilde;ol
+          </div>
+          <div onClick={() => this.setLanguage()} className={'pillHold' + language}>
+            <div className={'ball'} />
+          </div>
         </div>
 
         { this.props.content[0] ? this.props.content[0].config.progressBar ? 
@@ -51,13 +66,14 @@ class SidebarView extends Component {
 const mapStateToProps = state => {
   return {
     content: state.content,
-    theme: state.theme
+    theme: state.theme,
+    language: state.language
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-
+    setLanguage: (value) => dispatch(setLanguage(value))
   };
 };
 
