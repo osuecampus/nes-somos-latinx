@@ -19,8 +19,9 @@ const ss = StyleSheet.create({
   section: {
       width: '100%',
       display:'flex',
-      alignItems:'center',
+      alignItems:'flex-start',
       fontFamily:'Crimson Text',
+      flexDirection:'column'
   },
 
 });

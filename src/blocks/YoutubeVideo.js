@@ -6,7 +6,7 @@ export default class YoutubeVideo extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <iframe className={css(ss.video)} src={this.props.details.youtubeUrl} frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <iframe className={css(ss.video)} src={this.props.details.youtubeUrl} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope;" allowFullScreen></iframe>
       </section>
     );
   }
@@ -17,7 +17,7 @@ const ss = StyleSheet.create({
       width: '100%',
       display:'flex',
       alignItems:'center',
-      borderRadius:10,
+      borderRadius:0,
     overflow:'hidden',
   },
   video:{

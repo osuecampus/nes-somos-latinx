@@ -24,6 +24,7 @@ import Carousel from "./blocks/Carousel";
 import TaskBlock from "./blocks/TaskBlock";
 import QuizMultipleChoice from "./blocks/QuizMultipleChoice";
 import Survey from "./blocks/Survey";
+import TextReveal from "./blocks/TextReveal";
 
 
 // EXPORT LIST //
@@ -50,5 +51,6 @@ export default {
   YoutubeVideo,
   MessengerBubble,
   Markdown,
-  QuizMultipleChoice
+  QuizMultipleChoice,
+  TextReveal
 }

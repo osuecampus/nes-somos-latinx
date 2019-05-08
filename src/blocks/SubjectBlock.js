@@ -49,7 +49,7 @@ const ss = StyleSheet.create({
   text:{
     width:'100%',
     fontFamily:'Open Sans',
-    fontWeight:'700',
+    fontWeight:'900',
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
