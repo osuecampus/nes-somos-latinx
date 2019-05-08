@@ -90,17 +90,20 @@
                                     {
                                         "id": 0,
                                         "youtube":"bFzP0DXZARY",
-                                        "bold":"Ivan"
+                                        "bold":"Ivan",
+                                        "language":"ES"
                                     },
                                     {
                                         "id": 1,
                                         "youtube":"w6HPHIpqbRo",
-                                        "bold":"Sativa"
+                                        "bold":"Sativa",
+                                        "language":"EN"
                                     },
                                     {
                                         "id": 0,
                                         "youtube":"-Mcv0wfiW0o",
-                                        "bold":"Ana"
+                                        "bold":"Ana",
+                                        "language":"ES"
                                     }
                                 ]
                             }
@@ -115,17 +118,20 @@
                                     {
                                         "id": 0,
                                         "youtube":"lvhBKLu-ojI",
-                                        "bold":"Daniel"
+                                        "bold":"Daniel",
+                                        "language":"ES"
                                     },
                                     {
                                         "id": 1,
                                         "youtube":"6A6LEEa3ty0",
-                                        "bold":"Jennifer"
+                                        "bold":"Jennifer",
+                                        "language":"ES"
                                     },
                                     {
                                         "id": 2,
                                         "youtube":"lIb2b2iHpFw",
-                                        "bold":"Susana"
+                                        "bold":"Susana",
+                                        "language":"EN"
                                     }
                                 ]
                             }
@@ -140,17 +146,20 @@
                                     {
                                         "id": 0,
                                         "youtube":"3cIq26nQy3w",
-                                        "bold":"Ruth"
+                                        "bold":"Ruth",
+                                        "language":"EN"
                                     },
                                     {
                                         "id": 1,
                                         "youtube":"OE5fPW4Xs7I",
-                                        "bold":"Ana Lu"
+                                        "bold":"Ana Lu",
+                                        "language":"ES"
                                     },
                                     {
                                         "id": 2,
                                         "youtube":"fXPo-SKLUFA",
-                                        "bold":"Natalia"
+                                        "bold":"Natalia",
+                                        "language":"ES"
                                     }
                                 ]
                             }

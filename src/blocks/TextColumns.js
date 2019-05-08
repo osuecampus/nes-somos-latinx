@@ -21,7 +21,7 @@ export default class TextColumns extends Component {
             {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
             {block.youtube ? <iframe className={css(ss.video)} src={'https://www.youtube.com/embed/'+block.youtube} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope;" allowFullScreen></iframe> : null }
-            {block.bold ? <h1 className={css(ss.bold)}>{block.bold}</h1> : null }
+            {block.bold ? <h1 className={css(ss.bold)}>{block.bold} {block.language ? <div className={css(ss.lang)}>{block.language}</div>:null}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
           </div>
         )}
@@ -48,6 +48,14 @@ const ss = StyleSheet.create({
     top:83,
     width:42,
     opacity:.5,
+  },
+  lang:{
+    fontWeight:'800',
+    fontSize:14,
+    border:'3px solid #fff',
+    padding:'3px 5px',
+    marginLeft:5,
+    background:'rgba(255,255,255,.2)'
   },
 
   video:{
