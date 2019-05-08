@@ -23,7 +23,10 @@ export default class TextReveal extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <p className={css(ss.text, !this.state.showAll && ss.hidden)}>{this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}</p>
+        <p className={css(ss.text)}>
+            {this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}
+            {!this.state.showAll ? <div className={css(ss.hidden)}/>:null}
+        </p>
         <div style={{display: this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
             Show All Text
         </div>
@@ -42,15 +45,25 @@ const ss = StyleSheet.create({
   text:{
     width:'100%',
     fontFamily:'Crimson Text',
+    position:'relative'
+  },
+  hidden:{
+    position:'absolute',
+    bottom:0,
+    height:2,
+    width:'100%',
+    background:'rgb(251,251,251)',
+    boxShadow:'0px -5px 25px 25px rgba(251,251,251,.9)'
   },
   button:{
       color:'#fff',
       padding:'15px 26px',
       background:'#aa0076',
       borderRadius:3,
-      fontSize:22,
+      fontSize:20,
       marginTop:20,
       cursor:'pointer',
+      position:'relative',
       transition:'all .2s ease-in-out',
       ':hover':{
           background:'#ff66d7'
