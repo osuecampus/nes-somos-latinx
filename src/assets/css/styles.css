@@ -13,7 +13,59 @@ footer {
     height: 34px;
 }
 
+.languageHolder {
+    width: calc(100% - 66px);
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    border-radius: 3px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.languagetitle {
+    font-size: 15px;
+    color: #505050;
+}
+.pillHold {
+    height: 26px;
+    width: 46px;
+    position: absolute;
+    right: 15px;
+    background: #fff;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    cursor:pointer;
+    transition:all .2s ease-in-out;
+}
+.pillHold:hover{
+    border:1px solid #afafaf;
+}
 
+.ball{
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    height: 22px;
+    width: 22px;
+    background: #ccc;
+    border-radius: 40px;
+    transition: all .2s ease-in-out;
+}
+.esActive{
+    background:#08bb99!important
+}
+.esActive .ball{
+    background:#fff!important;
+    left:20px
+}
+.pillHold:hover .ball{
+    background:#bfbfbf
+}
 /* THEMES */
 .darkLook {
     color: #fcfcfc!important;

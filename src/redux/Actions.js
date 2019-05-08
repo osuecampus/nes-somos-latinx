@@ -1,5 +1,5 @@
 // LOAD CONSTANTS //
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from './Constants';
+import { LOAD_CONTENT, SET_LANGUAGE, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from './Constants';
 
 // LOAD CONTENT ACTIONS //
 export const loadContentDispatcher = (content) => ({ type: LOAD_CONTENT, content });
@@ -24,6 +24,14 @@ export const detectDimensions = (value) => {
     localStorage.setItem('nes-' + process.env.PROJECT_NAME + "-dimensions", value);
     return (dispatch) => {
         dispatch(detectDimensionsDispatcher(value));
+    }
+}
+
+// SET LANGUAGE ACTIONS //
+export const setLanguageDispatcher = (value) => ({ type: SET_LANGUAGE, language: value});
+export const setLanguage = (value) => {
+    return (dispatch) => {
+        dispatch(setLanguageDispatcher(value));
     }
 }
 

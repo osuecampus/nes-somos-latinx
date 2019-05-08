@@ -65,21 +65,103 @@
         },
         {
             "id": 1,
-            "title": "Stories",
+            "title": "Community Stories",
             "content": [
                 {
                     "id": 0,
-                    "title" : "Home",
+                    "title" : "Community Stories",
                     "blocks":
                     [
-                        
+                        {
+                            "id":0,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Connect with personal stories from LatinX community members."
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"bFzP0DXZARY",
+                                        "bold":"Ivan"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"w6HPHIpqbRo",
+                                        "bold":"Sativa"
+                                    },
+                                    {
+                                        "id": 0,
+                                        "youtube":"-Mcv0wfiW0o",
+                                        "bold":"Ana"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"lvhBKLu-ojI",
+                                        "bold":"Daniel"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"6A6LEEa3ty0",
+                                        "bold":"Jennifer"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "youtube":"lIb2b2iHpFw",
+                                        "bold":"Susana"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"3cIq26nQy3w",
+                                        "bold":"Ruth"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"OE5fPW4Xs7I",
+                                        "bold":"Ana Lu"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "youtube":"fXPo-SKLUFA",
+                                        "bold":"Natalia"
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             ]
         },
         {
             "id": 2,
-            "title": "Education",
+            "title": "Interactive Education",
             "content": [
                 {
                     "id": 0,

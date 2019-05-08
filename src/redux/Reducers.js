@@ -1,9 +1,18 @@
 import { combineReducers } from 'redux';
-import { LOAD_CONTENT, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from "./Constants";
+import { LOAD_CONTENT, SET_LANGUAGE, DETECT_DIMENSIONS, CHANGE_FONT_SIZE, CHANGE_THEME, SET_READER_TEXT, PLAY_PAUSE_READER, RESTART_READER, SET_CURRENT_UNIT, SET_CURRENT_PAGE, SHOW_SCROLL } from "./Constants";
 
 const initialState = []
 
 // REDUCERS //
+const language = (state = 'en', action) => {
+  switch (action.type) {
+    case SET_LANGUAGE:
+      return action.language;
+    default:
+      return state;
+  }
+};
+
 const content = (state = initialState, action) => {
   switch (action.type) {
     case LOAD_CONTENT:
@@ -105,5 +114,6 @@ export default combineReducers({
   currentUnit,
   currentPage,
   scrolled,
-  mobile
+  mobile,
+  language
 });
