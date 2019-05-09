@@ -784,7 +784,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Resources",
-                                        "text":"1.http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/ \n\n2.http://www.pewhispanic.org/2004/03/19/generational-differences/"
+                                        "html":"1.http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/ <br/>2.http://www.pewhispanic.org/2004/03/19/generational-differences/"
                                     }
                                 ]
                             }
@@ -814,56 +814,41 @@
                         },
                         {
                             "id":2,
-                            "type":"AccordionReveal",
+                            "type":"TextReveal",
                             "details":
                             {
-                                "accordions":[
-                                    {
-                                        "id":0,
-                                        "revealText": "Video Transcript",
-                                        "html":"<p>My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University.</p> <p>Every single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate!</p> <p>My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school.</p> <p>They didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible.</p> <p>Today, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward.</p> <p>Education is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the Latinx community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity.</p> <p>Let’s continue, but first, two important terms...</p>"
-                                    }
-                                ]
+                                "summary":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate!",
+                                "text":"My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the Latinx community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms..."
                             }
                         },
                         {
                             "id":3,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"U.S. Born:",
-                                "size": "bigger"
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "title":"Two Important Terms"
                             }
                         },
                         {
                             "id":4,
-                            "type":"QuoteBox",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "text":"​Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth."
-                            }
-                        },
-                        {
-                            "id":5,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Foreign Born:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":6,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization."
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "US Born",
+                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Foreign Born",
+                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization."
+                                    }
+                                ]
                             }
                         },
                         {
@@ -871,8 +856,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/20161021_JUNTOSVERDINFAMILY_HO-8364.jpg",
-                                "imageAlt":"Family in a classroom"
+                                "url":"./assets/img/photo-education-meeting.jpg",
+                                "imageAlt":"Family in a classroom",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -880,7 +868,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart1.png",
+                                "url":"./assets/img/photo-education-attainmentChart.svg",
                                 "imageAlt":"Education by Race Chart"
                             }
                         },
@@ -889,11 +877,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Now, you’ll see that there is a difference between being US born and being an immigrant",
-                                "size": "bigger"
+                                "text":"Now, you’ll see that there is a difference between being US born and being an immigrant"
                             }
                         },
                         {
@@ -909,11 +894,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"This means that the first generation of immigrants has had more difficulty accessing education",
-                                "size": "bigger"
+                                "text":"This means that the first generation of immigrants has had more difficulty accessing education"
                             }
                         },
                         {
@@ -926,24 +908,42 @@
                         },
                         {
                             "id":13,
-                            "type":"SubjectBlock",
+                            "type":"Text",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"This is perhaps the strongest evidence of inequity in the United States education system",
-                                "size": "bigger"
+                                "text":"This is perhaps the strongest evidence of inequity in the United States education system"
                             }
                         },
                         {
                             "id":14,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "What is your age?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "Under 10",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "10-15",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "16-20",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "21-25",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "26+",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
@@ -951,26 +951,54 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/juan-ramos-97386-unsplash.jpg",
-                                "imageAlt":"Graduate holding \"senior\" banner"
+                                "url":"./assets/img/photo-education-senior.jpg",
+                                "imageAlt":"Graduate holding senior banner",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":16,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "What is your highest level of education?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "Less than high school",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "High school diploma/GED",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Associates degree",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "Bachelors degree",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Masters degree",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
                             "id":17,
-                            "type":"Text",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "text":"More Latinos are graduating from high school, that increases the chances to attend higher education... but the numbers are still very low."
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "subtext":"More Latinos are graduating from high school, that increases the chances to attend higher education... but the numbers are still very low."
                             }
                         },
                         {
@@ -978,7 +1006,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart2.png",
+                                "url":"./assets/img/photo-education-dropout.svg",
                                 "imageAlt":"Chart of High School Dropout rates"
                             }
                         },
@@ -995,8 +1023,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart3.png",
-                                "imageAlt":"Three people studying at a coffee shop"
+                                "url":"./assets/img/photo-education-college.svg",
+                                "imageAlt":"Chart showing entry to college rates"
                             }
                         },
                         {
@@ -1012,35 +1040,70 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/pexels-photo-933964.jpg",
-                                "imageAlt":"Three people studying at a coffee shop"
+                                "url":"./assets/img/photo-education-coffee.jpg",
+                                "imageAlt":"Three people studying at a coffee shop",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":23,
-                            "type":"Text",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "text":"88% of Latinos ages 16 and older agreed that a college degree is necessary to get ahead in life today."
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "subtext":"88% of Latinos ages 16 and older agreed that a college degree is necessary to get ahead in life today."
                             }
                         },
                         {
                             "id":24,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "What level of education do you want to achieve?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "High school or equivelant",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Associates (or technical) degree",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Bachelors degree",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "Masters degree",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Professional school (medical, law)",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Doctorate degree",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
-                            "id":25,
+                            "id":22,
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/5D5A0105.jpg",
-                                "imageAlt":"People doing a lab with bananas in a classroom"
+                                "url":"./assets/img/photo-education-lab.jpg",
+                                "imageAlt":"People doing a lab",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1048,8 +1111,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart4.png",
-                                "imageAlt":"People doing a lab with bananas in a classroom"
+                                "url":"./assets/img/photo-education-persist.svg",
+                                "imageAlt":"Persisting in college chart"
                             }
                         },
                         {
@@ -1057,8 +1120,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart5.png",
-                                "imageAlt":"People doing a lab with bananas in a classroom"
+                                "url":"./assets/img/photo-education-lastChart.svg",
+                                "imageAlt":"College completion chart"
                             }
                         },
                         {
@@ -1066,7 +1129,21 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Remember our conversation at the beginning?This number can speak for itself... "
+                                "text":"Remember our conversation at the beginning? This number can speak for itself... "
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012 <br/>2. http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf <br/>3. http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/ <br/>4. https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/ <br/>5. http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/"
+                                    }
+                                ]
                             }
                         }
                     ]
