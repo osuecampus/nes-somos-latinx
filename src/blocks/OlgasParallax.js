@@ -12,9 +12,9 @@ export default class OlgasParallax extends Component {
     }
 
     parallax(){
-        this.state.scroll !== window.scrollY  * -.1 ?
+        this.state.scroll !== window.scrollY  * -.075 ?
         this.setState({
-            scroll:window.scrollY * -.1
+            scroll:window.scrollY * -.075
         }) : null
     }
 

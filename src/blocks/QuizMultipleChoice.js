@@ -47,7 +47,7 @@ export default class QuizMultipleChoice extends Component {
         </div>
         <div className={css(ss.answerHold)}>
             {this.props.details.options.map((block) => 
-                <div style={{width: 'calc('+ ((1/this.props.details.options.length)*100) + '% - 60px)'}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
+                <div style={{color:this.props.details.color, background:this.props.details.background}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
                     {block.text}
                 </div>
             )}
@@ -104,6 +104,7 @@ const ss = StyleSheet.create({
       width:'100%',
       display:'flex',
       justifyContent:'center',
+      flexDirection:'column',
       alignItems:'center',
       paddingBottom:40,
       '@media (max-width: 700px)': {
@@ -111,30 +112,24 @@ const ss = StyleSheet.create({
       },
   },
   answer:{
-      padding:15,
-      minHeight:130,
-      textAlign:'center',
-      display:'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      backgroundColor:'#0e5bea',
-      fontSize:15,
-      borderRadius:10,
-      margin:12,
-      cursor:'pointer',
-      fontWeight:'600',
-      color:'#fff',
-      transition: 'all .2s ease-in-out',
-        ':hover':{
-            backgroundColor: '#0046bb'
-        },
-        ':focus':{
-            backgroundColor: '#0046bb'
-        },
-        '@media (max-width: 700px)': {
-            width: 'calc(100% - 60px)',
-            marginTop:5
-        },
+    width:500,
+    margin: 10,
+    fontFamily: 'Open Sans',
+    fontSize: 20,
+    border:'none',
+    padding:16,
+    textDecoration: 'none',
+    textAlign: 'center',
+    fontWeight: '600',
+    cursor:'pointer',
+    borderRadius:3,
+    transition:'all .2s ease-in-out',
+    '@media (max-width: 700px)': {
+      width: 'calc(100% - 70px)',
+      marginTop:5,
+      marginLeft:0,
+      marginBottom:5,
+    }
   },
   correct:{
       backgroundColor:'#31a900',

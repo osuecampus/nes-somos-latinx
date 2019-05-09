@@ -312,74 +312,37 @@
                         },
                         {
                             "id":10,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "align": "left",
-                                "text":"Immigrant",
-                                "size": "bigger"
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "subtext":"Immigrants are those that are foreign born"
                             }
                         },
                         {
                             "id":11,
-                            "type":"QuoteBox",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "text":"​Those who are foreign born."
-                            }
-                        },
-                        {
-                            "id":12,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"First Generation",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":13,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Latinos born outside of the United States or Puerto Rico"
-                            }
-                        },
-                        {
-                            "id":14,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"Second Generation",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":15,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Latinos born in the United States to immigrant parents"
-                            }
-                        },
-                        {
-                            "id":16,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"Third or Higher Generation",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":17,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Latinos born in the United States to U.S.-born parents"
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "First Generation",
+                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Second Generation",
+                                        "text":"Latinos born in the United States to immigrant parents"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Third or Higher Generation",
+                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -501,56 +464,26 @@
                         },
                         {
                             "id":25,
-                            "type":"SubjectBlock",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "align": "left",
-                                "text":"Race",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":26,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​A socially constructed characterization of individuals based on skin color, culture, etc."
-                            }
-                        },
-                        {
-                            "id":27,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"Ethnicity",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":28,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Groups of people who have the same or hybrid cultural origins like ancestry, religion, food, language, traditions, values, origins, etc."
-                            }
-                        },
-                        {
-                            "id":29,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"Nationality",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":30,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​The state of belonging to a particular country or being a citizen of particular nation."
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Race",
+                                        "text":"A socially constructed characterization of individuals based on skin color, culture, etc."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Ethnicity",
+                                        "text":"Groups of people who have the same or hybrid cultural origins like ancestry, religion, food, language, traditions, values, origins, etc."
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Nationality",
+                                        "text":"The state of belonging to a particular country or being a citizen of particular nation."
+                                    }
+                                ]
                             }
                         },
                         {
@@ -605,7 +538,7 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"But what about race?(select race toggle)"
+                                "text":"But what about race?"
                             }
                         },
                         {
@@ -1321,6 +1254,8 @@
                             "type":"QuizMultipleChoice",
                             "details":
                             {
+                                "color":"#ffffff",
+                              "background":"#662d91",
                                 "options":
                                 [
                                     {
@@ -1369,18 +1304,20 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/pexels-photo-1645634.jpg",
-                                "imageAlt":"Hands together in center of circle"
+                                "url":"./assets/img/photo-immigration-hands.jpg",
+                                "imageAlt":"Hands together in center of circle",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":20,
-                            "type":"TaskBlock",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Interactive chart"
+                                "url":"./assets/img/photo-immigration-latin.svg",
+                                "imageAlt":"Chart showing where Latin American immigrants come from"
                             }
                         },
                         {
@@ -1388,11 +1325,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"As we mentioned before, Mexican-Americans constitute the largest Latino group in the United States, making up two-thirds of the total Latino population. ",
-                                "size": "bigger"
+                                "text":"As we mentioned before, Mexican-Americans constitute the largest Latino group in the United States, making up two-thirds of the total Latino population. "
                             }
                         },
                         {
@@ -1405,14 +1339,13 @@
                         },
                         {
                             "id":23,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Mexico",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Mexico"
                             }
                         },
                         {
@@ -1438,11 +1371,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "center",
-                                "text":"What about the history of Mexican immigration to the United States?",
-                                "size": "bigger"
+                                "text":"What about the history of Mexican immigration to the United States?"
                             }
                         },
                         {
