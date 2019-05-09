@@ -55,36 +55,46 @@ const ss = StyleSheet.create({
     display:'flex',
     alignItems:'center',
     justifyContent:'center',
-    flexDirection: "column"
+    flexDirection: 'row',
+    paddingBottom:100,
+    position:'relative',
+    width:'100%'
   },
   slide: {
     maxHeight:575,
-    borderRadius:10
+    maxWidth:400,
+    borderRadius:0,
+    width:'100%',
   },
   controls:{
     flexDirection: "row",
-    margin: 20
+    margin: 20,
+    position:'absolute',
+    bottom:0
   },
   button:{
     width:100,
     fontFamily: 'Open Sans',
+    background:'rgb(170, 0, 118)',
     fontSize: 18,
     color: '#fff',
+    margin:'0px 5px',
+    cursor:'pointer',
+    border:'none',
     textDecoration: 'none',
     textAlign: 'center',
     padding: '12px 0px',
-    fontWeight: '700',
-    borderRadius:45,
-    backgroundColor:'#1f60e2',
+    fontWeight: '600',
+    borderRadius:3,
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
       width: 'calc(100% - 70px)',
-      marginTop:25,
+      marginTop:5,
       marginLeft:0,
-      marginBottom:35,
+      marginBottom:5,
     },
     ':hover': {
-        backgroundColor: '#0046bb'
+        backgroundColor: 'rgb(255, 102, 215)'
     }
   }
 });

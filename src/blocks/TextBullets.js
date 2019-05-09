@@ -63,6 +63,6 @@ const ss = StyleSheet.create({
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
-    background:'#1f60e2'
+    background:'rgb(170, 0, 118)'
   }
 });

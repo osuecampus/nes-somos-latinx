@@ -1596,7 +1596,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Map-South-America.png",
+                                "url":"./assets/img/photo-immigration-sudmap.svg",
                                 "imageAlt":"Map of South America"
                             }
                         },
@@ -1605,8 +1605,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/sergio-souza-973713-unsplash.jpg",
-                                "imageAlt":"Sunrise/Sunset shot of a city in Brazil"
+                                "url":"./assets/img/photo-immigration-sudpic.jpg",
+                                "imageAlt":"Sunrise/Sunset shot of a city in Brazil",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1614,7 +1617,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart-South-Immigrants.png",
+                                "url":"./assets/img/photo-immigration-sudchart.svg",
                                 "imageAlt":"Chart of Immigration to U.S. from South America"
                             }
                         },
@@ -1623,11 +1626,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Wow! 7 percent of the nation’s immigrants are from South America! ",
-                                "size": "bigger"
+                                "text":"Wow! 7 percent of the nation’s immigrants are from South America! "
                             }
                         },
                         {
@@ -1643,18 +1643,39 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/ben-ostrower-566313-unsplash.jpg",
-                                "imageAlt":"Boy in traditional dress"
+                                "url":"./assets/img/photo-immigration-hat.jpg",
+                                "imageAlt":"Boy in traditional dress",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":56,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Which one are you?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Immigrant to the USA",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "1st Gen Hispanic/LatinX",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "2nd Gen Hispanic/LatinX",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "3rd+ Gen Hispanic/LatinX",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
@@ -1662,6 +1683,8 @@
                             "type":"QuizMultipleChoice",
                             "details":
                             {
+                                "color":"#ffffff",
+                              "background":"#662d91",
                                 "options":
                                 [
                                     {
@@ -1695,20 +1718,19 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/World-Map.png",
+                                "url":"./assets/img/photo-immigration-world.svg",
                                 "imageAlt":"World Map"
                             }
                         },
                         {
                             "id":59,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Immigration is not only a Hispanic/Latino phenomenon",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "subtext":"Immigration is not only a Latino phenomenon"
                             }
                         },
                         {
@@ -1716,18 +1738,20 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/pexels-photo-1449057.jpg",
-                                "imageAlt":"Hands raised holding American flags"
+                                "url":"./assets/img/photo-immigration-america.jpg",
+                                "imageAlt":"Hands raised holding American flags",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":61,
-                            "type":"TaskBlock",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for an interactive chart"
+                                "url":"./assets/img/photo-immigration-projected.svg",
+                                "imageAlt":"Projected American population"
                             }
                         },
                         {
@@ -1735,7 +1759,45 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth. Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population. In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall. Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055."
+                                "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth."
+                            }
+                        },
+                        {
+                            "id":63,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population."
+                            }
+                        },
+                        {
+                            "id":64,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall."
+                            }
+                        },
+                        {
+                            "id":65,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055."
+                            }
+                        },
+                        {
+                            "id":66,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants<br/>2. https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/<br/>3. https://www.migrationpolicy.org/article/central-american-immigrants-united-states<br/>4. https://www.migrationpolicy.org/article/south-american-immigrants-united-states<br/>5. http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/<br/>6. https://www.migrationpolicy.org/research/timeline-1790<br/>7. http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -1755,28 +1817,22 @@
                         },
                         {
                             "id":1,
-                            "type":"AccordionReveal",
+                            "type":"TextReveal",
                             "details":
                             {
-                                "accordions":[
-                                    {
-                                        "id":1,
-                                        "revealText": "Video Transcript",
-                                        "html":"</p>I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia.</p> <p>Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life.</p><p>They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States.</p> <p>Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.</p> <p>The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages.</p> <p>For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.</p> <p>Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!</p>"
-                                    }
-                                ]
+                                "summary":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. ",
+                                "text":"They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States. Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages. For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!"
                             }
                         },
                         {
                             "id":2,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"True wealth is not measured in money or status or power. It is measured in the legacy we leave behind for those we love and those we inspire. - César Chávez.",
-                                "size": "bigger"
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"True wealth is not measured in money or status or power. It is measured in the legacy we leave behind for those we love and those we inspire. - César Chávez."
                             }
                         },
                         {
@@ -1784,8 +1840,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/20150922_Juntos_HO-9434.jpg",
-                                "imageAlt":"Three women going over documents"
+                                "url":"./assets/img/photo-economics-reading.jpg",
+                                "imageAlt":"Three women going over documents",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1793,47 +1852,35 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"America's future economic well-being and competitiveness is increasingly contingent on the success of the Latino population, we’ll see in this section why! Let’s define some concepts before and help us to build the story:"
+                                "text":"America's future economic well-being and competitiveness is increasingly contingent on the success of the Latino population, we’ll see in this section why!"
                             }
                         },
+                        {
+                            "id":4.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s define some concepts before and help us to build the story."
+                            }
+                        },
+
                         {
                             "id":5,
-                            "type":"SubjectBlock",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Poverty:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":6,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015,  the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty."
-                            }
-                        },
-                        {
-                            "id":7,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Income:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":8,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)."
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Poverty",
+                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Income",
+                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)."
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1841,18 +1888,62 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/adults-affection-baby-1661823.jpg",
-                                "imageAlt":"Family walking by water"
+                                "url":"./assets/img/photo-economics-family.jpg",
+                                "imageAlt":"Family walking by water",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":9.5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"Education and economic prosperity are connected."
                             }
                         },
                         {
                             "id":10,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for 2 surveys"
+                              "question": "Is your family's current financial situation a concern to you?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":10.5,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Are you concerned about your future personal finances?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -1860,8 +1951,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Pilsen-Mural-Jpeg.jpg",
-                                "imageAlt":"Mural of Latinx people"
+                                "url":"./assets/img/photo-economics-mural.jpg",
+                                "imageAlt":"Mural of Latinx people",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1869,20 +1963,19 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Poverty-Race-Chart.png",
+                                "url":"./assets/img/photo-economics-poverty.svg",
                                 "imageAlt":"Graph of poverty by race"
                             }
                         },
                         {
                             "id":13,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012.",
-                                "size": "bigger"
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012."
                             }
                         },
                         {
@@ -1890,11 +1983,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"We want to make sure you establish a connection here:",
-                                "size": "bigger"
+                                "text":"We want to make sure you establish a connection here:"
                             }
                         },
                         {
@@ -1910,30 +2000,72 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "center",
-                                "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts. We’ll see more of this, but first... ",
-                                "size": "bigger"
+                                "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts."
                             }
                         },
                         {
                             "id":17,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for 3 surveys"
+                              "question": "What is your age?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "12-17",
+                                  "value": "30%"
+                                },
+                                {
+                                    "answer": "18-29",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "30-49",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "50-64",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "65+",
+                                    "value": "20%"
+                                  }
+                              ]
                             }
+                        },
+                        {
+                            "id":18,
+                            "type":"Survey",
+                            "details":
+                            {
+                                "question": "Are you hispanic/LatinX?",
+                                "color":"#ffffff",
+                                "background":"#f15a24",
+                                "options": [
+                                  {
+                                    "answer": "Yes",
+                                    "value": "30%"
+                                  },
+                                  {
+                                      "answer": "No",
+                                      "value": "20%"
+                                    }
+                                ]
+                              }
                         },
                         {
                             "id":18,
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/pexels-photo-1068523.jpg",
-                                "imageAlt":"A group of people fistbumping around computers"
+                                "url":"./assets/img/photo-economics-fist.jpg",
+                                "imageAlt":"A group of people fistbumping around computers",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1941,20 +2073,16 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Jobs-US-Born-Chart.png",
+                                "url":"./assets/img/photo-economics-jobs.svg",
                                 "imageAlt":"Chart of number of jobs held by US born and foriegn born Latinos during and after the 2007-2009 recession"
                             }
                         },
                         {
                             "id":20,
-                            "type":"SubjectBlock",
+                            "type":"Text",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Why are first and second generation Latinos more likely to obtain a job than their immigrant relatives? ",
-                                "size": "bigger"
+                                "text":"Why are first and second generation Latinos more likely to obtain a job than their immigrant relatives? "
                             }
                         },
                         {
@@ -1962,71 +2090,32 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"We have some ideas:",
-                                "size": "bigger"
+                                "align": "center",
+                                "text":"We have some ideas:"
                             }
                         },
                         {
                             "id":22,
-                            "type":"SubjectBlock",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"First, age",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":23,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs."
-                            }
-                        },
-                        {
-                            "id":24,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Language",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":25,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big!"
-                            }
-                        },
-                        {
-                            "id":26,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Immigration Status",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":27,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives."
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Age",
+                                        "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Language",
+                                        "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big!"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Immigration Status",
+                                        "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives."
+                                    }
+                                ]
                             }
                         },
                         {
@@ -2034,11 +2123,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"But the numbers are not perfect",
-                                "size": "bigger"
+                                "text":"But the numbers are not perfect"
                             }
                         },
                         {
@@ -2051,12 +2137,22 @@
                         },
                         {
                             "id":30,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "In your present or future, do you want to...",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Work for an institution or company",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Have your own business",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -2064,7 +2160,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Job-Fields-Chart.png",
+                                "url":"./assets/img/photo-economics-employed.svg",
                                 "imageAlt":"Chart of number of immigrants, Mexican immigrants, and native born in various job fields"
                             }
                         },
@@ -2073,11 +2169,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"We have more evidence! Let’s see it closely...",
-                                "size": "bigger"
+                                "text":"We have more evidence! Let’s see it closely..."
                             }
                         },
                         {
@@ -2085,7 +2178,39 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The Mexican population in the United States is comprised of approximately 35.4 million people who were either born in Mexico or reported Mexican ancestry or Hispanic origin. Because this group is the largest among Latinos, and they  participate in the labor force at a slightly higher rate than the overall immigrant and U.S.-born populations, we want to explore the relation of Mexican-American, other Latino communities and USA economy. In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation. If you pay attention to the the numbers of this group and their participation in Management, business, sciences and arts, you will see how concerning it is for the economic prosperity and the future of the country. Remember we said before that Latinos are the largest and fastest minority growing in the United States?"
+                                "text":"The Mexican population in the United States is comprised of approximately 35.4 million people who were either born in Mexico or reported Mexican ancestry or Hispanic origin."
+                            }
+                        },
+                        {
+                            "id":33.2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Because this group is the largest among Latinos, and they  participate in the labor force at a slightly higher rate than the overall immigrant and U.S.-born populations, we want to explore the relation of Mexican-American, other Latino communities and USA economy."
+                            }
+                        },
+                        {
+                            "id":33.4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation."
+                            }
+                        },
+                        {
+                            "id":33.6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you pay attention to the the numbers of this group and their participation in Management, business, sciences and arts, you will see how concerning it is for the economic prosperity and the future of the country."
+                            }
+                        },
+                        {
+                            "id":33.8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Remember we said before that Latinos are the largest and fastest minority growing in the United States?"
                             }
                         },
                         {
@@ -2093,18 +2218,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/20150922_Juntos_HO-9356.jpg",
-                                "imageAlt":"A girl sitting with a paper and pen"
-                            }
-                        },
-                        {
-                            "id":35,
-                            "type":"TaskBlock",
-                            "details":
-                            {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for interactive chart"
+                                "url":"./assets/img/photo-economics-sitting.jpg",
+                                "imageAlt":"A girl sitting with a paper and pen",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -2112,11 +2230,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Who is losing jobs during a recession?",
-                                "size": "bigger"
+                                "text":"Who is losing jobs during a recession?"
                             }
                         },
                         {
@@ -2124,11 +2239,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"And what industry is adding jobs during the same hard economic time?",
-                                "size": "bigger"
+                                "text":"And what industry is adding jobs during the same hard economic time?"
                             }
                         },
                         {
@@ -2140,25 +2252,42 @@
                             }
                         },
                         {
-                            "id":39,
-                            "type":"SubjectBlock",
+                            "id":38.5,
+                            "type":"Text",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"How can we change the future of the Latino community Think about it!",
-                                "size": "bigger"
+                                "text":"Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends."
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"How can we change the future of the Latino community? Think about it!"
                             }
                         },
                         {
                             "id":40,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "Do you believe that poverty can change your outcome in life?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -2166,8 +2295,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/20161021_JUNTOSVERDINFAMILY_HO-8364.jpg",
-                                "imageAlt":"Family in a classroom"
+                                "url":"./assets/img/photo-economics-computer.jpg",
+                                "imageAlt":"Family in a classroom",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -2175,8 +2307,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Earnings-Chart.png",
-                                "imageAlt":"Family in a classroom"
+                                "url":"./assets/img/photo-economics-chart.svg",
+                                "imageAlt":"Median earnings chart"
                             }
                         },
                         {
@@ -2184,11 +2316,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"As you can see, education increases the chances of earning a better salary and decreases the possibility of unemployment.",
-                                "size": "bigger"
+                                "text":"As you can see, education increases the chances of earning a better salary and decreases the possibility of unemployment."
                             }
                         },
                         {
@@ -2196,40 +2325,86 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"But technical skills or college preparation are not the only factors that influence prosperity: Health, sense of belonging, personal freedom, security, social capital, possibilities for entrepreneurship, innovation, and others factors are critical for individuals and their communities to grow."
+                                "text":"But technical skills or college preparation are not the only factors that influence prosperity:"
+                            }
+                        },
+                        {
+                            "id":44.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Health, sense of belonging, personal freedom, security, social capital, possibilities for entrepreneurship, innovation, and others factors are critical for individuals and their communities to grow."
                             }
                         },
                         {
                             "id":45,
-                            "type":"TaskBlock",
+                            "type":"Carousel",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for interactive chart"
+                              "images": [
+                                {
+                                  "imageAlt": "Asians",
+                                  "url": "./assets/img/car-asian.svg"
+                                },
+                                {
+                                  "imageAlt": "Blacks",
+                                  "url": "./assets/img/car-black.svg"
+                                },
+                                {
+                                    "imageAlt": "Hispanics",
+                                    "url": "./assets/img/car-hispanic.svg"
+                                },
+                                {
+                                    "imageAlt": "Whites",
+                                    "url": "./assets/img/car-white.svg"
+                                  },
+                                  {
+                                    "imageAlt": "All",
+                                    "url": "./assets/img/car-all.svg"
+                                  }
+                              ]
                             }
-                        },
+                          },
                         {
                             "id":46,
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"If you compare Latinos, Hispanics with other groups, what do you see?",
-                                "size": "bigger"
+                                "text":"If you compare Latinos, Hispanics with other groups, what do you see? Consider these important factors:"
                             }
                         },
                         {
                             "id":47,
-                            "type":"Text",
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":0,
+                                    "number":"1",
+                                    "text":"Median earnings. With the same degree, what are the groups making more money? And the ones making less?"
+                                },
+                                {
+                                    "key":1,
+                                    "number":"2",
+                                    "text":"Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!"
+                                }
+                            ]
+                        },
+                        {
+                            "id":53,
+                            "type":"AccordionReveal",
                             "details":
                             {
-                                "text":"Consider these important factors: First: Median earnings. With the same degree, what are the groups making more money? And the ones making less? Second: Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!"
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html<br/>2. http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/<br/>3. http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/<br/>4. MPI tabulation of data from the U.S. Census Bureau 2014 ACS<br/>5.Pew Research Center tabulations of Current Population Survey Data<br/>6. https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf"
+                                    }
+                                ]
                             }
                         }
-
                     ]
                 },
                 {
