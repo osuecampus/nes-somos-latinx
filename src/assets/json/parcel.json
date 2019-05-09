@@ -1353,7 +1353,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Map-Mexico.png",
+                                "url":"./assets/img/photo-immigration-mexicomap.svg",
                                 "imageAlt":"Map of Mexico"
                             }
                         },
@@ -1362,8 +1362,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/.jpg",
-                                "imageAlt":"Girl in Dia De Los Muertos face paint (Not provided in images folder)"
+                                "url":"./assets/img/photo-immigration-girl.jpg",
+                                "imageAlt":"Girl in Dia De Los Muertos face paint",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1371,7 +1374,7 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "align": "center",
+                                "align": "left",
                                 "text":"What about the history of Mexican immigration to the United States?"
                             }
                         },
@@ -1380,7 +1383,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart-Mexico-Immigrants.png",
+                                "url":"./assets/img/photo-immigration-numberschart.svg",
                                 "imageAlt":"Chart of Immigration to U.S. from Mexico"
                             }
                         },
@@ -1389,19 +1392,26 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The bars are not evenly distributed in the timeline, right? Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA."
+                                "text":"The bars are not evenly distributed in the timeline, right?"
                             }
                         },
                         {
-                            "id":29,
-                            "type":"SubjectBlock",
+                            "id":28.5,
+                            "type":"Text",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Puerto Rico",
-                                "size": "bigger"
+                                "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Puerto Rico"
                             }
                         },
                         {
@@ -1409,7 +1419,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Map-Puerto-Rico.png",
+                                "url":"./assets/img/photo-immigration-puertomap.svg",
                                 "imageAlt":"Map of Puerto Rico"
                             }
                         },
@@ -1418,23 +1428,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Did you know that Puerto Ricans who are born in Puerto Rico are American Citizens because they were born in the states?",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":32,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"This is why:",
-                                "size": "bigger"
+                                "text":"Did you know that Puerto Ricans who are born in Puerto Rico are American Citizens because they were born in the states? This is why:"
                             }
                         },
                         {
@@ -1447,14 +1442,13 @@
                         },
                         {
                             "id":34,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Cuba",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Cuba"
                             }
                         },
                         {
@@ -1462,7 +1456,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Map-Cuba.png",
+                                "url":"./assets/img/photo-immigration-cubamap.svg",
                                 "imageAlt":"Map of Cuba"
                             }
                         },
@@ -1471,11 +1465,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Cubans have been present in the United States for a long, long time:",
-                                "size": "bigger"
+                                "text":"Cubans have been present in the United States for a long, long time."
                             }
                         },
                         {
@@ -1491,11 +1482,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"As we explored before, political and economic factors influenced these big immigration waves.",
-                                "size": "bigger"
+                                "text":"As we explored before, political and economic factors influenced these big immigration waves."
                             }
                         },
                         {
@@ -1507,15 +1495,14 @@
                             }
                         },
                         {
-                            "id":40,
-                            "type":"SubjectBlock",
+                            "id":34,
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Cental America",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Central America"
                             }
                         },
                         {
@@ -1531,7 +1518,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Map-Central-America.png",
+                                "url":"./assets/img/photo-immigration-centralmap.svg",
                                 "imageAlt":"Map of Central America"
                             }
                         },
@@ -1540,8 +1527,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/pexels-photo-1645632.jpg",
-                                "imageAlt":"Raising joined hands"
+                                "url":"./assets/img/photo-immigration-raised.jpg",
+                                "imageAlt":"Raising joined hands",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -1549,7 +1539,7 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Chart-Central-Immigrants.png",
+                                "url":"./assets/img/photo-immigration-cenim.svg",
                                 "imageAlt":"Chart of Immigration to U.S. from Central America"
                             }
                         },
@@ -1558,11 +1548,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Let’s talk about a more recent story:",
-                                "size": "bigger"
+                                "text":"Let’s talk about a more recent story:"
                             }
                         },
                         {
@@ -1578,20 +1565,22 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Latinx_Rally_-_Defend_DACA!_(33038107592).jpg",
-                                "imageAlt":"Women at a DACA rally"
+                                "url":"./assets/img/photo-immigration-dacarally.jpg",
+                                "imageAlt":"Women at a DACA rally",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":48,
-                            "type":"SubjectBlock",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"South America",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"South America"
                             }
                         },
                         {
