@@ -3144,20 +3144,6 @@
         },
         {
             "id": 3,
-            "title": "Resources",
-            "content": [
-                {
-                    "id": 0,
-                    "title" : "Home",
-                    "blocks":
-                    [
-                        
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 4,
             "title": "About",
             "content": [
                 {
@@ -3165,21 +3151,30 @@
                     "title" : "Home",
                     "blocks":
                     [
-                        
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Contact",
-            "content": [
-                {
-                    "id": 0,
-                    "title" : "Home",
-                    "blocks":
-                    [
-                        
+                        {
+                            "id":0,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This virtual space is part of the curriculum ¡Somos Latinx! Educational material designed by OSU - Ecampus."
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Oregon State University is committed to the Latinx community, its education and its future. The value of this vibrant culture enriches the vision of the institution. We are proud to work hand in hand with children and families, as well as schools, local organizations, community college and public and private universities."
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"At OSU we think that the future is now and that together we can build it."
+                            }
+                        }
                     ]
                 }
             ]
