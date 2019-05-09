@@ -26,7 +26,7 @@ const ss = StyleSheet.create({
   text:{
     width:'calc(100% - 50px)',
     padding:25,
-    borderRadius:10,
+    borderRadius:3,
     fontSize:'smaller',
     backgroundColor:'rgba(100,100,100,.12)',
     fontFamily:'Crimson Text'

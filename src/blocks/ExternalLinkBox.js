@@ -32,7 +32,7 @@ const ss = StyleSheet.create({
     alignItems:'center',
     flexDirection:'row',
     background: 'rgb(241, 241, 241)',
-    borderRadius: 10,
+    borderRadius: 3,
     border: '0px solid rgba(0,0,0,.0)',
     '@media (max-width: 700px)': {
       flexDirection: 'column',
@@ -49,8 +49,8 @@ const ss = StyleSheet.create({
     textAlign: 'center',
     padding: '18px 0px',
     fontWeight: '500',
-    borderRadius:8,
-    backgroundColor:'#1f60e2',
+    borderRadius:3,
+    backgroundColor:'#aa0076',
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
       width: 'calc(100% - 70px)',
@@ -59,7 +59,7 @@ const ss = StyleSheet.create({
       marginBottom:35,
     },
     ':hover': {
-        backgroundColor: '#0046bb'
+        backgroundColor: '#ff66d7'
     }
   },
   text:{

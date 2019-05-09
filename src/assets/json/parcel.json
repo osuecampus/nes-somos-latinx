@@ -201,17 +201,8 @@
                             {
                                 "type":"yellow",
                                 "colorOne":"rgba(251,174,23,1)",
-                                "colorTwo":"rgba(252,238,33,1)"
-                            }
-                        },
-                        {
-                            "id":2,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"LatinX",
-                                "size": "bigger"
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "title":"LatinX"
                             }
                         },
                         {
@@ -263,8 +254,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/combined.jpg",
-                                "imageAlt":"Two Latinx people"
+                                "url":"./assets/img/photo-identity-1.jpg",
+                                "imageAlt":"Two Latinx people",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -272,67 +266,41 @@
                             "type":"Survey",
                             "details":
                             {
-                              "question": "How many times have you cursed while working with CSS?",
+                              "question": "Which do you feel more comfortable with?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
                               "options": [
                                 { 
-                                  "answer": "one",
+                                  "answer": "Hispanic",
                                   "value": "30%"
                                 },
                                 {
-                                  "answer": "two",
+                                  "answer": "Latino",
                                   "value": "20%"
                                 },
                                 {
-                                  "answer": "This is a lot of text to just say three and even more text to make it to the second line",
+                                  "answer": "LatinX",
                                   "value": "50%"
-                                }
+                                },
+                                {
+                                    "answer": "Latina",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Other",
+                                    "value": "50%"
+                                  }
                               ]
                             }
                         },
-                        {
+                        { 
                             "id":8,
-                            "type":"TabbedContentExplorer",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "tabs":
-                                [
-                                    {
-                                        "id":0,
-                                        "text":"Hispanic vs Latino"
-                                    },
-                                    {
-                                        "id":1,
-                                        "text":"Hispanic culture"
-                                    }
-                                ],
-                                "browser":
-                                [
-                                    {
-                                        "id":0,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Chart and audio go here</p></div>"
-                                    },
-                                    {
-                                        "id":1,
-                                        "htmlContent":"<div style='display:flex;flex-direction:column;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Second chart and audio go here</p></div>"
-                                    },
-                                    {
-                                        "id":2,
-                                        "htmlContent":""
-                                    },
-                                    {
-                                        "id":3,
-                                        "htmlContent":""
-                                    },
-                                    {
-                                        "id":4,
-                                        "htmlContent":""
-                                    },
-                                    {
-                                        "id":5,
-                                        "htmlContent":"<div style='display:flex;justify-content:center;align-items:center'><p style='font-family:Crimson Text; min-width:200px; max-width:500px; font-size:smaller; padding:25px'>Choose an option above to see the data...<p/></div>"
-                                    }
-                                ]
-                            }
+                                "url":"./assets/img/photo-identity-charts.svg",
+                                "imageAlt":"Two charts on people's preferences"
+                            } 
                         },
                         {
                             "id":9,
@@ -347,10 +315,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Immigrant:",
+                                "text":"Immigrant",
                                 "size": "bigger"
                             }
                         },
@@ -367,10 +333,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"First Generation:",
+                                "text":"First Generation",
                                 "size": "bigger"
                             }
                         },
@@ -387,10 +351,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Second Generation:",
+                                "text":"Second Generation",
                                 "size": "bigger"
                             }
                         },
@@ -407,10 +369,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Third or Higher Generation:",
+                                "text":"Third or Higher Generation",
                                 "size": "bigger"
                             }
                         },
@@ -424,12 +384,11 @@
                         },
                         {
                             "id":18,
-                            "type":"TaskBlock",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for chart and audio"
+                                "url":"./assets/img/photo-identity-bar.svg",
+                                "imageAlt":"A bar graph showing demographic data"
                             }
                         },
                         {
@@ -437,8 +396,6 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
                                 "text":"Which terms do you think, Latinx foreign born and USA born primarily use to describe themselves?",
                                 "size": "bigger"
@@ -457,8 +414,6 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
                                 "text":"Very interesting!",
                                 "size": "bigger"
@@ -474,12 +429,62 @@
                         },
                         {
                             "id":23,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for two surveys"
+                              "question": "What is your age?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "12-17",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "18-29",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "30-49",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "50-64",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "65+",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":23.5,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What term best identifies you?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Immigrant to US",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "1st Generation, USA-born",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "2nd Generation, USA-born",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "3rd+ Generation, USA-born",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
@@ -487,8 +492,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/20150502_JuntosFamilyDay_HO-1317.jpg",
-                                "imageAlt":"Four girls at a sink pouring out a pot"
+                                "url":"./assets/img/photo-identity-pour.jpg",
+                                "imageAlt":"Four girls at a sink pouring out a pot",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -496,10 +504,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Race:",
+                                "text":"Race",
                                 "size": "bigger"
                             }
                         },
@@ -516,10 +522,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Ethnicity:",
+                                "text":"Ethnicity",
                                 "size": "bigger"
                             }
                         },
@@ -536,10 +540,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Nationality:",
+                                "text":"Nationality",
                                 "size": "bigger"
                             }
                         },
@@ -553,22 +555,31 @@
                         },
                         {
                             "id":31,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Which do you prefer?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Hispanic/LatinX",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Country of Origin",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
                             "id":32,
-                            "type":"TaskBlock",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for interactive chart with audio"
+                                "url":"./assets/img/photo-identity-chartTwo.svg",
+                                "imageAlt":"A chart showing preferences"
                             }
                         },
                         {
@@ -576,11 +587,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"The ethnic and national identity concepts are very different between first- and second-generation Latinos.",
-                                "size": "bigger"
+                                "text":"The ethnic and national identity concepts are very different between first- and second-generation Latinos."
                             }
                         },
                         {
@@ -596,11 +604,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"But what about race?(select race toggle)",
-                                "size": "bigger"
+                                "text":"But what about race?(select race toggle)"
                             }
                         },
                         {
@@ -616,39 +621,40 @@
                             "type":"ExternalLinkBox",
                             "details":
                             {
-                                "text":"Follow the link to the right to watch a video on being Afro-Latina",
-                                "button":"View Afro-Latina Story",
+                                "text":"Watch a video on being Afro-Latina",
+                                "button":"YouTube",
                                 "link":"https://www.youtube.com/watch?v=ZjAnXMMrnFo"
                             }
                         },
                         {
                             "id":38,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Do you consider yourself a typical American?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
                             "id":39,
-                            "type":"Text",
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "text":"4 decades ago, the US government mandated the use of Latino/Hispanic terms"
-                            }
-                        },
-                        {
-                            "id":40,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"A majority have not embraced the use of these terms",
-                                "size": "bigger"
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "subtext":"4 decades ago, the US government mandated the use of Latino/Hispanic terms. A majority have not embraced the use of these terms."
                             }
                         },
                         {
@@ -656,8 +662,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/27828714052_94fb87b78a_b.jpg",
-                                "imageAlt":"Latinos balloon banner in a pride parade"
+                                "url":"./assets/img/photo-identity-parade.jpg",
+                                "imageAlt":"Latinos balloon banner in a pride parade",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -665,11 +674,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Remember my story?",
-                                "size": "bigger"
+                                "text":"Remember my story?"
                             }
                         },
                         {
@@ -681,25 +687,12 @@
                             }
                         },
                         {
-                            "id":44,
-                            "type":"TaskBlock",
-                            "details":
-                            {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for interactive chart with audio"
-                            }
-                        },
-                        {
                             "id":45,
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Do Latinos see themselves as “typical Americans”?",
-                                "size": "bigger"
+                                "text":"Do Latinos see themselves as “typical Americans”?"
                             }
                         },
                         {
@@ -709,50 +702,24 @@
                             {
                                 "text":"Latinos are split on whether they see themselves as a typical American. Nearly half (47%) say they are a typical American, while another 47% say they are very different from the typical American. Foreign-born Hispanics are less likely than native-born Hispanics to say they are a typical American—34% versus 66%.Hispanics are also divided over how much of a common identity they share with other Americans. About half (47%) say they consider themselves to be very different from the typical American. And just one-in-five (21%) say they use the term “American” most often to describe their identity. On these two measures, U.S.-born Hispanics (who now make up 48% of Hispanic adults in the country) express a stronger sense of affinity with other Americans and America than do immigrant Hispanics."
                             }
-                        },
-                        {
-                            "id":47,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "center",
-                                "text":"Test yourself:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
+                        },{
                             "id":48,
-                            "type":"QuizMultipleChoice",
+                            "type":"Survey",
                             "details":
                             {
-                                "options":
-                                [
-                                    {
-                                        "id":0,
-                                        "connector":0,
-                                        "text":"True"
-                                    },
-                                    {
-                                        "id":1,
-                                        "connector":1,
-                                        "text":"False"
-                                    }
-                                ],
-                                "questions":
-                                [
-                                    {
-                                        "id":0,
-                                        "connector":1,
-                                        "text":"True or False: First generation are more likely to describe themselves as American."
-                                    },
-                                    {
-                                        "id":1,
-                                        "connector":99,
-                                        "text":"Great job!"
-                                    }
-                                ]
+                              "question": "True or false: First generation are more likely to describe themselves as American?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "True",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "False",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -760,8 +727,11 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/jakob-owens-104505-unsplash.jpg",
-                                "imageAlt":"Two Latinx people dancing in front of grafitti"
+                                "url":"./assets/img/photo-identity-dancing.jpg",
+                                "imageAlt":"Two Latinx people dancing in front of grafitti",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
                             }
                         },
                         {
@@ -769,11 +739,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"How relevant is the family’s county of origin for Latinos in the USA?",
-                                "size": "bigger"
+                                "text":"How relevant is the family’s county of origin for Latinos in the USA?"
                             }
                         },
                         {
@@ -786,12 +753,26 @@
                         },
                         {
                             "id":52,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for survey"
+                              "question": "From these three aspects, which do you want to connect with?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Race",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Ethnicity",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Latino",
+                                  "value": "50%"
+                                }
+                              ]
                             }
                         },
                         {
@@ -803,7 +784,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Resources",
-                                        "text":"Resources to be provided"
+                                        "text":"1.http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/ \n\n2.http://www.pewhispanic.org/2004/03/19/generational-differences/"
                                     }
                                 ]
                             }

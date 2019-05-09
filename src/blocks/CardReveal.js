@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, css } from 'aphrodite';
+import { StyleSheet, css } from 'aphrodite/no-important';
 
 // details.layout
 // details.text
@@ -27,7 +27,7 @@ export default class CardReveal extends Component {
         {this.props.details.cards.map((block) => 
           <div key={block.id} className={css(ss.cardHolder)}>
             <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
-              <p className={css(ss.cardText)}>{block.revealText}</p>
+              <p style={{fontSize:32}} className={css(ss.cardText)}>{block.revealText}</p>
             </div>
             <div ref={'reveal'+block.id} className={css(ss.reveal)}>
               {block.text ? <div className={css(ss.cardText)}>{block.text}</div> : null }
@@ -46,7 +46,7 @@ const ss = StyleSheet.create({
       width: '100%',
       display:'flex',
       justifyContent:'center',
-      alignItems:'center',
+      alignItems:'space-around',
       flexDirection:'row',
       marginTop:75,
       marginBottom:75,
@@ -58,7 +58,7 @@ const ss = StyleSheet.create({
       }
   },
   cardHolder:{
-    flex:1,
+    flex:'1 1 auto',
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
@@ -73,13 +73,13 @@ const ss = StyleSheet.create({
   },
   card:{
     position: 'absolute',
-    backgroundColor: '#1f60e2',
-    height: 275,
+    backgroundColor: '#aa0076',
+    height: 330,
     width: 275,
     transform: 'rotateY(-0deg)',
     backfaceVisibility: 'hidden',
     border: '1px solid rgba(0,0,0,.15)',
-    borderRadius: 10,
+    borderRadius: 3,
     display: 'flex',
     textAlign:'center',
     color:'#fff',
@@ -90,21 +90,21 @@ const ss = StyleSheet.create({
     padding: 0,
     transition: 'all .2s ease-in-out',
     ':hover': {
-        border: '1px solid #1148b9',
-        backgroundColor: '#1148b9'
+        border: '1px solid #ff66d7',
+        backgroundColor: '#ff66d7'
     }
   },
   reveal:{
     position: 'absolute',
-    backgroundColor: '#1f60e2',
-    height: 275,
+    backgroundColor: '#aa0076',
+    height: 330,
     width: 275,
     transform: 'rotateY(-90deg)',
     backfaceVisibility: 'hidden',
-    border: '1px solid #1f60e2',
+    border: '1px solid #aa0076',
     color:'#fff',
     textAlign:'center',
-    borderRadius: 10,
+    borderRadius: 3,
     overflow:'auto',
     fontSize:'smaller',
     fontFamily:'Crimson Text',

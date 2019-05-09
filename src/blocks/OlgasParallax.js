@@ -12,9 +12,9 @@ export default class OlgasParallax extends Component {
     }
 
     parallax(){
-        this.state.scroll !== window.scrollY  * -.6 ?
+        this.state.scroll !== window.scrollY  * -.1 ?
         this.setState({
-            scroll:window.scrollY * -.6
+            scroll:window.scrollY * -.1
         }) : null
     }
 
@@ -26,11 +26,11 @@ export default class OlgasParallax extends Component {
 
 
     return (
-      <section className={css(ss.section)}>
+      <section style={{height: this.props.details.subtext ? 200 : this.props.details.title ? 100 : 50}} className={css(ss.section)}>
         <div style={{position:'absolute', clip:'rect(0,auto,auto,0)', width:'100%', height:'100%'}}>
-            <div style={{position:'fixed', top:0, left:0, width:'100%', height:'100%',background:'url("../assets/img/pattern-' + this.props.details.type + '.png") 0px '+(this.state.scroll)+'px,linear-gradient(342deg, ' + this.props.details.colorOne + ' 0%, '+ this.props.details.colorTwo +' 100%), '+ this.props.details.colorTwo+''}} >
-            
-            </div>
+            <div style={{position:'fixed', transform: 'translateZ(0px)', top:0, left:0, width:'100%', height:'100%',background:'url("../assets/img/pattern-' + this.props.details.type + '.png") 0px '+(this.state.scroll)+'px,linear-gradient(342deg, ' + this.props.details.colorOne + ' 0%, '+ this.props.details.colorTwo +' 100%), '+ this.props.details.colorTwo+''}} ></div>
+            {this.props.details.title ? <h1 className={css(ss.title)}>{this.props.details.title}</h1> : null }
+            {this.props.details.subtext ? <p className={css(ss.subtext)}>{this.props.details.subtext}</p> : null }
         </div>
       </section>
     );
@@ -44,7 +44,42 @@ const ss = StyleSheet.create({
       alignItems:'center',
       position:'relative',
       overflow:'hidden',
-      height:40
+      transform: 'translateZ(0px)'
+  },
+  title:{
+    position:'absolute',
+    zIndex:4,
+    top:15,
+    margin:0,
+    width:'calc(100% - 30px)',
+    left:15,
+    height:'calc(100% - 30px)',
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    background:'#fff',
+    borderRadius:3,
+    fontWeight:'900',
+    color:"#aa0076"
+  },
+  subtext:{
+    position:'absolute',
+    zIndex:4,
+    top:15,
+    margin:0,
+    width:'calc(100% - 30px)',
+    fontSize:25,
+    left:15,
+    height:'calc(100% - 30px)',
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+    textAlign:'center',
+    background:'#fff',
+    borderRadius:3,
+    fontFamily:'Crimson Text',
+    fontWeight:'400',
+    color:"#aa0076"
   },
 
   text:{

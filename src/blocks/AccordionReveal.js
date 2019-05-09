@@ -97,11 +97,11 @@ const ss = StyleSheet.create({
     transition:'all .2s ease-in-out',
     ':hover':{
       backgroundColor:'rgba(200,200,200,.1)',
-      color:'#0e5bea'
+      color:'#aa0076'
     },
     ':focus':{
       backgroundColor:'rgba(200,200,200,.1)',
-      color:'#0e5bea'
+      color:'#aa0076'
     }
   },
   plusNegative:{

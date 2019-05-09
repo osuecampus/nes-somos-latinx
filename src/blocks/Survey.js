@@ -22,9 +22,10 @@ export default class Survey extends Component {
         <div className={css(ss.question)}>
           <p className={css(ss.text)}>{this.props.details.question}</p>
         </div>
-          {this.props.details.options.map(option => 
-            <button onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} className={css(ss.option)}>{option.answer}</button>)}
-        {this.state.answer ? surveyResults : null}
+        {!this.state.answer ?
+          this.props.details.options.map(option => 
+            <button onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
+          : <div>Thanks!</div>}
       </section>
     );
   }
@@ -32,9 +33,9 @@ export default class Survey extends Component {
 
 const ss = StyleSheet.create({
   section: {
-    width: 'calc(100% - 30px)',
-    borderRadius:10,
-    padding:15,
+    width: 'calc(100% - 70px)',
+    borderRadius:3,
+    padding:35,
       backgroundColor:'rgba(192,192,192,.2)',
     display:'flex',
     alignItems:'center',
@@ -64,20 +65,20 @@ const ss = StyleSheet.create({
     width:500,
     margin: 10,
     fontFamily: 'Open Sans',
-    fontSize: 18,
-    color: '#fff',
+    fontSize: 20,
+    border:'none',
+    padding:16,
     textDecoration: 'none',
     textAlign: 'center',
-    padding: '12px 0px 10px 10px',
-    fontWeight: '700',
-    borderRadius:45,
-    backgroundColor:'#1f60e2',
+    fontWeight: '600',
+    cursor:'pointer',
+    borderRadius:3,
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
       width: 'calc(100% - 70px)',
-      marginTop:25,
+      marginTop:5,
       marginLeft:0,
-      marginBottom:35,
+      marginBottom:5,
     }
   }
 });
