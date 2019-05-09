@@ -1163,29 +1163,20 @@
                         },
                         {
                             "id":1,
-                            "type":"AccordionReveal",
+                            "type":"SubjectBlock",
                             "details":
                             {
-                                "accordions":[
-                                    {
-                                        "id":1,
-                                        "revealText": "Video Transcript",
-                                        "text":"Text block goes here",
-                                        "html":"You can use html in this block. Only use text or html, not both"
-                                    }
-                                ]
+                                "align": "left",
+                                "text":"“I never realized how strong the relationship between my community, my family and immigration was until... ”"
                             }
                         },
                         {
                             "id":2,
-                            "type":"SubjectBlock",
+                            "type":"TextReveal",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"“I never realized how strong the relationship between my community, my family and immigration was until... ”",
-                                "size": "bigger"
+                                "summary":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different.",
+                                "text":"At home my mom would speak in English with me most of the time, also in school and classes I would also speak English but at home it was a mix of languages and communications, one screaming over the other, using a little bit of “Spanglish,” A lot of Spanish here. My grandfather would always correct me with my words. When I would say “apoyo” oh my god he would always correct me and say it’s “apoyo.” Something so wonderful that I didn’t think was different, it didn’t seem different and now when I think about my life it’s a piece of my history. I think about how I’m raising my children different, and how i can pass on to them a little bit of that language, how can I give them that experience because it’s an incredible memory of mine. Looking at how families talk to one another and how they communicate-- and also how they share with the language."
                             }
                         },
                         {
@@ -1193,105 +1184,87 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/a-row-of-international-flags-from-all-over-the-world-in-the-city-of-new-york_HYKKTUASs.jpg",
-                                "imageAlt":"International Flags in New York"
+                                "url":"./assets/img/photo-immigration-flags.jpg",
+                                "imageAlt":"International Flags in New York",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
-                            "id":4,
-                            "type":"SubjectBlock",
+                            "id":1.5,
+                            "type":"OlgasParallax",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Immigrant:",
-                                "size": "bigger"
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "subtext":"Immigrants are those that are foreign born"
                             }
                         },
                         {
                             "id":5,
-                            "type":"QuoteBox",
+                            "type":"CardReveal",
                             "details":
                             {
-                                "text":"​Those who are foreign born."
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "First Generation",
+                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Second Generation",
+                                        "text":"Latinos born in the United States to immigrant parents"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Third or Higher Generation",
+                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                    }
+                                ]
                             }
                         },
                         {
                             "id":6,
-                            "type":"SubjectBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"First Generation:",
-                                "size": "bigger"
+                              "question": "What is your age?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Under 10",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "10-15",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "16-20",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "21-25",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "26+",
+                                    "value": "50%"
+                                  }
+                              ]
                             }
                         },
                         {
                             "id":7,
-                            "type":"QuoteBox",
+                            "type":"SingleImage",
                             "details":
                             {
-                                "text":"​Latinos born outside of the United States or Puerto Rico"
-                            }
-                        },
-                        {
-                            "id":8,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Second Generation:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":9,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Latinos born in the United States to immigrant parents"
-                            }
-                        },
-                        {
-                            "id":10,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"Third or Higher Generation:",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":11,
-                            "type":"QuoteBox",
-                            "details":
-                            {
-                                "text":"​Latinos born in the United States to U.S.-born parents"
-                            }
-                        },
-                        {
-                            "id":12,
-                            "type":"Carousel",
-                            "details":
-                            {
-                                "images": [
-                                    {
-                                        "imageAlt": "cat",
-                                        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1280px-Cat03.jpg"
-                                    },
-                                    {
-                                        "imageAlt": "dog",
-                                        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg"
-                                    }
-                                ]
+                                "url":"./assets/img/photo-immigration-mapgif.gif",
+                                "imageAlt":"Immigration changes over the century"
                             }
                         },
                         {
@@ -1299,23 +1272,8 @@
                             "type":"SubjectBlock",
                             "details":
                             {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
                                 "align": "left",
-                                "text":"Has it happened to you sometimes when people talk about immigration and they only refer to Latinos?",
-                                "size": "bigger"
-                            }
-                        },
-                        {
-                            "id":14,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "backgroundType": "none",
-                                "backgroundValue": "url || color",
-                                "align": "left",
-                                "text":"This map makes it clear, Latinos, Hispanics, have been among the many immigrant groups to the United States from 1850 to this decade.",
-                                "size": "bigger"
+                                "text":"Has it happened to you sometimes when people talk about immigration and they only refer to Latinos? This map makes it clear, Latinos, Hispanics, have been among the many immigrant groups to the United States from 1850 to this decade."
                             }
                         },
                         {
@@ -1331,18 +1289,31 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/Images/Latinx_Rally_-_Defend_DACA!_(33067088521).jpg",
-                                "imageAlt":"Latinx at DACA Rally"
+                                "url":"./assets/img/photo-immigration-daca.jpg",
+                                "imageAlt":"People protesting",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
                             }
                         },
                         {
                             "id":17,
-                            "type":"TaskBlock",
+                            "type":"Survey",
                             "details":
                             {
-                                "color":"rgb(255, 88, 88)",
-                                "image":"https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-peer-education/nes-assignment-icon.png",
-                                "text":"Placeholder for a survey"
+                              "question": "Do you believe that immigrants face more challenges in regards to their education?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
                             }
                         },
                         {
