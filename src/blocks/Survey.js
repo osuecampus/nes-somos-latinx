@@ -15,7 +15,7 @@ export default class Survey extends Component {
   }
 
   render() {
-    const surveyResults = <div>{this.props.details.options.map(option => <p className={css(ss.text)}>{option.answer}: {option.value}</p>)}</div>
+    const surveyResults = <div>{this.props.details.options.map((option, index) => <p key={index} className={css(ss.text)}>{option.answer}: {option.value}</p>)}</div>
 
     return (
       <section className={css(ss.section)}>
@@ -23,8 +23,9 @@ export default class Survey extends Component {
           <p className={css(ss.text)}>{this.props.details.question}</p>
         </div>
         {!this.state.answer ?
-          this.props.details.options.map(option => 
-            <button onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
+          this.props.details.options.map((option, index) => 
+            <button key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
+        
           : <div>Thanks!</div>}
       </section>
     );

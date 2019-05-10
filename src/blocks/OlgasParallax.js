@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { StyleSheet, css } from 'aphrodite';
 
 
+const parallax = () => {
+  
+}
+
 export default class OlgasParallax extends Component {
 
     constructor(props){
@@ -11,18 +15,27 @@ export default class OlgasParallax extends Component {
         }
     }
 
-    parallax(){
-        this.state.scroll !== window.scrollY  * -.075 ?
-        this.setState({
-            scroll:window.scrollY * -.075
-        }) : null
+    componentDidMount() {
+      window.addEventListener('scroll', this.parallax, false);
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener('scroll', this.parallax, false);
+  }
+
+
+  
+
+    parallax = () => {
+      this.state.scroll !== window.scrollY  * -.075 ?
+      this.setState({
+        scroll:window.scrollY * -.075
+    })
+         : null
+      
     }
 
   render() {
-
-    window.addEventListener('scroll', (e) => {
-       this.parallax()
-    })
 
 
     return (

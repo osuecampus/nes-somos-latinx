@@ -23,10 +23,10 @@ export default class TextReveal extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <p className={css(ss.text)}>
+        <div className={css(ss.text)}>
             {this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}
             {!this.state.showAll ? <div className={css(ss.hidden)}/>:null}
-        </p>
+        </div>
         <div style={{display: this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
             Show All Text
         </div>

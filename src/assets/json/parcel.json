@@ -48,13 +48,6 @@
                                         "imageAlt": "Education",
                                         "imageHeight":250,
                                         "url":"./#/2/0"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "image":"./assets/img/home-resources.svg",
-                                        "imageAlt": "Resources",
-                                        "imageHeight":250,
-                                        "url":"./#/3/0"
                                     }
                                 ]
                             }
@@ -100,7 +93,7 @@
                                         "language":"EN"
                                     },
                                     {
-                                        "id": 0,
+                                        "id": 2,
                                         "youtube":"-Mcv0wfiW0o",
                                         "bold":"Ana",
                                         "language":"ES"
@@ -3148,7 +3141,7 @@
             "content": [
                 {
                     "id": 0,
-                    "title" : "Home",
+                    "title" : "About Somos LatinX",
                     "blocks":
                     [
                         {
