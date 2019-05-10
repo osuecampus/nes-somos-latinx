@@ -24,7 +24,7 @@ export default class Survey extends Component {
         </div>
         {!this.state.answer ?
           this.props.details.options.map((option, index) => 
-            <button key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
+            <button tabIndex={'4'} key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
         
           : <div>Thanks!</div>}
       </section>

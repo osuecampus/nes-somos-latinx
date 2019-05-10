@@ -16,7 +16,7 @@ export default class TextColumns extends Component {
     return (
       <section className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
-          <div onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column, block.youtube && ss.youtubeColumn)} key={block.id}>
+          <div tabIndex='4' onKeyPress={e => e.which === 13 ? block.url ? this.launchUrl(block.url) : null : null}  onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column, block.youtube && ss.youtubeColumn)} key={block.id}>
             {block.youtube ? <img className={css(ss.spinner)} src={'./assets/img/loading-white.apng'} /> : null}
             {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
@@ -74,9 +74,6 @@ const ss = StyleSheet.create({
     position:'relative',
     top:0,
     transition: 'all .2s ease-in-out',
-    ':hover':{
-      top:-5
-    }
   },
   text:{
     width:'100%',
@@ -90,6 +87,16 @@ const ss = StyleSheet.create({
     alignItems:'center',
     justifyContent:'flex-start',
     flexDirection:'column',
+    outline:0,
+    position:'relative',
+    top:0,
+    transition: 'all .2s ease-in-out',
+    ':hover':{
+      top:-5
+    },
+    ':focus':{
+      top:-5
+    },
     '@media (max-width: 700px)': {
       width:'100%',
       marginTop:25,

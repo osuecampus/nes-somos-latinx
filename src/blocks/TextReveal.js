@@ -27,7 +27,7 @@ export default class TextReveal extends Component {
             {this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}
             {!this.state.showAll ? <div className={css(ss.hidden)}/>:null}
         </div>
-        <div style={{display: this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
+        <div tabIndex='4' onKeyPress={e => e.which === 13 ?  this.revealText() : null } style={{display: this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
             Show All Text
         </div>
       </section>
@@ -64,9 +64,13 @@ const ss = StyleSheet.create({
       marginTop:20,
       cursor:'pointer',
       position:'relative',
+      outline:0,
       transition:'all .2s ease-in-out',
       ':hover':{
           background:'#ff66d7'
-      }
+      },
+      ':focus':{
+        background:'#ff66d7'
+    }
   }
 });

@@ -22,7 +22,7 @@ export default class AccordionReveal extends Component {
       <section className={css(ss.section) + ' lightenUp'}>
         {this.props.details.accordions.map((block) => 
           <div key={block.id} className={css(ss.accordion)}>
-            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? this.accordionReveal('accordion'+block.id, 'reveal'+block.id) : null } onClick={() => this.accordionReveal('accordion'+block.id, 'reveal'+block.id)} ref={'accordion'+block.id} className={css(ss.accordionTitle, ss.plus)}>
+            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.accordionReveal('accordion'+block.id, 'reveal'+block.id) : null } onClick={() => this.accordionReveal('accordion'+block.id, 'reveal'+block.id)} ref={'accordion'+block.id} className={css(ss.accordionTitle, ss.plus)}>
               {block.revealText}
               <sup className={css(ss.plusNegative)}>+</sup>
               <sub className={css(ss.plusNegative)}>-</sub>
