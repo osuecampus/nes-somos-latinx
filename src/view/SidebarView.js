@@ -34,7 +34,7 @@ class SidebarView extends Component {
     return (
       <div role="navigation" className={'sidebarView'}>
         <div className={'titleHolder'}>
-          <img className={'somosLogo'} src={'../assets/img/somos-logo.svg'} />
+          <img className={'somosLogo'} src={'./assets/img/somos-logo.svg'} />
         </div>
 
         <div className={'languageHolder'}>
