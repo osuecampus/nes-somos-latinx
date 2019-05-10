@@ -41,14 +41,14 @@ export default class QuizMultipleChoice extends Component {
         <div className={css(ss.questionHold)}>
             {this.props.details.questions[this.state.currentQuestion] ? 
                 <div ref={'question'} className={css(ss.question)}>
-                    <p className={css(ss.text)}>{this.props.details.questions[this.state.currentQuestion].text}</p>
+                    <p className={css(ss.text)}>{this.props.language == 'es' ? this.props.details.questions[this.state.currentQuestion].es : this.props.details.questions[this.state.currentQuestion].text}</p>
                 </div>
             : null }
         </div>
         <div className={css(ss.answerHold)}>
             {this.props.details.options.map((block) => 
                 <div style={{color:this.props.details.color, background:this.props.details.background}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
-                    {block.text}
+                    {this.props.language == 'es' && block.es ? block.es : block.text}
                 </div>
             )}
         </div>

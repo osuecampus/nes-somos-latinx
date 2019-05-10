@@ -1194,7 +1194,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"“I never realized how strong the relationship between my community, my family and immigration was until... ”"
+                                "text":"“I never realized how strong the relationship between my community, my family and immigration was until... ”",
+                                "es":"''Nunca me di cuenta de lo fuerte que era la relación entre mi comunidad, mi familia e inmigración hasta que ...''"
                             }
                         },
                         {
@@ -1203,7 +1204,8 @@
                             "details":
                             {
                                 "summary":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different.",
-                                "text":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different. At home my mom would speak in English with me most of the time, also in school and classes I would also speak English but at home it was a mix of languages and communications, one screaming over the other, using a little bit of “Spanglish,” A lot of Spanish here. My grandfather would always correct me with my words. When I would say “apoyo” oh my god he would always correct me and say it’s “apoyo.” Something so wonderful that I didn’t think was different, it didn’t seem different and now when I think about my life it’s a piece of my history. I think about how I’m raising my children different, and how i can pass on to them a little bit of that language, how can I give them that experience because it’s an incredible memory of mine. Looking at how families talk to one another and how they communicate-- and also how they share with the language."
+                                "text":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different. At home my mom would speak in English with me most of the time, also in school and classes I would also speak English but at home it was a mix of languages and communications, one screaming over the other, using a little bit of “Spanglish,” A lot of Spanish here. My grandfather would always correct me with my words. When I would say “apoyo” oh my god he would always correct me and say it’s “apoyo.” Something so wonderful that I didn’t think was different, it didn’t seem different and now when I think about my life it’s a piece of my history. I think about how I’m raising my children different, and how i can pass on to them a little bit of that language, how can I give them that experience because it’s an incredible memory of mine. Looking at how families talk to one another and how they communicate-- and also how they share with the language.",
+                                "es":""
                             }
                         },
                         {
@@ -1226,7 +1228,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "subtext":"Immigrants are those that are foreign born"
+                                "subtext":"Immigrants are those that are foreign born",
+                                "subtextEs":"INMIGRANTE: Los que son nacidos en el extranjero"
                             }
                         },
                         {
@@ -1238,17 +1241,23 @@
                                     {
                                         "id":0,
                                         "revealText": "First Generation",
-                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                        "revealTextEs":"PRIMERA GENERACIÓN",
+                                        "text":"Latinos born outside of the United States or Puerto Rico",
+                                        "es":"Latinos nacidos fuera de los Estados Unidos o Puerto Rico"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Second Generation",
-                                        "text":"Latinos born in the United States to immigrant parents"
+                                        "revealTextEs": "SEGUNDA GENERACIÓN",
+                                        "text":"Latinos born in the United States to immigrant parents",
+                                        "es":"Latinos nacidos en los Estados Unidos de padres inmigrantes"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Third or Higher Generation",
-                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                        "revealTextEs":"TERCERA O MAYOR GENERACIÓN",
+                                        "text":"Latinos born in the United States to U.S.-born parents",
+                                        "es":"Latinos nacidos en los Estados Unidos de padres nacidos en los Estados Unidos"
                                     }
                                 ]
                             }
@@ -1259,11 +1268,13 @@
                             "details":
                             {
                               "question": "What is your age?",
+                              "questionEs":"¿Cual es tu edad?",
                               "color":"#ffffff",
                               "background":"#662d91",
                               "options": [
                                 { 
                                   "answer": "Under 10",
+                                  "answerEs":"Menos de 10",
                                   "value": "30%"
                                 },
                                 {
@@ -1300,7 +1311,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Has it happened to you sometimes when people talk about immigration and they only refer to Latinos? This map makes it clear, Latinos, Hispanics, have been among the many immigrant groups to the United States from 1850 to this decade."
+                                "text":"Has it happened to you sometimes when people talk about immigration and they only refer to Latinos? This map makes it clear, Latinos, Hispanics, have been among the many immigrant groups to the United States from 1850 to this decade.",
+                                "es":"¿Le ha pasado a usted a veces cuando las personas hablan de inmigración y solo se refieren a Latinos? Este mapa lo aclara, los latinos han estado entre los muchos grupos de inmigrantes en los Estados Unidos desde 1850 hasta esta década"
                             }
                         },
                         {
@@ -1308,7 +1320,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is a cool example of how immigration is the history of the USA: Immigrants come to the U.S. from all over the world. For example in in New Jersey, India is the top country of birth among immigrants. In Maine, Montana, New Hampshire , Vermont and North Dakota, Canada is the top country of birth for immigrants and in Hawaii and Alaska Filipinos account for a large share of immigrants. Immigrants from Ireland, England, Germany, Italy and many other european countries were part of large immigrant groups in the last two centuries, many of them after the first and second war. Millions of immigrants come as well from Asian and Eastern Europe. In California for example in 1860, 40% of the immigrants were Chinese in contrast with Meanwhile, New York and New Jersey where in 1910, 30% of the immigrants were from Russia and the USSR. Congress passed in 1965 a legislation to open the nation’s borders, immigrants have largely hailed from Latin America and Asia. In 2012, there were four states (California, New York, New Jersey and Florida) in which about one-in-five or more people are foreign born.Mexico is the birthplace of 28% (or 11.6 million) of all immigrants in the U.S. Immigrants born in Mexico account for more than half of all of the foreign born in five states: New Mexico 72%, Arizona 58%, Texas 58%, Idaho 53% and Oklahoma 51%."
+                                "text":"This is a cool example of how immigration is the history of the USA: Immigrants come to the U.S. from all over the world. For example in in New Jersey, India is the top country of birth among immigrants. In Maine, Montana, New Hampshire , Vermont and North Dakota, Canada is the top country of birth for immigrants and in Hawaii and Alaska Filipinos account for a large share of immigrants. Immigrants from Ireland, England, Germany, Italy and many other european countries were part of large immigrant groups in the last two centuries, many of them after the first and second war. Millions of immigrants come as well from Asian and Eastern Europe. In California for example in 1860, 40% of the immigrants were Chinese in contrast with Meanwhile, New York and New Jersey where in 1910, 30% of the immigrants were from Russia and the USSR. Congress passed in 1965 a legislation to open the nation’s borders, immigrants have largely hailed from Latin America and Asia. In 2012, there were four states (California, New York, New Jersey and Florida) in which about one-in-five or more people are foreign born.Mexico is the birthplace of 28% (or 11.6 million) of all immigrants in the U.S. Immigrants born in Mexico account for more than half of all of the foreign born in five states: New Mexico 72%, Arizona 58%, Texas 58%, Idaho 53% and Oklahoma 51%.",
+                                "es":"Este es un buen ejemplo de cómo la inmigración es la historia de los Estados Unidos: Los inmigrantes vienen a los Estados Unidos de todo el mundo. Por ejemplo, en Nueva Jersey, India es el principal país de nacimiento entre los inmigrantes. En Maine, Montana, New Hampshire, Vermont y Dakota del Norte, Canadá es el principal país de nacimiento de los inmigrantes y en Hawaii y Alaska los filipinos representan una gran proporción de los inmigrantes. Los inmigrantes de Irlanda, Inglaterra, Alemania, Italia y muchos otros países europeos formaron parte de grandes grupos de inmigrantes en los últimos dos siglos, muchos de ellos después de la primera y la segunda guerra. Millones de inmigrantes vienen también de Asia y Europa del Este. En California, por ejemplo, en 1860, el 40% de los inmigrantes eran chinos en comparación con Nueva York y Nueva Jersey, donde en 1910, el 30% de los inmigrantes procedían de Rusia y la URSS. El Congreso aprobó en 1965 una legislación para abrir las fronteras de la nación, los inmigrantes han provenido en gran parte de América Latina y Asia. En 2012, hubo cuatro estados (California, Nueva York, Nueva Jersey y Florida) en los que aproximadamente uno de cada cinco o más personas nacieron en el extranjero. México es el lugar de nacimiento del 28% (o 11.6 millones) de todos los inmigrantes en los EE. UU. Los inmigrantes nacidos en México representan más de la mitad de todos los nacidos en el extranjero en cinco estados: Nuevo México 72%, Arizona 58%, Texas 58%, Idaho 53% y Oklahoma 51%."
                             }
                         },
                         {
@@ -1329,15 +1342,18 @@
                             "details":
                             {
                               "question": "Do you believe that immigrants face more challenges in regards to their education?",
+                              "questionEs":"desafíos en lo que respecta a su educación?",
                               "color":"#ffffff",
                               "background":"#662d91",
                               "options": [
                                 { 
                                   "answer": "Yes",
+                                  "answerEs":"sí",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "No",
+                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -1370,12 +1386,14 @@
                                     {
                                         "id":3,
                                         "connector":3,
-                                        "text":"Central America"
+                                        "text":"Central America",
+                                        "es":"CENTROAMÉRICA"
                                     },
                                     {
                                         "id":4,
                                         "connector":4,
-                                        "text":"South America"
+                                        "text":"South America",
+                                        "es":"SUDAMERICA"
                                     }
                                 ],
                                 "questions":
@@ -1383,12 +1401,14 @@
                                     {
                                         "id":0,
                                         "connector":0,
-                                        "text":"Where are the majority of Latinos, hispanic immigrants coming from?"
+                                        "text":"Where are the majority of Latinos, hispanic immigrants coming from?",
+                                        "es":"¿De dónde vienen la mayoría de los inmigrantes Latinos?"
                                     },
                                     {
                                         "id":3,
                                         "connector":99,
-                                        "text":"Correct! Felicidades!"
+                                        "text":"Correct! Felicidades!",
+                                        "es":"Correct! Felicidades!"
                                     }
                                 ]
                             }
@@ -1420,7 +1440,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"As we mentioned before, Mexican-Americans constitute the largest Latino group in the United States, making up two-thirds of the total Latino population. "
+                                "text":"As we mentioned before, Mexican-Americans constitute the largest Latino group in the United States, making up two-thirds of the total Latino population.",
+                                "es":"Como mencionamos anteriormente, los mexicano-estadounidenses constituyen el grupo latino más grande de los Estados Unidos, que representan dos tercios de la población latina total."
                             }
                         },
                         {
@@ -1428,7 +1449,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Mexican families have been present in the Southwest since that region was a part of Mexico. One aspect of Mexican migration that is not often emphasized is its relationship with economic and political interests, both in Mexico and the United States. We can conclude from this that immigration is completely related to economic and political interests, both in the countries of origin and destination."
+                                "text":"Mexican families have been present in the Southwest since that region was a part of Mexico. One aspect of Mexican migration that is not often emphasized is its relationship with economic and political interests, both in Mexico and the United States. We can conclude from this that immigration is completely related to economic and political interests, both in the countries of origin and destination.",
+                                "es":"Las familias mexicanas han estado presentes en el sudoeste desde que esa región era parte de México. Un aspecto de la migración mexicana que no se enfatiza a menudo es su relación con los intereses económicos y políticos, tanto en México como en Estados Unidos. De esto podemos concluir que la inmigración está completamente relacionada con los intereses económicos y políticos, tanto en los países de origen como en los de destino."
                             }
                         },
                         {
@@ -1439,7 +1461,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "title":"Mexico"
+                                "title":"Mexico",
+                                "titleEs":"Mexico"
                             }
                         },
                         {
@@ -1469,7 +1492,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"What about the history of Mexican immigration to the United States?"
+                                "text":"What about the history of Mexican immigration to the United States?",
+                                "es":"¿Qué pasa con la historia de la inmigración mexicana a los Estados Unidos?"
                             }
                         },
                         {
@@ -1486,7 +1510,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The bars are not evenly distributed in the timeline, right?"
+                                "text":"The bars are not evenly distributed in the timeline, right?",
+                                "es":"Las barras no están distribuidas uniformemente en la línea de tiempo, ¿verdad?"
                             }
                         },
                         {
@@ -1494,7 +1519,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA."
+                                "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA.",
+                                "es":"Posiciones políticas, crisis económicas, guerras y otros factores macroambientales cambiaron la huella de la inmigración mexicana a los Estados Unidos."
                             }
                         },
                         {
@@ -1505,7 +1531,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "title":"Puerto Rico"
+                                "title":"Puerto Rico",
+                                "titleEs":"Puerto Rico"
                             }
                         },
                         {
@@ -1523,7 +1550,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Did you know that Puerto Ricans who are born in Puerto Rico are American Citizens because they were born in the states? This is why:"
+                                "text":"Did you know that Puerto Ricans who are born in Puerto Rico are American Citizens because they were born in the states? This is why:",
+                                "es":"¿Sabías que los puertorriqueños que nacen en Puerto Rico son ciudadanos estadounidenses porque nacieron en los Estados Unidos?"
                             }
                         },
                         {
@@ -1531,7 +1559,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans."
+                                "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans.",
+                                "es":"En 1898, Puerto Rico fue transferido de España a los Estados Unidos y en 1917, la Ley Jones-Shafroth hizo que todos los puertorriqueños fueran ciudadanos estadounidenses. Se estima que 470,000 puertorriqueños, el 21 por ciento de la población de la isla, emigraron en la década de 1950 en un movimiento que se conoce como la Gran Migración. Hoy en día, representan el 10% de la población latina en los EE. UU. Y se convierten en el segundo grupo más grande después de los mexicoamericanos."
                             }
                         },
                         {
@@ -1542,7 +1571,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "title":"Cuba"
+                                "title":"Cuba",
+                                "titleEs":"Cuba"
                             }
                         },
                         {
@@ -1560,7 +1590,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Cubans have been present in the United States for a long, long time."
+                                "text":"Cubans have been present in the United States for a long, long time.",
+                                "es":"Los cubanos han estado presentes en los Estados Unidos durante mucho, mucho tiempo."
                             }
                         },
                         {
@@ -1568,7 +1599,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The story begins in the Spanish colonial period in 1565 when St. Augustine, Florida was established and  hundreds of Spanish-Cuban soldiers and their families moved from Cuba to Florida. In between 1770 and 1870, during the period of Spanish rule, Cubans immigrated to Louisiana,Texas, New Orleans and New York."
+                                "text":"The story begins in the Spanish colonial period in 1565 when St. Augustine, Florida was established and  hundreds of Spanish-Cuban soldiers and their families moved from Cuba to Florida. In between 1770 and 1870, during the period of Spanish rule, Cubans immigrated to Louisiana,Texas, New Orleans and New York.",
+                                "es":"La historia comienza en el período colonial español en 1565, cuando se estableció San Agustín, Florida, y cientos de soldados cubano-españoles y sus familias se mudaron de Cuba a Florida. Entre 1770 y 1870, durante el período de gobierno español, los cubanos emigraron a Louisiana, Texas, Nueva Orleans y Nueva York."
                             }
                         },
                         {
@@ -1577,7 +1609,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"As we explored before, political and economic factors influenced these big immigration waves."
+                                "text":"As we explored before, political and economic factors influenced these big immigration waves.",
+                                "es":"Como exploramos antes, los factores políticos y económicos influyeron en estas grandes oleadas de inmigración."
                             }
                         },
                         {
@@ -1585,7 +1618,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The Cuban Revolution led to the mass migration of Cubans to the United States in 1959. Since it was the height of the cold war, their presence was supported and encouraged by the U.S. government. According to the U.S. Census, Cuban Americans lived in all 50 states. But most Cuban immigrants settled in south Florida.Communities like Miami, Tampa, and Union City, where Cuban Americans made their homes, experienced a vibrant cultural transformation."
+                                "text":"The Cuban Revolution led to the mass migration of Cubans to the United States in 1959. Since it was the height of the cold war, their presence was supported and encouraged by the U.S. government. According to the U.S. Census, Cuban Americans lived in all 50 states. But most Cuban immigrants settled in south Florida.Communities like Miami, Tampa, and Union City, where Cuban Americans made their homes, experienced a vibrant cultural transformation.",
+                                "es":"La Revolución cubana condujo a la migración masiva de cubanos a los Estados Unidos en 1959. Como era el momento culminante de la guerra fría, su presencia fue apoyada y alentada por el gobierno de los Estados Unidos. Según el Censo de los Estados Unidos, los cubanoamericanos vivían en los 50 estados. Pero la mayoría de los inmigrantes cubanos se establecieron en el sur de la Florida. Comunidades como Miami, Tampa y Union City, donde los cubano-americanos hicieron sus hogares, experimentaron una transformación cultural vibrante."
                             }
                         },
                         {
@@ -1596,7 +1630,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "title":"Central America"
+                                "title":"Central America",
+                                "titleEs":"Centrales"
                             }
                         },
                         {
@@ -1604,7 +1639,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama"
+                                "text":"Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama",
+                                "es":""
                             }
                         },
                         {
@@ -1643,7 +1679,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Let’s talk about a more recent story:"
+                                "text":"Let’s talk about a more recent story:",
+                                "es":"Hablemos de una historia más reciente:"
                             }
                         },
                         {
@@ -1651,7 +1688,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras."
+                                "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras.",
+                                "es":"En los últimos años, la inmigración centroamericana a los Estados Unidos ha sido el centro de atención significativa de los medios de comunicación y las políticas públicas, ya que la cantidad de niños y familias no acompañados que huyen de la violencia de pandillas y la pobreza ha aumentado dramáticamente. La mayoría de los 3.4 millones de centroamericanos que residen en los Estados Unidos son del Triángulo del Norte, formado por El Salvador, Guatemala y Honduras."
                             }
                         },
                         {
@@ -1674,7 +1712,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "title":"South America"
+                                "title":"South America",
+                                "titleEs":"Sudamerica"
                             }
                         },
                         {
@@ -1682,7 +1721,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Argentina, Bolivia, Brazil, Chile, Columbia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela"
+                                "text":"Argentina, Bolivia, Brazil, Chile, Columbia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela",
+                                "es":"Argentina, Bolivia, Brasil, Chile, Colombia, Ecuador, Guayana, Paraguay, Perú, Surinam, Uruguay, Venezuela"
                             }
                         },
                         {
@@ -1721,7 +1761,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Wow! 7 percent of the nation’s immigrants are from South America! "
+                                "text":"Wow! 7 percent of the nation’s immigrants are from South America!",
+                                "es":"¡Guauu! ¡El 7 por ciento de los inmigrantes de la nación son de Sudamérica!"
                             }
                         },
                         {
@@ -1729,7 +1770,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population."
+                                "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population.",
+                                "es":"Este número creció de 90,000 personas en 1960 cuando este grupo de inmigrantes representó solo el 1% del total de la población inmigrante, a alrededor de 2.9 millones de personas en 2014. ¡Sorprendente! En 2014, los cinco países de origen más grandes fueron Colombia (707,000, casi el 25 por ciento de todos los inmigrantes sudamericanos), Perú el 16 por ciento, Ecuador el 15 por ciento, Brasil el 12 por ciento y Guyana el 10 por ciento. Juntos, representaron el 77 por ciento del total de la población inmigrante sudamericana."
                             }
                         },
                         {
@@ -1750,23 +1792,28 @@
                             "details":
                             {
                               "question": "Which one are you?",
+                              "questionEs":"¿Cual eres tu?",
                               "color":"#ffffff",
                               "background":"#662d91",
                               "options": [
                                 { 
                                   "answer": "Immigrant to the USA",
+                                  "answerEs":"Inmigrante a los estados unidos",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "1st Gen Hispanic/LatinX",
+                                  "answerEs":"1ª Gen Hispana / Latinx",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "2nd Gen Hispanic/LatinX",
+                                  "answerEs":"2da Gen Hispana / Latinx",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "3rd+ Gen Hispanic/LatinX",
+                                    "answerEs":"3rd+ Gen Hispana / Latinx",
                                     "value": "50%"
                                   }
                               ]
@@ -1784,12 +1831,14 @@
                                     {
                                         "id":0,
                                         "connector":0,
-                                        "text":"Yes"
+                                        "text":"Yes",
+                                        "es":"si"
                                     },
                                     {
                                         "id":1,
                                         "connector":1,
-                                        "text":"No"
+                                        "text":"No",
+                                        "es":"no"
                                     }
                                 ],
                                 "questions":
@@ -1797,7 +1846,8 @@
                                     {
                                         "id":0,
                                         "connector":1,
-                                        "text":"Are all Latinos in the U.S. immigrants?"
+                                        "text":"Are all Latinos in the U.S. immigrants?",
+                                        "es":"¿Todos los latinos en los Estados Unidos son inmigrantes?"
                                     },
                                     {
                                         "id":1,
@@ -1824,7 +1874,8 @@
                                 "type":"darkBlue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
-                                "subtext":"Immigration is not only a Latino phenomenon"
+                                "subtext":"Immigration is not only a Latino phenomenon",
+                                "subtextEs":"La inmigración no es solo un fenómeno hispano / latino"
                             }
                         },
                         {
@@ -1853,7 +1904,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth."
+                                "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth.",
+                                "es":"Viendo hacia el futuro, si continúan las tendencias demográficas actuales (antes explicamos que la inmigración está directamente relacionada con factores políticos y económicos y no sabemos qué nos deparará el futuro), los inmigrantes y sus descendientes serán una fuente aún mayor de crecimiento de la población."
                             }
                         },
                         {
@@ -1861,7 +1913,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population."
+                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population.",
+                                "es":"Entre 2015 y 2065, se proyecta que representarán el 88% del aumento de la población de los Estados Unidos, o 103 millones de personas, a medida que la nación crece a 441 millones de la población total."
                             }
                         },
                         {
@@ -1869,7 +1922,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall."
+                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall.",
+                                "es":"En 2015, el 47% de los inmigrantes que residen en los EE. UU. Son hispanos, pero como la inmigración de América Latina, especialmente de México, se ha desacelerado en los últimos años, se espera que la proporción de extranjeros nacidos en el extranjero que sean hispanos disminuya."
                             }
                         },
                         {
@@ -1877,7 +1931,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055."
+                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055.",
+                                "es":"Mientras tanto, se proyecta que los inmigrantes asiáticos conformarán una mayor proporción de todos los inmigrantes, convirtiéndose en el mayor grupo de inmigrantes para el año 2055."
                             }
                         },
                         {
