@@ -80,7 +80,7 @@ class Content extends Component {
         
           {this.props.content[0] ? 
             (this.props.content[0].sections[this.props.currentUnit].content[this.props.currentPage].blocks.map((block, index) => {
-              const MyComponent = blocks[block.type]; return React.createElement(MyComponent, { key: index, details: block.details, content: this.props.content });
+              const MyComponent = blocks[block.type]; return React.createElement(MyComponent, { key: index, details: block.details, language: this.props.language, content: this.props.content });
             })) 
           : null }
         </div>
@@ -138,7 +138,8 @@ const mapStateToProps = state => {
     fontSize: state.fontSize,
     currentPage: state.currentPage,
     currentUnit: state.currentUnit,
-    content: state.content
+    content: state.content,
+    language: state.language
   };
 };
 

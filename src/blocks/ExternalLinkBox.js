@@ -11,7 +11,7 @@ export default class ExternalLinkBox extends Component {
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.innerBox)}>
-          <p className={css(ss.text)}>{this.props.details.text}</p>
+          <p className={css(ss.text)}>{this.props.language == 'en' ? this.props.details.text : this.props.details.es}</p>
           <a tabIndex={'4'} className={css(ss.button)} target={'_blank'} href={this.props.details.link} alt={this.props.details.text}>{this.props.details.button}</a>
         </div>
       </section>

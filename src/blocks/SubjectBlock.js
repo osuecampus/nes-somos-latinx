@@ -12,7 +12,7 @@ export default class SubjectBlock extends Component {
       <section style={{ height: this.props.details.backgroundType == 'image' ||  this.props.details.backgroundType == 'color' ? 280 : 'initial',   background: this.props.details.backgroundType == 'image' ? 'url('+this.props.details.backgroundValue+')' : this.props.detailsBackgroundType == 'none' ? 'transparent': this.props.details.backgroundValue }} className={css(ss.section, (this.props.details.backgroundType == 'image' ? ss.wideLoad : null))}>
         <p style={{ fontSize: this.props.details.size ? 'larger' : 'inherit', textAlign: this.props.details.align}} className={css(ss.text,(this.props.details.backgroundType == 'image' ? ss.overlay : null) ) }>
           <span className={css(ss.innerText)}>
-            {this.props.details.text}
+            {this.props.language == 'en' ? this.props.details.text : this.props.details.es}
           </span>
         </p>
       </section>

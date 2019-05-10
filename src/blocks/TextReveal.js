@@ -24,10 +24,10 @@ export default class TextReveal extends Component {
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.text)}>
-            {this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}
-            {!this.state.showAll ? <div className={css(ss.hidden)}/>:null}
+            {this.props.language == 'es' ? this.props.details.es : this.state.showAll ? this.props.details.text : this.props.details.summary + '..'}
+            {!this.state.showAll && this.props.language == 'en' ? <div className={css(ss.hidden)}/>:null}
         </div>
-        <div tabIndex='4' onKeyPress={e => e.which === 13 ?  this.revealText() : null } style={{display: this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
+        <div tabIndex='4' onKeyPress={e => e.which === 13 ?  this.revealText() : null } style={{display: this.props.language == 'es' ? 'none' : this.state.showAll ? 'none' : 'block'}} onClick={() => this.revealText()} className={css(ss.button)}>
             Show All Text
         </div>
       </section>

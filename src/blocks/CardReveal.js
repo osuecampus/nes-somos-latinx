@@ -27,11 +27,11 @@ export default class CardReveal extends Component {
         {this.props.details.cards.map((block) => 
           <div key={block.id} className={css(ss.cardHolder)}>
             <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
-              <p style={{fontSize:32}} className={css(ss.cardText)}>{block.revealText}</p>
+              <p style={{fontSize:32}} className={css(ss.cardText)}>{this.props.language == 'en' ? block.revealText: block.revealTextEs}</p>
             </div>
             <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} ref={'reveal'+block.id} className={css(ss.reveal)}>
-              {block.text ? <div className={css(ss.cardText)}>{block.text}</div> : null }
-              {block.textTwo ? <div className={css(ss.cardText)}>{block.textTwo}</div> : null }
+              {block.text ? <div className={css(ss.cardText)}>{this.props.language == 'en' ? block.text : block.es}</div> : null }
+              {block.textTwo ? <div className={css(ss.cardText)}>{this.props.language == 'en' ? block.textTwo : block.esTwo}</div> : null }
               {block.textThree ? <div className={css(ss.cardText)}>{block.textThree}</div> : null }
             </div>
           </div>

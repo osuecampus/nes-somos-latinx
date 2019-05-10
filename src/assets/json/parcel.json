@@ -25,11 +25,21 @@
                                 "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-somos-latinx/212301013_aed5c02949_b.jpg",
                                 "align": "center",
                                 "text":"Welcome to the LatinX Community",
+                                "es":"Bienvenido a la comunidad LatinX",
                                 "size": "bigger"
                             }
                         },
                         {
-                            "id":1,
+                            "id":1.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"¡Somos Latinx! It’s a virtual tool, designed to stimulate conversations and reflections on Latinx identity.We built a space in which you, the diversity and the multiculturality are the protagonists. To navigate, we recommend that you put in context your identity, personal history, and the reason why you want to access this tool.",
+                                "es":"¡Somos Latinx! Es una herramienta virtual, diseñada para estimular conversaciones y reflexiones sobre la identidad de Latinx.Construimos un espacio en el que usted, la diversidad y la multiculturalidad son los protagonistas. Para navegar, te recomendamos que pongas en contexto tu identidad, historia personal, y la razón por la cual quieres acceder a esta herramienta."
+                            }
+                        },
+                        {
+                            "id":1.8,
                             "type":"TextColumns",
                             "details":
                             {
@@ -184,7 +194,8 @@
                             "details":
                             {
                                 "summary":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish.",
-                                "text":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish. However, away from home and at school almost everything we handled in English. Apart from language there were also differences between customs and small details between the typical American culture and the culture of my family. It is much more difficult to navigate environments and relationships for someone who does not know 'how the current flows.' This is why it’s so valuable to know ourselves well and learn how the ideas and ways that we bring are perceived by other people; from the way we behave, dress, communicate, work, and even our expectations towards others. It is equally valuable and important to know the cultures of others. For me, understanding all that over time gave me an advantage in school, clubs, college, and even in my work because now I can adapt more easily to the people and environments that surround me. This was something I started to realized when I was young, during elementary school when I realized that somehow I had a double-personality or double-identity. I was Ruben at home with my family and close friends, but at school and out of the home I was Jose. My way of being and of thinking changed depending on where and with whom I was. Eventually I became more aware of these changes. Today my understanding of others and myself brings me ease and advantages that I would not have without this knowledge. Let’s take a look at the Latinx experience more closely!"
+                                "text":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish. However, away from home and at school almost everything we handled in English. Apart from language there were also differences between customs and small details between the typical American culture and the culture of my family. It is much more difficult to navigate environments and relationships for someone who does not know 'how the current flows.' This is why it’s so valuable to know ourselves well and learn how the ideas and ways that we bring are perceived by other people; from the way we behave, dress, communicate, work, and even our expectations towards others. It is equally valuable and important to know the cultures of others. For me, understanding all that over time gave me an advantage in school, clubs, college, and even in my work because now I can adapt more easily to the people and environments that surround me. This was something I started to realized when I was young, during elementary school when I realized that somehow I had a double-personality or double-identity. I was Ruben at home with my family and close friends, but at school and out of the home I was Jose. My way of being and of thinking changed depending on where and with whom I was. Eventually I became more aware of these changes. Today my understanding of others and myself brings me ease and advantages that I would not have without this knowledge. Let’s take a look at the Latinx experience more closely!",
+                                "es":"Desde niño mis padres me enseñaron la importancia de preservar y continuar aprendiendo español, esa fue una regla en nuestro hogar. En casa se habla español. Aunque mi hermano y yo nos comunicamos en ‘Spanglish’, seguimos practicando a diario el español viendo programas de televisión y hablando con nuestros padres en español. Sin embargo, fuera de casa y en la escuela casi todo lo manejamos en inglés. Aparte del idioma también hay diferencias entre costumbres y pequeños detalles entre la típica cultura americana y la cultura de mi familia. Es mucho más difícil navegar ambientes y relaciones para alguien que no sabe ‘cómo corre la corriente.’ Por eso es tan valioso conocernos a nosotros mismos muy bien y aprender el cómo las ideas y maneras que cargamos son percibidas por otras personas; desde la manera en que nos portamos, vestimos, nos comunicamos, trabajamos, y hasta nuestras expectativas hacia los demás. Por igual es muy valioso conocer las culturas de los demás. Para mí, el entender todo eso a través del tiempo me dio una ventaja en la escuela, en clubs, en la universidad, y hasta en mi trabajo porque ahora me puedo adaptar más fácilmente a las personas y ambientes que me rodeen. Esto fue algo que empecé a notar desde muy chico en la primaria cuando me di cuenta, que de alguna manera yo tenía una doble-personalidad o doble-identidad. Era Rubén en casa con mi familia y amistades cercanas, pero en la escuela y fuera del hogar era José. Mi modo de ser y hasta de pensar cambiaba dependiendo en dónde y con quién me encontraba. Eventualmente fui más consciente de estos cambios. Hoy mi entendimiento de mí mismo y de los demás me aporta facilidad y ventajas que no tendría si no tuviera este conocimiento."
                             }
                         },
                         {
@@ -203,7 +214,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"​Latinx is the gender-neutral alternative to Latino, Latina and even Latin@."
+                                "text":"​Latinx is the gender-neutral alternative to Latino, Latina and even Latin@.",
+                                "es":"Latinx es la alternativa de géneroneutral para Latino, Latina e inclusoLatin@."
                             }
                         },
                         {
@@ -211,7 +223,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Used by scholars and ​activists to move beyond gender binaries and the intersectionality of Latin American descendants. In addition tomen and women from all racial and ethnic backgrounds, Latinx also opens the spectrum for who aretrans, queer, agender, non-binary, gender nonconforming or gender fluid."
+                                "text":"Used by scholars and ​activists to move beyond gender binaries and the intersectionality of Latin American descendants. In addition tomen and women from all racial and ethnic backgrounds, Latinx also opens the spectrum for who aretrans, queer, agender, non-binary, gender nonconforming or gender fluid.",
+                                "es":"Utilizado por académicos y activistas para ir más allá de los binarios de género y la interseccionalidad de los descendientes de América Latina. Además de hombres y mujeres de todos los orígenes raciales y étnicos, Latinx también abre el espectro para quienes son trans, queer, sin género, no binarios, no conformes con el género o fluidos de género."
                             }
                         },
                         {
@@ -224,12 +237,16 @@
                                     {
                                         "id": 0,
                                         "revealText":"Latino",
-                                        "text":"Latino refers to the culture or origins of people from countries (or cultures) that were onceunder Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians areconsidered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins."
+                                        "revealTextEs":"Latino",
+                                        "text":"Latino refers to the culture or origins of people from countries (or cultures) that were onceunder Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians areconsidered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins.",
+                                        "es":"se refiere a la cultura u orígenes de personas de países (o culturas) que alguna vez estuvieron bajo el dominio romano. Esto incluye Italia, Francia, España, Portugal, etc. Por ejemplo, los brasileños se consideran Latinos pero no se consideran Hispanos. América Latina se refiere a los países del norte, centro y sur de América, que tienen orígenes Latinos."
                                     },
                                     {
                                         "id": 1,
                                         "revealText":"Hispanic",
-                                        "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, CentralAmerica, and most of South America where Spanish is the primary language)."
+                                        "revealTextEs":"Hispano",
+                                        "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, CentralAmerica, and most of South America where Spanish is the primary language).",
+                                        "es":"describe culturas o países que una vez estuvieron bajo el dominio español (México, América Central y la mayor parte de Sudamérica, donde el español es el idioma principal)."
                                     }
                                 ]
                             }
@@ -239,7 +256,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"​Currently, the U.S. government uses the terms Hispanic to define ethnicity, not race."
+                                "text":"​Currently, the U.S. government uses the terms Hispanic to define ethnicity, not race.",
+                                "es":"como términos para definir regionesde origen y no la raza de unapersona."
                             }
                         },
                         {
@@ -260,6 +278,7 @@
                             "details":
                             {
                               "question": "Which do you feel more comfortable with?",
+                              "questionEs":"¿Con cuál te sientes más cómodo? Hispano, Latino o Latina, Latinx u otros",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
@@ -300,7 +319,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"​Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%."
+                                "text":"​Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%.",
+                                "es":"'Hispano' o 'Latino'? A la mayoría no le importa, pero entre los que sí les importa, se prefiere 'Hispano'. La mitad (51%) dice que no tiene preferencia por ningún término. Cuando se expresa una preferencia, se prefiere 'Hispano' a 'Latino' por más de un margen de dos a uno: 33% versus 14%."
                             }
                         },
                         {
@@ -311,7 +331,8 @@
                                 "type":"yellow",
                                 "colorOne":"rgba(251,174,23,1)",
                                 "colorTwo":"rgba(252,238,33,1)",
-                                "subtext":"Immigrants are those that are foreign born"
+                                "subtext":"Immigrants are those that are foreign born",
+                                "subtextEs":"Inmigrante: los que son nacidos en el extranjero"
                             }
                         },
                         {
@@ -323,17 +344,23 @@
                                     {
                                         "id":0,
                                         "revealText": "First Generation",
-                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                        "revealTextEs":"Primera generación",
+                                        "text":"Latinos born outside of the United States or Puerto Rico",
+                                        "es":"los Latinos nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%)"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Second Generation",
-                                        "text":"Latinos born in the United States to immigrant parents"
+                                        "revealTextEs":"Segunda generación",
+                                        "text":"Latinos born in the United States to immigrant parents",
+                                        "es":"los Latinos nacieron en los Estados Unidos de padres inmigrantes (19%)"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Third or Higher Generation",
-                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                        "revealTextEs":"Tercera o mayor generación",
+                                        "text":"Latinos born in the United States to U.S.-born parents",
+                                        "es":"los latinos nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)"
                                     }
                                 ]
                             }
@@ -354,6 +381,7 @@
                             {
                                 "align": "left",
                                 "text":"Which terms do you think, Latinx foreign born and USA born primarily use to describe themselves?",
+                                "es":"¿Qué términos crees que Latinos nacidos en el extranjero y los nacidos en los Estados Unidos se usan principalmente para describirse a sí mismos?",
                                 "size": "bigger"
                             }
                         },
@@ -362,7 +390,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%)As you can see, the majority of Latinx communities living in the USA are foreign born."
+                                "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%). As you can see, the majority of Latinx communities living in the USA are foreign born.",
+                                "es":"este análisis divide a los latinos en tres grupos: primera generación, segunda generación y tercera generación o superior. Los latinos de primera generación nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%). Los latinos de segunda generación nacieron en los Estados Unidos de padres inmigrantes (19%). Los latinos de tercera o mayor generación nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)."
                             }
                         },
                         {
@@ -372,6 +401,7 @@
                             {
                                 "align": "left",
                                 "text":"Very interesting!",
+                                "es":"Interesante",
                                 "size": "bigger"
                             }
                         },
@@ -380,7 +410,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity."
+                                "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity.",
+                                "es":"las actitudes hacia la identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación. Cuando se les pregunta qué término usan principalmente para describirse, los latinos de primera generación tienen muchas más probabilidades de seleccionar su país de origen en América Latina que los latinos de segunda generación (68% frente a 38%). Solo el seis por ciento de los latinos de primera generación informan que usan el término 'estadounidense' para describirse a sí mismos en comparación con más de un tercio (35%) de los latinos de segunda generación. Sin embargo, un número igual (25%) de latinos de primera y segunda generación reportan que usan el término latino / hispano como el término principal para expresar identidad"
                             }
                         },
                         {
@@ -389,6 +420,7 @@
                             "details":
                             {
                               "question": "What is your age?",
+                              "questionEs":"¿Cual es tu edad?",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
@@ -421,23 +453,28 @@
                             "details":
                             {
                               "question": "What term best identifies you?",
+                              "questionEs":"¿Qué término te identifica mejor?",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
                                   "answer": "Immigrant to US",
+                                  "answerEs":"Inmigrante a los Estados Unidos",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "1st Generation, USA-born",
+                                  "answerEs":"primerageneración",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "2nd Generation, USA-born",
+                                  "answerEs":"segunda generación",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "3rd+ Generation, USA-born",
+                                    "answerEs":"tercerageneración +",
                                     "value": "50%"
                                   }
                               ]
@@ -464,17 +501,23 @@
                                     {
                                         "id":0,
                                         "revealText": "Race",
-                                        "text":"A socially constructed characterization of individuals based on skin color, culture, etc."
+                                        "revealTextEs":"Raza",
+                                        "text":"A socially constructed characterization of individuals based on skin color, culture, etc.",
+                                        "es":"es color"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Ethnicity",
-                                        "text":"Groups of people who have the same or hybrid cultural origins like ancestry, religion, food, language, traditions, values, origins, etc."
+                                        "revealTextEs":"Etnia",
+                                        "text":"Groups of people who have the same or hybrid cultural origins like ancestry, religion, food, language, traditions, values, origins, etc.",
+                                        "es":"describe grupos de personas que tienen los mismos orígenes culturales o híbridos como la ascendencia, la religión, la comida, el idioma, las tradiciones, los valores, los orígenes, etc."
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Nationality",
-                                        "text":"The state of belonging to a particular country or being a citizen of particular nation."
+                                        "revealTextEs":"Nacionalidad",
+                                        "text":"The state of belonging to a particular country or being a citizen of particular nation.",
+                                        "es":"el estado de pertenencia a un país en particular o ser ciudadano de una nación (país) en particular."
                                     }
                                 ]
                             }
@@ -485,15 +528,18 @@
                             "details":
                             {
                               "question": "Which do you prefer?",
+                              "questionEs":"¿Cual prefieres?",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
                                   "answer": "Hispanic/LatinX",
+                                  "answerEs":"Latinx / Hispano",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "Country of Origin",
+                                  "answerEs":"país de origen",
                                   "value": "20%"
                                 }
                               ]
@@ -514,7 +560,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"The ethnic and national identity concepts are very different between first- and second-generation Latinos."
+                                "text":"The ethnic and national identity concepts are very different between first- and second-generation Latinos.",
+                                "es":"Los conceptos de identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación"
                             }
                         },
                         {
@@ -522,7 +569,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"For example, first-generation Latinos (about 68%) use their country of origin in Latin America to describe themselves but only 38% Latinos who are second-generation use this concept to define their identity. Even more interesting! Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos.  (select pink American box to compare)However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity."
+                                "text":"For example, first-generation Latinos (about 68%) use their country of origin in Latin America to describe themselves but only 38% Latinos who are second-generation use this concept to define their identity. Even more interesting! Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos.  (select pink American box to compare)However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity.",
+                                "es":"Por ejemplo, los latinos de primera generación (aproximadamente el 68%) usan su país de origen en Latinoamérica para describirse a sí mismos, pero solo el 38% de latinos de segunda generación usan este concepto para definir su identidad. ¡Aún más interesante! Solo el seis por ciento de los latinos de primera generación reportan usar el término 'Americanos' para describirse a sí mismos en comparación con más de un tercio (35%) de la segunda generación de Latinos. Sin embargo, un número igual (25%) de los latinos de primera y segunda generación informan que usan Latino como el té"
                             }
                         },
                         {
@@ -531,7 +579,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"But what about race?"
+                                "text":"But what about race?",
+                                "es":"Pero ¿qué pasa con la raza?"
                             }
                         },
                         {
@@ -539,7 +588,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Most Hispanics don’t see themselves fitting into the standard racial categories used by the U.S. Census Bureau. According to the Pew Hispanic survey, (51%)  Latinos identify their race as “some other race” or selected “Hispanic/Latino.” Meanwhile, 36% identify their race as white, and 3% identify their race as black."
+                                "text":"Most Hispanics don’t see themselves fitting into the standard racial categories used by the U.S. Census Bureau. According to the Pew Hispanic survey, (51%)  Latinos identify their race as “some other race” or selected “Hispanic/Latino.” Meanwhile, 36% identify their race as white, and 3% identify their race as black.",
+                                "es":"la mayoría de los hispanos no se ven a sí mismos en las categorías raciales estándar utilizadas por el Buró del Censo de los Estados Unidos. En lo que respecta a la raza, según la Encuesta Hispana Pew, la mitad (51%) de los latinos identifican a su raza como 'otra raza' o voluntario 'hispano / latino'. Mientras tanto, el 36% identifica a su raza como blanca y el 3% dicen que su raza es negra."
                             }
                         },
                         {
@@ -548,6 +598,7 @@
                             "details":
                             {
                                 "text":"Watch a video on being Afro-Latina",
+                                "es":"Ver la historia afro-latina",
                                 "button":"YouTube",
                                 "link":"https://www.youtube.com/watch?v=ZjAnXMMrnFo"
                             }
@@ -558,15 +609,18 @@
                             "details":
                             {
                               "question": "Do you consider yourself a typical American?",
+                              "questionEs":"¿Te consideras un americano típico?",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
                                   "answer": "Yes",
+                                  "answerEs":"sí",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "No",
+                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -580,7 +634,8 @@
                                 "type":"yellow",
                                 "colorOne":"rgba(251,174,23,1)",
                                 "colorTwo":"rgba(252,238,33,1)",
-                                "subtext":"4 decades ago, the US government mandated the use of Latino/Hispanic terms. A majority have not embraced the use of these terms."
+                                "subtext":"4 decades ago, the US government mandated the use of Latino/Hispanic terms. A majority have not embraced the use of these terms.",
+                                "subtextEs":"Hace 4 décadas, el gobierno de EE. UU. ordenó el uso de términos latinos / hispanos La mayoría no ha adoptado el uso de estos términos."
                             }
                         },
                         {
@@ -601,7 +656,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Remember my story?"
+                                "text":"Remember my story?",
+                                "es":"¿Recuerdas mi historia?"
                             }
                         },
                         {
@@ -609,7 +665,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"I mentioned that many times I felt like I was part of two worlds and two cultures. Let’s take a look at how complicated it is to embrace the description of a typical American for Latinx. Observe the presence of race and socio-economic factors in these graphics:"
+                                "text":"I mentioned that many times I felt like I was part of two worlds and two cultures. Let’s take a look at how complicated it is to embrace the description of a typical American for Latinx. Observe the presence of race and socio-economic factors in these graphics:",
+                                "es":"Mencioné que muchas veces me sentí como parte de dos mundos y dos culturas. Echemos un vistazo a lo complicado que es abrazar la descripción de un estadounidense típico para Latinx. Observe la presencia de factores raciales y socioeconómicos en estos gráficos."
                             }
                         },
                         {
@@ -618,7 +675,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Do Latinos see themselves as “typical Americans”?"
+                                "text":"Do Latinos see themselves as “typical Americans”?",
+                                "es":"¿Los latinos se ven a sí mismos como estadounidenses 'típicos'?"
                             }
                         },
                         {
@@ -626,23 +684,27 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Latinos are split on whether they see themselves as a typical American. Nearly half (47%) say they are a typical American, while another 47% say they are very different from the typical American. Foreign-born Hispanics are less likely than native-born Hispanics to say they are a typical American—34% versus 66%.Hispanics are also divided over how much of a common identity they share with other Americans. About half (47%) say they consider themselves to be very different from the typical American. And just one-in-five (21%) say they use the term “American” most often to describe their identity. On these two measures, U.S.-born Hispanics (who now make up 48% of Hispanic adults in the country) express a stronger sense of affinity with other Americans and America than do immigrant Hispanics."
+                                "text":"Latinos are split on whether they see themselves as a typical American. Nearly half (47%) say they are a typical American, while another 47% say they are very different from the typical American. Foreign-born Hispanics are less likely than native-born Hispanics to say they are a typical American—34% versus 66%.Hispanics are also divided over how much of a common identity they share with other Americans. About half (47%) say they consider themselves to be very different from the typical American. And just one-in-five (21%) say they use the term “American” most often to describe their identity. On these two measures, U.S.-born Hispanics (who now make up 48% of Hispanic adults in the country) express a stronger sense of affinity with other Americans and America than do immigrant Hispanics.",
+                                "es":"Los latinos están divididos sobre si se ven a sí mismos como un estadounidense típico. Casi la mitad (47%) dice que es un estadounidense típico, mientras que otro 47% dice que es muy diferente del estadounidense típico. Los hispanos nacidos en el extranjero son menos propensos que los hispanos nativos a decir que son un estadounidense típico: 34% contra 66%. Los hispanos también están divididos sobre cuánta identidad común comparten con otros estadounidenses. Alrededor de la mitad (47%) dice que se consideran muy diferentes de los estadounidenses típicos. Y solo uno de cada cinco (21%) dice que usa el término 'estadounidense' con mayor frecuencia para describir su identidad. En estas dos medidas, los hispanos nacidos en los EE. UU. (Que ahora representan el 48% de los adultos hispanos en el país) expresan un mayor sentido de afinidad con otros estadounidenses y Estados Unidos que los hispanos inmigrantes."
                             }
                         },{
                             "id":48,
                             "type":"Survey",
                             "details":
                             {
-                              "question": "True or false: First generation are more likely to describe themselves as American?",
+                              "question": "First generation are more likely to describe themselves as American?",
+                              "questionEs":"Es más probable que la primera generación se describa a sí misma como estadounidense",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
                                   "answer": "True",
+                                  "answerEs":"cierto",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "False",
+                                  "answerEs":"falso",
                                   "value": "20%"
                                 }
                               ]
@@ -666,7 +728,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"How relevant is the family’s county of origin for Latinos in the USA?"
+                                "text":"How relevant is the family’s county of origin for Latinos in the USA?",
+                                "es":"¿Qué tan relevante es el país de origen de la familia para los latinos en los Estados Unidos?"
                             }
                         },
                         {
@@ -674,7 +737,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"When it comes to describing their identity, most Hispanics prefer their family’s country of origin over pan-ethnic terms. Half (51%) say that most often they use their family’s country of origin to describe their identity. That includes such terms as “Mexican” or “Cuban” or “Dominican,” for example. Just one-quarter (24%) say they use the terms “Hispanic” or “Latino” to most often to describe their identity. And 21% say they use the term “American” most often."
+                                "text":"When it comes to describing their identity, most Hispanics prefer their family’s country of origin over pan-ethnic terms. Half (51%) say that most often they use their family’s country of origin to describe their identity. That includes such terms as “Mexican” or “Cuban” or “Dominican,” for example. Just one-quarter (24%) say they use the terms “Hispanic” or “Latino” to most often to describe their identity. And 21% say they use the term “American” most often.",
+                                "es":"Cuando se trata de describir su identidad, la mayoría de los hispanos prefieren el país de origen de su familia a los términos panétnicos. La mitad (51%) dice que la mayoría de las veces usan el país de origen de su familia para describir su identidad. Eso incluye términos como 'mexicano' o 'cubano' o 'dominicano', por ejemplo. Solo una cuarta parte (24%) dice que usa los términos 'hispano' o 'latino' para describir su identidad con mayor frecuencia. Y el 21% dice que usa el término 'estadounidense' con más frecuencia."
                             }
                         },
                         {
@@ -683,19 +747,23 @@
                             "details":
                             {
                               "question": "From these three aspects, which do you want to connect with?",
+                              "questionEs":"De estos tres aspectos de identidad, ¿con cual te conectas?",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
                                   "answer": "Race",
+                                  "answerEs":"Raza",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "Ethnicity",
+                                  "answerEs":"etnicidad",
                                   "value": "20%"
                                 },
                                 {
-                                  "answer": "Latino",
+                                  "answer": "Nationality",
+                                  "answerEs":"nacionalidad",
                                   "value": "50%"
                                 }
                               ]

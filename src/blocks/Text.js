@@ -10,7 +10,7 @@ export default class Text extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <p className={css(ss.text)}>{this.props.details.text}</p>
+        <p className={css(ss.text)}>{this.props.language == 'en' ? this.props.details.text : this.props.details.es}</p>
       </section>
     );
   }

@@ -42,8 +42,8 @@ export default class OlgasParallax extends Component {
       <section style={{height: this.props.details.subtext ? 200 : this.props.details.title ? 100 : 50}} className={css(ss.section)}>
         <div style={{position:'absolute', clip:'rect(0,auto,auto,0)', width:'100%', height:'100%'}}>
             <div style={{position:'fixed', transform: 'translateZ(0px)', top:0, left:0, width:'100%', height:'100%',background:'url("../assets/img/pattern-' + this.props.details.type + '.png") 0px '+(this.state.scroll)+'px,linear-gradient(342deg, ' + this.props.details.colorOne + ' 0%, '+ this.props.details.colorTwo +' 100%), '+ this.props.details.colorTwo+''}} ></div>
-            {this.props.details.title ? <h1 style={{color:this.props.details.color == 'yellow' ? '#aa0076' : this.props.details.color = 'blue' ? '#aa0076' : '#aa0076' }} className={css(ss.title)}>{this.props.details.title}</h1> : null }
-            {this.props.details.subtext ? <p style={{color:this.props.details.color == 'yellow' ? '#aa0076' : this.props.details.color = 'blue' ? '#aa0076' : '#aa0076' }} className={css(ss.subtext)}>{this.props.details.subtext}</p> : null }
+            {this.props.details.title ? <h1 style={{color:this.props.details.color == 'yellow' ? '#aa0076' : this.props.details.color = 'blue' ? '#aa0076' : '#aa0076' }} className={css(ss.title)}>{this.props.language == 'en' ? this.props.details.title : this.props.details.titleEs}</h1> : null }
+            {this.props.details.subtext ? <p style={{color:this.props.details.color == 'yellow' ? '#aa0076' : this.props.details.color = 'blue' ? '#aa0076' : '#aa0076' }} className={css(ss.subtext)}>{this.props.language == 'en' ? this.props.details.subtext : this.props.details.subtextEs}</p> : null }
         </div>
       </section>
     );

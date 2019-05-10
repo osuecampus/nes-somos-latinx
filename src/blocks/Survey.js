@@ -20,11 +20,11 @@ export default class Survey extends Component {
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.question)}>
-          <p className={css(ss.text)}>{this.props.details.question}</p>
+          <p className={css(ss.text)}>{this.props.language == 'en' ? this.props.details.question : this.props.details.questionEs}</p>
         </div>
         {!this.state.answer ?
           this.props.details.options.map((option, index) => 
-            <button tabIndex={'4'} key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{option.answer}</button>)
+            <button tabIndex={'4'} key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{this.props.language == 'es' && option.answerEs ? option.answerEs : option.answer}</button>)
         
           : <div>Thanks!</div>}
       </section>
