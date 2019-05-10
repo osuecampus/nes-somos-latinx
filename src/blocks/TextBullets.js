@@ -14,7 +14,7 @@ export default class TextBullets extends Component {
                 : 
                   <div className={css(ss.dot)} />
                 }
-                <p className={css(ss.text)}>{block.text}</p>
+                <p className={css(ss.text)}>{this.props.language == 'en' ? block.text : block.es}</p>
             </div>
         )}
       </section>

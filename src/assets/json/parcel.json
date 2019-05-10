@@ -1961,7 +1961,7 @@
                             "type":"YoutubeVideo",
                             "details":
                             {
-                                "youtubeUrl":"Video_Link_not_Provided"
+                                "youtubeUrl":"https://www.youtube.com/embed/8syUAGzoo-Y"
                             }
                         },
                         {
@@ -1970,7 +1970,8 @@
                             "details":
                             {
                                 "summary":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. ",
-                                "text":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States. Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages. For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!"
+                                "text":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States. Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages. For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!",
+                                "es":"Soy José Erlin Guerrero Martínez. Nací y crecí en un pequeño pueblo llamado Raspadura, un pueblo pobre de menos de 2000 personas ubicado en Choco, provincia de Colombia. Desde que era niño, mis padres me enseñaron la importancia de estudiar para desarrollar una educación completa, adquirir conocimientos, tomar mejores decisiones, lograr una carrera profesional y alcanzar una mejor calidad de vida. También me enseñaron la importancia de usar y preservar el apellido de mi madre y mi padre para honrar a mis antepasados, como lo hacen muchos países de habla hispana. Algo difícil de manejar cuando vives en un país de habla inglesa como los Estados Unidos. La preferencia de los descendientes latinoamericanos por usar el apellido de su padre y su madre en ocasiones ocasiona serios problemas legales. Las leyes estadounidenses operan bajo el supuesto de que cada persona tiene un nombre, segundo nombre y apellido. El apellido normalmente se hereda únicamente del padre y se supone que es el único apellido. Sin embargo, el uso del primer apellido de nuestro padre y nuestra madre también nos brinda ventajas históricas y legales. Por ejemplo, mantener vivas las dos líneas de nuestra línea familiar o pasar menos tiempo durante los controles de inmigración cuando se va o va a llegar a los Estados Unidos. Si hubiera decidido usar mi nombre bajo la regla americana; José Guerrero, mi récord en un aeropuerto probablemente coincidiría con muchas personas que tienen el mismo nombre. Pero, como decidí seguir usando y preservando el apellido de mi madre y mi padre, la información se reducirá a mi nombre real y único. Además, puedo rastrear toda mi línea familiar. Por lo tanto, todavía me niego a reducir mi nombre al estilo americano y todavía me siento raro de que me llamen o firmen un documento sin usar mi nombre original. ¡Porque creo que la identidad de cada individuo merece ser reconocida y respetada!"
                             }
                         },
                         {
@@ -1981,7 +1982,8 @@
                                 "type":"red",
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
-                                "subtext":"True wealth is not measured in money or status or power. It is measured in the legacy we leave behind for those we love and those we inspire. - César Chávez."
+                                "subtext":"True wealth is not measured in money or status or power. It is measured in the legacy we leave behind for those we love and those we inspire. - César Chávez.",
+                                "subtextEs":"La verdadera riqueza no se mide en dinero, estatus o poder. Se mide en el legado que dejamos para aquellos que amamos y aquellos que inspiramos. - César Chávez."
                             }
                         },
                         {
@@ -2001,7 +2003,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"America's future economic well-being and competitiveness is increasingly contingent on the success of the Latino population, we’ll see in this section why!"
+                                "text":"America's future economic well-being and competitiveness is increasingly contingent on the success of the Latino population, we’ll see in this section why!",
+                                "es":"El futuro bienestar económico y la competitividad de Estados Unidos dependen cada vez más del éxito de la población latina, ¡veremos en esta sección por qué!"
                             }
                         },
                         {
@@ -2009,7 +2012,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Let’s define some concepts before and help us to build the story."
+                                "text":"Let’s define some concepts before and help us to build the story.",
+                                "es":"Definamos algunos conceptos antes y ayúdenos a construir la historia:"
                             }
                         },
 
@@ -2022,12 +2026,16 @@
                                     {
                                         "id":0,
                                         "revealText": "Poverty",
-                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty."
+                                        "revealTextEs":"POBREZA",
+                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty.",
+                                        "es":"Los individuos se consideran pobres si los recursos que comparten con otras personas en el hogar no son suficientes para satisfacer las necesidades básicas. En 2015, el umbral de pobreza para una familia de cuatro fue de $ 24,257. La tasa nacional oficial de pobreza fue del 13.5 por ciento. Había 43.1 millones de personas en la pobreza."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Income",
-                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)."
+                                        "revealTextEs":"INGRESOS",
+                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent).",
+                                        "es":"El flujo de efectivo o equivalentes de efectivo recibidos del trabajo (salario), capital (intereses o ganancias) o tierra (renta)."
                                     }
                                 ]
                             }
@@ -2052,7 +2060,8 @@
                                 "type":"red",
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
-                                "subtext":"Education and economic prosperity are connected."
+                                "subtext":"Education and economic prosperity are connected.",
+                                "subtextEs":"La educación y la prosperidad económica están conectadas. ¡Tenemos una pregunta para ti!"
                             }
                         },
                         {
@@ -2061,15 +2070,18 @@
                             "details":
                             {
                               "question": "Is your family's current financial situation a concern to you?",
+                              "questionEs":"¿Es la situación financiera actual de su familia una preocupación para usted?",
                               "color":"#ffffff",
                               "background":"#f15a24",
                               "options": [
                                 { 
                                   "answer": "Yes",
+                                  "answerEs":"si",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "No",
+                                  "answerEs": "no",
                                   "value": "20%"
                                 }
                               ]
@@ -2081,15 +2093,18 @@
                             "details":
                             {
                               "question": "Are you concerned about your future personal finances?",
+                              "questionEs": "¿Está preocupado por sus futuras finanzas personales?",
                               "color":"#ffffff",
                               "background":"#f15a24",
                               "options": [
                                 { 
                                   "answer": "Yes",
+                                  "answerEs":"si",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "No",
+                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -2124,7 +2139,8 @@
                                 "type":"red",
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
-                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012."
+                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012.",
+                                "subtextEs":"El único grupo racial y étnico que tiene caídas estadísticamente significativas en los índices de pobreza es el de latinos e hispanos. Los números cambiaron en 2012."
                             }
                         },
                         {
@@ -2133,7 +2149,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"We want to make sure you establish a connection here:"
+                                "text":"We want to make sure you establish a connection here:",
+                                "es":"Queremos asegurarnos de establecer una conexión aquí:"
                             }
                         },
                         {
@@ -2141,7 +2158,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Did you explore the Education Section yet? We indicated that high school graduation is drastically increasing among Latinos, and college enrollment slowly growing. Remember, the gap is in between immigrants, first- and second-generation Latinos. Now! Do you see the connection here? The more we improve in education the lower the poverty rates are."
+                                "text":"Did you explore the Education Section yet? We indicated that high school graduation is drastically increasing among Latinos, and college enrollment slowly growing. Remember, the gap is in between immigrants, first- and second-generation Latinos. Now! Do you see the connection here? The more we improve in education the lower the poverty rates are.",
+                                "es":"¿Ya exploraste la sección de educación? Indicamos que la graduación de la escuela secundaria está aumentando drásticamente entre los latinos y que la matrícula universitaria está creciendo lentamente. Recuerde, la brecha se encuentra entre los inmigrantes, los latinos de primera y segunda generación. ¡Ahora! ¿Ves la conexión aquí? Cuanto más mejoramos en educación, más bajos son los índices de pobreza."
                             }
                         },
                         {
@@ -2150,7 +2168,8 @@
                             "details":
                             {
                                 "align": "center",
-                                "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts."
+                                "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts.",
+                                "es":"Millones de latinos trabajan en industrias que son muy frágiles; Están conectados a la economía cuando el mercado crece o se contrae."
                             }
                         },
                         {
@@ -2159,6 +2178,7 @@
                             "details":
                             {
                               "question": "What is your age?",
+                              "questionEs":"¿Cual es tu edad?",
                               "color":"#ffffff",
                               "background":"#f15a24",
                               "options": [
@@ -2191,15 +2211,18 @@
                             "details":
                             {
                                 "question": "Are you hispanic/LatinX?",
+                                "questionEs":"¿Eres hispano / latinx?",
                                 "color":"#ffffff",
                                 "background":"#f15a24",
                                 "options": [
                                   {
                                     "answer": "Yes",
+                                    "answerEs":"si",
                                     "value": "30%"
                                   },
                                   {
                                       "answer": "No",
+                                      "answerEs":"no",
                                       "value": "20%"
                                     }
                                 ]
@@ -2231,7 +2254,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Why are first and second generation Latinos more likely to obtain a job than their immigrant relatives? "
+                                "text":"Why are first and second generation Latinos more likely to obtain a job than their immigrant relatives?",
+                                "es":"¿Por qué es más probable que los latinos de primera y segunda generación obtengan un trabajo que sus parientes inmigrantes?"
                             }
                         },
                         {
@@ -2240,7 +2264,8 @@
                             "details":
                             {
                                 "align": "center",
-                                "text":"We have some ideas:"
+                                "text":"We have some ideas:",
+                                "es":"Tenemos algunas ideas:"
                             }
                         },
                         {
@@ -2252,16 +2277,22 @@
                                     {
                                         "id":0,
                                         "revealText": "Age",
+                                        "revealTextEs":"edad",
+                                        "es":"¡El grupo de más rápido crecimiento entre los latinos es la juventud! Tienen más posibilidades de acceder a la educación y en el futuro, puestos de trabajo.",
                                         "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Language",
+                                        "revealTextEs":"Idioma",
+                                        "es":"En nuestra sección de idiomas, exploramos que los empleados que son bilingües en inglés y español tienen una demanda particular. Para mantener a los valiosos trabajadores bilingües, ¡los empleadores están dispuestos a pagar grandes sumas!",
                                         "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big!"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Immigration Status",
+                                        "revealTextEs":"inmigración",
+                                        "es":"Algunos inmigrantes luchan con su estatus migratorio que limita la educación y las oportunidades de trabajo. En contraste, la primera y segunda generación tienen más movilidad que sus familiares inmigrantes.",
                                         "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives."
                                     }
                                 ]
@@ -2273,7 +2304,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"But the numbers are not perfect"
+                                "text":"But the numbers are not perfect",
+                                "es":"Pero los números no son perfectos."
                             }
                         },
                         {
@@ -2281,7 +2313,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The seemingly strong recovery for Hispanics is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Hispanics with jobs barely increased up in the recovery."
+                                "text":"The seemingly strong recovery for Hispanics is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Hispanics with jobs barely increased up in the recovery.",
+                                "es":"La recuperación aparentemente fuerte para los hispanos tiene más que ver con la demografía que con la buena fortuna económica. Debido a que el crecimiento del empleo y el crecimiento de la población avanzan a tasas similares, la proporción de hispanos con empleos apenas aumentó en la recuperación."
                             }
                         },
                         {
@@ -2290,15 +2323,18 @@
                             "details":
                             {
                               "question": "In your present or future, do you want to...",
+                              "questionEs":"En tu presente o futuro, quieres...",
                               "color":"#ffffff",
                               "background":"#f15a24",
                               "options": [
                                 { 
                                   "answer": "Work for an institution or company",
+                                  "answerEs":"Trabajo para una institución o empresa",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "Have your own business",
+                                  "answerEs":"Tener tu propio negocio",
                                   "value": "20%"
                                 }
                               ]
@@ -2319,7 +2355,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"We have more evidence! Let’s see it closely..."
+                                "text":"We have more evidence! Let’s see it closely...",
+                                "es":"¡Tenemos más pruebas! Vamos a verlo de cerca ..."
                             }
                         },
                         {
@@ -2327,7 +2364,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The Mexican population in the United States is comprised of approximately 35.4 million people who were either born in Mexico or reported Mexican ancestry or Hispanic origin."
+                                "text":"The Mexican population in the United States is comprised of approximately 35.4 million people who were either born in Mexico or reported Mexican ancestry or Hispanic origin.",
+                                "es":"La población mexicana en los Estados Unidos está compuesta por aproximadamente 35.4 millones de personas que nacieron en México o reportaron ascendencia mexicana u origen hispano."
                             }
                         },
                         {
@@ -2335,7 +2373,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Because this group is the largest among Latinos, and they  participate in the labor force at a slightly higher rate than the overall immigrant and U.S.-born populations, we want to explore the relation of Mexican-American, other Latino communities and USA economy."
+                                "text":"Because this group is the largest among Latinos, and they  participate in the labor force at a slightly higher rate than the overall immigrant and U.S.-born populations, we want to explore the relation of Mexican-American, other Latino communities and USA economy.",
+                                "es":"Debido a que este grupo es el más grande entre los latinos, y ellos participan en la fuerza laboral a una tasa ligeramente más alta que la población general de inmigrantes y nacidos en los Estados Unidos, queremos explorar la relación de México-Estados Unidos, otras comunidades latinas y la economía de los Estados Unidos."
                             }
                         },
                         {
@@ -2343,7 +2382,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation."
+                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation.",
+                                "es":"En 2014, aproximadamente el 69 por ciento de los inmigrantes mexicanos (mayores de 16 años) estaban en la fuerza laboral civil. Estos trabajos incluyen servicios como restaurantes y hoteles, construcción, agricultura y mantenimiento, así como producción y transporte."
                             }
                         },
                         {
@@ -2351,7 +2391,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"If you pay attention to the the numbers of this group and their participation in Management, business, sciences and arts, you will see how concerning it is for the economic prosperity and the future of the country."
+                                "text":"If you pay attention to the the numbers of this group and their participation in Management, business, sciences and arts, you will see how concerning it is for the economic prosperity and the future of the country.",
+                                "es":"Si presta atención a los números de este grupo y su participación en administración, negocios, ciencias y artes, verá qué tan preocupante es para la prosperidad económica y el futuro del país."
                             }
                         },
                         {
@@ -2359,7 +2400,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Remember we said before that Latinos are the largest and fastest minority growing in the United States?"
+                                "text":"Remember we said before that Latinos are the largest and fastest minority growing in the United States?",
+                                "es":"¿Recuerdas que dijimos antes que los latinos son la minoría más grande y más rápida de crecimineto en los Estados Unidos?"
                             }
                         },
                         {
@@ -2380,7 +2422,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Who is losing jobs during a recession?"
+                                "text":"Who is losing jobs during a recession?",
+                                "es":"¿Quién está perdiendo empleos durante una recesión?"
                             }
                         },
                         {
@@ -2389,7 +2432,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"And what industry is adding jobs during the same hard economic time?"
+                                "text":"And what industry is adding jobs during the same hard economic time?",
+                                "es":"¿Y qué industria está agregando empleos durante el mismo tiempo económico difícil?"
                             }
                         },
                         {
@@ -2397,7 +2441,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Wow! You see? The relationship between education and economic prosperity is the key factor for immigrants and US born Latinos to have better life conditions. Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends."
+                                "text":"Wow! You see? The relationship between education and economic prosperity is the key factor for immigrants and US born Latinos to have better life conditions. Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends.",
+                                "es":"¡Guauu! ¿Lo ves? La relación entre educación y prosperidad económica es el factor clave para que los inmigrantes y los latinos nacidos en Estados Unidos tengan mejores condiciones de vida."
                             }
                         },
                         {
@@ -2405,7 +2450,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends."
+                                "text":"Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends.",
+                                "es":"Los inmigrantes latinos y otros grupos de inmigrantes son el músculo de la economía, pero cuando los factores políticos y sociales cambian la trayectoria, los que pierden empleos e impactan en términos de pobreza son ellos. Y tal vez 'ellos' son nuestros padres, hermanos o amigos."
                             }
                         },
                         {
@@ -2416,7 +2462,8 @@
                                 "type":"red",
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
-                                "subtext":"How can we change the future of the Latino community? Think about it!"
+                                "subtext":"How can we change the future of the Latino community? Think about it!",
+                                "subtextEs":"¿Cómo podemos cambiar el futuro de la comunidad latina? ¡Piénsalo!"
                             }
                         },
                         {
@@ -2425,15 +2472,18 @@
                             "details":
                             {
                               "question": "Do you believe that poverty can change your outcome in life?",
+                              "questionEs":"Crees eso ¿La pobreza puede cambiar tu resultado en la vida?",
                               "color":"#ffffff",
                               "background":"#f15a24",
                               "options": [
                                 { 
                                   "answer": "Yes",
+                                  "answerEs":"si",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "No",
+                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -2466,7 +2516,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"As you can see, education increases the chances of earning a better salary and decreases the possibility of unemployment."
+                                "text":"As you can see, education increases the chances of earning a better salary and decreases the possibility of unemployment.",
+                                "es":"Como puede ver, la educación aumenta las posibilidades de ganar un mejor salario y disminuye la posibilidad de desempleo."
                             }
                         },
                         {
@@ -2474,7 +2525,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"But technical skills or college preparation are not the only factors that influence prosperity:"
+                                "text":"But technical skills or college preparation are not the only factors that influence prosperity:",
+                                "es":"Pero las habilidades técnicas o la preparación universitaria no son los únicos factores que influyen en la prosperidad:"
                             }
                         },
                         {
@@ -2482,7 +2534,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Health, sense of belonging, personal freedom, security, social capital, possibilities for entrepreneurship, innovation, and others factors are critical for individuals and their communities to grow."
+                                "text":"Health, sense of belonging, personal freedom, security, social capital, possibilities for entrepreneurship, innovation, and others factors are critical for individuals and their communities to grow.",
+                                "es":"La salud, el sentido de pertenencia, la libertad personal, la seguridad, el capital social, las posibilidades de iniciativa empresarial, la innovación y otros factores son fundamentales para el crecimiento de las personas y sus comunidades."
                             }
                         },
                         {
@@ -2520,7 +2573,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"If you compare Latinos, Hispanics with other groups, what do you see? Consider these important factors:"
+                                "text":"If you compare Latinos, Hispanics with other groups, what do you see? Consider these important factors:",
+                                "es":"Si comparas a los latinos e hispanos con otros grupos, ¿qué ves? Considera estos importantes factores:"
                             }
                         },
                         {
@@ -2531,12 +2585,14 @@
                                 {
                                     "key":0,
                                     "number":"1",
-                                    "text":"Median earnings. With the same degree, what are the groups making more money? And the ones making less?"
+                                    "text":"Median earnings. With the same degree, what are the groups making more money? And the ones making less?",
+                                    "es":"Primero: ganancias medianas. Con el mismo grado, ¿qué grupos están ganando más dinero? ¿Y los que ganan menos?"
                                 },
                                 {
                                     "key":1,
                                     "number":"2",
-                                    "text":"Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!"
+                                    "text":"Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!",
+                                    "es":"Segundo: el género. ¡La desigualdad entre hombres y mujeres es notoria en algunos grupos raciales y étnicos, incluidos los latinos!"
                                 }
                             ]
                         },
