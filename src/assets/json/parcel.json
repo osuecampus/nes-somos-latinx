@@ -206,7 +206,8 @@
                                 "type":"yellow",
                                 "colorOne":"rgba(251,174,23,1)",
                                 "colorTwo":"rgba(252,238,33,1)",
-                                "title":"LatinX"
+                                "title":"LatinX",
+                                "titleEs":"LatinX"
                             }
                         },
                         {
@@ -795,7 +796,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"\"They immigrated, so I graduated\""
+                                "text":"\"They immigrated, so I graduated\"",
+                                "es":""
                             }
                         },
                         {
@@ -803,7 +805,7 @@
                             "type":"YoutubeVideo",
                             "details":
                             {
-                                "youtubeUrl":"Video_Link_not_Provided"
+                                "youtubeUrl":"https://www.youtube.com/embed/R54am1P8FvI"
                             }
                         },
                         {
@@ -812,7 +814,8 @@
                             "details":
                             {
                                 "summary":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate!",
-                                "text":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate! My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the Latinx community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms..."
+                                "text":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate! My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the Latinx community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms...",
+                                "es":"Mi nombre es Yuridia Reyes, tengo 21 años y asisto a la Universidad Estatal de Oregón. Cada vez que me presento como estudiante universitario no puedo dejar de asombrarme. No porque piense tan bien de mí misma, ¡pero aún no puedo creerlo! ¡No puedo creer que voy a la universidad y estoy un par de pasos más cerca de convertirme en una estudiante de primera generación que se gradúa! Mis padres emigraron a los Estados Unidos en 1986 y recibieron su residencia en 1988 durante la presidencia de Ronald Reagan. Siempre digo que este momento clave en sus vidas es lo que abrió muchas oportunidades para mi familia y para mí. Debido a esto, pudieron permanecer en los estados sin temor a ser deportados, y comenzaron su vida aquí donde nacimos mis hermanos y yo. Aunque teníamos la puerta abierta a muchas oportunidades, nunca fue fácil. Mis padres nunca asistieron a la universidad, sin embargo terminaron la escuela primaria. No sabían cómo nos enviarían a la universidad, ellos mismos nunca habían pisado un campus universitario. Esto no les impidió soñar y nos recordaban constantemente que vinieron aquí para darnos una vida mejor. El consejo de mis padres siempre ha estado conmigo, siempre puedo escuchar a mis padres diciendo 'echale ganas, tu puedes, vas a ser doctora, licenciada, lo que tu quieras'. No sabían cómo llevarnos a la universidad, pero saben la importancia de continuar con la educación superior. Con sacrificio y trabajo duro el sueño de mis padres se hizo realidad. Tanto mi hermano como yo nos inscribimos en la Universidad Estatal de Oregón. Ser un estudiante universitario de primera generación fue difícil, era difícil navegar por el sistema educativo. Fue aún más difícil estar lejos de casa, salir de mi casa para ir a la universidad vino con mucha culpa, me sentí culpable por irme y no estar en casa para ayudar en la casa y con las finanzas. Ya ves, mis hermanos y yo crecimos en los campos. Iríamos a los campos con mis padres y piscabamos desde una edad muy temprana, mi madre vendería alimentos a los trabajadores de campo y recolectaríamos latas para vender cada oportunidad que tuviéramos. Esta era nuestra vida, esto era todo lo que sabíamos, mi padre no sabía leer y mis padres no sabían inglés, ¿cómo lo logramos? ¿Cómo lo hicimos aquí? No fue fácil, fue extremadamente difícil, todas las probabilidades estaban en contra de nosotros. Pero era posible. Hoy no solo estoy viviendo los sueños de mis padres sino también los míos. Ir a la universidad, ha sido una bendición disfrazada, siempre hay algo o alguien que va a querer detenernos, que nos hará la vida más difícil, realmente depende de nosotros no rendirnos y seguir adelante. La educación es uno de los elementos más importantes en el contexto de la justicia social. Si la educación es un mecanismo para elevar las comunidades, el acceso a la educación debe ser una prioridad del gobierno y política pública. La educación también puede ser una herramienta de segregación, como podemos ver en las diferencias raciales/étnicas en los índices de graduación, y en el acceso a la educación superior y la retención en la universidad. En los Estados Unidos, los grupos de color, incluida la comunidad Latinx, han tenido tasas muy bajas de graduación escolar y participación en la educación superior en comparación con otros grupos. Estos indicadores no hablan de una comunidad inferior o falta de compromiso de las familias. Estas cifras representan la responsabilidad de las instituciones para combatir la inequidad. Continuemos, pero primero, dos términos importantes ..."
                             }
                         },
                         {
@@ -823,7 +826,8 @@
                                 "type":"blue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#08bc99",
-                                "title":"Two Important Terms"
+                                "title":"Two Important Terms",
+                                "titleEs":"Dos términos importantes"
                             }
                         },
                         {
@@ -835,12 +839,16 @@
                                     {
                                         "id":0,
                                         "revealText": "US Born",
-                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth."
+                                        "revealTextEs":"Nacido En EEUU",
+                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth.",
+                                        "es":"Se refiere a un individuo que nace en un territorio o país en particular. La población nacida en este país incluye a cualquier persona que sea ciudadano estadounidense al momento de su nacimiento."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Foreign Born",
-                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization."
+                                        "revealTextEs":"Nacido En El Extranjero",
+                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization.",
+                                        "es":"Incluye a cualquier persona que no sea un ciudadano estadounidense al nacer, incluidos aquellos que se conviertan en ciudadanos estadounidenses a través de la naturalización."
                                     }
                                 ]
                             }
@@ -872,7 +880,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"Now, you’ll see that there is a difference between being US born and being an immigrant"
+                                "text":"Now, you’ll see that there is a difference between being US born and being an immigrant",
+                                "es":"Ahora, verás que hay una diferencia entre nacer en EE.UU. y nacer un inmigrante"
                             }
                         },
                         {
@@ -880,7 +889,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"If you look carefully, you will see that there is a huge difference. For example, there are over 5 million Latinos, Hispanics who were born outside the US and did not complete high school.This group is disproportionately larger than the fewer than 1 million Latinos, HispanicsBorn in the USA who did not completed high school."
+                                "text":"If you look carefully, you will see that there is a huge difference. For example, there are over 5 million Latinos, Hispanics who were born outside the US and did not complete high school.This group is disproportionately larger than the fewer than 1 million Latinos, HispanicsBorn in the USA who did not completed high school.",
+                                "es":"Si miras con atención, verás que hay una gran diferencia. Por ejemplo, hay más de 5 millones de latinos, hispanos que nacieron fuera de los Estados Unidos y no finalizaron la escuela secundaria. Este grupo es desproporcionadamente más grande que los menos de 1 millón de latinos e hispanos nacido en los Estados Unidos que no terminaron la preparatoria (high school)."
                             }
                         },
                         {
@@ -889,7 +899,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"This means that the first generation of immigrants has had more difficulty accessing education"
+                                "text":"This means that the first generation of immigrants has had more difficulty accessing education",
+                                "es":"Esto significa que la primera generación de inmigrantes ha tenido más dificultades para acceder a la educación."
                             }
                         },
                         {
@@ -897,7 +908,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Let me explain this! Among the difficulties, immigrants face... Limited access to educational programs from their countries of origin. Limited or no access to programs in the United States as well.And, in addition, language barriers and poverty increase adverse conditions to accessing education.Now, if you look closely at the statistics of Latinos, Hispanics who earn university degrees, you will realize that there is not much difference between those who have immigrated to the United States and those who were born in this country. Many immigrants come to the US with sufficient education and continue or start a professional career. In contrast, only a small percentage of US-born Latinos, Hispanics have gotten a technical or university degree."
+                                "text":"Let me explain this! Among the difficulties, immigrants face... Limited access to educational programs from their countries of origin. Limited or no access to programs in the United States as well.And, in addition, language barriers and poverty increase adverse conditions to accessing education.Now, if you look closely at the statistics of Latinos, Hispanics who earn university degrees, you will realize that there is not much difference between those who have immigrated to the United States and those who were born in this country. Many immigrants come to the US with sufficient education and continue or start a professional career. In contrast, only a small percentage of US-born Latinos, Hispanics have gotten a technical or university degree.",
+                                "es":"Déjame explicar esto! Entre las dificultades que los inmigrantes enfrentan: - Acceso limitado a programas educativos de sus países de origen. - Acceso limitado o nulo a programas en los Estados Unidos también. - Y, además, las barreras del idioma y la pobreza aumentan las condiciones adversas para acceder a la educación. Ahora, si observas detenidamente las estadísticas de Latinos, Hispanos que obtienen títulos universitarios, te darás cuenta de que no hay mucha diferencia entre los que han emigrado a los Estados Unidos y los que nacieron en este país. Muchos inmigrantes vienen a los EE.UU. con suficiente educación y continúan o comienzan una carrera profesional. En contraste, solo un pequeño porcentaje de latinos nacidos en Estados Unidos, los hispanos tienen un título técnico o universitario."
                             }
                         },
                         {
@@ -905,7 +917,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is perhaps the strongest evidence of inequity in the United States education system"
+                                "text":"This is perhaps the strongest evidence of inequity in the United States education system",
+                                "es":"Esta es quizás la evidencia más fuerte de inequidad en el sistema educativo de los Estados Unidos"
                             }
                         },
                         {
@@ -914,11 +927,13 @@
                             "details":
                             {
                               "question": "What is your age?",
+                              "questionEs":"¿Cual es tu edad?",
                               "color":"#00058b",
                               "background":"#69bfff",
                               "options": [
                                 { 
                                   "answer": "Under 10",
+                                  "answerEs":"Menos de 10",
                                   "value": "30%"
                                 },
                                 {
@@ -958,27 +973,33 @@
                             "details":
                             {
                               "question": "What is your highest level of education?",
+                              "questionEs":"¿Cual es tu nivel más alto de educación?",
                               "color":"#00058b",
                               "background":"#69bfff",
                               "options": [
                                 { 
                                   "answer": "Less than high school",
+                                  "answerEs":"Menos de la preparatoria (high school)",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "High school diploma/GED",
+                                  "answerEs":"Diploma de preparatoria (high school) / GED",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "Associates degree",
+                                  "answerEs":"Diploma de asociado (colegio comunitario)",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "Bachelors degree",
+                                    "answerEs":"Licenciatura (universidad de 4 años)",
                                     "value": "50%"
                                   },
                                   {
                                     "answer": "Masters degree",
+                                    "answerEs":"Maestría",
                                     "value": "50%"
                                   }
                               ]
@@ -992,7 +1013,8 @@
                                 "type":"blue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#08bc99",
-                                "subtext":"More Latinos are graduating from high school, that increases the chances to attend higher education... but the numbers are still very low."
+                                "subtext":"More Latinos are graduating from high school, that increases the chances to attend higher education... but the numbers are still very low.",
+                                "subtextEs":"Más latinos se están graduando de la escuela preparatoria (high school), lo que aumenta las posibilidades de asistir a la educación superior... pero las cifras aún son muy bajas."
                             }
                         },
                         {
@@ -1009,7 +1031,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Like we explored before, the evidence shows that Latinos, Hispanic students are increasingly likely to graduate from high school. 78% of Hispanics graduated from high school in 2010, an increase from 64% in 2000!"
+                                "text":"Like we explored before, the evidence shows that Latinos, Hispanic students are increasingly likely to graduate from high school. 78% of Hispanics graduated from high school in 2010, an increase from 64% in 2000!",
+                                "es":"Como exploramos antes, la evidencia muestra que los estudiantes latinos, hispanos tienen mayores probabilidades de graduarse de la preparatoria (high school). El 78% de los hispanos se graduaron de la preparatoria (high school) en 2010, ¡un aumento del 64% en comparación al 2000!"
                             }
                         },
                         {
@@ -1026,7 +1049,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In the 2012 graduation year, 69% of the Latinos, Hispanic high school graduates were enrolled in college, a bigger percentage than white or black students. In the same year, 84% of Asian graduates were enrolled. This is the biggest percentage of racial and ethnic groups."
+                                "text":"In the 2012 graduation year, 69% of the Latinos, Hispanic high school graduates were enrolled in college, a bigger percentage than white or black students. In the same year, 84% of Asian graduates were enrolled. This is the biggest percentage of racial and ethnic groups.",
+                                "es":"En el año de graduación de 2012, el 69% de los latinos, graduados hispanos de preparatoria (high school) estaban matriculados en la universidad, un porcentaje mayor que los estudiantes blancos o negros. En el mismo año, el 84% de los graduados asiáticos se matricularon. Este es el mayor porcentaje de grupos raciales y étnicos."
                             }
                         },
                         {
@@ -1049,7 +1073,8 @@
                                 "type":"blue",
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#08bc99",
-                                "subtext":"88% of Latinos ages 16 and older agreed that a college degree is necessary to get ahead in life today."
+                                "subtext":"88% of Latinos ages 16 and older agreed that a college degree is necessary to get ahead in life today.",
+                                "subtextEs":"El 88% de los latinos de 16 años o más estuvieron de acuerdo en que es necesario obtener un título universitario para salir adelante en la vida actual."
                             }
                         },
                         {
@@ -1058,31 +1083,38 @@
                             "details":
                             {
                               "question": "What level of education do you want to achieve?",
+                              "questionEs":"¿Qué nivel de educación quieres alcanzar?",
                               "color":"#00058b",
                               "background":"#69bfff",
                               "options": [
                                 { 
                                   "answer": "High school or equivelant",
+                                  "answerEs":"La preparatoria (high school) o su equivalente",
                                   "value": "30%"
                                 },
                                 {
                                   "answer": "Associates (or technical) degree",
+                                  "answerEs":"Grado de asociado (escuela técnica)",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "Bachelors degree",
+                                  "answerEs":"Licenciatura",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "Masters degree",
+                                    "answerEs":"Maestría",
                                     "value": "50%"
                                   },
                                   {
                                     "answer": "Professional school (medical, law)",
+                                    "answerEs":"Escuela profesional (médico, derecho)",
                                     "value": "50%"
                                   },
                                   {
                                     "answer": "Doctorate degree",
+                                    "answerEs":"doctorado",
                                     "value": "50%"
                                   }
                               ]
@@ -1123,7 +1155,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Remember our conversation at the beginning? This number can speak for itself... "
+                                "text":"Remember our conversation at the beginning? This number can speak for itself... ",
+                                "es":"¿Recuerdas nuestra conversación al principio? Este número habla por sí mismo .."
                             }
                         },
                         {
