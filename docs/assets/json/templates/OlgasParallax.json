@@ -1,0 +1,11 @@
+{
+    "id":1.5,
+    "type":"OlgasParallax",
+    "details":
+    {
+        "type":"yellow",
+        "colorOne":"rgba(251,174,23,1)",
+        "colorTwo":"rgba(252,238,33,1)",
+        "title":"LatinX"
+    }
+}

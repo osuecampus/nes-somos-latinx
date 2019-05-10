@@ -3,7 +3,10 @@
     "type":"SingleImage",
     "details":
     {
-        "url":"image url",
-        "imageAlt":"An island in the fog"
+        "url":"./assets/img/photo-identity-parade.jpg",
+        "imageAlt":"Latinos balloon banner in a pride parade",
+        "colorOne":"rgba(224,40,165,1)",
+        "colorTwo":"rgba(255,102,215,1)",
+        "opacity": 0.25
     }
 }

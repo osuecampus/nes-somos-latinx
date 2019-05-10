@@ -2,12 +2,70 @@
 
 body{
     margin: 0px 0px 0px;
+    background: #fff
 }
 footer {
     bottom: -150px;
     height: 200px;
 }
 
+.somosLogo{
+    height: 34px;
+}
+
+.languageHolder {
+    width: calc(100% - 66px);
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    border-radius: 3px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.languagetitle {
+    font-size: 15px;
+    color: #505050;
+}
+.pillHold {
+    height: 26px;
+    width: 46px;
+    position: absolute;
+    right: 15px;
+    background: #fff;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    cursor:pointer;
+    transition:all .2s ease-in-out;
+}
+.pillHold:hover{
+    border:1px solid #afafaf;
+}
+
+.ball{
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    height: 22px;
+    width: 22px;
+    background: #ccc;
+    border-radius: 40px;
+    transition: all .2s ease-in-out;
+}
+.esActive{
+    background:#08bb99!important
+}
+.esActive .ball{
+    background:#fff!important;
+    left:20px
+}
+.pillHold:hover .ball{
+    background:#bfbfbf
+}
 /* THEMES */
 .darkLook {
     color: #fcfcfc!important;
@@ -31,35 +89,36 @@ footer {
     color: #dedede;
 }
 .darkLook .unitBlock h2{
-    color:#fff;
+    color:#bbb;
 }
 .darkLook .unitPage a{
-    color:#fafafa;
+    color:#bbb;
 }
 .darkLook .unitPage:hover a{
     color:#fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 body.darkLook {
-    background: #101010!important;
+    background:#1b1b1b!important
 }
 .darkLook .contentView {
-    border-right: 1px solid #303030;
+    border-left: 1px solid #303030;
 }
 .darkLook .searchHolder{
     background:#303030;
 }
 .darkLook .treeHolder{
-    background:#303030;
+    background:#1c1c1c;
 }
 .darkLook .treeBranch:focus{
-    background:#404040;
+    background:#1c1c1c;
 }
 .darkLook .unitBlock{
     outline:0;
+    border-bottom:1px solid rgba(255, 255, 255, 0.06)
 }
 .darkLook .hiddenPages{
-    background: rgba(0, 0, 0, 0.35);
+    background: #1c1c1c;
 }
 .darkLook p{
     color:#fcfcfc!important;
@@ -99,6 +158,9 @@ body.darkLook {
   }
   .darkLook .toolIcon path,.darkLook .toolIcon polygon{
     fill:#fff;
+}
+.darkLook .toolPlaceholder:hover path, .toolPlaceholder:focus path {
+    fill: #ffa32a!important;
 }
 .darkLook .lightTool {
     fill: #ccc!important;
@@ -141,12 +203,13 @@ body.darkLook {
     align-items: center;
     min-height: calc(100% - 162px);
     flex-direction: column;
-    overflow:hidden;
+    overflow: hidden;
     background: #fcfcfc;
     position: relative;
     transform: translate3d(0);
     z-index: 2;
-    box-shadow: 0px 0px 50px rgba(0,0,0,.10);
+    border-left: 1px solid #eee;
+    box-shadow: none;
     transition: width 1s ease-in-out;
 }
 .beginningNode{
@@ -290,15 +353,15 @@ body.darkLook {
     margin-top: 15px;
 }
 .toolPlaceholder:hover path,.toolPlaceholder:focus path{
-    fill:#0e5bea!important;
+    fill:#aa0176!important;
 }
 .accessibilityGroup {
     background: #efefef;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:12px;
+    padding-bottom:12px;
     position:relative;
     border-radius: 45px;
     margin-top: 15px;
@@ -324,7 +387,7 @@ body.darkLook {
     left: 5000px;
     width: 175px;
     height: 65px;
-    background: #0e5bea;
+    background: #505050;
     border-radius: 45px;
     display:flex;
     outline:0;
@@ -351,7 +414,7 @@ body.darkLook {
     left: 5000px;
     width: 130px;
     height: 65px;
-    background: #0e5bea;
+    background: #505050;
     border-radius: 45px;
     display: flex;
     outline: 0;
@@ -378,7 +441,7 @@ body.darkLook {
     left: 5000px;
     width: 130px;
     height: 65px;
-    background: #0e5bea;
+    background: #505050;
     border-radius: 45px;
     display: flex;
     outline: 0;
@@ -418,7 +481,7 @@ body.darkLook {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #0046bb;
+    background: #505050;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,7 +499,7 @@ body.darkLook {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #0046bb;
+    background: #505050;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -452,7 +515,7 @@ body.darkLook {
     fill:#fff;
 }
 .voiceSelection:hover{
-    background:#196fff;
+    background:#606060;
 }
 .fontSelection {
     width: 34px;
@@ -460,7 +523,7 @@ body.darkLook {
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 12px;
-    background: #0046bb;
+    background: #505050;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -470,7 +533,7 @@ body.darkLook {
     transition: all .2s ease-in-out;
 }
 .fontSelection:hover{
-    background:#196fff;
+    background:#606060;
 }
 .fontSmall svg {
     width: 8px;
@@ -485,8 +548,8 @@ body.darkLook {
     width: 18px;
 }
 .activeSize {
-    background: #2874ff;
-    border: 2px solid #659cff;
+    background: #808080;
+    border: 2px solid #aaa;
 }
 .themeLight:hover{
     background:#fff!important;
@@ -515,6 +578,7 @@ body.darkLook {
     top: 0px;
     height: calc(100% - 53px);
     overflow: auto;
+    -webkit-overflow-scrolling:touch;
     display: flex;
     max-width: 450px;
     flex-direction: column;
@@ -532,9 +596,15 @@ body.darkLook {
 }
 .sidebar-left .toolbarHolder{
     right: 20px;
+    top:25px;
 }
 .activeTreePage {
-    border-left: 5px solid #0055f2;
+    border-left: 5px solid #aa0076;
+    color: #aa0076!important
+}
+.darkLook .activeTreePage{
+    border-left: 5px solid #ffa42b;
+    color:#ffa42b!important
 }
 .branding{
     width: 90%;
@@ -542,10 +612,11 @@ body.darkLook {
     margin-bottom: 25px;
 }
 .logo{
-    height: 50px;
+    height: 30px;
 }
 .titleHolder{
     width: 90%;
+    margin-top: 40px;
 }
 .titleHolder h1 {
     font-size: 26px;
@@ -574,10 +645,19 @@ body.darkLook {
     height: 7px;
     margin-top: 0px;
     margin-left: 0px;
-    background: #0e5bea;
+    background: #aa0176;
     width: 15%;
     border-radius: 16px;
     transition: all .5s ease-in-out;
+}
+.darkLook .progressLine{
+    background:#ffa42b;
+}
+.darkLook .activeUnit .downProgress path{
+    fill:#ffa42b;
+}
+.darkLook .downProgress path{
+    fill:#bbb
 }
 .progressText{
     width: 100%;
@@ -665,47 +745,76 @@ body.darkLook {
     opacity:1
 }
 .treeHolder {
-    background: #dfdfdf;
-    width: 90%;
-    border-radius: 20px;
+    background: transparent;
+    width: 100%;
+    border-radius: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
 .unitBlock {
     width: calc(100% - 100px);
-    height: 79px;
+    height: 60px;
     display: flex;
     position:relative;
     align-items: center;
     padding-left: 20px;
     padding-right: 80px;
     cursor:pointer;
-    border-bottom: 1px solid rgba(0,0,0,.05);
+    border-bottom: 1px solid #efefef;
     transition: all .2s ease-in-out;
 }
 .unitBlock:hover{
-    background:rgba(0,0,0,.05);
+    background:rgba(0,0,0,.00);
 }
+
 .unitBlock h2 {
     font-weight: 600;
     font-size: 15px;
     color: #000000;
+    display:flex;
+    transition: all .2s ease-in-out
+}
+.unitBlock h2 svg{
+    height:20px;
+    width:20px;
+    margin-right:8px;
+}
+.unitBlock h2 svg path{
+    transition: all .2s ease-in-out
+}
+.darkLook .unitBlock h2 svg path{
+    fill:#bbb
 }
 .contentTree .treeBranch:last-child {
     overflow:hidden;
     border-bottom: none !important;
-    border-bottom-left-radius:20px;
-    border-bottom-right-radius:20px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
 }
 .contentTree .treeBranch:first-child {
     overflow:hidden;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
 }
 .treeBranch:focus {
     outline: 0;
-    background: #c0c0c0;
+}
+
+.activeUnit  h2{
+    color:#aa0076
+}
+.darkLook .activeUnit h2{
+    color: #ffa32a!important;
+}
+.activeUnit  h2 path{
+    fill:#aa0076
+}
+.activeUnit  .downProgress path{
+    fill:#aa0076;
+}
+.darkLook .activeUnit h2 path{
+    fill:#ffa32a!important
 }
 .downProgress {
     position: absolute;
@@ -716,11 +825,12 @@ body.darkLook {
     justify-content: center;
     align-items: center;
 }
-.downProgress img {
-    border-radius: 45px;
-    overflow: hidden;
-    width: 18px;
+.downProgress svg {
+    height:8px;
     transition: all .3s ease-in-out;
+}
+.downProgress path{
+    transition: all .2s ease-in-out;
 }
 .hiddenPages {
     width: 100%;
@@ -730,19 +840,27 @@ body.darkLook {
 .activePage{
     display:block;
 }
-.activeUnit img{
+.activeUnit .downProgress svg{
     transform: rotate(180deg);
+}
+code{
+    background:rgba(0, 191, 255, 0.15)
 }
 .unitPage {
     padding-top: 15px;
     position:relative;
+    text-decoration:none;
+    display:block;
     padding-bottom: 15px;
     padding-left: 20px;
     font-size: 14px;
     cursor:pointer;
-    color: #000;
+    color: #737373;
     cursor:pointer;
     transition:all .2s ease-in-out;
+}
+.darkLook .unitPage{
+    color:#ddd;
 }
 .unitPage svg{
     height: 17px;
@@ -751,10 +869,13 @@ body.darkLook {
     position: absolute;
 }
 .checkmarkBlue{
-    fill:#0e5bea
+    fill:transparent
 }
 .checkmarkWhite{
-    fill:#fff
+    fill:#0154f2
+}
+.darkLook .checkmarkWhite{
+    fill:#ffa42b
 }
 .unitPage:focus{
     outline: 0;
@@ -762,6 +883,9 @@ body.darkLook {
 }
 .unitPage:hover{
     background:rgba(0,0,0,.05);
+}
+.darkLook .unitPage:hover{
+    background:rgba(0,0,0,.35);
 }
 .unitPage a {
     color: rgba(0, 0, 0, 0.9);
@@ -786,31 +910,31 @@ p{
     color: #404040;
 }
 .small{
-    font-size:24px;
+    font-size:22px;
 }
 .small p{
-    font-size:24px;
+    font-size:22px;
 }
 .small .pageIntro{
     font-size:50px;
 }
 .medium {
-    font-size:28px;
+    font-size:26px;
 }
 .medium p{
-    font-size:28px;
+    font-size:26px;
 }
 .large{
-    font-size:32px;
+    font-size:30px;
 }
 .large p{
-    font-size:32px;
+    font-size:30px;
 }
 .large .pageIntro{
     font-size:70px;
 }
 .rightArrow polygon{
-    fill:#0e5bea
+    fill:#505050
 }
 .rightArrow{
     position: absolute;
@@ -819,7 +943,7 @@ p{
     width: 29px;
 }
 #done{
-    background: #0e5bea;
+    background: #aa0176;
     height: 16px;
     width: 16px;
     position: absolute;
@@ -864,6 +988,9 @@ p{
     color:#606060;
     cursor:pointer!important;
     transition:all .2s ease-in-out;
+}
+.topMiniNav a, .bottomMiniNav a{
+    text-decoration:none;
 }
 .topMiniPrevious:hover .pageTitle, .topMiniNext:hover .pageTitle{
     color:#000000;

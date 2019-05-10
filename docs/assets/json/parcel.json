@@ -1,29 +1,3173 @@
 [{
     "config": {
-        "title":"The Never Ending Story",
+        "title":"Somos LatinX",
         "search": false,
         "progressBar": false,
-        "sidebar": "right"
+        "sidebar": "left"
     },
     "sections": 
     [
         {
             "id": 0,
-            "title": "Introduction",
+            "title": "Home",
             "content": [
                 {
                     "id": 0,
-                    "title" : "Summary",
+                    "title" : "Home",
                     "blocks":
                     [
+                        {
+                            "id":0,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "backgroundType": "image",
+                                "backgroundValue": "https://s3-us-west-2.amazonaws.com/cdt-web-storage/nes-somos-latinx/212301013_aed5c02949_b.jpg",
+                                "align": "center",
+                                "text":"Welcome to the LatinX Community",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "image":"./assets/img/home-stories.svg",
+                                        "imageAlt": "Stories",
+                                        "imageHeight":250,
+                                        "url":"./#/1/0"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "image":"./assets/img/home-education.svg",
+                                        "imageAlt": "Education",
+                                        "imageHeight":250,
+                                        "url":"./#/2/0"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Community Stories",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "Community Stories",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Connect with personal stories from LatinX community members."
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"bFzP0DXZARY",
+                                        "bold":"Ivan",
+                                        "language":"ES"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"w6HPHIpqbRo",
+                                        "bold":"Sativa",
+                                        "language":"EN"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "youtube":"-Mcv0wfiW0o",
+                                        "bold":"Ana",
+                                        "language":"ES"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"lvhBKLu-ojI",
+                                        "bold":"Daniel",
+                                        "language":"ES"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"6A6LEEa3ty0",
+                                        "bold":"Jennifer",
+                                        "language":"ES"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "youtube":"lIb2b2iHpFw",
+                                        "bold":"Susana",
+                                        "language":"EN"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"TextColumns",
+                            "details":
+                            {
+                                "columns":
+                                [
+                                    {
+                                        "id": 0,
+                                        "youtube":"3cIq26nQy3w",
+                                        "bold":"Ruth",
+                                        "language":"EN"
+                                    },
+                                    {
+                                        "id": 1,
+                                        "youtube":"OE5fPW4Xs7I",
+                                        "bold":"Ana Lu",
+                                        "language":"ES"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "youtube":"fXPo-SKLUFA",
+                                        "bold":"Natalia",
+                                        "language":"ES"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Interactive Education",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "LatinX Identity",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"https://www.youtube.com/embed/U6WBfCCEDCo"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextReveal",
+                            "details":
+                            {
+                                "summary":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish.",
+                                "text":"From young my parents taught me the importance of preserving and continuing to learn and speak Spanish, that was a rule in our home. “At home we speak Spanish.” Although my brother and I would communicate in Spanglish, we continued to practice Spanish daily by watching TV shows and talking to our parents in Spanish. However, away from home and at school almost everything we handled in English. Apart from language there were also differences between customs and small details between the typical American culture and the culture of my family. It is much more difficult to navigate environments and relationships for someone who does not know 'how the current flows.' This is why it’s so valuable to know ourselves well and learn how the ideas and ways that we bring are perceived by other people; from the way we behave, dress, communicate, work, and even our expectations towards others. It is equally valuable and important to know the cultures of others. For me, understanding all that over time gave me an advantage in school, clubs, college, and even in my work because now I can adapt more easily to the people and environments that surround me. This was something I started to realized when I was young, during elementary school when I realized that somehow I had a double-personality or double-identity. I was Ruben at home with my family and close friends, but at school and out of the home I was Jose. My way of being and of thinking changed depending on where and with whom I was. Eventually I became more aware of these changes. Today my understanding of others and myself brings me ease and advantages that I would not have without this knowledge. Let’s take a look at the Latinx experience more closely!"
+                            }
+                        },
+                        {
+                            "id":1.5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "title":"LatinX"
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"​Latinx is the gender-neutral alternative to Latino, Latina and even Latin@."
+                            }
+                        },
+                        {
+                            "id":3.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Used by scholars and ​activists to move beyond gender binaries and the intersectionality of Latin American descendants. In addition tomen and women from all racial and ethnic backgrounds, Latinx also opens the spectrum for who aretrans, queer, agender, non-binary, gender nonconforming or gender fluid."
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":
+                                [
+                                    {
+                                        "id": 0,
+                                        "revealText":"Latino",
+                                        "text":"Latino refers to the culture or origins of people from countries (or cultures) that were onceunder Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians areconsidered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins."
+                                    },
+                                    {
+                                        "id": 1,
+                                        "revealText":"Hispanic",
+                                        "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, CentralAmerica, and most of South America where Spanish is the primary language)."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"​Currently, the U.S. government uses the terms Hispanic to define ethnicity, not race."
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-1.jpg",
+                                "imageAlt":"Two Latinx people",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Which do you feel more comfortable with?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Hispanic",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Latino",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "LatinX",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "Latina",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Other",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        { 
+                            "id":8,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-charts.svg",
+                                "imageAlt":"Two charts on people's preferences"
+                            } 
+                        },
+                        {
+                            "id":9,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"​Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "subtext":"Immigrants are those that are foreign born"
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "First Generation",
+                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Second Generation",
+                                        "text":"Latinos born in the United States to immigrant parents"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Third or Higher Generation",
+                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-bar.svg",
+                                "imageAlt":"A bar graph showing demographic data"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Which terms do you think, Latinx foreign born and USA born primarily use to describe themselves?",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%)As you can see, the majority of Latinx communities living in the USA are foreign born."
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Very interesting!",
+                                "size": "bigger"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What is your age?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "12-17",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "18-29",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "30-49",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "50-64",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "65+",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":23.5,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What term best identifies you?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Immigrant to US",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "1st Generation, USA-born",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "2nd Generation, USA-born",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "3rd+ Generation, USA-born",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-pour.jpg",
+                                "imageAlt":"Four girls at a sink pouring out a pot",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Race",
+                                        "text":"A socially constructed characterization of individuals based on skin color, culture, etc."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Ethnicity",
+                                        "text":"Groups of people who have the same or hybrid cultural origins like ancestry, religion, food, language, traditions, values, origins, etc."
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Nationality",
+                                        "text":"The state of belonging to a particular country or being a citizen of particular nation."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Which do you prefer?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Hispanic/LatinX",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Country of Origin",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-chartTwo.svg",
+                                "imageAlt":"A chart showing preferences"
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"The ethnic and national identity concepts are very different between first- and second-generation Latinos."
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For example, first-generation Latinos (about 68%) use their country of origin in Latin America to describe themselves but only 38% Latinos who are second-generation use this concept to define their identity. Even more interesting! Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos.  (select pink American box to compare)However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity."
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"But what about race?"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Most Hispanics don’t see themselves fitting into the standard racial categories used by the U.S. Census Bureau. According to the Pew Hispanic survey, (51%)  Latinos identify their race as “some other race” or selected “Hispanic/Latino.” Meanwhile, 36% identify their race as white, and 3% identify their race as black."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"ExternalLinkBox",
+                            "details":
+                            {
+                                "text":"Watch a video on being Afro-Latina",
+                                "button":"YouTube",
+                                "link":"https://www.youtube.com/watch?v=ZjAnXMMrnFo"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Do you consider yourself a typical American?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"yellow",
+                                "colorOne":"rgba(251,174,23,1)",
+                                "colorTwo":"rgba(252,238,33,1)",
+                                "subtext":"4 decades ago, the US government mandated the use of Latino/Hispanic terms. A majority have not embraced the use of these terms."
+                            }
+                        },
+                        {
+                            "id":41,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-parade.jpg",
+                                "imageAlt":"Latinos balloon banner in a pride parade",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Remember my story?"
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"I mentioned that many times I felt like I was part of two worlds and two cultures. Let’s take a look at how complicated it is to embrace the description of a typical American for Latinx. Observe the presence of race and socio-economic factors in these graphics:"
+                            }
+                        },
+                        {
+                            "id":45,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Do Latinos see themselves as “typical Americans”?"
+                            }
+                        },
+                        {
+                            "id":46,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Latinos are split on whether they see themselves as a typical American. Nearly half (47%) say they are a typical American, while another 47% say they are very different from the typical American. Foreign-born Hispanics are less likely than native-born Hispanics to say they are a typical American—34% versus 66%.Hispanics are also divided over how much of a common identity they share with other Americans. About half (47%) say they consider themselves to be very different from the typical American. And just one-in-five (21%) say they use the term “American” most often to describe their identity. On these two measures, U.S.-born Hispanics (who now make up 48% of Hispanic adults in the country) express a stronger sense of affinity with other Americans and America than do immigrant Hispanics."
+                            }
+                        },{
+                            "id":48,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "True or false: First generation are more likely to describe themselves as American?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "True",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "False",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-identity-dancing.jpg",
+                                "imageAlt":"Two Latinx people dancing in front of grafitti",
+                                "colorOne":"rgba(224,40,165,1)",
+                                "colorTwo":"rgba(255,102,215,1)",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":50,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"How relevant is the family’s county of origin for Latinos in the USA?"
+                            }
+                        },
+                        {
+                            "id":51,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"When it comes to describing their identity, most Hispanics prefer their family’s country of origin over pan-ethnic terms. Half (51%) say that most often they use their family’s country of origin to describe their identity. That includes such terms as “Mexican” or “Cuban” or “Dominican,” for example. Just one-quarter (24%) say they use the terms “Hispanic” or “Latino” to most often to describe their identity. And 21% say they use the term “American” most often."
+                            }
+                        },
+                        {
+                            "id":52,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "From these three aspects, which do you want to connect with?",
+                              "color":"#00058b",
+                              "background":"#fcee21",
+                              "options": [
+                                { 
+                                  "answer": "Race",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Ethnicity",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Latino",
+                                  "value": "50%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":53,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1.http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/ <br/>2.http://www.pewhispanic.org/2004/03/19/generational-differences/"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "title" : "Education",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"\"They immigrated, so I graduated\""
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"Video_Link_not_Provided"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextReveal",
+                            "details":
+                            {
+                                "summary":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate!",
+                                "text":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate! My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the Latinx community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms..."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "title":"Two Important Terms"
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "US Born",
+                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Foreign Born",
+                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-meeting.jpg",
+                                "imageAlt":"Family in a classroom",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-attainmentChart.svg",
+                                "imageAlt":"Education by Race Chart"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Now, you’ll see that there is a difference between being US born and being an immigrant"
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you look carefully, you will see that there is a huge difference. For example, there are over 5 million Latinos, Hispanics who were born outside the US and did not complete high school.This group is disproportionately larger than the fewer than 1 million Latinos, HispanicsBorn in the USA who did not completed high school."
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"This means that the first generation of immigrants has had more difficulty accessing education"
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let me explain this! Among the difficulties, immigrants face... Limited access to educational programs from their countries of origin. Limited or no access to programs in the United States as well.And, in addition, language barriers and poverty increase adverse conditions to accessing education.Now, if you look closely at the statistics of Latinos, Hispanics who earn university degrees, you will realize that there is not much difference between those who have immigrated to the United States and those who were born in this country. Many immigrants come to the US with sufficient education and continue or start a professional career. In contrast, only a small percentage of US-born Latinos, Hispanics have gotten a technical or university degree."
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This is perhaps the strongest evidence of inequity in the United States education system"
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What is your age?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "Under 10",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "10-15",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "16-20",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "21-25",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "26+",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-senior.jpg",
+                                "imageAlt":"Graduate holding senior banner",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What is your highest level of education?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "Less than high school",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "High school diploma/GED",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Associates degree",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "Bachelors degree",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Masters degree",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "subtext":"More Latinos are graduating from high school, that increases the chances to attend higher education... but the numbers are still very low."
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-dropout.svg",
+                                "imageAlt":"Chart of High School Dropout rates"
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Like we explored before, the evidence shows that Latinos, Hispanic students are increasingly likely to graduate from high school. 78% of Hispanics graduated from high school in 2010, an increase from 64% in 2000!"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-college.svg",
+                                "imageAlt":"Chart showing entry to college rates"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In the 2012 graduation year, 69% of the Latinos, Hispanic high school graduates were enrolled in college, a bigger percentage than white or black students. In the same year, 84% of Asian graduates were enrolled. This is the biggest percentage of racial and ethnic groups."
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-coffee.jpg",
+                                "imageAlt":"Three people studying at a coffee shop",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"blue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "subtext":"88% of Latinos ages 16 and older agreed that a college degree is necessary to get ahead in life today."
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What level of education do you want to achieve?",
+                              "color":"#00058b",
+                              "background":"#69bfff",
+                              "options": [
+                                { 
+                                  "answer": "High school or equivelant",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Associates (or technical) degree",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Bachelors degree",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "Masters degree",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Professional school (medical, law)",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "Doctorate degree",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-lab.jpg",
+                                "imageAlt":"People doing a lab",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#08bc99",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-persist.svg",
+                                "imageAlt":"Persisting in college chart"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-education-lastChart.svg",
+                                "imageAlt":"College completion chart"
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Remember our conversation at the beginning? This number can speak for itself... "
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012 <br/>2. http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf <br/>3. http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/ <br/>4. https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/ <br/>5. http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title" : "Immigration",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"https://www.youtube.com/embed/iDt6Mf-Oics"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"“I never realized how strong the relationship between my community, my family and immigration was until... ”"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"TextReveal",
+                            "details":
+                            {
+                                "summary":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different.",
+                                "text":"My grandma lived with us and she didn’t know any English, maybe she could understand but I never heard her speak English. My grandpa had a career in the United States but lived in a city where he was able to take care of everything in Spanish. He was able to go to the supermarket and speak in Spanish, go to the store and purchase what they needed and speak in Spanish. Therefore, the desired to speak English was different. At home my mom would speak in English with me most of the time, also in school and classes I would also speak English but at home it was a mix of languages and communications, one screaming over the other, using a little bit of “Spanglish,” A lot of Spanish here. My grandfather would always correct me with my words. When I would say “apoyo” oh my god he would always correct me and say it’s “apoyo.” Something so wonderful that I didn’t think was different, it didn’t seem different and now when I think about my life it’s a piece of my history. I think about how I’m raising my children different, and how i can pass on to them a little bit of that language, how can I give them that experience because it’s an incredible memory of mine. Looking at how families talk to one another and how they communicate-- and also how they share with the language."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-flags.jpg",
+                                "imageAlt":"International Flags in New York",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":1.5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "subtext":"Immigrants are those that are foreign born"
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "First Generation",
+                                        "text":"Latinos born outside of the United States or Puerto Rico"
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Second Generation",
+                                        "text":"Latinos born in the United States to immigrant parents"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Third or Higher Generation",
+                                        "text":"Latinos born in the United States to U.S.-born parents"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What is your age?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Under 10",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "10-15",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "16-20",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "21-25",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "26+",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-mapgif.gif",
+                                "imageAlt":"Immigration changes over the century"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Has it happened to you sometimes when people talk about immigration and they only refer to Latinos? This map makes it clear, Latinos, Hispanics, have been among the many immigrant groups to the United States from 1850 to this decade."
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This is a cool example of how immigration is the history of the USA: Immigrants come to the U.S. from all over the world. For example in in New Jersey, India is the top country of birth among immigrants. In Maine, Montana, New Hampshire , Vermont and North Dakota, Canada is the top country of birth for immigrants and in Hawaii and Alaska Filipinos account for a large share of immigrants. Immigrants from Ireland, England, Germany, Italy and many other european countries were part of large immigrant groups in the last two centuries, many of them after the first and second war. Millions of immigrants come as well from Asian and Eastern Europe. In California for example in 1860, 40% of the immigrants were Chinese in contrast with Meanwhile, New York and New Jersey where in 1910, 30% of the immigrants were from Russia and the USSR. Congress passed in 1965 a legislation to open the nation’s borders, immigrants have largely hailed from Latin America and Asia. In 2012, there were four states (California, New York, New Jersey and Florida) in which about one-in-five or more people are foreign born.Mexico is the birthplace of 28% (or 11.6 million) of all immigrants in the U.S. Immigrants born in Mexico account for more than half of all of the foreign born in five states: New Mexico 72%, Arizona 58%, Texas 58%, Idaho 53% and Oklahoma 51%."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-daca.jpg",
+                                "imageAlt":"People protesting",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Do you believe that immigrants face more challenges in regards to their education?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "color":"#ffffff",
+                              "background":"#662d91",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Mexico"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"Puerto Rico"
+                                    },
+                                    {
+                                        "id":2,
+                                        "connector":2,
+                                        "text":"Cuba"
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":3,
+                                        "text":"Central America"
+                                    },
+                                    {
+                                        "id":4,
+                                        "connector":4,
+                                        "text":"South America"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Where are the majority of Latinos, hispanic immigrants coming from?"
+                                    },
+                                    {
+                                        "id":3,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-hands.jpg",
+                                "imageAlt":"Hands together in center of circle",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-latin.svg",
+                                "imageAlt":"Chart showing where Latin American immigrants come from"
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"As we mentioned before, Mexican-Americans constitute the largest Latino group in the United States, making up two-thirds of the total Latino population. "
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Mexican families have been present in the Southwest since that region was a part of Mexico. One aspect of Mexican migration that is not often emphasized is its relationship with economic and political interests, both in Mexico and the United States. We can conclude from this that immigration is completely related to economic and political interests, both in the countries of origin and destination."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Mexico"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-mexicomap.svg",
+                                "imageAlt":"Map of Mexico"
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-girl.jpg",
+                                "imageAlt":"Girl in Dia De Los Muertos face paint",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"What about the history of Mexican immigration to the United States?"
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-numberschart.svg",
+                                "imageAlt":"Chart of Immigration to U.S. from Mexico"
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The bars are not evenly distributed in the timeline, right?"
+                            }
+                        },
+                        {
+                            "id":28.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Puerto Rico"
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-puertomap.svg",
+                                "imageAlt":"Map of Puerto Rico"
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Did you know that Puerto Ricans who are born in Puerto Rico are American Citizens because they were born in the states? This is why:"
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans."
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Cuba"
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-cubamap.svg",
+                                "imageAlt":"Map of Cuba"
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Cubans have been present in the United States for a long, long time."
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The story begins in the Spanish colonial period in 1565 when St. Augustine, Florida was established and  hundreds of Spanish-Cuban soldiers and their families moved from Cuba to Florida. In between 1770 and 1870, during the period of Spanish rule, Cubans immigrated to Louisiana,Texas, New Orleans and New York."
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"As we explored before, political and economic factors influenced these big immigration waves."
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The Cuban Revolution led to the mass migration of Cubans to the United States in 1959. Since it was the height of the cold war, their presence was supported and encouraged by the U.S. government. According to the U.S. Census, Cuban Americans lived in all 50 states. But most Cuban immigrants settled in south Florida.Communities like Miami, Tampa, and Union City, where Cuban Americans made their homes, experienced a vibrant cultural transformation."
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"Central America"
+                            }
+                        },
+                        {
+                            "id":41,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama"
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-centralmap.svg",
+                                "imageAlt":"Map of Central America"
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-raised.jpg",
+                                "imageAlt":"Raising joined hands",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":44,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-cenim.svg",
+                                "imageAlt":"Chart of Immigration to U.S. from Central America"
+                            }
+                        },
+                        {
+                            "id":45,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Let’s talk about a more recent story:"
+                            }
+                        },
+                        {
+                            "id":46,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras."
+                            }
+                        },
+                        {
+                            "id":47,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-dacarally.jpg",
+                                "imageAlt":"Women at a DACA rally",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":48,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "title":"South America"
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Argentina, Bolivia, Brazil, Chile, Columbia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela"
+                            }
+                        },
+                        {
+                            "id":50,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-sudmap.svg",
+                                "imageAlt":"Map of South America"
+                            }
+                        },
+                        {
+                            "id":51,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-sudpic.jpg",
+                                "imageAlt":"Sunrise/Sunset shot of a city in Brazil",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":52,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-sudchart.svg",
+                                "imageAlt":"Chart of Immigration to U.S. from South America"
+                            }
+                        },
+                        {
+                            "id":53,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Wow! 7 percent of the nation’s immigrants are from South America! "
+                            }
+                        },
+                        {
+                            "id":54,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population."
+                            }
+                        },
+                        {
+                            "id":55,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-hat.jpg",
+                                "imageAlt":"Boy in traditional dress",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":56,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Which one are you?",
+                              "color":"#ffffff",
+                              "background":"#662d91",
+                              "options": [
+                                { 
+                                  "answer": "Immigrant to the USA",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "1st Gen Hispanic/LatinX",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "2nd Gen Hispanic/LatinX",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "3rd+ Gen Hispanic/LatinX",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":57,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "color":"#ffffff",
+                              "background":"#662d91",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Yes"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"No"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"Are all Latinos in the U.S. immigrants?"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Great job!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":58,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-world.svg",
+                                "imageAlt":"World Map"
+                            }
+                        },
+                        {
+                            "id":59,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"darkBlue",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "subtext":"Immigration is not only a Latino phenomenon"
+                            }
+                        },
+                        {
+                            "id":60,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-america.jpg",
+                                "imageAlt":"Hands raised holding American flags",
+                                "colorOne":"#1a8fe8",
+                                "colorTwo":"#662d91",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":61,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-immigration-projected.svg",
+                                "imageAlt":"Projected American population"
+                            }
+                        },
+                        {
+                            "id":62,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Looking ahead, if current demographic trends continue, (we explained before that immigration is directly connected to political and economic factors and we don’t know what the future will bring), immigrants and their descendants will be an even bigger source of population growth."
+                            }
+                        },
+                        {
+                            "id":63,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population."
+                            }
+                        },
+                        {
+                            "id":64,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall."
+                            }
+                        },
+                        {
+                            "id":65,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055."
+                            }
+                        },
+                        {
+                            "id":66,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants<br/>2. https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/<br/>3. https://www.migrationpolicy.org/article/central-american-immigrants-united-states<br/>4. https://www.migrationpolicy.org/article/south-american-immigrants-united-states<br/>5. http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/<br/>6. https://www.migrationpolicy.org/research/timeline-1790<br/>7. http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title" : "Economics",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"Video_Link_not_Provided"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextReveal",
+                            "details":
+                            {
+                                "summary":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. ",
+                                "text":"I’m Jose Erlin Guerrero Martinez. I was born and raised in a small town called Raspadura, a poor village of less than 2000 people located in Choco, province of Colombia. Since I was a child, my parents taught me the importance of studying as hard to develop a complete education, earn knowledge, make better decisions, achieve a professional career, and reach a better quality of life. They also taught me the importance of using and preserving my mother and father's surname to honor my ancestors, as many Spanish-speaking countries use to do it. Something difficult to handle when you are living in an English-speaking country such as the United States. Latin American descendants’ preference for using their father and mother first surname occasionally results in serious legal problems.The American laws operate on the assumption that each person has a first name, middle name, and last name.  The last name is normally inherited solely from the father and is assumed to be the only surname. However, using our father and mother’s first surname also gives us historical and legal advantages. For example, keeping alive both branch of our family line or spending less time during immigration checks when you are leaving or arriving at the United States. If I had decided to use my name under the American rule; Jose Guerrero, my record in an airport would probably match with many people who have the same name. But, because I decided to keep using and preserving my mother and father's surname, the information will be narrowed down just to my real and unique name. Further, I can be able to trace back my entire family line.Therefore, I still refuse to reduce my name to the American style and I still feel weird to be called or sign a document without using my original name. Because I believe that every individual’s identity deserves to be acknowledged and respected!"
+                            }
+                        },
+                        {
+                            "id":2,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"True wealth is not measured in money or status or power. It is measured in the legacy we leave behind for those we love and those we inspire. - César Chávez."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-reading.jpg",
+                                "imageAlt":"Three women going over documents",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"America's future economic well-being and competitiveness is increasingly contingent on the success of the Latino population, we’ll see in this section why!"
+                            }
+                        },
+                        {
+                            "id":4.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Let’s define some concepts before and help us to build the story."
+                            }
+                        },
+
+                        {
+                            "id":5,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Poverty",
+                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Income",
+                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-family.jpg",
+                                "imageAlt":"Family walking by water",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":9.5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"Education and economic prosperity are connected."
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Is your family's current financial situation a concern to you?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":10.5,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Are you concerned about your future personal finances?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":11,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-mural.jpg",
+                                "imageAlt":"Mural of Latinx people",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":12,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-poverty.svg",
+                                "imageAlt":"Graph of poverty by race"
+                            }
+                        },
+                        {
+                            "id":13,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012."
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"We want to make sure you establish a connection here:"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Did you explore the Education Section yet? We indicated that high school graduation is drastically increasing among Latinos, and college enrollment slowly growing. Remember, the gap is in between immigrants, first- and second-generation Latinos. Now! Do you see the connection here? The more we improve in education the lower the poverty rates are."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "center",
+                                "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts."
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What is your age?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "12-17",
+                                  "value": "30%"
+                                },
+                                {
+                                    "answer": "18-29",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "30-49",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "50-64",
+                                    "value": "20%"
+                                  },
+                                  {
+                                    "answer": "65+",
+                                    "value": "20%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Survey",
+                            "details":
+                            {
+                                "question": "Are you hispanic/LatinX?",
+                                "color":"#ffffff",
+                                "background":"#f15a24",
+                                "options": [
+                                  {
+                                    "answer": "Yes",
+                                    "value": "30%"
+                                  },
+                                  {
+                                      "answer": "No",
+                                      "value": "20%"
+                                    }
+                                ]
+                              }
+                        },
+                        {
+                            "id":18,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-fist.jpg",
+                                "imageAlt":"A group of people fistbumping around computers",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-jobs.svg",
+                                "imageAlt":"Chart of number of jobs held by US born and foriegn born Latinos during and after the 2007-2009 recession"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Why are first and second generation Latinos more likely to obtain a job than their immigrant relatives? "
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "center",
+                                "text":"We have some ideas:"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Age",
+                                        "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Language",
+                                        "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big!"
+                                    },
+                                    {
+                                        "id":2,
+                                        "revealText": "Immigration Status",
+                                        "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":28,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"But the numbers are not perfect"
+                            }
+                        },
+                        {
+                            "id":29,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The seemingly strong recovery for Hispanics is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Hispanics with jobs barely increased up in the recovery."
+                            }
+                        },
+                        {
+                            "id":30,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "In your present or future, do you want to...",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Work for an institution or company",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Have your own business",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-employed.svg",
+                                "imageAlt":"Chart of number of immigrants, Mexican immigrants, and native born in various job fields"
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"We have more evidence! Let’s see it closely..."
+                            }
+                        },
+                        {
+                            "id":33,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The Mexican population in the United States is comprised of approximately 35.4 million people who were either born in Mexico or reported Mexican ancestry or Hispanic origin."
+                            }
+                        },
+                        {
+                            "id":33.2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Because this group is the largest among Latinos, and they  participate in the labor force at a slightly higher rate than the overall immigrant and U.S.-born populations, we want to explore the relation of Mexican-American, other Latino communities and USA economy."
+                            }
+                        },
+                        {
+                            "id":33.4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation."
+                            }
+                        },
+                        {
+                            "id":33.6,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"If you pay attention to the the numbers of this group and their participation in Management, business, sciences and arts, you will see how concerning it is for the economic prosperity and the future of the country."
+                            }
+                        },
+                        {
+                            "id":33.8,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Remember we said before that Latinos are the largest and fastest minority growing in the United States?"
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-sitting.jpg",
+                                "imageAlt":"A girl sitting with a paper and pen",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Who is losing jobs during a recession?"
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"And what industry is adding jobs during the same hard economic time?"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Wow! You see? The relationship between education and economic prosperity is the key factor for immigrants and US born Latinos to have better life conditions. Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends."
+                            }
+                        },
+                        {
+                            "id":38.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Latino immigrants and other groups of immigrants are the muscle of the economy, but when political and social factors change the trajectory, the ones losing jobs and impacted in terms of poverty are them. And perhaps “them” are our parents, siblings or friends."
+                            }
+                        },
+                        {
+                            "id":39,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"red",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "subtext":"How can we change the future of the Latino community? Think about it!"
+                            }
+                        },
+                        {
+                            "id":40,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Do you believe that poverty can change your outcome in life?",
+                              "color":"#ffffff",
+                              "background":"#f15a24",
+                              "options": [
+                                { 
+                                  "answer": "Yes",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "No",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":41,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-computer.jpg",
+                                "imageAlt":"Family in a classroom",
+                                "colorOne":"#ff66d7",
+                                "colorTwo":"#f15a24",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-economics-chart.svg",
+                                "imageAlt":"Median earnings chart"
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"As you can see, education increases the chances of earning a better salary and decreases the possibility of unemployment."
+                            }
+                        },
+                        {
+                            "id":44,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"But technical skills or college preparation are not the only factors that influence prosperity:"
+                            }
+                        },
+                        {
+                            "id":44.5,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Health, sense of belonging, personal freedom, security, social capital, possibilities for entrepreneurship, innovation, and others factors are critical for individuals and their communities to grow."
+                            }
+                        },
+                        {
+                            "id":45,
+                            "type":"Carousel",
+                            "details":
+                            {
+                              "images": [
+                                {
+                                  "imageAlt": "Asians",
+                                  "url": "./assets/img/car-asian.svg"
+                                },
+                                {
+                                  "imageAlt": "Blacks",
+                                  "url": "./assets/img/car-black.svg"
+                                },
+                                {
+                                    "imageAlt": "Hispanics",
+                                    "url": "./assets/img/car-hispanic.svg"
+                                },
+                                {
+                                    "imageAlt": "Whites",
+                                    "url": "./assets/img/car-white.svg"
+                                  },
+                                  {
+                                    "imageAlt": "All",
+                                    "url": "./assets/img/car-all.svg"
+                                  }
+                              ]
+                            }
+                          },
+                        {
+                            "id":46,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"If you compare Latinos, Hispanics with other groups, what do you see? Consider these important factors:"
+                            }
+                        },
+                        {
+                            "id":47,
+                            "type":"TextBullets",
+                            "details":
+                            [
+                                {
+                                    "key":0,
+                                    "number":"1",
+                                    "text":"Median earnings. With the same degree, what are the groups making more money? And the ones making less?"
+                                },
+                                {
+                                    "key":1,
+                                    "number":"2",
+                                    "text":"Gender. The inequality between men and women are notorious in some racial and ethnic groups, including Latinos, Hispanics!"
+                                }
+                            ]
+                        },
+                        {
+                            "id":53,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1. https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html<br/>2. http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/<br/>3. http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/<br/>4. MPI tabulation of data from the U.S. Census Bureau 2014 ACS<br/>5.Pew Research Center tabulations of Current Population Survey Data<br/>6. https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title" : "Language",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"YoutubeVideo",
+                            "details":
+                            {
+                                "youtubeUrl":"https://www.youtube.com/embed/wIIwcqRkp5M"
+                            }
+                        },
+                        {
+                            "id":1,
+                            "type":"TextReveal",
+                            "details":
+                            {
+                                "summary":"Well, to begin my name is Miguel Ruiz. I am 13 years old and I attend Linus Pauling. I’m an only child, my dad and mom and it’s only us three. What I like the most besides riding horses is the, “soga”, “floreo de soga” “los piales” and in general the “charreadas.”",
+                                "text":"Well, to begin my name is Miguel Ruiz. I am 13 years old and I attend Linus Pauling. I’m an only child, my dad and mom and it’s only us three. What I like the most besides riding horses is the, “soga”, “floreo de soga” “los piales” and in general the “charreadas.” Well, when I was younger, I’ve seen pictures where my parents dress would always dress me with boots and a sombrero. We have always had horses. One day we decided to have our horses here in the United States. When we decided to have horses here we met a lot of people and luckily I met a man named Antonio Huerta and he taught me alot about the “charreria” besides what my dad taught me about horses. I have always said let’s not lose the customs of our mexican parents and we should always be prideful of being mexican and put on the clothes right because that’s what represents our lives."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-talking.jpg",
+                                "imageAlt":"Two women having a discussion in a conference room",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "color":"#ffffff",
+                                "background":"#e028a5",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"True"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"False"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"Latinos refuse to speak English"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":5,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"pink",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#662d91",
+                                "subtext":"Let me share something with you!"
+                            }
+                        },
+                        {
+                            "id":6,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-pie.svg",
+                                "imageAlt":"Pie chart of English and Spanish use among Hispanics"
+                            }
+                        },
+                        {
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"A survey in 2013 found that 95% of Hispanics believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish."
+                            }
+                        },
+                        {
+                            "id":7.2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In my community, most Latinos, Hispanics speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed)."
+                            }
+                        },
+                        {
+                            "id":7.4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This is the beginning of a bilingual path. In order to build a solid second language, it is important to consider early childhood education and dual-immersion education access."
+                            }
+                        },
+                        {
+                            "id":8,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-percentages.svg",
+                                "imageAlt":"Percentages of English and Spanish use and importance according to Latinos/Hispanics"
+                            }
+                        },
+                        {
+                            "id":9,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-children.jpg",
+                                "imageAlt":"Boys in bandanas and hats",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":10,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Language Proficiency",
+                                        "text":"Proficiency refers to a person's ability to use a language for a variety of purposes, including speaking, listening, reading, and writing."
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Language Fluency",
+                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language.",
+                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":14,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-english.svg",
+                                "imageAlt":"Graph of Egnlish proficiency in Latinos"
+                            }
+                        },
+                        {
+                            "id":15,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"33.2 million Latinos in the U.S. speak English proficiently."
+                            }
+                        },
+                        {
+                            "id":16,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Hispanics ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts."
+                            }
+                        },
+                        {
+                            "id":17,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"First, access to education:"
+                            }
+                        },
+                        {
+                            "id":18,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The evidence shows that Latino-Hispanic students are becoming more likely to graduate from high school."
+                            }
+                        },
+                        {
+                            "id":19,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Second, immigration:"
+                            }
+                        },
+                        {
+                            "id":20,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Since 2000, U.S. Latino population growth has been driven primarily by U.S. births rather than the arrival of new immigrants. After the second generation, our Latino community will likely speak more English at home, will have access to education opportunities, and increase chances to attend college."
+                            }
+                        },
+                        {
+                            "id":21,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Third, age:"
+                            }
+                        },
+                        {
+                            "id":22,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For example, 21% of Hispanics who do not speak English are ages 65 and older."
+                            }
+                        },
+                        {
+                            "id":23,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-parade.jpg",
+                                "imageAlt":"Banner for opening of Latino Cultural Museam in Seattle parade",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "How old are you?",
+                              "color":"#ffffff",
+                              "background":"#e028a5",
+                              "options": [
+                                { 
+                                  "answer": "Under 10",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "10-15",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "16-20",
+                                  "value": "50%"
+                                },
+                                {
+                                    "answer": "21-25",
+                                    "value": "50%"
+                                  },
+                                  {
+                                    "answer": "26+",
+                                    "value": "50%"
+                                  }
+                              ]
+                            }
+                        },
+                        {
+                            "id":25,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-proficient.svg",
+                                "imageAlt":"Graph of English proficiency by generation"
+                            }
+                        },
+                        {
+                            "id":26,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"My family and I speak Spanish at home but I’m also English proficient. I’m part of the 50% Latinos, Hispanics who said they are proficient in English and are in between 5 and 17 years old. What about you? "
+                            }
+                        },
+                        {
+                            "id":26.2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"My family and I speak Spanish at home but I’m also English proficient. I’m part of the 50% Latinos, Hispanics who said they are proficient in English and are in between 5 and 17 years old. What about you? "
+                            }
+                        },
+                        {
+                            "id":27,
+                            "type":"CardReveal",
+                            "details":
+                            {
+                                "cards":[
+                                    {
+                                        "id":0,
+                                        "revealText": "Bilingual as a noun",
+                                        "text":"A person fluent/proficient in two languages"
+                                    },
+                                    {
+                                        "id":1,
+                                        "revealText": "Bilingual as an adjective",
+                                        "text":"Speaking two languages fluently/proficiently"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":31,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-pic.jpg",
+                                "imageAlt":"Woman taking picture of Latinas with Beaver Store bags in front of a campus building",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":32,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-purple.svg",
+                                "imageAlt":"Percenages of Spanish dominant, English dominant, and English dominant"
+                            }
+                        },
+                        {
+                            "id":24,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "What language are you most likely to speak at home?",
+                              "color":"#ffffff",
+                              "background":"#e028a5",
+                              "options": [
+                                { 
+                                  "answer": "English",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "Spanish",
+                                  "value": "20%"
+                                },
+                                {
+                                  "answer": "Other",
+                                  "value": "50%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":34,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-girls.jpg",
+                                "imageAlt":"Three women talking in a conference room",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":35,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "background":"#e028a5",
+                                "color":"#ffffff",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"True"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"False"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"Learning two languages during the early childhood years will overwhelm, confuse, and/or delay acquisition of English."
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":36,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-table.jpg",
+                                "imageAlt":"Family at table in classroom",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":37,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Answer: myth!"
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"All young children are capable of learning two languages. Becoming bilingual has long-term cognitive, academic, social, cultural, and economic benefits. It is an asset! When both languages are supported, academic achievement in English is not impeded."
+                            }
+                        },
+                        {
+                            "id":38,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"By not speaking Spanish at home, kids will learn English proficiently."
+                            }
+                        },
+                        {
+                            "id":40,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "background":"#e028a5",
+                                "color":"#ffffff",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"True"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"False"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":1,
+                                        "text":"By not speaking Spanish at home, kids will learn English proficiently."
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":40.1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Although some parents and educators may have concerns about the potential for confusion, bilingual children do not suffer language confusion, language delay, or cognitive deficit."
+                            }
+                        },
+                        {
+                            "id":42,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "background":"#e028a5",
+                                "color":"#ffffff",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"True"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"False"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Bilinguals can earn more money."
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":42.1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not."
+                            }
+                        },
+                        {
+                            "id":43,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "center",
+                                "text":"One more!"
+                            }
+                        },
+                        {
+                            "id":44,
+                            "type":"QuizMultipleChoice",
+                            "details":
+                            {
+                                "background":"#e028a5",
+                                "color":"#ffffff",
+                                "options":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"True"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":1,
+                                        "text":"False"
+                                    }
+                                ],
+                                "questions":
+                                [
+                                    {
+                                        "id":0,
+                                        "connector":0,
+                                        "text":"Not all Latinos speak English"
+                                    },
+                                    {
+                                        "id":1,
+                                        "connector":99,
+                                        "text":"Correct! Felicidades!"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id":45,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "center",
+                                "text":"Popular Languages Spoken by Latinos"
+                            }
+                        },
+                        {
+                            "id":46,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-cloud.svg",
+                                "imageAlt":"Languages spoken by Latinos with size reflecting popularity"
+                            }
+                        },
+                        {
+                            "id":47,
+                            "type":"SubjectBlock",
+                            "details":
+                            {
+                                "align": "left",
+                                "text":"Let’s check this out"
+                            }
+                        },
+                        {
+                            "id":48,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In Central and South America, at least 721 languages are spoken! The vast majority are indigenous languages."
+                            }
+                        },
+                        {
+                            "id":48.1,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"In addition to linguistic richness from indigenous cultures, Latin Americans also speak languages inherited from the conquest: Spanish, Portuguese, Dutch, German, French, and English. So cool!"
+                            }
+                        },
+                        {
+                            "id":49,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-lastPurple.svg",
+                                "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
+                            }
+                        },
+                        {
+                            "id":50,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-bags.jpg",
+                                "imageAlt":"People in a line talking and holding bags",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#00058b",
+                                "opacity": 0.25
+                            }
+                        },
+                        {
+                            "id":51,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"pink",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#662d91",
+                                "subtext":"Let's explore career and money."
+                            }
+                        },
+                        {
+                            "id":52,
+                            "type":"Survey",
+                            "details":
+                            {
+                              "question": "Do you believe that being bilingual will have an advantage in your career?",
+                              "color":"#ffffff",
+                              "background":"#e028a5",
+                              "options": [
+                                { 
+                                  "answer": "True",
+                                  "value": "30%"
+                                },
+                                {
+                                  "answer": "False",
+                                  "value": "20%"
+                                }
+                              ]
+                            }
+                        },
+                        {
+                            "id":51,
+                            "type":"OlgasParallax",
+                            "details":
+                            {
+                                "type":"pink",
+                                "colorOne":"#aa0076",
+                                "colorTwo":"#662d91",
+                                "title":"Bilinguals are in demand!"
+                            }
+                        },
+                        {
+                            "id":52,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"On average, bilingual employees get paid 5-20% more than base salary for position."
+                            }
+                        },
+                        {
+                            "id":54,
+                            "type":"SingleImage",
+                            "details":
+                            {
+                                "url":"./assets/img/photo-language-bubbles.svg",
+                                "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
+                            }
+                        },
+                        {
+                            "id":55,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"For example, government workers in California who hold bilingual positions earn an extra $.58 an hour, according to the state's Department of Personnel Administration Web site. In Washington County, Oregon, employees in \"bilingual positions\" who spend 15-20 percent of their time in \"regular and frequent use\" of their bilingual skills earn an extra $30 per pay period."
+                            }
+                        },
+                        {
+                            "id":56,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"Bilingualism can boost your competitiveness in the job market. A second language will make your resume stand out when companies are seeking employees who can connect with diverse audiences."
+                            }
+                        },
+                        {
+                            "id":57,
+                            "type":"AccordionReveal",
+                            "details":
+                            {
+                                "accordions":[
+                                    {
+                                        "id":1,
+                                        "revealText": "Resources",
+                                        "html":"1.http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/<br/>2. https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/<br/>3. Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.<br/>4. https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf<br/>5. http://aboutworldlanguages.com/indigenous-languages-of-south-america<br/>6. https://www.sciencedaily.com/releases/2014/11/141112084504.htm"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "About",
+            "content": [
+                {
+                    "id": 0,
+                    "title" : "About Somos LatinX",
+                    "blocks":
+                    [
+                        {
+                            "id":0,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"This virtual space is part of the curriculum ¡Somos Latinx! Educational material designed by OSU - Ecampus."
+                            }
+                        },
                         {
                             "id":1,
                             "type":"Text",
                             "details":
                             {
-                                "text":"Before you begin Unit 1, please click on the \"Unit 1 Reflection Guide\" link below to download/print a note-taking sheet."
+                                "text":"Oregon State University is committed to the Latinx community, its education and its future. The value of this vibrant culture enriches the vision of the institution. We are proud to work hand in hand with children and families, as well as schools, local organizations, community college and public and private universities."
                             }
-                        }                        
+                        },
+                        {
+                            "id":2,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"At OSU we think that the future is now and that together we can build it."
+                            }
+                        }
                     ]
                 }
             ]

@@ -1,0 +1,32 @@
+{
+    "id":7,
+    "type":"Survey",
+    "details":
+    {
+      "question": "Which do you feel more comfortable with?",
+      "color":"#00058b",
+      "background":"#fcee21",
+      "options": [
+        { 
+          "answer": "Hispanic",
+          "value": "30%"
+        },
+        {
+          "answer": "Latino",
+          "value": "20%"
+        },
+        {
+          "answer": "LatinX",
+          "value": "50%"
+        },
+        {
+            "answer": "Latina",
+            "value": "50%"
+          },
+          {
+            "answer": "Other",
+            "value": "50%"
+          }
+      ]
+    }
+}
