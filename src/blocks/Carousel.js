@@ -88,7 +88,6 @@ const ss = StyleSheet.create({
     borderRadius:3,
     transition:'all .2s ease-in-out',
     '@media (max-width: 700px)': {
-      width: 'calc(100% - 70px)',
       marginTop:5,
       marginLeft:0,
       marginBottom:5,

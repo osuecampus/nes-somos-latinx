@@ -34,7 +34,6 @@ export default class Survey extends Component {
 
 const ss = StyleSheet.create({
   section: {
-    width: 'calc(100% - 70px)',
     borderRadius:3,
     padding:35,
       backgroundColor:'rgba(192,192,192,.2)',

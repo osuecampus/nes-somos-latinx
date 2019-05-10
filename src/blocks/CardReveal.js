@@ -26,10 +26,10 @@ export default class CardReveal extends Component {
       <section className={css(ss.section) + ' lightenUp'}>
         {this.props.details.cards.map((block) => 
           <div key={block.id} className={css(ss.cardHolder)}>
-            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
+            <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
               <p style={{fontSize:32}} className={css(ss.cardText)}>{block.revealText}</p>
             </div>
-            <div ref={'reveal'+block.id} className={css(ss.reveal)}>
+            <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} ref={'reveal'+block.id} className={css(ss.reveal)}>
               {block.text ? <div className={css(ss.cardText)}>{block.text}</div> : null }
               {block.textTwo ? <div className={css(ss.cardText)}>{block.textTwo}</div> : null }
               {block.textThree ? <div className={css(ss.cardText)}>{block.textThree}</div> : null }
@@ -76,6 +76,7 @@ const ss = StyleSheet.create({
     backgroundColor: '#aa0076',
     height: 330,
     width: 275,
+
     transform: 'rotateY(-0deg)',
     backfaceVisibility: 'hidden',
     border: '1px solid rgba(0,0,0,.15)',
@@ -92,6 +93,10 @@ const ss = StyleSheet.create({
     ':hover': {
         border: '1px solid #ff66d7',
         backgroundColor: '#ff66d7'
+    },
+    '@media (max-width: 950px)': {
+      width:'100%!important',
+      maxWidth:'100%!important'
     }
   },
   reveal:{
@@ -99,6 +104,7 @@ const ss = StyleSheet.create({
     backgroundColor: '#aa0076',
     height: 330,
     width: 275,
+   
     transform: 'rotateY(-90deg)',
     backfaceVisibility: 'hidden',
     border: '1px solid #aa0076',
@@ -114,6 +120,10 @@ const ss = StyleSheet.create({
     alignItems: 'center',
     padding: 0,
     transition: 'all .2s ease-in-out',
+    '@media (max-width: 950px)': {
+      width:'100%!important',
+      maxWidth:'100%!important'
+    }
   },
   cardFlip:{
       transform:'rotateY(90deg)',

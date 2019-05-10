@@ -73,6 +73,9 @@ const ss = StyleSheet.create({
     background:'#fff',
     borderRadius:3,
     fontWeight:'900',
+    '@media (max-width: 950px)': {
+      fontSize:26
+    }
   },
   subtext:{
     position:'absolute',
