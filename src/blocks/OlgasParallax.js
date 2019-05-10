@@ -15,25 +15,11 @@ export default class OlgasParallax extends Component {
         }
     }
 
-    componentDidMount() {
-      window.addEventListener('scroll', this.parallax, false);
-  }
-
-  componentWillUnmount() {
-      window.removeEventListener('scroll', this.parallax, false);
-  }
 
 
   
 
-    parallax = () => {
-      this.state.scroll !== window.scrollY  * -.075 ?
-      this.setState({
-        scroll:window.scrollY * -.075
-    })
-         : null
-      
-    }
+  
 
   render() {
 
@@ -57,7 +43,6 @@ const ss = StyleSheet.create({
       alignItems:'center',
       position:'relative',
       overflow:'hidden',
-      transform: 'translateZ(0px)'
   },
   title:{
     position:'absolute',
