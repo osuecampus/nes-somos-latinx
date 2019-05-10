@@ -210,7 +210,7 @@ body.darkLook {
     z-index: 2;
     border-left: 1px solid #eee;
     box-shadow: none;
-    transition: width 1s ease-in-out;
+    transition: width .5s cubic-bezier(0,.02,0,1.15)
 }
 .beginningNode{
     display: flex;

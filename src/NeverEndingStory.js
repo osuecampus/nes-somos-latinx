@@ -37,6 +37,7 @@ class App extends Component {
     // LOAD CONTENT AND SET DIMENSIONS //
     this.props.loadContent();
     this.detectDimensions();
+    this.detectSidebar();
     window.addEventListener("resize", this.detectDimensions.bind(this));
     window.addEventListener('scroll', () =>{  
       if(document.body.scrollTop > 200){ 
@@ -50,18 +51,20 @@ class App extends Component {
 
   detectDimensions() {
     if(window.innerWidth < 1000) {
-      this.refs.app.classList.add('mobile');
+      setTimeout(() => {this.refs.app.classList.add('mobile')},5)
     } else {
       this.refs.app.classList.remove('mobile');
     }
   }
 
+  detectSidebar(){
+    
+    setTimeout(() => {this.props.content[0] ? this.refs.app.classList.add('sidebar-'+this.props.content[0].config.sidebar) : ''},125)
+  }
+
   restart(){
     setTimeout(()=>{this.forceUpdate()},50)
   }
-
-
-
 
   render() {
     let footerTheme = 'light';
@@ -71,11 +74,12 @@ class App extends Component {
     else{
       footerTheme = 'dark';
     }
-
+    let sidebarSide =  'sidebar-' + (this.props.content[0] ? this.props.content[0].config.sidebar : '');
+    let mobileActive = this.props.mobile ? ' mobile' : '';
     return (
     
       
-      <div ref={'app'} className={ 'sidebar-'+ ( this.props.content[0] ? this.props.content[0].config.sidebar : '')} style={{height:'100%'}}>
+      <div ref={'app'}  style={{height:'100%'}}>
 
       <Route exact path="/:unit/:page" exact render={ (route) => <div>
       {this.props.setCurrentUnit(route.match.params.unit)}
