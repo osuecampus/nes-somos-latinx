@@ -1756,15 +1756,15 @@
                                         "id":0,
                                         "revealText": "Poverty",
                                         "revealTextEs":"POBREZA",
-                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty.",
-                                        "es":"Los individuos se consideran pobres si los recursos que comparten con otras personas en el hogar no son suficientes para satisfacer las necesidades básicas. En 2015, el umbral de pobreza para una familia de cuatro fue de $ 24,257. La tasa nacional oficial de pobreza fue del 13.5 por ciento. Había 43.1 millones de personas en la pobreza."
+                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty[1].",
+                                        "es":"Los individuos se consideran pobres si los recursos que comparten con otras personas en el hogar no son suficientes para satisfacer las necesidades básicas. En 2015, el umbral de pobreza para una familia de cuatro fue de $ 24,257. La tasa nacional oficial de pobreza fue del 13.5 por ciento. Había 43.1 millones de personas en la pobreza[1]."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Income",
                                         "revealTextEs":"INGRESOS",
-                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent).",
-                                        "es":"El flujo de efectivo o equivalentes de efectivo recibidos del trabajo (salario), capital (intereses o ganancias) o tierra (renta)."
+                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)[1].",
+                                        "es":"El flujo de efectivo o equivalentes de efectivo recibidos del trabajo (salario), capital (intereses o ganancias) o tierra (renta)[1]."
                                     }
                                 ]
                             }
@@ -1811,29 +1811,6 @@
                                 {
                                   "answer": "No",
                                   "answerEs": "no",
-                                  "value": "20%"
-                                }
-                              ]
-                            }
-                        },
-                        {
-                            "id":10.5,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Are you concerned about your future personal finances?",
-                              "questionEs": "¿Está preocupado por sus futuras finanzas personales?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"si",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -1900,62 +1877,6 @@
                                 "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts.",
                                 "es":"Millones de latinos trabajan en industrias que son muy frágiles; Están conectados a la economía cuando el mercado crece o se contrae."
                             }
-                        },
-                        {
-                            "id":17,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your age?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "12-17",
-                                  "value": "30%"
-                                },
-                                {
-                                    "answer": "18-29",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "30-49",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "50-64",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "65+",
-                                    "value": "20%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
-                            "id":18,
-                            "type":"Survey",
-                            "details":
-                            {
-                                "question": "Are you hispanic/LatinX?",
-                                "questionEs":"¿Eres hispano / latinX?",
-                                "color":"#ffffff",
-                                "background":"#f15a24",
-                                "options": [
-                                  {
-                                    "answer": "Yes",
-                                    "answerEs":"si",
-                                    "value": "30%"
-                                  },
-                                  {
-                                      "answer": "No",
-                                      "answerEs":"no",
-                                      "value": "20%"
-                                    }
-                                ]
-                              }
                         },
                         {
                             "id":18,
@@ -2042,7 +1963,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The seemingly strong recovery for Hispanics is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Hispanics with jobs barely increased up in the recovery.",
+                                "text":"The seemingly strong recovery for Latinos is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Latinos with jobs barely increased up in the recovery.",
                                 "es":"La recuperación aparentemente fuerte para los hispanos tiene más que ver con la demografía que con la buena fortuna económica. Debido a que el crecimiento del empleo y el crecimiento de la población avanzan a tasas similares, la proporción de hispanos con empleos apenas aumentó en la recuperación."
                             }
                         },
@@ -2111,8 +2032,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation.",
-                                "es":"En 2014, aproximadamente el 69 por ciento de los inmigrantes mexicanos (mayores de 16 años) estaban en la fuerza laboral civil. Estos trabajos incluyen servicios como restaurantes y hoteles, construcción, agricultura y mantenimiento, así como producción y transporte."
+                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation[3].",
+                                "es":"En 2014, aproximadamente el 69 por ciento de los inmigrantes mexicanos (mayores de 16 años) estaban en la fuerza laboral civil. Estos trabajos incluyen servicios como restaurantes y hoteles, construcción, agricultura y mantenimiento, así como producción y transporte[3]."
                             }
                         },
                         {
@@ -2193,29 +2114,6 @@
                                 "colorTwo":"#f15a24",
                                 "subtext":"How can we change the future of the Latino community? Think about it!",
                                 "subtextEs":"¿Cómo podemos cambiar el futuro de la comunidad latina? ¡Piénsalo!"
-                            }
-                        },
-                        {
-                            "id":40,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Do you believe that poverty can change your outcome in life?",
-                              "questionEs":"Crees eso ¿La pobreza puede cambiar tu resultado en la vida?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"si",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs":"no",
-                                  "value": "20%"
-                                }
-                              ]
                             }
                         },
                         {
@@ -2441,7 +2339,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"A survey in 2013 found that 95% of Hispanics believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.",
+                                "text":"A survey in 2013 found that 95% of Latinos believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.",
                                 "es":"Una encuesta realizada en 2013 encontró que el 95% de los hispanos creen que es importante que las futuras generaciones de hispanos en los Estados Unidos puedan hablar español. "
                             }
                         },
@@ -2450,7 +2348,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In my community, most Latinos, Hispanics speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).",
+                                "text":"In my community, most Latinos speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).",
                                 "es":"En mi comunidad, la mayoría de los latinos e hispanos hablan español en casa, pero están de acuerdo que el inglés es importante para tener éxito en los Estados Unidos. (9 de cada 10 personas en la encuesta estuvieron de acuerdo)."
                             }
                         },
@@ -2494,17 +2392,17 @@
                                         "id":0,
                                         "revealText": "Language Proficiency",
                                         "revealTextEs":"La competencia lingüística",
-                                        "es":"La competencia se refiere a la capacidad que tiene una persona para usar un idioma en una variedad de propósitos como hablar, escuchar, leer y escribir. ",
-                                        "text":"Proficiency refers to a person's ability to use a language for a variety of purposes, including speaking, listening, reading, and writing."
+                                        "es":"La competencia se refiere a la capacidad que tiene una persona para usar un idioma en una variedad de propósitos como hablar, escuchar, leer y escribir[1].",
+                                        "text":"Proficiency refers to a person's ability to use a language for a variety of purposes, including speaking, listening, reading, and writing[1]."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Language Fluency",
                                         "revealTextEs":"Fluidez del lenguaje",
-                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma.",
-                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario.",
-                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language.",
-                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary."
+                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma[1].",
+                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario[1].",
+                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language[1].",
+                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary[1]."
                                     }
                                 ]
                             }
@@ -2533,7 +2431,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Hispanics ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.",
+                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Latinos ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.",
                                 "es":"¡Este es el mayor porcentaje de todos! En 2013, este grupo representó el 68% de todos los hispanos de 5 años de edad en adelante, un 59% más que en 2000.Cuando hablamos de competencia, necesitamos conectar conceptos."
                             }
                         },
@@ -2590,8 +2488,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"For example, 21% of Hispanics who do not speak English are ages 65 and older.",
-                                "es":"Por ejemplo, el 21% de los hispanos que no hablan inglés tienen 65 años o más."
+                                "text":"For example, 21% of Hispanics who do not speak English are ages 65 and older[1].",
+                                "es":"Por ejemplo, el 21% de los hispanos que no hablan inglés tienen 65 años o más[1]."
                             }
                         },
                         {
@@ -2604,40 +2502,6 @@
                                 "colorOne":"#aa0076",
                                 "colorTwo":"#00058b",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":24,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "How old are you?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#ffffff",
-                              "background":"#e028a5",
-                              "options": [
-                                { 
-                                  "answer": "Under 10",
-                                  "answerEs":"Menos de 10",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "10-15",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "16-20",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "21-25",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "26+",
-                                    "value": "50%"
-                                  }
-                              ]
                             }
                         },
                         {
@@ -2677,15 +2541,15 @@
                                         "id":0,
                                         "revealText": "Bilingual as a noun",
                                         "revealTextEs":"Bilingue como sustantivo",
-                                        "es":"“Una persona con fluidez y proficiencia en dos idiomas”",
-                                        "text":"A person fluent/proficient in two languages"
+                                        "es":"“Una persona con fluidez y proficiencia en dos idiomas[3]”",
+                                        "text":"A person fluent/proficient in two languages[3]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Bilingual as an adjective",
                                         "revealTextEs":"Bilingue como adjetivo",
-                                        "es":"“Hablando dos idiomas con fluidez y proficiencia”",
-                                        "text":"Speaking two languages fluently/proficiently"
+                                        "es":"“Hablando dos idiomas con fluidez y proficiencia”[3]",
+                                        "text":"Speaking two languages fluently/proficiently[3]"
                                     }
                                 ]
                             }
@@ -2895,7 +2759,7 @@
                                     {
                                         "id":0,
                                         "connector":0,
-                                        "text":"Bilinguals can earn more money.",
+                                        "text":"People who are bilingual can earn more money.",
                                         "es":"Las personas bilingües puede ganar más dinero."
                                     },
                                     {
@@ -2912,7 +2776,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not.",
+                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not. Increases are not automatic. We need to better advocate for ourselves in the workplace if we speak a second a language.",
                                 "es":"Los rendimientos financieros varían según el idioma y el trabajo, pero pueden sumar mucho. Los trabajos pagan diferenciales basados ​​en el bilingüismo y suelen pagar entre un 5 y un 20% más por hora para los empleados bilingües. Albert Saiz, economista del MIT, descubrió que los graduados universitarios que hablan dos idiomas ganan en promedio un 2% más que una persona que no habla dos lenguajes."
                             }
                         },
@@ -3076,7 +2940,7 @@
                                 "type":"pink",
                                 "colorOne":"#aa0076",
                                 "colorTwo":"#662d91",
-                                "title":"Bilinguals are in demand!",
+                                "title":"Bilingual people are in demand!",
                                 "titleEs":"LOS BILINGÜES ESTÁN EN DEMANDA"
                             }
                         },
