@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, css } from 'aphrodite';
+import { StyleSheet, css } from 'aphrodite/no-important';
 import { callbackify } from "util";
 
 // details.layout
@@ -14,13 +14,15 @@ export default class TextColumns extends Component {
 
   render() {
     return (
-      <section className={css(ss.section)}>
+      <section style={{flexDirection:this.props.details.type == 'full' && 'column'}} className={css(ss.section)}>
         {this.props.details.columns.map((block) => 
-          <div tabIndex='4' onKeyPress={e => e.which === 13 ? block.url ? this.launchUrl(block.url) : null : null}  onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: (( 1 / this.props.details.columns.length) * 100)+'%'}} className={css(ss.column, block.youtube && ss.youtubeColumn)} key={block.id}>
+          <div tabIndex='4' onKeyPress={e => e.which === 13 ? block.url ? this.launchUrl(block.url) : null : null}  onClick={() => block.url ? this.launchUrl(block.url) : null} style={{cursor: block.url ? 'pointer':'default',width: this.props.details.type == 'full' ? '100%' :  (( 1 / this.props.details.columns.length) * 100)+'%', height: this.props.details.type == 'full' && 600}} className={css(ss.column, block.youtube && ss.youtubeColumn)} key={block.id}>
             {block.youtube ? <img className={css(ss.spinner)} src={'./assets/img/loading-white.apng'} /> : null}
-            {block.image ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> : null } 
+			{block.image ?
+				 this.props.language == 'es' ? <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.esImage} alt={block.imageAlt} title={block.imageAlt} /></div> : <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center',  height:235,}}><img className={css(ss.images)} style={{maxHeight:'100%', height: block.imageHeight ? block.imageHeight : 'initial'}} src={block.image} alt={block.imageAlt} title={block.imageAlt} /></div> 
+				 : null } 
             {block.headline ? <h1 className={css(ss.headline)}>{block.headline}</h1> : null }
-            {block.youtube ? <iframe className={css(ss.video)} src={'https://www.youtube.com/embed/'+block.youtube} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope;" allowFullScreen></iframe> : null }
+            {block.youtube ? <iframe style={{height: this.props.details.type == 'full' && '100%'}} className={css(ss.video)} src={'https://www.youtube.com/embed/'+block.youtube} frameBorder="0" allow="accelerometer; encrypted-media; gyroscope;" allowFullScreen></iframe> : null }
             {block.bold ? <h1 className={css(ss.bold)}>{block.bold} {block.language ? <div className={css(ss.lang)}>{block.language}</div>:null}</h1> : null }
             {block.text ? <p className={css(ss.text)}>{block.text}</p> : null }
           </div>

@@ -58,8 +58,7 @@ class App extends Component {
   }
 
   detectSidebar(){
-    
-    setTimeout(() => {this.props.content[0] ? this.refs.app.classList.add('sidebar-'+this.props.content[0].config.sidebar) : ''},125)
+    this.refs.app.classList.add('sidebar-left');
   }
 
   restart(){

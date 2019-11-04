@@ -34,8 +34,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Somos LatinX! It’s a virtual tool, designed to stimulate conversations and reflections on LatinX identity.We built a space in which you, the diversity and the multiculturality are the protagonists. To navigate, we recommend that you put in context your identity, personal history, and the reason why you want to access this tool.",
-                                "es":"¡Somos LatinX! Es una herramienta virtual, diseñada para estimular conversaciones y reflexiones sobre la identidad de LatinX.Construimos un espacio en el que usted, la diversidad y la multiculturalidad son los protagonistas. Para navegar, te recomendamos que pongas en contexto tu identidad, historia personal, y la razón por la cual quieres acceder a esta herramienta."
+                                "text":"Somos LatinX! It’s a virtual tool, designed to stimulate conversations and reflections on LatinX identity. We built a space in which you, the diversity and the multiculturality are the protagonists. To navigate, we recommend that you put in context your identity, personal history, and the reason why you want to access this tool.",
+                                "es":"¡Somos LatinX! Es una herramienta virtual, diseñada para estimular conversaciones y reflexiones sobre la identidad LatinX. Estes es un espacio en el que usted, la diversidad y la multiculturalidad son los protagonistas. Para navegar, te recomendamos que pongas en contexto tu identidad, historia personal, y la razón por la cual quieres acceder a esta herramienta."
                             }
                         },
                         {
@@ -47,14 +47,16 @@
                                 [
                                     {
                                         "id": 0,
-                                        "image":"./assets/img/home-stories.svg",
+										"image":"./assets/img/home-stories.svg",
+										"esImage":"./assets/img/home-stories-es.svg",
                                         "imageAlt": "Stories",
                                         "imageHeight":250,
                                         "url":"./#/1/0"
                                     },
                                     {
                                         "id": 1,
-                                        "image":"./assets/img/home-education.svg",
+										"image":"./assets/img/home-education.svg",
+										"esImage":"./assets/img/home-education-es.svg",
                                         "imageAlt": "Education",
                                         "imageHeight":250,
                                         "url":"./#/2/0"
@@ -68,11 +70,13 @@
         },
         {
             "id": 1,
-            "title": "Community Stories",
+			"title": "Community Stories",
+			"esTitle":"Historias de la Comunidad",
             "content": [
                 {
                     "id": 0,
-                    "title" : "Community Stories",
+					"title" : "Community Stories",
+					"esTitle":"Historias de la Comunidad",
                     "blocks":
                     [
                         {
@@ -89,6 +93,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -117,6 +122,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -145,6 +151,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -174,11 +181,13 @@
         },
         {
             "id": 2,
-            "title": "Interactive Education",
+			"title": "Interactive Education",
+			"esTitle":"Educación Interactiva",
             "content": [
                 {
                     "id": 0,
-                    "title" : "LatinX Identity",
+					"title" : "LatinX Identity",
+					"esTitle":"Identidad LatinX",
                     "blocks":
                     [
                         {
@@ -217,7 +226,7 @@
                             "details":
                             {
                                 "text":"​LatinX is the gender-neutral alternative to Latino, Latina and even Latin@.",
-                                "es":"LatinX es la alternativa de géneroneutral para Latino, Latina e inclusoLatin@."
+                                "es":"LatinX es la alternativa de géneroneutral para Latino, Latina e incluso Latin@."
                             }
                         },
                         {
@@ -259,7 +268,7 @@
                             "details":
                             {
                                 "text":"​Currently, the U.S. government uses the terms Hispanic to define ethnicity, not race.",
-                                "es":"como términos para definir regionesde origen y no la raza de unapersona."
+                                "es":""
                             }
                         },
                         {
@@ -276,16 +285,22 @@
                         },
                         {
                             "id":7,
-                            "type":"Survey",
+							"type":"Survey",
+							
                             "details":
                             {
+								"reveal":{
+									"url":"./assets/img/photo-identity-charts.svg",
+									"imageAlt":"Two charts on people's preferences"
+								},
                               "question": "Which do you feel more comfortable with?",
                               "questionEs":"¿Con cuál te sientes más cómodo? Hispano, Latino o Latina, LatinX u otros",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
-                                  "answer": "Hispanic",
+								  "answer": "Hispanic",
+								  "answerEs":"Hispano / Hispana",
                                   "value": "30%"
                                 },
                                 {
@@ -301,21 +316,14 @@
                                     "value": "50%"
                                   },
                                   {
-                                    "answer": "Other",
+									"answer": "Other",
+									"answerEs":"Otro",
                                     "value": "50%"
                                   }
                               ]
                             }
                         },
-                        { 
-                            "id":8,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-identity-charts.svg",
-                                "imageAlt":"Two charts on people's preferences"
-                            } 
-                        },
+                        
                         {
                             "id":9,
                             "type":"Text",
@@ -383,7 +391,7 @@
                             {
                                 "align": "left",
                                 "text":"Which terms do you think, LatinX foreign born and USA born primarily use to describe themselves?",
-                                "es":"¿Qué términos crees que Latinos nacidos en el extranjero y los nacidos en los Estados Unidos se usan principalmente para describirse a sí mismos?",
+                                "es":"¿Qué términos crees que los Latinos nacidos en el extranjero y los nacidos en los Estados Unidos usan principalmente para describirse a sí mismos?",
                                 "size": "bigger"
                             }
                         },
@@ -393,7 +401,7 @@
                             "details":
                             {
                                 "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%). As you can see, the majority of LatinX communities living in the USA are foreign born[2].",
-                                "es":"este análisis divide a los latinos en tres grupos: primera generación, segunda generación y tercera generación o superior. Los latinos de primera generación nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%). Los latinos de segunda generación nacieron en los Estados Unidos de padres inmigrantes (19%). Los latinos de tercera o mayor generación nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)[2]."
+                                "es":"Este análisis divide a los latinos en tres grupos: primera generación, segunda generación y tercera generación o superior. Los latinos de primera generación nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%). Los latinos de segunda generación nacieron en los Estados Unidos de padres inmigrantes (19%). Los latinos de tercera o mayor generación nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)[2]."
                             }
                         },
                         {
@@ -413,7 +421,7 @@
                             "details":
                             {
                                 "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity[2].",
-                                "es":"las actitudes hacia la identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación. Cuando se les pregunta qué término usan principalmente para describirse, los latinos de primera generación tienen muchas más probabilidades de seleccionar su país de origen en América Latina que los latinos de segunda generación (68% frente a 38%). Solo el seis por ciento de los latinos de primera generación informan que usan el término 'estadounidense' para describirse a sí mismos en comparación con más de un tercio (35%) de los latinos de segunda generación. Sin embargo, un número igual (25%) de latinos de primera y segunda generación reportan que usan el término latino / hispano como el término principal para expresar identidad[2]"
+                                "es":"Las actitudes hacia la identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación. Cuando se les pregunta qué término usan principalmente para describirse, los latinos de primera generación tienen muchas más probabilidades de seleccionar su país de origen en América Latina que los latinos de segunda generación (68% frente a 38%). Solo el seis por ciento de los latinos de primera generación informan que usan el término 'estadounidense' para describirse a sí mismos en comparación con más de un tercio (35%) de los latinos de segunda generación. Sin embargo, un número igual (25%) de latinos de primera y segunda generación reportan que usan el término latino / hispano como el término principal para expresar identidad[2]."
                             }
                         },
                         {
@@ -433,17 +441,17 @@
                                 },
                                 {
                                   "answer": "1st Generation, USA-born",
-                                  "answerEs":"primerageneración",
+                                  "answerEs":"Primera generación",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "2nd Generation, USA-born",
-                                  "answerEs":"segunda generación",
+                                  "answerEs":"Segunda generación",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "3rd+ Generation, USA-born",
-                                    "answerEs":"tercerageneración +",
+                                    "answerEs":"Tercera generación +",
                                     "value": "50%"
                                   }
                               ]
@@ -499,7 +507,11 @@
                               "question": "Which do you prefer?",
                               "questionEs":"¿Cual prefieres?",
                               "color":"#00058b",
-                              "background":"#fcee21",
+							  "background":"#fcee21",
+							  "reveal":{
+									"url":"./assets/img/photo-identity-chartTwo.svg",
+									"imageAlt":"A chart showing preferences"
+							  },
                               "options": [
                                 { 
                                   "answer": "Hispanic/LatinX",
@@ -512,15 +524,6 @@
                                   "value": "20%"
                                 }
                               ]
-                            }
-                        },
-                        {
-                            "id":32,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-identity-chartTwo.svg",
-                                "imageAlt":"A chart showing preferences"
                             }
                         },
                         {
@@ -941,7 +944,10 @@
                             {
                               "question": "What level of education do you want to achieve?",
                               "questionEs":"¿Qué nivel de educación quieres alcanzar?",
-                              "color":"#00058b",
+							  "color":"#00058b",
+							  "reveal":{
+								  "text":"You can do it!"
+							  },
                               "background":"#69bfff",
                               "options": [
                                 { 
@@ -1322,6 +1328,14 @@
                                 "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA.",
                                 "es":"Posiciones políticas, crisis económicas, guerras y otros factores macroambientales cambiaron la huella de la inmigración mexicana a los Estados Unidos."
                             }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
+                            }
                         },
                         {
                             "id":23,
@@ -1361,6 +1375,14 @@
                             {
                                 "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans[2].",
                                 "es":"En 1898, Puerto Rico fue transferido de España a los Estados Unidos y en 1917, la Ley Jones-Shafroth hizo que todos los puertorriqueños fueran ciudadanos estadounidenses. Se estima que 470,000 puertorriqueños, el 21 por ciento de la población de la isla, emigraron en la década de 1950 en un movimiento que se conoce como la Gran Migración. Hoy en día, representan el 10% de la población latina en los EE. UU. Y se convierten en el segundo grupo más grande después de los mexicoamericanos[2]."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1420,6 +1442,14 @@
                             {
                                 "text":"The Cuban Revolution led to the mass migration of Cubans to the United States in 1959. Since it was the height of the cold war, their presence was supported and encouraged by the U.S. government. According to the U.S. Census, Cuban Americans lived in all 50 states. But most Cuban immigrants settled in south Florida.Communities like Miami, Tampa, and Union City, where Cuban Americans made their homes, experienced a vibrant cultural transformation.",
                                 "es":"La Revolución cubana condujo a la migración masiva de cubanos a los Estados Unidos en 1959. Como era el momento culminante de la guerra fría, su presencia fue apoyada y alentada por el gobierno de los Estados Unidos. Según el Censo de los Estados Unidos, los cubanoamericanos vivían en los 50 estados. Pero la mayoría de los inmigrantes cubanos se establecieron en el sur de la Florida. Comunidades como Miami, Tampa y Union City, donde los cubano-americanos hicieron sus hogares, experimentaron una transformación cultural vibrante."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1490,6 +1520,14 @@
                             {
                                 "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras.",
                                 "es":"En los últimos años, la inmigración centroamericana a los Estados Unidos ha sido el centro de atención significativa de los medios de comunicación y las políticas públicas, ya que la cantidad de niños y familias no acompañados que huyen de la violencia de pandillas y la pobreza ha aumentado dramáticamente. La mayoría de los 3.4 millones de centroamericanos que residen en los Estados Unidos son del Triángulo del Norte, formado por El Salvador, Guatemala y Honduras."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1572,6 +1610,14 @@
                             {
                                 "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population[4].",
                                 "es":"Este número creció de 90,000 personas en 1960 cuando este grupo de inmigrantes representó solo el 1% del total de la población inmigrante, a alrededor de 2.9 millones de personas en 2014. ¡Sorprendente! En 2014, los cinco países de origen más grandes fueron Colombia (707,000, casi el 25 por ciento de todos los inmigrantes sudamericanos), Perú el 16 por ciento, Ecuador el 15 por ciento, Brasil el 12 por ciento y Guyana el 10 por ciento. Juntos, representaron el 77 por ciento del total de la población inmigrante sudamericana[4]."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -2279,7 +2325,9 @@
                             "type":"QuizMultipleChoice",
                             "details":
                             {
-                                "color":"#ffffff",
+								"color":"#ffffff",
+								"url":"./assets/img/photo-language-pie.svg",
+								"imgAlt":"Pie chart of English and Spanish use among Hispanics",
                                 "background":"#e028a5",
                                 "options":
                                 [
@@ -2313,27 +2361,8 @@
                                 ]
                             }
                         },
-                        {
-                            "id":5,
-                            "type":"OlgasParallax",
-                            "details":
-                            {
-                                "type":"pink",
-                                "colorOne":"#aa0076",
-                                "colorTwo":"#662d91",
-                                "subtext":"Let me share something with you!",
-                                "subtextEs":"¡Déjame compartir algo contigo!"
-                            }
-                        },
-                        {
-                            "id":6,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-language-pie.svg",
-                                "imageAlt":"Pie chart of English and Spanish use among Hispanics"
-                            }
-                        },
+                      
+        
                         {
                             "id":7,
                             "type":"Text",
@@ -2573,6 +2602,15 @@
                             {
                                 "url":"./assets/img/photo-language-purple.svg",
                                 "imageAlt":"Percenages of Spanish dominant, English dominant, and English dominant"
+                            }
+						},
+						{
+                            "id":26.2,
+                            "type":"Text",
+                            "details":
+                            {
+								"text":"[3]",
+								"es":"[3]"
                             }
                         },
                         {
@@ -2883,6 +2921,15 @@
                             {
                                 "url":"./assets/img/photo-language-lastPurple.svg",
                                 "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
+                            }
+						},
+						{
+                            "id":48,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"[1]",
+                                "es":"[1]"
                             }
                         },
                         {

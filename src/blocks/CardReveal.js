@@ -7,10 +7,17 @@ import { StyleSheet, css } from 'aphrodite/no-important';
 
 export default class CardReveal extends Component {
 
-  cardReveal(selectedCard, revealedCard){
-    this.refs[selectedCard].classList.add(css(ss.cardFlip));
-    setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
-  }
+	cardReveal(selectedCard, revealedCard){
+		this.refs[selectedCard].classList.add(css(ss.cardFlip));
+		setTimeout(() => { this.refs[revealedCard].classList.add(css(ss.revealFlip)) }, 200);
+	}
+
+	cardHide(selectedCard, revealedCard){
+		this.refs[selectedCard].classList.remove(css(ss.cardFlip));
+		setTimeout(() => { this.refs[revealedCard].classList.remove(css(ss.revealFlip)) }, 200);
+	}
+
+
   componentWillReceiveProps(props){
 
     let revealFlip = window.document.querySelectorAll('.'+css(ss.revealFlip));
@@ -29,7 +36,7 @@ export default class CardReveal extends Component {
             <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.cardReveal('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardReveal('card'+block.id, 'reveal'+block.id)} ref={'card'+block.id} className={css(ss.card)}>
               <p style={{fontSize:32}} className={css(ss.cardText)}>{this.props.language == 'en' ? block.revealText: block.revealTextEs}</p>
             </div>
-            <div style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} ref={'reveal'+block.id} className={css(ss.reveal)}>
+            <div tabIndex={'4'} onKeyDown={(event) => event.keyCode == 13 ? this.cardHide('card'+block.id, 'reveal'+block.id) : null } onClick={() => this.cardHide('card'+block.id, 'reveal'+block.id)} style={{maxWidth: (100/(this.props.details.cards.length))+'%'}} ref={'reveal'+block.id} className={css(ss.reveal)}>
               {block.text ? <div className={css(ss.cardText)}>{this.props.language == 'en' ? block.text : block.es}</div> : null }
               {block.textTwo ? <div className={css(ss.cardText)}>{this.props.language == 'en' ? block.textTwo : block.esTwo}</div> : null }
               {block.textThree ? <div className={css(ss.cardText)}>{block.textThree}</div> : null }
@@ -104,7 +111,7 @@ const ss = StyleSheet.create({
     backgroundColor: '#aa0076',
     height: 330,
     width: 275,
-   
+   cursor:'pointer',
     transform: 'rotateY(-90deg)',
     backfaceVisibility: 'hidden',
     border: '1px solid #aa0076',
@@ -123,7 +130,11 @@ const ss = StyleSheet.create({
     '@media (max-width: 950px)': {
       width:'100%!important',
       maxWidth:'100%!important'
-    }
+	},
+	':hover': {
+        border: '1px solid #ff66d7',
+        backgroundColor: '#ff66d7'
+    },
   },
   cardFlip:{
       transform:'rotateY(90deg)',
