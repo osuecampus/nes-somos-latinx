@@ -34,8 +34,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Somos LatinX! It’s a virtual tool, designed to stimulate conversations and reflections on LatinX identity.We built a space in which you, the diversity and the multiculturality are the protagonists. To navigate, we recommend that you put in context your identity, personal history, and the reason why you want to access this tool.",
-                                "es":"¡Somos LatinX! Es una herramienta virtual, diseñada para estimular conversaciones y reflexiones sobre la identidad de LatinX.Construimos un espacio en el que usted, la diversidad y la multiculturalidad son los protagonistas. Para navegar, te recomendamos que pongas en contexto tu identidad, historia personal, y la razón por la cual quieres acceder a esta herramienta."
+                                "text":"Somos LatinX! It’s a virtual tool, designed to stimulate conversations and reflections on LatinX identity. We built a space in which you, the diversity and the multiculturality are the protagonists. To navigate, we recommend that you put in context your identity, personal history, and the reason why you want to access this tool.",
+                                "es":"¡Somos LatinX! Es una herramienta virtual, diseñada para estimular conversaciones y reflexiones sobre la identidad LatinX. Estes es un espacio en el que usted, la diversidad y la multiculturalidad son los protagonistas. Para navegar, te recomendamos que pongas en contexto tu identidad, historia personal, y la razón por la cual quieres acceder a esta herramienta."
                             }
                         },
                         {
@@ -47,14 +47,16 @@
                                 [
                                     {
                                         "id": 0,
-                                        "image":"./assets/img/home-stories.svg",
+										"image":"./assets/img/home-stories.svg",
+										"esImage":"./assets/img/home-stories-es.svg",
                                         "imageAlt": "Stories",
                                         "imageHeight":250,
                                         "url":"./#/1/0"
                                     },
                                     {
                                         "id": 1,
-                                        "image":"./assets/img/home-education.svg",
+										"image":"./assets/img/home-education.svg",
+										"esImage":"./assets/img/home-education-es.svg",
                                         "imageAlt": "Education",
                                         "imageHeight":250,
                                         "url":"./#/2/0"
@@ -68,11 +70,13 @@
         },
         {
             "id": 1,
-            "title": "Community Stories",
+			"title": "Community Stories",
+			"esTitle":"Historias de la Comunidad",
             "content": [
                 {
                     "id": 0,
-                    "title" : "Community Stories",
+					"title" : "Community Stories",
+					"esTitle":"Historias de la Comunidad",
                     "blocks":
                     [
                         {
@@ -89,6 +93,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -117,6 +122,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -145,6 +151,7 @@
                             "type":"TextColumns",
                             "details":
                             {
+								"type":"full",
                                 "columns":
                                 [
                                     {
@@ -174,11 +181,13 @@
         },
         {
             "id": 2,
-            "title": "Interactive Education",
+			"title": "Interactive Education",
+			"esTitle":"Educación Interactiva",
             "content": [
                 {
                     "id": 0,
-                    "title" : "LatinX Identity",
+					"title" : "LatinX Identity",
+					"esTitle":"Identidad LatinX",
                     "blocks":
                     [
                         {
@@ -217,7 +226,7 @@
                             "details":
                             {
                                 "text":"​LatinX is the gender-neutral alternative to Latino, Latina and even Latin@.",
-                                "es":"LatinX es la alternativa de géneroneutral para Latino, Latina e inclusoLatin@."
+                                "es":"LatinX es la alternativa de géneroneutral para Latino, Latina e incluso Latin@."
                             }
                         },
                         {
@@ -225,7 +234,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Used by scholars and ​activists to move beyond gender binaries and the intersectionality of Latin American descendants. In addition tomen and women from all racial and ethnic backgrounds, LatinX also opens the spectrum for who aretrans, queer, agender, non-binary, gender nonconforming or gender fluid.",
+                                "text":"Used by scholars and ​activists to move beyond gender binaries and the intersectionality of Latin American descendants. In addition to men and women from all racial and ethnic backgrounds, LatinX also opens the spectrum for who are trans, queer, agender, non-binary, gender nonconforming or gender fluid.",
                                 "es":"Utilizado por académicos y activistas para ir más allá de los binarios de género y la interseccionalidad de los descendientes de América Latina. Además de hombres y mujeres de todos los orígenes raciales y étnicos, LatinX también abre el espectro para quienes son trans, queer, sin género, no binarios, no conformes con el género o fluidos de género."
                             }
                         },
@@ -240,14 +249,14 @@
                                         "id": 0,
                                         "revealText":"Latino",
                                         "revealTextEs":"Latino",
-                                        "text":"Latino refers to the culture or origins of people from countries (or cultures) that were onceunder Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians areconsidered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins.",
+                                        "text":"Latino refers to the culture or origins of people from countries (or cultures) that were once under Roman rule. This includes Italy, France, Spain, Portugal, etc. For example, Brazilians are considered Latino but are not considered Hispanic. ​Latin America​ refers to the North, Centraland South American countries that have Latin origins.",
                                         "es":"se refiere a la cultura u orígenes de personas de países (o culturas) que alguna vez estuvieron bajo el dominio romano. Esto incluye Italia, Francia, España, Portugal, etc. Por ejemplo, los brasileños se consideran Latinos pero no se consideran Hispanos. América Latina se refiere a los países del norte, centro y sur de América, que tienen orígenes Latinos."
                                     },
                                     {
                                         "id": 1,
                                         "revealText":"Hispanic",
                                         "revealTextEs":"Hispano",
-                                        "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, CentralAmerica, and most of South America where Spanish is the primary language).",
+                                        "text":"Hispanic​ describes cultures or countries that were once under Spanish rule (Mexico, Central America, and most of South America where Spanish is the primary language).",
                                         "es":"describe culturas o países que una vez estuvieron bajo el dominio español (México, América Central y la mayor parte de Sudamérica, donde el español es el idioma principal)."
                                     }
                                 ]
@@ -259,7 +268,7 @@
                             "details":
                             {
                                 "text":"​Currently, the U.S. government uses the terms Hispanic to define ethnicity, not race.",
-                                "es":"como términos para definir regionesde origen y no la raza de unapersona."
+                                "es":""
                             }
                         },
                         {
@@ -276,16 +285,22 @@
                         },
                         {
                             "id":7,
-                            "type":"Survey",
+							"type":"Survey",
+							
                             "details":
                             {
+								"reveal":{
+									"url":"./assets/img/photo-identity-charts.svg",
+									"imageAlt":"Two charts on people's preferences"
+								},
                               "question": "Which do you feel more comfortable with?",
                               "questionEs":"¿Con cuál te sientes más cómodo? Hispano, Latino o Latina, LatinX u otros",
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
                                 { 
-                                  "answer": "Hispanic",
+								  "answer": "Hispanic",
+								  "answerEs":"Hispano / Hispana",
                                   "value": "30%"
                                 },
                                 {
@@ -301,28 +316,21 @@
                                     "value": "50%"
                                   },
                                   {
-                                    "answer": "Other",
+									"answer": "Other",
+									"answerEs":"Otro",
                                     "value": "50%"
                                   }
                               ]
                             }
                         },
-                        { 
-                            "id":8,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-identity-charts.svg",
-                                "imageAlt":"Two charts on people's preferences"
-                            } 
-                        },
+                        
                         {
                             "id":9,
                             "type":"Text",
                             "details":
                             {
-                                "text":"​Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%.",
-                                "es":"'Hispano' o 'Latino'? A la mayoría no le importa, pero entre los que sí les importa, se prefiere 'Hispano'. La mitad (51%) dice que no tiene preferencia por ningún término. Cuando se expresa una preferencia, se prefiere 'Hispano' a 'Latino' por más de un margen de dos a uno: 33% versus 14%."
+                                "text":"​“Hispanic” or “Latino”? Most don’t care—but among those who do, “Hispanic” is preferred. Half(51%) say they have no preference for either term. When a preference is expressed, “Hispanic”is preferred over “Latino” by more than a two-to-one margin—33% versus 14%[1].",
+                                "es":"'Hispano' o 'Latino'? A la mayoría no le importa, pero entre los que sí les importa, se prefiere 'Hispano'. La mitad (51%) dice que no tiene preferencia por ningún término. Cuando se expresa una preferencia, se prefiere 'Hispano' a 'Latino' por más de un margen de dos a uno: 33% versus 14% [1]."
                             }
                         },
                         {
@@ -383,7 +391,7 @@
                             {
                                 "align": "left",
                                 "text":"Which terms do you think, LatinX foreign born and USA born primarily use to describe themselves?",
-                                "es":"¿Qué términos crees que Latinos nacidos en el extranjero y los nacidos en los Estados Unidos se usan principalmente para describirse a sí mismos?",
+                                "es":"¿Qué términos crees que los Latinos nacidos en el extranjero y los nacidos en los Estados Unidos usan principalmente para describirse a sí mismos?",
                                 "size": "bigger"
                             }
                         },
@@ -392,8 +400,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%). As you can see, the majority of LatinX communities living in the USA are foreign born.",
-                                "es":"este análisis divide a los latinos en tres grupos: primera generación, segunda generación y tercera generación o superior. Los latinos de primera generación nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%). Los latinos de segunda generación nacieron en los Estados Unidos de padres inmigrantes (19%). Los latinos de tercera o mayor generación nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)."
+                                "text":"Let’s divide Latinos into three groups: first generation, second generation, and third generation. From the group of First-generation, Latinos were born outside the United States or on the island of Puerto Rico this is (63%). The Second-generation Latinos were born in the United States to immigrant parents this makes a (19%). And the Third- generation Latinos were born in the United States to U.S.-born parents (17%). As you can see, the majority of LatinX communities living in the USA are foreign born[2].",
+                                "es":"Este análisis divide a los latinos en tres grupos: primera generación, segunda generación y tercera generación o superior. Los latinos de primera generación nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%). Los latinos de segunda generación nacieron en los Estados Unidos de padres inmigrantes (19%). Los latinos de tercera o mayor generación nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)[2]."
                             }
                         },
                         {
@@ -412,45 +420,12 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity.",
-                                "es":"las actitudes hacia la identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación. Cuando se les pregunta qué término usan principalmente para describirse, los latinos de primera generación tienen muchas más probabilidades de seleccionar su país de origen en América Latina que los latinos de segunda generación (68% frente a 38%). Solo el seis por ciento de los latinos de primera generación informan que usan el término 'estadounidense' para describirse a sí mismos en comparación con más de un tercio (35%) de los latinos de segunda generación. Sin embargo, un número igual (25%) de latinos de primera y segunda generación reportan que usan el término latino / hispano como el término principal para expresar identidad"
+                                "text":"Attitudes towards ethnic and national identity are very different between first- and second-generation Latinos. When asked which term they primarily use to describe themselves, first-generation Latinos are much more likely to select their country of origin in Latin America than are second-generation Latinos (68% vs. 38%). Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos. However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity[2].",
+                                "es":"Las actitudes hacia la identidad étnica y nacional son muy diferentes entre los latinos de primera y segunda generación. Cuando se les pregunta qué término usan principalmente para describirse, los latinos de primera generación tienen muchas más probabilidades de seleccionar su país de origen en América Latina que los latinos de segunda generación (68% frente a 38%). Solo el seis por ciento de los latinos de primera generación informan que usan el término 'estadounidense' para describirse a sí mismos en comparación con más de un tercio (35%) de los latinos de segunda generación. Sin embargo, un número igual (25%) de latinos de primera y segunda generación reportan que usan el término latino / hispano como el término principal para expresar identidad[2]."
                             }
                         },
                         {
                             "id":23,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your age?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#00058b",
-                              "background":"#fcee21",
-                              "options": [
-                                { 
-                                  "answer": "12-17",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "18-29",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "30-49",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "50-64",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "65+",
-                                    "value": "50%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
-                            "id":23.5,
                             "type":"Survey",
                             "details":
                             {
@@ -466,17 +441,17 @@
                                 },
                                 {
                                   "answer": "1st Generation, USA-born",
-                                  "answerEs":"primerageneración",
+                                  "answerEs":"Primera generación",
                                   "value": "20%"
                                 },
                                 {
                                   "answer": "2nd Generation, USA-born",
-                                  "answerEs":"segunda generación",
+                                  "answerEs":"Segunda generación",
                                   "value": "50%"
                                 },
                                 {
                                     "answer": "3rd+ Generation, USA-born",
-                                    "answerEs":"tercerageneración +",
+                                    "answerEs":"Tercera generación +",
                                     "value": "50%"
                                   }
                               ]
@@ -532,7 +507,11 @@
                               "question": "Which do you prefer?",
                               "questionEs":"¿Cual prefieres?",
                               "color":"#00058b",
-                              "background":"#fcee21",
+							  "background":"#fcee21",
+							  "reveal":{
+									"url":"./assets/img/photo-identity-chartTwo.svg",
+									"imageAlt":"A chart showing preferences"
+							  },
                               "options": [
                                 { 
                                   "answer": "Hispanic/LatinX",
@@ -545,15 +524,6 @@
                                   "value": "20%"
                                 }
                               ]
-                            }
-                        },
-                        {
-                            "id":32,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-identity-chartTwo.svg",
-                                "imageAlt":"A chart showing preferences"
                             }
                         },
                         {
@@ -571,8 +541,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"For example, first-generation Latinos (about 68%) use their country of origin in Latin America to describe themselves but only 38% Latinos who are second-generation use this concept to define their identity. Even more interesting! Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos.  (select pink American box to compare)However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity.",
-                                "es":"Por ejemplo, los latinos de primera generación (aproximadamente el 68%) usan su país de origen en Latinoamérica para describirse a sí mismos, pero solo el 38% de latinos de segunda generación usan este concepto para definir su identidad. ¡Aún más interesante! Solo el seis por ciento de los latinos de primera generación reportan usar el término 'Americanos' para describirse a sí mismos en comparación con más de un tercio (35%) de la segunda generación de Latinos. Sin embargo, un número igual (25%) de los latinos de primera y segunda generación informan que usan Latino como el té"
+                                "text":"For example, first-generation Latinos (about 68%) use their country of origin in Latin America to describe themselves but only 38% Latinos who are second-generation use this concept to define their identity. Even more interesting! Only six percent of first-generation Latinos report using the term “American” to describe themselves compared to more than a third (35%) of second-generation Latinos.  (select pink American box to compare)However, an equal number (25%) of both first- and second-generation Latinos report using Latino/Hispanic as the primary term to express identity[1].",
+                                "es":"Por ejemplo, los latinos de primera generación (aproximadamente el 68%) usan su país de origen en Latinoamérica para describirse a sí mismos, pero solo el 38% de latinos de segunda generación usan este concepto para definir su identidad. ¡Aún más interesante! Solo el seis por ciento de los latinos de primera generación reportan usar el término 'Americanos' para describirse a sí mismos en comparación con más de un tercio (35%) de la segunda generación de Latinos. Sin embargo, un número igual (25%) de los latinos de primera y segunda generación informan que usan Latino como el té[1]"
                             }
                         },
                         {
@@ -590,19 +560,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Most Hispanics don’t see themselves fitting into the standard racial categories used by the U.S. Census Bureau. According to the Pew Hispanic survey, (51%)  Latinos identify their race as “some other race” or selected “Hispanic/Latino.” Meanwhile, 36% identify their race as white, and 3% identify their race as black.",
+                                "text":"Most Latinos don’t see themselves fitting into the standard racial categories used by the U.S. Census Bureau. According to the Pew Hispanic survey, (51%)  Latinos identify their race as “some other race” or selected “Hispanic/Latino.” Meanwhile, 36% identify their race as white, and 3% identify their race as black.",
                                 "es":"la mayoría de los hispanos no se ven a sí mismos en las categorías raciales estándar utilizadas por el Buró del Censo de los Estados Unidos. En lo que respecta a la raza, según la Encuesta Hispana Pew, la mitad (51%) de los latinos identifican a su raza como 'otra raza' o voluntario 'hispano / latino'. Mientras tanto, el 36% identifica a su raza como blanca y el 3% dicen que su raza es negra."
-                            }
-                        },
-                        {
-                            "id":37,
-                            "type":"ExternalLinkBox",
-                            "details":
-                            {
-                                "text":"Watch a video on being Afro-Latina",
-                                "es":"Ver la historia afro-latina",
-                                "button":"YouTube",
-                                "link":"https://www.youtube.com/watch?v=ZjAnXMMrnFo"
                             }
                         },
                         {
@@ -745,34 +704,6 @@
                         },
                         {
                             "id":52,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "From these three aspects, which do you want to connect with?",
-                              "questionEs":"De estos tres aspectos de identidad, ¿con cual te conectas?",
-                              "color":"#00058b",
-                              "background":"#fcee21",
-                              "options": [
-                                { 
-                                  "answer": "Race",
-                                  "answerEs":"Raza",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "Ethnicity",
-                                  "answerEs":"etnicidad",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "Nationality",
-                                  "answerEs":"nacionalidad",
-                                  "value": "50%"
-                                }
-                              ]
-                            }
-                        },
-                        {
-                            "id":53,
                             "type":"AccordionReveal",
                             "details":
                             {
@@ -815,7 +746,7 @@
                             "details":
                             {
                                 "summary":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate!",
-                                "text":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate! My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult o navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances.</p> <p>You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention.</p> <p>In the United States groups of color, including the LatinX community, have had very low rates of school graduation and participation in higher education compared to others groups.</p> <p>These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms...",
+                                "text":"My name is Yuridia Reyes, I'm 21 year old and I attend Oregon State University. \n\nEvery single time I introduce myself as a college student I can't fail to be amazed. Not because, I think highly about myself but because I still can't believe it! Can't believe that I'm attending college and I'm a couple of steps closer to becoming a first generation student to graduate! My parents immigrated to the United States in 1986 and received their residency in 1988 during Ronald Reagan’s presidency. I always say that this key moment in their life is what opened many opportunities for my family and I. Because of this they were able to stay in the states without fear of deportation, and began their life here where my siblings and I were born. Even though we had an open door to many opportunities, it was never easy. My parents never attended college, nevertheless finished elementary school. \n\nThey didn't know how they would send us to college, they themselves had never even stepped foot on a college campus. This didn't stop them from dreaming and constantly reminding us that they came here to give us a better life. My parents advice has always been with me, I can always hear my parents saying \"echale ganas, tu puedes, vas a ser doctora, licenciada lo que tu quieras.\" They didn't know how to get us to college but they know the importance of pursuing higher education. With sacrifice and hard work my parents dreams came true. Both my brother and I enrolled to Oregon State University. Being a first generation college student was hard, it was difficult to navigate the education system. It was even harder to be away from home, leaving my house to go to college came with a lot of guilt, I felt guilty for leaving and not being at home to help out in the household and finances. You see, my siblings and I grew up in the fields.  We would go to the fields with my parents and pick from a very young age, my mom would sell food to the field workers and we would collect cans to sell every chance we got. This was our living, this was all we knew, my father didn't know how to read and both my parents didn't know english, how did we make it out? How did we make it here? It wasn't easy, it was extremely hard, all the odds were against us. But it was possible. \n\nToday, I'm not only living my parents dreams but also mine. Going to college, has been a blessing in disguise, there is always something or someone that is going to want to stop us, that will make it harder for us, it's really up to us not to give up and keep pushing forward. \n\nEducation is one of the most important elements in the context of social justice. If education is a mechanism to elevate communities, access to education should be a public policy and a government priority. Education may also be a tool of segregation, as we may see in racial/ethnic disparities in graduation rates, access to higher education and college retention. In the United States groups of color, including the LatinX community, have had very low rates of school graduation and participation in higher education compared to others groups. These indicators do not speak of an inferior community or lack of commitment of the families.  These numbers actually represent the responsibility of the institutions to fight inequity. \n\nLet’s continue, but first, two important terms...",
                                 "es":"Mi nombre es Yuridia Reyes, tengo 21 años y asisto a la Universidad Estatal de Oregón. Cada vez que me presento como estudiante universitario no puedo dejar de asombrarme. No porque piense tan bien de mí misma, ¡pero aún no puedo creerlo! ¡No puedo creer que voy a la universidad y estoy un par de pasos más cerca de convertirme en una estudiante de primera generación que se gradúa! Mis padres emigraron a los Estados Unidos en 1986 y recibieron su residencia en 1988 durante la presidencia de Ronald Reagan. Siempre digo que este momento clave en sus vidas es lo que abrió muchas oportunidades para mi familia y para mí. Debido a esto, pudieron permanecer en los estados sin temor a ser deportados, y comenzaron su vida aquí donde nacimos mis hermanos y yo. Aunque teníamos la puerta abierta a muchas oportunidades, nunca fue fácil. Mis padres nunca asistieron a la universidad, sin embargo terminaron la escuela primaria. No sabían cómo nos enviarían a la universidad, ellos mismos nunca habían pisado un campus universitario. Esto no les impidió soñar y nos recordaban constantemente que vinieron aquí para darnos una vida mejor. El consejo de mis padres siempre ha estado conmigo, siempre puedo escuchar a mis padres diciendo 'echale ganas, tu puedes, vas a ser doctora, licenciada, lo que tu quieras'. No sabían cómo llevarnos a la universidad, pero saben la importancia de continuar con la educación superior. Con sacrificio y trabajo duro el sueño de mis padres se hizo realidad. Tanto mi hermano como yo nos inscribimos en la Universidad Estatal de Oregón. Ser un estudiante universitario de primera generación fue difícil, era difícil navegar por el sistema educativo. Fue aún más difícil estar lejos de casa, salir de mi casa para ir a la universidad vino con mucha culpa, me sentí culpable por irme y no estar en casa para ayudar en la casa y con las finanzas. Ya ves, mis hermanos y yo crecimos en los campos. Iríamos a los campos con mis padres y piscabamos desde una edad muy temprana, mi madre vendería alimentos a los trabajadores de campo y recolectaríamos latas para vender cada oportunidad que tuviéramos. Esta era nuestra vida, esto era todo lo que sabíamos, mi padre no sabía leer y mis padres no sabían inglés, ¿cómo lo logramos? ¿Cómo lo hicimos aquí? No fue fácil, fue extremadamente difícil, todas las probabilidades estaban en contra de nosotros. Pero era posible. Hoy no solo estoy viviendo los sueños de mis padres sino también los míos. Ir a la universidad, ha sido una bendición disfrazada, siempre hay algo o alguien que va a querer detenernos, que nos hará la vida más difícil, realmente depende de nosotros no rendirnos y seguir adelante. La educación es uno de los elementos más importantes en el contexto de la justicia social. Si la educación es un mecanismo para elevar las comunidades, el acceso a la educación debe ser una prioridad del gobierno y política pública. La educación también puede ser una herramienta de segregación, como podemos ver en las diferencias raciales/étnicas en los índices de graduación, y en el acceso a la educación superior y la retención en la universidad. En los Estados Unidos, los grupos de color, incluida la comunidad LatinX, han tenido tasas muy bajas de graduación escolar y participación en la educación superior en comparación con otros grupos. Estos indicadores no hablan de una comunidad inferior o falta de compromiso de las familias. Estas cifras representan la responsabilidad de las instituciones para combatir la inequidad. Continuemos, pero primero, dos términos importantes ..."
                             }
                         },
@@ -890,7 +821,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"If you look carefully, you will see that there is a huge difference. For example, there are over 5 million Latinos, Hispanics who were born outside the US and did not complete high school.This group is disproportionately larger than the fewer than 1 million Latinos, HispanicsBorn in the USA who did not completed high school.",
+                                "text":"If you look carefully, you will see that there is a huge difference. For example, there are over 5 million Latinos who were born outside the US and did not complete high school. This group is disproportionately larger than the fewer than 1 million Latinos born in the USA who did not completed high school.",
                                 "es":"Si miras con atención, verás que hay una gran diferencia. Por ejemplo, hay más de 5 millones de latinos, hispanos que nacieron fuera de los Estados Unidos y no finalizaron la escuela secundaria. Este grupo es desproporcionadamente más grande que los menos de 1 millón de latinos e hispanos nacido en los Estados Unidos que no terminaron la preparatoria (high school)."
                             }
                         },
@@ -909,7 +840,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Let me explain this! Among the difficulties, immigrants face... Limited access to educational programs from their countries of origin. Limited or no access to programs in the United States as well.And, in addition, language barriers and poverty increase adverse conditions to accessing education.Now, if you look closely at the statistics of Latinos, Hispanics who earn university degrees, you will realize that there is not much difference between those who have immigrated to the United States and those who were born in this country. Many immigrants come to the US with sufficient education and continue or start a professional career. In contrast, only a small percentage of US-born Latinos, Hispanics have gotten a technical or university degree.",
+                                "text":"Let me explain this! Among the difficulties, immigrants face... Limited access to educational programs from their countries of origin. Limited or no access to programs in the United States as well. In addition, language barriers and poverty increase adverse conditions to accessing education.Now, if you look closely at the statistics of Latinos who earn university degrees, you will realize that there is not much difference between those who have immigrated to the United States and those who were born in this country. Many immigrants come to the US with sufficient education and continue or start a professional career. In contrast, only a small percentage of US-born Latinos have gotten a technical or university degree.",
                                 "es":"Déjame explicar esto! Entre las dificultades que los inmigrantes enfrentan: - Acceso limitado a programas educativos de sus países de origen. - Acceso limitado o nulo a programas en los Estados Unidos también. - Y, además, las barreras del idioma y la pobreza aumentan las condiciones adversas para acceder a la educación. Ahora, si observas detenidamente las estadísticas de Latinos, Hispanos que obtienen títulos universitarios, te darás cuenta de que no hay mucha diferencia entre los que han emigrado a los Estados Unidos y los que nacieron en este país. Muchos inmigrantes vienen a los EE.UU. con suficiente educación y continúan o comienzan una carrera profesional. En contraste, solo un pequeño porcentaje de latinos nacidos en Estados Unidos, los hispanos tienen un título técnico o universitario."
                             }
                         },
@@ -923,40 +854,6 @@
                             }
                         },
                         {
-                            "id":14,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your age?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#00058b",
-                              "background":"#69bfff",
-                              "options": [
-                                { 
-                                  "answer": "Under 10",
-                                  "answerEs":"Menos de 10",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "10-15",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "16-20",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "21-25",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "26+",
-                                    "value": "50%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
                             "id":15,
                             "type":"SingleImage",
                             "details":
@@ -966,44 +863,6 @@
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#08bc99",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":16,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your highest level of education?",
-                              "questionEs":"¿Cual es tu nivel más alto de educación?",
-                              "color":"#00058b",
-                              "background":"#69bfff",
-                              "options": [
-                                { 
-                                  "answer": "Less than high school",
-                                  "answerEs":"Menos de la preparatoria (high school)",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "High school diploma/GED",
-                                  "answerEs":"Diploma de preparatoria (high school) / GED",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "Associates degree",
-                                  "answerEs":"Diploma de asociado (colegio comunitario)",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "Bachelors degree",
-                                    "answerEs":"Licenciatura (universidad de 4 años)",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "Masters degree",
-                                    "answerEs":"Maestría",
-                                    "value": "50%"
-                                  }
-                              ]
                             }
                         },
                         {
@@ -1032,7 +891,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Like we explored before, the evidence shows that Latinos, Hispanic students are increasingly likely to graduate from high school. 78% of Hispanics graduated from high school in 2010, an increase from 64% in 2000!",
+                                "text":"Like we explored before, the evidence shows that Latino students are increasingly likely to graduate from high school. 78% of Latinos graduated from high school in 2010, an increase from 64% in 2000!",
                                 "es":"Como exploramos antes, la evidencia muestra que los estudiantes latinos, hispanos tienen mayores probabilidades de graduarse de la preparatoria (high school). El 78% de los hispanos se graduaron de la preparatoria (high school) en 2010, ¡un aumento del 64% en comparación al 2000!"
                             }
                         },
@@ -1050,7 +909,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In the 2012 graduation year, 69% of the Latinos, Hispanic high school graduates were enrolled in college, a bigger percentage than white or black students. In the same year, 84% of Asian graduates were enrolled. This is the biggest percentage of racial and ethnic groups.",
+                                "text":"In the 2012 graduation year, 69% of the Latino high school graduates were enrolled in college, a bigger percentage than white or black students. In the same year, 84% of Asian graduates were enrolled. This is the biggest percentage of racial and ethnic groups.",
                                 "es":"En el año de graduación de 2012, el 69% de los latinos, graduados hispanos de preparatoria (high school) estaban matriculados en la universidad, un porcentaje mayor que los estudiantes blancos o negros. En el mismo año, el 84% de los graduados asiáticos se matricularon. Este es el mayor porcentaje de grupos raciales y étnicos."
                             }
                         },
@@ -1085,7 +944,10 @@
                             {
                               "question": "What level of education do you want to achieve?",
                               "questionEs":"¿Qué nivel de educación quieres alcanzar?",
-                              "color":"#00058b",
+							  "color":"#00058b",
+							  "reveal":{
+								  "text":"You can do it!"
+							  },
                               "background":"#69bfff",
                               "options": [
                                 { 
@@ -1264,40 +1126,6 @@
                             }
                         },
                         {
-                            "id":6,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your age?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#ffffff",
-                              "background":"#662d91",
-                              "options": [
-                                { 
-                                  "answer": "Under 10",
-                                  "answerEs":"Menos de 10",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "10-15",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "16-20",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "21-25",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "26+",
-                                    "value": "50%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
                             "id":7,
                             "type":"SingleImage",
                             "details":
@@ -1321,8 +1149,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is a cool example of how immigration is the history of the USA: Immigrants come to the U.S. from all over the world. For example in in New Jersey, India is the top country of birth among immigrants. In Maine, Montana, New Hampshire , Vermont and North Dakota, Canada is the top country of birth for immigrants and in Hawaii and Alaska Filipinos account for a large share of immigrants. Immigrants from Ireland, England, Germany, Italy and many other european countries were part of large immigrant groups in the last two centuries, many of them after the first and second war. Millions of immigrants come as well from Asian and Eastern Europe. In California for example in 1860, 40% of the immigrants were Chinese in contrast with Meanwhile, New York and New Jersey where in 1910, 30% of the immigrants were from Russia and the USSR. Congress passed in 1965 a legislation to open the nation’s borders, immigrants have largely hailed from Latin America and Asia. In 2012, there were four states (California, New York, New Jersey and Florida) in which about one-in-five or more people are foreign born.Mexico is the birthplace of 28% (or 11.6 million) of all immigrants in the U.S. Immigrants born in Mexico account for more than half of all of the foreign born in five states: New Mexico 72%, Arizona 58%, Texas 58%, Idaho 53% and Oklahoma 51%.",
-                                "es":"Este es un buen ejemplo de cómo la inmigración es la historia de los Estados Unidos: Los inmigrantes vienen a los Estados Unidos de todo el mundo. Por ejemplo, en Nueva Jersey, India es el principal país de nacimiento entre los inmigrantes. En Maine, Montana, New Hampshire, Vermont y Dakota del Norte, Canadá es el principal país de nacimiento de los inmigrantes y en Hawaii y Alaska los filipinos representan una gran proporción de los inmigrantes. Los inmigrantes de Irlanda, Inglaterra, Alemania, Italia y muchos otros países europeos formaron parte de grandes grupos de inmigrantes en los últimos dos siglos, muchos de ellos después de la primera y la segunda guerra. Millones de inmigrantes vienen también de Asia y Europa del Este. En California, por ejemplo, en 1860, el 40% de los inmigrantes eran chinos en comparación con Nueva York y Nueva Jersey, donde en 1910, el 30% de los inmigrantes procedían de Rusia y la URSS. El Congreso aprobó en 1965 una legislación para abrir las fronteras de la nación, los inmigrantes han provenido en gran parte de América Latina y Asia. En 2012, hubo cuatro estados (California, Nueva York, Nueva Jersey y Florida) en los que aproximadamente uno de cada cinco o más personas nacieron en el extranjero. México es el lugar de nacimiento del 28% (o 11.6 millones) de todos los inmigrantes en los EE. UU. Los inmigrantes nacidos en México representan más de la mitad de todos los nacidos en el extranjero en cinco estados: Nuevo México 72%, Arizona 58%, Texas 58%, Idaho 53% y Oklahoma 51%."
+                                "text":"This is a cool example of how immigration is the history of the USA: Immigrants come to the U.S. from all over the world. For example in in New Jersey, India is the top country of birth among immigrants. In Maine, Montana, New Hampshire , Vermont and North Dakota, Canada is the top country of birth for immigrants and in Hawaii and Alaska Filipinos account for a large share of immigrants. Immigrants from Ireland, England, Germany, Italy and many other european countries were part of large immigrant groups in the last two centuries, many of them after the first and second war. Millions of immigrants come as well from Asian and Eastern Europe. In California for example in 1860, 40% of the immigrants were Chinese in contrast with Meanwhile, New York and New Jersey where in 1910, 30% of the immigrants were from Russia and the USSR. Congress passed in 1965 a legislation to open the nation’s borders, immigrants have largely hailed from Latin America and Asia. In 2012, there were four states (California, New York, New Jersey and Florida) in which about one-in-five or more people are foreign born.Mexico is the birthplace of 28% (or 11.6 million) of all immigrants in the U.S. Immigrants born in Mexico account for more than half of all of the foreign born in five states: New Mexico 72%, Arizona 58%, Texas 58%, Idaho 53% and Oklahoma 51%[1].",
+                                "es":"Este es un buen ejemplo de cómo la inmigración es la historia de los Estados Unidos: Los inmigrantes vienen a los Estados Unidos de todo el mundo. Por ejemplo, en Nueva Jersey, India es el principal país de nacimiento entre los inmigrantes. En Maine, Montana, New Hampshire, Vermont y Dakota del Norte, Canadá es el principal país de nacimiento de los inmigrantes y en Hawaii y Alaska los filipinos representan una gran proporción de los inmigrantes. Los inmigrantes de Irlanda, Inglaterra, Alemania, Italia y muchos otros países europeos formaron parte de grandes grupos de inmigrantes en los últimos dos siglos, muchos de ellos después de la primera y la segunda guerra. Millones de inmigrantes vienen también de Asia y Europa del Este. En California, por ejemplo, en 1860, el 40% de los inmigrantes eran chinos en comparación con Nueva York y Nueva Jersey, donde en 1910, el 30% de los inmigrantes procedían de Rusia y la URSS. El Congreso aprobó en 1965 una legislación para abrir las fronteras de la nación, los inmigrantes han provenido en gran parte de América Latina y Asia. En 2012, hubo cuatro estados (California, Nueva York, Nueva Jersey y Florida) en los que aproximadamente uno de cada cinco o más personas nacieron en el extranjero. México es el lugar de nacimiento del 28% (o 11.6 millones) de todos los inmigrantes en los EE. UU. Los inmigrantes nacidos en México representan más de la mitad de todos los nacidos en el extranjero en cinco estados: Nuevo México 72%, Arizona 58%, Texas 58%, Idaho 53% y Oklahoma 51%[1]."
                             }
                         },
                         {
@@ -1335,29 +1163,6 @@
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":17,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Do you believe that immigrants face more challenges in regards to their education?",
-                              "questionEs":"desafíos en lo que respecta a su educación?",
-                              "color":"#ffffff",
-                              "background":"#662d91",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"sí",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs":"no",
-                                  "value": "20%"
-                                }
-                              ]
                             }
                         },
                         {
@@ -1523,6 +1328,14 @@
                                 "text":"Political positions, economic crises, wars and other macro environmental factors changed the footprint of the Mexican immigration to the USA.",
                                 "es":"Posiciones políticas, crisis económicas, guerras y otros factores macroambientales cambiaron la huella de la inmigración mexicana a los Estados Unidos."
                             }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
+                            }
                         },
                         {
                             "id":23,
@@ -1560,8 +1373,16 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans.",
-                                "es":"En 1898, Puerto Rico fue transferido de España a los Estados Unidos y en 1917, la Ley Jones-Shafroth hizo que todos los puertorriqueños fueran ciudadanos estadounidenses. Se estima que 470,000 puertorriqueños, el 21 por ciento de la población de la isla, emigraron en la década de 1950 en un movimiento que se conoce como la Gran Migración. Hoy en día, representan el 10% de la población latina en los EE. UU. Y se convierten en el segundo grupo más grande después de los mexicoamericanos."
+                                "text":"In 1898, Puerto Rico was transferred from Spain to the United States and in 1917 the Jones-Shafroth Act made all Puerto Ricans US Citizens.An estimated 470,000 Puerto Ricans — 21 percent of the island’s population, emigrated in the 1950s in a movement which has become known as the Great Migration.Today, they represent 10% of the Latino population in USA they becoming the second largest group after Mexican-Americans[2].",
+                                "es":"En 1898, Puerto Rico fue transferido de España a los Estados Unidos y en 1917, la Ley Jones-Shafroth hizo que todos los puertorriqueños fueran ciudadanos estadounidenses. Se estima que 470,000 puertorriqueños, el 21 por ciento de la población de la isla, emigraron en la década de 1950 en un movimiento que se conoce como la Gran Migración. Hoy en día, representan el 10% de la población latina en los EE. UU. Y se convierten en el segundo grupo más grande después de los mexicoamericanos[2]."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1621,6 +1442,14 @@
                             {
                                 "text":"The Cuban Revolution led to the mass migration of Cubans to the United States in 1959. Since it was the height of the cold war, their presence was supported and encouraged by the U.S. government. According to the U.S. Census, Cuban Americans lived in all 50 states. But most Cuban immigrants settled in south Florida.Communities like Miami, Tampa, and Union City, where Cuban Americans made their homes, experienced a vibrant cultural transformation.",
                                 "es":"La Revolución cubana condujo a la migración masiva de cubanos a los Estados Unidos en 1959. Como era el momento culminante de la guerra fría, su presencia fue apoyada y alentada por el gobierno de los Estados Unidos. Según el Censo de los Estados Unidos, los cubanoamericanos vivían en los 50 estados. Pero la mayoría de los inmigrantes cubanos se establecieron en el sur de la Florida. Comunidades como Miami, Tampa y Union City, donde los cubano-americanos hicieron sus hogares, experimentaron una transformación cultural vibrante."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1691,6 +1520,14 @@
                             {
                                 "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras.",
                                 "es":"En los últimos años, la inmigración centroamericana a los Estados Unidos ha sido el centro de atención significativa de los medios de comunicación y las políticas públicas, ya que la cantidad de niños y familias no acompañados que huyen de la violencia de pandillas y la pobreza ha aumentado dramáticamente. La mayoría de los 3.4 millones de centroamericanos que residen en los Estados Unidos son del Triángulo del Norte, formado por El Salvador, Guatemala y Honduras."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1771,8 +1608,16 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population.",
-                                "es":"Este número creció de 90,000 personas en 1960 cuando este grupo de inmigrantes representó solo el 1% del total de la población inmigrante, a alrededor de 2.9 millones de personas en 2014. ¡Sorprendente! En 2014, los cinco países de origen más grandes fueron Colombia (707,000, casi el 25 por ciento de todos los inmigrantes sudamericanos), Perú el 16 por ciento, Ecuador el 15 por ciento, Brasil el 12 por ciento y Guyana el 10 por ciento. Juntos, representaron el 77 por ciento del total de la población inmigrante sudamericana."
+                                "text":"This number grew from 90,000 people in 1960 when this group of immigrant represented only 1% of the total of the immigrant population, to around 2.9 million people  in 2014. Amazing! In 2014, the five largest countries of origin were Colombia (707,000, almost 25 percent of all South American immigrants), Peru 16 percent, Ecuador 15 percent, Brazill 12 percent, and Guyana 10 percent. Together, they accounted for 77 percent of the total South American immigrant population[4].",
+                                "es":"Este número creció de 90,000 personas en 1960 cuando este grupo de inmigrantes representó solo el 1% del total de la población inmigrante, a alrededor de 2.9 millones de personas en 2014. ¡Sorprendente! En 2014, los cinco países de origen más grandes fueron Colombia (707,000, casi el 25 por ciento de todos los inmigrantes sudamericanos), Perú el 16 por ciento, Ecuador el 15 por ciento, Brasil el 12 por ciento y Guyana el 10 por ciento. Juntos, representaron el 77 por ciento del total de la población inmigrante sudamericana[4]."
+                            }
+						},
+						{
+                            "id":28.5,
+                            "type":"Markdown",
+                            "details":
+                            {
+                                "markdown":"*[2]*"
                             }
                         },
                         {
@@ -1785,77 +1630,6 @@
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":56,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Which one are you?",
-                              "questionEs":"¿Cual eres tu?",
-                              "color":"#ffffff",
-                              "background":"#662d91",
-                              "options": [
-                                { 
-                                  "answer": "Immigrant to the USA",
-                                  "answerEs":"Inmigrante a los estados unidos",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "1st Gen Hispanic/LatinX",
-                                  "answerEs":"1ª Gen Hispana / LatinX",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "2nd Gen Hispanic/LatinX",
-                                  "answerEs":"2da Gen Hispana / LatinX",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "3rd+ Gen Hispanic/LatinX",
-                                    "answerEs":"3rd+ Gen Hispana / LatinX",
-                                    "value": "50%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
-                            "id":57,
-                            "type":"QuizMultipleChoice",
-                            "details":
-                            {
-                                "color":"#ffffff",
-                              "background":"#662d91",
-                                "options":
-                                [
-                                    {
-                                        "id":0,
-                                        "connector":0,
-                                        "text":"Yes",
-                                        "es":"si"
-                                    },
-                                    {
-                                        "id":1,
-                                        "connector":1,
-                                        "text":"No",
-                                        "es":"no"
-                                    }
-                                ],
-                                "questions":
-                                [
-                                    {
-                                        "id":0,
-                                        "connector":1,
-                                        "text":"Are all Latinos in the U.S. immigrants?",
-                                        "es":"¿Todos los latinos en los Estados Unidos son inmigrantes?"
-                                    },
-                                    {
-                                        "id":1,
-                                        "connector":99,
-                                        "text":"Great job!"
-                                    }
-                                ]
                             }
                         },
                         {
@@ -1914,8 +1688,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population.",
-                                "es":"Entre 2015 y 2065, se proyecta que representarán el 88% del aumento de la población de los Estados Unidos, o 103 millones de personas, a medida que la nación crece a 441 millones de la población total."
+                                "text":"Between 2015 and 2065, they are projected to account for 88% of the U.S. population increase, or 103 million people, as the nation grows to 441 million total population[5].",
+                                "es":"Entre 2015 y 2065, se proyecta que representarán el 88% del aumento de la población de los Estados Unidos, o 103 millones de personas, a medida que la nación crece a 441 millones de la población total[5]."
                             }
                         },
                         {
@@ -1923,8 +1697,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall.",
-                                "es":"En 2015, el 47% de los inmigrantes que residen en los EE. UU. Son hispanos, pero como la inmigración de América Latina, especialmente de México, se ha desacelerado en los últimos años, se espera que la proporción de extranjeros nacidos en el extranjero que sean hispanos disminuya."
+                                "text":"In 2015, 47% of immigrants residing in the U.S. are Hispanic, but as immigration from Latin America, especially Mexico, has slowed in recent years, the share of the foreign born who are Hispanic is expected to fall[5].",
+                                "es":"En 2015, el 47% de los inmigrantes que residen en los EE. UU. Son hispanos, pero como la inmigración de América Latina, especialmente de México, se ha desacelerado en los últimos años, se espera que la proporción de extranjeros nacidos en el extranjero que sean hispanos disminuya[5]."
                             }
                         },
                         {
@@ -1932,8 +1706,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055.",
-                                "es":"Mientras tanto, se proyecta que los inmigrantes asiáticos conformarán una mayor proporción de todos los inmigrantes, convirtiéndose en el mayor grupo de inmigrantes para el año 2055."
+                                "text":"Meanwhile, Asian immigrants are projected to make up a larger share of all immigrants, becoming the largest immigrant group by 2055[5].",
+                                "es":"Mientras tanto, se proyecta que los inmigrantes asiáticos conformarán una mayor proporción de todos los inmigrantes, convirtiéndose en el mayor grupo de inmigrantes para el año 2055[5]."
                             }
                         },
                         {
@@ -2028,15 +1802,15 @@
                                         "id":0,
                                         "revealText": "Poverty",
                                         "revealTextEs":"POBREZA",
-                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty.",
-                                        "es":"Los individuos se consideran pobres si los recursos que comparten con otras personas en el hogar no son suficientes para satisfacer las necesidades básicas. En 2015, el umbral de pobreza para una familia de cuatro fue de $ 24,257. La tasa nacional oficial de pobreza fue del 13.5 por ciento. Había 43.1 millones de personas en la pobreza."
+                                        "text":"Individuals are considered poor if the resources they share with others in the household are not enough to meet basic needs. In 2015, the poverty threshold for a family of four was $24,257. The official national poverty rate was 13.5 percent. There were 43.1 million people in poverty[1].",
+                                        "es":"Los individuos se consideran pobres si los recursos que comparten con otras personas en el hogar no son suficientes para satisfacer las necesidades básicas. En 2015, el umbral de pobreza para una familia de cuatro fue de $ 24,257. La tasa nacional oficial de pobreza fue del 13.5 por ciento. Había 43.1 millones de personas en la pobreza[1]."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Income",
                                         "revealTextEs":"INGRESOS",
-                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent).",
-                                        "es":"El flujo de efectivo o equivalentes de efectivo recibidos del trabajo (salario), capital (intereses o ganancias) o tierra (renta)."
+                                        "text":"​The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), or land (rent)[1].",
+                                        "es":"El flujo de efectivo o equivalentes de efectivo recibidos del trabajo (salario), capital (intereses o ganancias) o tierra (renta)[1]."
                                     }
                                 ]
                             }
@@ -2083,29 +1857,6 @@
                                 {
                                   "answer": "No",
                                   "answerEs": "no",
-                                  "value": "20%"
-                                }
-                              ]
-                            }
-                        },
-                        {
-                            "id":10.5,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Are you concerned about your future personal finances?",
-                              "questionEs": "¿Está preocupado por sus futuras finanzas personales?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"si",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs":"no",
                                   "value": "20%"
                                 }
                               ]
@@ -2172,62 +1923,6 @@
                                 "text":"Millions of Latinos are working in industries that are very fragile; they are connected to the economy when the market grows or contracts.",
                                 "es":"Millones de latinos trabajan en industrias que son muy frágiles; Están conectados a la economía cuando el mercado crece o se contrae."
                             }
-                        },
-                        {
-                            "id":17,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "What is your age?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "12-17",
-                                  "value": "30%"
-                                },
-                                {
-                                    "answer": "18-29",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "30-49",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "50-64",
-                                    "value": "20%"
-                                  },
-                                  {
-                                    "answer": "65+",
-                                    "value": "20%"
-                                  }
-                              ]
-                            }
-                        },
-                        {
-                            "id":18,
-                            "type":"Survey",
-                            "details":
-                            {
-                                "question": "Are you hispanic/LatinX?",
-                                "questionEs":"¿Eres hispano / latinX?",
-                                "color":"#ffffff",
-                                "background":"#f15a24",
-                                "options": [
-                                  {
-                                    "answer": "Yes",
-                                    "answerEs":"si",
-                                    "value": "30%"
-                                  },
-                                  {
-                                      "answer": "No",
-                                      "answerEs":"no",
-                                      "value": "20%"
-                                    }
-                                ]
-                              }
                         },
                         {
                             "id":18,
@@ -2314,7 +2009,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The seemingly strong recovery for Hispanics is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Hispanics with jobs barely increased up in the recovery.",
+                                "text":"The seemingly strong recovery for Latinos is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Latinos with jobs barely increased up in the recovery.",
                                 "es":"La recuperación aparentemente fuerte para los hispanos tiene más que ver con la demografía que con la buena fortuna económica. Debido a que el crecimiento del empleo y el crecimiento de la población avanzan a tasas similares, la proporción de hispanos con empleos apenas aumentó en la recuperación."
                             }
                         },
@@ -2383,8 +2078,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation.",
-                                "es":"En 2014, aproximadamente el 69 por ciento de los inmigrantes mexicanos (mayores de 16 años) estaban en la fuerza laboral civil. Estos trabajos incluyen servicios como restaurantes y hoteles, construcción, agricultura y mantenimiento, así como producción y transporte."
+                                "text":"In 2014, about 69 percent of Mexican immigrants (ages 16 and over) were in the civilian labor force. This jobs include services like restaurants and hotels, construction, agriculture and maintenance, as well as production and transportation[3].",
+                                "es":"En 2014, aproximadamente el 69 por ciento de los inmigrantes mexicanos (mayores de 16 años) estaban en la fuerza laboral civil. Estos trabajos incluyen servicios como restaurantes y hoteles, construcción, agricultura y mantenimiento, así como producción y transporte[3]."
                             }
                         },
                         {
@@ -2465,29 +2160,6 @@
                                 "colorTwo":"#f15a24",
                                 "subtext":"How can we change the future of the Latino community? Think about it!",
                                 "subtextEs":"¿Cómo podemos cambiar el futuro de la comunidad latina? ¡Piénsalo!"
-                            }
-                        },
-                        {
-                            "id":40,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Do you believe that poverty can change your outcome in life?",
-                              "questionEs":"Crees eso ¿La pobreza puede cambiar tu resultado en la vida?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"si",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs":"no",
-                                  "value": "20%"
-                                }
-                              ]
                             }
                         },
                         {
@@ -2653,7 +2325,9 @@
                             "type":"QuizMultipleChoice",
                             "details":
                             {
-                                "color":"#ffffff",
+								"color":"#ffffff",
+								"url":"./assets/img/photo-language-pie.svg",
+								"imgAlt":"Pie chart of English and Spanish use among Hispanics",
                                 "background":"#e028a5",
                                 "options":
                                 [
@@ -2687,33 +2361,14 @@
                                 ]
                             }
                         },
-                        {
-                            "id":5,
-                            "type":"OlgasParallax",
-                            "details":
-                            {
-                                "type":"pink",
-                                "colorOne":"#aa0076",
-                                "colorTwo":"#662d91",
-                                "subtext":"Let me share something with you!",
-                                "subtextEs":"¡Déjame compartir algo contigo!"
-                            }
-                        },
-                        {
-                            "id":6,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-language-pie.svg",
-                                "imageAlt":"Pie chart of English and Spanish use among Hispanics"
-                            }
-                        },
+                      
+        
                         {
                             "id":7,
                             "type":"Text",
                             "details":
                             {
-                                "text":"A survey in 2013 found that 95% of Hispanics believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.",
+                                "text":"A survey in 2013 found that 95% of Latinos believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.",
                                 "es":"Una encuesta realizada en 2013 encontró que el 95% de los hispanos creen que es importante que las futuras generaciones de hispanos en los Estados Unidos puedan hablar español. "
                             }
                         },
@@ -2722,7 +2377,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In my community, most Latinos, Hispanics speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).",
+                                "text":"In my community, most Latinos speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).",
                                 "es":"En mi comunidad, la mayoría de los latinos e hispanos hablan español en casa, pero están de acuerdo que el inglés es importante para tener éxito en los Estados Unidos. (9 de cada 10 personas en la encuesta estuvieron de acuerdo)."
                             }
                         },
@@ -2766,17 +2421,17 @@
                                         "id":0,
                                         "revealText": "Language Proficiency",
                                         "revealTextEs":"La competencia lingüística",
-                                        "es":"La competencia se refiere a la capacidad que tiene una persona para usar un idioma en una variedad de propósitos como hablar, escuchar, leer y escribir. ",
-                                        "text":"Proficiency refers to a person's ability to use a language for a variety of purposes, including speaking, listening, reading, and writing."
+                                        "es":"La competencia se refiere a la capacidad que tiene una persona para usar un idioma en una variedad de propósitos como hablar, escuchar, leer y escribir[1].",
+                                        "text":"Proficiency refers to a person's ability to use a language for a variety of purposes, including speaking, listening, reading, and writing[1]."
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Language Fluency",
                                         "revealTextEs":"Fluidez del lenguaje",
-                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma.",
-                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario.",
-                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language.",
-                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary."
+                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma[1].",
+                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario[1].",
+                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language[1].",
+                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary[1]."
                                     }
                                 ]
                             }
@@ -2805,7 +2460,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Hispanics ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.",
+                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Latinos ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.",
                                 "es":"¡Este es el mayor porcentaje de todos! En 2013, este grupo representó el 68% de todos los hispanos de 5 años de edad en adelante, un 59% más que en 2000.Cuando hablamos de competencia, necesitamos conectar conceptos."
                             }
                         },
@@ -2862,8 +2517,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"For example, 21% of Hispanics who do not speak English are ages 65 and older.",
-                                "es":"Por ejemplo, el 21% de los hispanos que no hablan inglés tienen 65 años o más."
+                                "text":"For example, 21% of Hispanics who do not speak English are ages 65 and older[1].",
+                                "es":"Por ejemplo, el 21% de los hispanos que no hablan inglés tienen 65 años o más[1]."
                             }
                         },
                         {
@@ -2876,40 +2531,6 @@
                                 "colorOne":"#aa0076",
                                 "colorTwo":"#00058b",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":24,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "How old are you?",
-                              "questionEs":"¿Cual es tu edad?",
-                              "color":"#ffffff",
-                              "background":"#e028a5",
-                              "options": [
-                                { 
-                                  "answer": "Under 10",
-                                  "answerEs":"Menos de 10",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "10-15",
-                                  "value": "20%"
-                                },
-                                {
-                                  "answer": "16-20",
-                                  "value": "50%"
-                                },
-                                {
-                                    "answer": "21-25",
-                                    "value": "50%"
-                                  },
-                                  {
-                                    "answer": "26+",
-                                    "value": "50%"
-                                  }
-                              ]
                             }
                         },
                         {
@@ -2949,15 +2570,15 @@
                                         "id":0,
                                         "revealText": "Bilingual as a noun",
                                         "revealTextEs":"Bilingue como sustantivo",
-                                        "es":"“Una persona con fluidez y proficiencia en dos idiomas”",
-                                        "text":"A person fluent/proficient in two languages"
+                                        "es":"“Una persona con fluidez y proficiencia en dos idiomas[3]”",
+                                        "text":"A person fluent/proficient in two languages[3]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Bilingual as an adjective",
                                         "revealTextEs":"Bilingue como adjetivo",
-                                        "es":"“Hablando dos idiomas con fluidez y proficiencia”",
-                                        "text":"Speaking two languages fluently/proficiently"
+                                        "es":"“Hablando dos idiomas con fluidez y proficiencia”[3]",
+                                        "text":"Speaking two languages fluently/proficiently[3]"
                                     }
                                 ]
                             }
@@ -2981,6 +2602,15 @@
                             {
                                 "url":"./assets/img/photo-language-purple.svg",
                                 "imageAlt":"Percenages of Spanish dominant, English dominant, and English dominant"
+                            }
+						},
+						{
+                            "id":26.2,
+                            "type":"Text",
+                            "details":
+                            {
+								"text":"[3]",
+								"es":"[3]"
                             }
                         },
                         {
@@ -3167,7 +2797,7 @@
                                     {
                                         "id":0,
                                         "connector":0,
-                                        "text":"Bilinguals can earn more money.",
+                                        "text":"People who are bilingual can earn more money.",
                                         "es":"Las personas bilingües puede ganar más dinero."
                                     },
                                     {
@@ -3184,7 +2814,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not.",
+                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not. Increases are not automatic. We need to better advocate for ourselves in the workplace if we speak a second a language.",
                                 "es":"Los rendimientos financieros varían según el idioma y el trabajo, pero pueden sumar mucho. Los trabajos pagan diferenciales basados ​​en el bilingüismo y suelen pagar entre un 5 y un 20% más por hora para los empleados bilingües. Albert Saiz, economista del MIT, descubrió que los graduados universitarios que hablan dos idiomas ganan en promedio un 2% más que una persona que no habla dos lenguajes."
                             }
                         },
@@ -3292,6 +2922,15 @@
                                 "url":"./assets/img/photo-language-lastPurple.svg",
                                 "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
                             }
+						},
+						{
+                            "id":48,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"[1]",
+                                "es":"[1]"
+                            }
                         },
                         {
                             "id":50,
@@ -3348,7 +2987,7 @@
                                 "type":"pink",
                                 "colorOne":"#aa0076",
                                 "colorTwo":"#662d91",
-                                "title":"Bilinguals are in demand!",
+                                "title":"Bilingual people are in demand!",
                                 "titleEs":"LOS BILINGÜES ESTÁN EN DEMANDA"
                             }
                         },

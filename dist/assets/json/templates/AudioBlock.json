@@ -1,9 +1,0 @@
-{
-    "id":1,
-    "type":"AudioBlock",
-    "details":
-    {
-        "audioUrl":"Url of MP3 file",
-        "audioTranscript":"This is a transcript of the audio file for accessibility"
-    }
-}

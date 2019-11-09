@@ -710,7 +710,8 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
                                         "html":"<a href='http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/' target='_blank'>1. http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/</a> <br/><a href='http://www.pewhispanic.org/2004/03/19/generational-differences/' target='_blank'>2. http://www.pewhispanic.org/2004/03/19/generational-differences/</a>"
                                     }
                                 ]
@@ -720,7 +721,8 @@
                 },
                 {
                     "id": 1,
-                    "title" : "Education",
+					"title" : "Education",
+					"esTitle":"Educación",
                     "blocks":
                     [
                         {
@@ -772,15 +774,15 @@
                                         "id":0,
                                         "revealText": "US Born",
                                         "revealTextEs":"Nacido En EEUU",
-                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth.",
-                                        "es":"Se refiere a un individuo que nace en un territorio o país en particular. La población nacida en este país incluye a cualquier persona que sea ciudadano estadounidense al momento de su nacimiento."
+                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth.[6]",
+                                        "es":"Se refiere a un individuo que nace en un territorio o país en particular. La población nacida en este país incluye a cualquier persona que sea ciudadano estadounidense al momento de su nacimiento.[6]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Foreign Born",
                                         "revealTextEs":"Nacido En El Extranjero",
-                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization.",
-                                        "es":"Incluye a cualquier persona que no sea un ciudadano estadounidense al nacer, incluidos aquellos que se conviertan en ciudadanos estadounidenses a través de la naturalización."
+                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization.[6]",
+                                        "es":"Incluye a cualquier persona que no sea un ciudadano estadounidense al nacer, incluidos aquellos que se conviertan en ciudadanos estadounidenses a través de la naturalización.[6]"
                                     }
                                 ]
                             }
@@ -946,7 +948,8 @@
                               "questionEs":"¿Qué nivel de educación quieres alcanzar?",
 							  "color":"#00058b",
 							  "reveal":{
-								  "text":"You can do it!"
+								  "text":"You can do it!",
+								  "esText":"¡Sí se puede!"
 							  },
                               "background":"#69bfff",
                               "options": [
@@ -1030,7 +1033,8 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
                                         "html":"<a href='http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012' target='_blank'>1. http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</a><br/><a href='http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf' target='_blank'>2. http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf</a><br/><a href='http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/' target='_blank'>3. http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/</a><br/><a href='https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/' target='_blank'>4. https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/</a><br/><a href='http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/' target='_blank'>5. http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/</a>"
                                     }
                                 ]

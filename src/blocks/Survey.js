@@ -27,7 +27,7 @@ export default class Survey extends Component {
             <button tabIndex={'4'} key={index} id={index} onKeyPress={e => e.which === 13 ? this.changeSlide(option.answer) : null} onClick={() => this.answerSurvey(option.answer)} style={{color:this.props.details.color, background:this.props.details.background}} className={css(ss.option)}>{this.props.language == 'es' && option.answerEs ? option.answerEs : option.answer}</button>)
         
           : 
-		  this.props.details.reveal ? this.props.details.reveal.url ? <img src={this.props.details.reveal.url} alt={this.props.details.reveal.imageAlt} /> : <div>{this.props.details.reveal.text}</div> :
+		  this.props.details.reveal ? this.props.details.reveal.url ? <img src={this.props.details.reveal.url} alt={this.props.details.reveal.imageAlt} /> : <div>{this.props.language == 'en' ? this.props.details.reveal.text : this.props.details.reveal.esText ? this.props.details.reveal.esText : this.props.details.reveal.text}</div> :
 		  <div>Thanks!</div>}
       </section>
     );

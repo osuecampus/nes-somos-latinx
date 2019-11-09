@@ -54,7 +54,7 @@ class Content extends Component {
               (this.props.content[0].sections[this.props.currentUnit].content[(Number(this.props.currentPage)+1)] ? 
                 (<Link to={'/'+this.props.currentUnit+'/'+(Number(this.props.currentPage)+1)} tabIndex={'4'}  onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0))}>
                   <div title={this.props.content[0].sections[this.props.currentUnit].content[Number(this.props.currentPage)+1].title} className={'pageTitle'}>
-				  {this.props.language == 'en' ? 'Next Page' : 'Siguiente página'}
+				  {this.props.language == 'en' ? 'Next Page' : 'Próxima página'}
                   </div>
                 </Link>)
               :
@@ -112,7 +112,7 @@ class Content extends Component {
               (this.props.content[0].sections[this.props.currentUnit].content[Number(this.props.currentPage)+1] ? 
               (<Link to={'/'+this.props.currentUnit+'/'+(Number(this.props.currentPage)+1)} tabIndex={'4'} onKeyDown={(event) => event.keyCode == 32 ? (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0)) : null } onClick={() => (this.props.setCurrentPage(Number(this.props.currentPage)+1, this.props.currentUnit), window.scrollTo(0,0))}>
                 <div title={this.props.content[0].sections[this.props.currentUnit].content[Number(this.props.currentPage)+1].title} className={'pageTitle'}>
-				{this.props.language == 'en' ? 'Next Page' : 'Siguiente página'}
+				{this.props.language == 'en' ? 'Next Page' : 'Próxima página'}
                 </div>
              </Link>)
               :
