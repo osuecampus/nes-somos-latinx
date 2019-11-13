@@ -36,13 +36,13 @@ export default class QuizMultipleChoice extends Component {
   }
 
   render() {
-	  console.log(this.state.currentQuestion)
     return (
       <section className={css(ss.section)}>
         <div className={css(ss.questionHold)}>
             {this.props.details.questions[this.state.currentQuestion] ? 
                 <div ref={'question'} className={css(ss.question)}>
                     <p className={css(ss.text)}>{this.props.language == 'es' ? this.props.details.questions[this.state.currentQuestion].es : this.props.details.questions[this.state.currentQuestion].text}</p>
+					
 					{this.state.currentQuestion == 1 && this.props.details.url && <img src={this.props.details.url} alt={this.props.details.imgAlt}/> }
                 </div>
             : null }
@@ -51,7 +51,7 @@ export default class QuizMultipleChoice extends Component {
             {this.props.details.options.map((block) => 
                 <div style={{color:this.props.details.color, background:this.props.details.background}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
 					{this.props.language == 'es' && block.es ? block.es : block.text}
-					
+					{console.log(block)}
                 </div>
             )}
         </div>

@@ -77,7 +77,7 @@ class Tree extends Component {
               {plot.title == 'Contact' ? <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.23 166.23"><title>icon-contact</title><g id="ekGbk0.tif"><path d="M108.49,0q49.23,0,98.44,0c8.17,0,9.31,1.18,9.3,9.2q0,73.45,0,146.91c0,8.85-1.26,10.11-10.11,10.11q-98,0-195.88,0C1,166.23,0,165.22,0,155.83Q0,82.12,0,8.42C0,1.33,1.27,0,8.55,0Q58.53,0,108.49,0ZM12.36,20.72a28.2,28.2,0,0,0-.44,3q0,63-.08,125.92c0,4.41,2.33,4.71,5.71,4.7q90.45-.06,180.9.06c4.64,0,6-1.54,6-6-.13-40.81-.07-81.62-.09-122.43,0-1.5-.26-3-.46-5.26C202.05,22.21,201,23,200.08,24q-42.2,40.47-84.36,81c-7.09,6.8-8.14,6.81-15.06.16q-42.18-40.48-84.37-81C15.25,23.12,14.11,22.22,12.36,20.72Zm9.92-8.39a30.2,30.2,0,0,0,2.32,3.11q40.28,38.84,80.55,77.67c2.47,2.39,4,1.79,6.19-.3q39.87-38.52,79.83-77a29.46,29.46,0,0,0,2.61-3.52Z"/></g></svg> : null }
               
               
-              {plot.title}</h2>
+              {this.props.language == "es" ? plot.esTitle : plot.title}</h2>
               <div style={{display: this.props.content[0].sections[plot.id].content.length > 1 ? 'flex' : 'none' }} className={'downProgress'}>
                 {this.props.theme == 'lightLook' ? 
                   <svg id="Layer_1" alt="Show Pages" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202.37 126.95"><title>icon-arrow-light</title><path d="M184.25,4.05c-5.31-5.31-9.52-5.34-14.77-.1L104.27,69.1c-2.67,2.66-2.68,2.66-5.41-.07L78.7,48.85Q55.84,25.94,32.92,3.11C29-.84,24.08-1,20.3,2.64c-5.73,5.59-11.44,11.19-16.93,17C1.87,21.23,1.19,23.59,0,25.85,1.1,28,1.76,30,3,31.49c1.88,2.3,4.17,4.27,6.28,6.39Q21.69,50.21,34,62.61c6.62,6.68,13.15,13.45,19.77,20.12l24,24c5.79,5.76,11.47,11.67,17.47,17.15,4.84,4.39,8.71,4,13.31-.61l24-24,24.7-24.7,24.88-24.89c5.77-5.76,11.46-11.61,17.34-17.25,4.33-4.16,3.52-10.08-.31-13.59C194.05,14.05,189.25,9,184.25,4.05Z"/></svg>
@@ -102,7 +102,7 @@ class Tree extends Component {
             </div> 
             : 
             <div ref={'unit'+plot.id} style={{pointerEvents:'none'}} className={'unitBlock' + (this.props.currentUnit == plot.id ? ' activeUnit' : '')}>
-            <h2>{plot.title}</h2>
+            <h2>{this.props.language == 'es' ? plot.esTitle : plot.title}</h2>
             <div className={'downProgress'}>
              
               {this.props.content[0].config.progressBar == true ?
@@ -135,7 +135,7 @@ class Tree extends Component {
             <div ref={'hidden'+plot.id} className={'hiddenPages'  + (this.props.currentUnit == plot.id ? ' activePage' : '')}>
             { plot.content.map((plex) => { return (
                 <Link to={'/'+plot.id+'/'+plex.id} tabIndex={'2'} onKeyDown={(event) => event.keyCode == 32 ? (this.pageChoice(plot.id, plex.id), (this.state.mobileView ? this.props.detectDimensions(false) : null)) :null}  onClick={() => {this.pageChoice(plot.id, plex.id), (this.state.mobileView ? this.props.detectDimensions(false) : null)}} key={plex.id} className={'unitPage' + (this.props.currentPage == plex.id && this.props.currentUnit == plot.id ? ' activeTreePage' : '')}>
-                  {plex.title}
+                  {this.props.language == 'es' ? plex.esTitle : plex.title}
                   {this.props.content[0].config.progressBar == true ?
                   localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+ plot.id) ? localStorage.getItem('nes-' + process.env.PROJECT_NAME + '-progress-'+ plot.id).includes(plex.id) ? <svg id="checkmark" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220.6 220.81"><title>icon-checkmark</title><g><path className="checkmarkBlue" d="M0,110.19C-.69,51.51,47.52-.35,110.93,0,173,.35,220.68,51.32,220.6,110.6c-.07,58.22-46.7,110.45-110.57,110.21C44.42,220.56-1,166.75,0,110.19Zm90.74,19.65L60.3,100.54l-16.39,17.6q23,23.05,47.8,47.94L177,78,159.43,61.12Z"/><path className="checkmarkWhite" d="M90.76,129.84l68.67-68.72L177,78,91.71,166.08q-24.79-24.89-47.8-47.94l16.39-17.6Z"/></g></svg>
                   :null : null : null }
@@ -185,7 +185,8 @@ const mapStateToProps = state => {
       content: state.content,
       theme: state.theme,
       currentPage: state.currentPage,
-      currentUnit: state.currentUnit
+	  currentUnit: state.currentUnit,
+	  language: state.language
   };
 };
 
