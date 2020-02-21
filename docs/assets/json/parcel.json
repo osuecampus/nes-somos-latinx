@@ -9,7 +9,8 @@
     [
         {
             "id": 0,
-            "title": "Home",
+			"title": "Home",
+			"esTitle":"Pagina Original",
             "content": [
                 {
                     "id": 0,
@@ -355,22 +356,22 @@
                                         "id":0,
                                         "revealText": "First Generation",
                                         "revealTextEs":"Primera generación",
-                                        "text":"Latinos born outside of the United States or Puerto Rico",
-                                        "es":"los Latinos nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%)"
+                                        "text":"Latinos born outside of the United States or Puerto Rico[A]",
+                                        "es":"los Latinos nacieron fuera de los Estados Unidos o en la isla de Puerto Rico (63%)[A]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Second Generation",
                                         "revealTextEs":"Segunda generación",
-                                        "text":"Latinos born in the United States to immigrant parents",
-                                        "es":"los Latinos nacieron en los Estados Unidos de padres inmigrantes (19%)"
+                                        "text":"Latinos born in the United States to immigrant parents[A]",
+                                        "es":"los Latinos nacieron en los Estados Unidos de padres inmigrantes (19%)[A]"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Third or Higher Generation",
                                         "revealTextEs":"Tercera o mayor generación",
-                                        "text":"Latinos born in the United States to U.S.-born parents",
-                                        "es":"los latinos nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)"
+                                        "text":"Latinos born in the United States to U.S.-born parents[A]",
+                                        "es":"los latinos nacieron en los Estados Unidos de padres nacidos en los Estados Unidos (17%)[A]"
                                     }
                                 ]
                             }
@@ -570,7 +571,11 @@
                             "details":
                             {
                               "question": "Do you consider yourself a typical American?",
-                              "questionEs":"¿Te consideras un americano típico?",
+							  "questionEs":"¿Te consideras un americano típico?",
+							  "reveal":{
+									"text":"True 56%, False 43%",
+									"esText":"Cierto 56%, Falso 43%"
+								},
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
@@ -710,8 +715,9 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
-                                        "html":"<a href='http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/' target='_blank'>1. http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/</a> <br/><a href='http://www.pewhispanic.org/2004/03/19/generational-differences/' target='_blank'>2. http://www.pewhispanic.org/2004/03/19/generational-differences/</a>"
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
+                                        "html":"<a href='http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/' target='_blank'>1. Taylor, P., Lopez, M. H., Martínez, J., & Velasco, G. (2016, February 23). When Labels Don't Fit: Hispanics and Their Views of Identity. Retrieved from https://www.pewresearch.org/hispanic/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/./</a> <br/><a href='http://www.pewhispanic.org/2004/03/19/generational-differences/' target='_blank'>2. Generational Differences. (2016, February 23). Retrieved from https://www.pewresearch.org/hispanic/2004/03/19/generational-differences/./</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -720,7 +726,8 @@
                 },
                 {
                     "id": 1,
-                    "title" : "Education",
+					"title" : "Education",
+					"esTitle":"Educación",
                     "blocks":
                     [
                         {
@@ -772,15 +779,15 @@
                                         "id":0,
                                         "revealText": "US Born",
                                         "revealTextEs":"Nacido En EEUU",
-                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth.",
-                                        "es":"Se refiere a un individuo que nace en un territorio o país en particular. La población nacida en este país incluye a cualquier persona que sea ciudadano estadounidense al momento de su nacimiento."
+                                        "text":"Refers to an individual who is born in a particular territory or country. For the USA, the native-born population includes anyone who is a U.S. citizen at birth.[6]",
+                                        "es":"Se refiere a un individuo que nace en un territorio o país en particular. La población nacida en este país incluye a cualquier persona que sea ciudadano estadounidense al momento de su nacimiento.[6]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Foreign Born",
                                         "revealTextEs":"Nacido En El Extranjero",
-                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization.",
-                                        "es":"Incluye a cualquier persona que no sea un ciudadano estadounidense al nacer, incluidos aquellos que se conviertan en ciudadanos estadounidenses a través de la naturalización."
+                                        "text":"Includes anyone who is not a U.S. citizen at birth, including those who become U.S. citizens through naturalization.[6]",
+                                        "es":"Incluye a cualquier persona que no sea un ciudadano estadounidense al nacer, incluidos aquellos que se conviertan en ciudadanos estadounidenses a través de la naturalización.[6]"
                                     }
                                 ]
                             }
@@ -946,7 +953,8 @@
                               "questionEs":"¿Qué nivel de educación quieres alcanzar?",
 							  "color":"#00058b",
 							  "reveal":{
-								  "text":"You can do it!"
+								  "text":"You can do it!",
+								  "esText":"¡Sí se puede!"
 							  },
                               "background":"#69bfff",
                               "options": [
@@ -1030,8 +1038,9 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
-                                        "html":"<a href='http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012' target='_blank'>1. http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</a><br/><a href='http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf' target='_blank'>2. http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf</a><br/><a href='http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/' target='_blank'>3. http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/</a><br/><a href='https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/' target='_blank'>4. https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/</a><br/><a href='http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/' target='_blank'>5. http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/</a>"
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
+                                        "html":"<a href='http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012' target='_blank'>1. Brown, A., &amp; Patten, E. (2017, September 26). 2012, Hispanics in the United States statistical portrait. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2014/04/29/2012-statistical-information-on- hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</a><br/><a href='http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf' target='_blank'>2. Fry, R., &amp; Taylor, P. (2012). Hispanic High School Graduates Pass Whites in Rate of College Enrollment. Hispanic High School Graduates Pass Whites in Rate of College Enrollment. Washington, D.C.: Pew Research Center</a><br/><a href='http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/' target='_blank'>3. Krogstad, J. M. (2016, July 28). 5 facts about Latinos and education. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos- and-education//</a><br/><a href='https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/' target='_blank'>4. NSC Research Center. (2018, July 2). Persistence &amp; retention - 2017. NSC Research Center. Retrieved from https://nscresearchcenter.org/snapshotreport28-first-year-persistence- and-retention//</a><br/><a href='http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/' target='_blank'>5. Taylor, P., &amp; Fry, R. (2013, May 9). II. Immediate entry into college. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2013/05/09/ii-immediate-entry- into-college/</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -1040,7 +1049,8 @@
                 },
                 {
                     "id": 2,
-                    "title" : "Immigration",
+					"title" : "Immigration",
+					"esTitle":"Inmigración",
                     "blocks":
                     [
                         {
@@ -1105,22 +1115,22 @@
                                         "id":0,
                                         "revealText": "First Generation",
                                         "revealTextEs":"PRIMERA GENERACIÓN",
-                                        "text":"Latinos born outside of the United States or Puerto Rico",
-                                        "es":"Latinos nacidos fuera de los Estados Unidos o Puerto Rico"
+                                        "text":"Latinos born outside of the United States or Puerto Rico[1]",
+                                        "es":"Latinos nacidos fuera de los Estados Unidos o Puerto Rico[1]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Second Generation",
                                         "revealTextEs": "SEGUNDA GENERACIÓN",
-                                        "text":"Latinos born in the United States to immigrant parents",
-                                        "es":"Latinos nacidos en los Estados Unidos de padres inmigrantes"
+                                        "text":"Latinos born in the United States to immigrant parents[1]",
+                                        "es":"Latinos nacidos en los Estados Unidos de padres inmigrantes[1]"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Third or Higher Generation",
                                         "revealTextEs":"TERCERA O MAYOR GENERACIÓN",
-                                        "text":"Latinos born in the United States to U.S.-born parents",
-                                        "es":"Latinos nacidos en los Estados Unidos de padres nacidos en los Estados Unidos"
+                                        "text":"Latinos born in the United States to U.S.-born parents[1]",
+                                        "es":"Latinos nacidos en los Estados Unidos de padres nacidos en los Estados Unidos[1]"
                                     }
                                 ]
                             }
@@ -1132,6 +1142,14 @@
                             {
                                 "url":"./assets/img/photo-immigration-mapgif.gif",
                                 "imageAlt":"Immigration changes over the century"
+                            }
+						},
+						{
+                            "id":7,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"[1]"
                             }
                         },
                         {
@@ -1171,7 +1189,9 @@
                             "details":
                             {
                                 "color":"#ffffff",
-                              "background":"#662d91",
+							  "background":"#662d91",
+							  "url":"./assets/img/photo-immigration-latin.svg",
+											"imgAlt":"Chart showing where Latin American immigrants come from",
                                 "options":
                                 [
                                     {
@@ -1214,7 +1234,7 @@
                                         "id":3,
                                         "connector":99,
                                         "text":"Correct! Felicidades!",
-                                        "es":"Correct! Felicidades!"
+										"es":"Correct! Felicidades!"
                                     }
                                 ]
                             }
@@ -1229,15 +1249,6 @@
                                 "colorOne":"#1a8fe8",
                                 "colorTwo":"#662d91",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":20,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-immigration-latin.svg",
-                                "imageAlt":"Chart showing where Latin American immigrants come from"
                             }
                         },
                         {
@@ -1518,7 +1529,7 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.4 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras.",
+                                "text":"Over the past several years, Central American immigration to the United States has been the focal point of significant media and public policy attention, as the number of unaccompanied children and families fleeing gang violence and poverty has risen dramatically.  The majority of the 3.5 million Central Americans residing in the United States are from the Northern Triangle, formed by El Salvador, Guatemala, and Honduras.",
                                 "es":"En los últimos años, la inmigración centroamericana a los Estados Unidos ha sido el centro de atención significativa de los medios de comunicación y las políticas públicas, ya que la cantidad de niños y familias no acompañados que huyen de la violencia de pandillas y la pobreza ha aumentado dramáticamente. La mayoría de los 3.4 millones de centroamericanos que residen en los Estados Unidos son del Triángulo del Norte, formado por El Salvador, Guatemala y Honduras."
                             }
 						},
@@ -1527,7 +1538,7 @@
                             "type":"Markdown",
                             "details":
                             {
-                                "markdown":"*[2]*"
+                                "markdown":"*[3]*"
                             }
                         },
                         {
@@ -1718,8 +1729,9 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
-                                        "html":"<a href='http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants' target='_blank'>1. http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants</a><br/><a href='https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/' target='_blank'>2. https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/</a><br/><a href='https://www.migrationpolicy.org/article/central-american-immigrants-united-states' target='_blank'>3. https://www.migrationpolicy.org/article/central-american-immigrants-united-states</a><br/><a href='https://www.migrationpolicy.org/article/south-american-immigrants-united-states' target='_blank'>4. https://www.migrationpolicy.org/article/south-american-immigrants-united-states</a><br/><a href='http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/' target='_blank'>5. http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/</a><br/><a href='https://www.migrationpolicy.org/research/timeline-1790' target='_blank'>6. https://www.migrationpolicy.org/research/timeline-1790</a><br/><a href='http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/' target='_blank'>7. http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/</a>"
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
+                                        "html":"<a href='http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants' target='_blank'>1. Batalova, J., Bolter, J., &amp; O&#39;Connor, A. (2019, October 10). Central American immigrants in the United States. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/article/central-american-immigrants-united-states</a><br/><a href='https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/' target='_blank'>2. Flavia. (2014, July 16). Immigration: Latino migration and U.S. foreign policy. University of California, Berkley. Retrieved from https://clas.berkeley.edu/research/immigration-latino- migration-and-us-foreign-policy/</a><br/><a href='https://www.migrationpolicy.org/article/central-american-immigrants-united-states' target='_blank'>3. Krogstad, J. M., &amp; Keegan, M. (2015, October 7). From Germany to Mexico: how America&#39;s source of immigrants has changed over a century. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico- for-americas-immigrants/</a><br/><a href='https://www.migrationpolicy.org/article/south-american-immigrants-united-states' target='_blank'>4. Lopez, M. H., &amp; Krogstad, J. M. (2015, February 11). States suing Obama over immigration programs are home to 46% of those who may qualify. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over- immigration-programs-are-home-to-46-of-those-who-may-qualify/</a><br/><a href='http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/' target='_blank'>5. Migration Policy Institute. (2015, August 12). Major U.S. immigration laws, 1790 - present. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/research/timeline-1790</a><br/><a href='https://www.migrationpolicy.org/research/timeline-1790' target='_blank'>6. Pew Research Center. (2015, September 23). Asians projected to become the largest immigrant group, surpassing Hispanics. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2015/09/28/modern-immigration-wave-brings-59- million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09- 28_immigration-through-2065-05/</a><br/><a href='http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/' target='_blank'>7. Zong, J., &amp; Batalova, J. (2018, November 29). South American immigrants in the United States. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/article/south- american-immigrants-united-states/</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -1728,7 +1740,8 @@
                 },
                 {
                     "id": 3,
-                    "title" : "Economics",
+					"title" : "Economics",
+					"esTitle":"Economía",
                     "blocks":
                     [
                         {
@@ -1836,30 +1849,7 @@
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
                                 "subtext":"Education and economic prosperity are connected.",
-                                "subtextEs":"La educación y la prosperidad económica están conectadas. ¡Tenemos una pregunta para ti!"
-                            }
-                        },
-                        {
-                            "id":10,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "Is your family's current financial situation a concern to you?",
-                              "questionEs":"¿Es la situación financiera actual de su familia una preocupación para usted?",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Yes",
-                                  "answerEs":"si",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "No",
-                                  "answerEs": "no",
-                                  "value": "20%"
-                                }
-                              ]
+                                "subtextEs":"La educación y la prosperidad económica están conectadas."
                             }
                         },
                         {
@@ -1891,8 +1881,8 @@
                                 "type":"red",
                                 "colorOne":"#ff66d7",
                                 "colorTwo":"#f15a24",
-                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012.",
-                                "subtextEs":"El único grupo racial y étnico que tiene caídas estadísticamente significativas en los índices de pobreza es el de latinos e hispanos. Los números cambiaron en 2012."
+                                "subtext":"The only racial and ethnic group to have statistically significant drops in poverty rates is Latinos, Hispanics. The numbers changed in 2012.[2]",
+                                "subtextEs":"El único grupo racial y étnico que tiene caídas estadísticamente significativas en los índices de pobreza es el de latinos e hispanos. Los números cambiaron en 2012.[2]"
                             }
                         },
                         {
@@ -1974,22 +1964,22 @@
                                         "id":0,
                                         "revealText": "Age",
                                         "revealTextEs":"edad",
-                                        "es":"¡El grupo de más rápido crecimiento entre los latinos es la juventud! Tienen más posibilidades de acceder a la educación y en el futuro, puestos de trabajo.",
-                                        "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs."
+                                        "es":"¡El grupo de más rápido crecimiento entre los latinos es la juventud! Tienen más posibilidades de acceder a la educación y en el futuro, puestos de trabajo.[3]",
+                                        "text":"The fastest growing group among Latinos is youth! They have more possibilities to access education and in the future, jobs.[3]"
                                     },
                                     {
                                         "id":1,
                                         "revealText": "Language",
                                         "revealTextEs":"Idioma",
-                                        "es":"En nuestra sección de idiomas, exploramos que los empleados que son bilingües en inglés y español tienen una demanda particular. Para mantener a los valiosos trabajadores bilingües, ¡los empleadores están dispuestos a pagar grandes sumas!",
-                                        "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big!"
+                                        "es":"En nuestra sección de idiomas, exploramos que los empleados que son bilingües en inglés y español tienen una demanda particular. Para mantener a los valiosos trabajadores bilingües, ¡los empleadores están dispuestos a pagar grandes sumas![3]",
+                                        "text":"In our Language section, we explored that employees who are bilingual in English and Spanish are particularly in demand. To keep valuable bilingual workers, employers are willing to pay big![3]"
                                     },
                                     {
                                         "id":2,
                                         "revealText": "Immigration Status",
                                         "revealTextEs":"inmigración",
-                                        "es":"Algunos inmigrantes luchan con su estatus migratorio que limita la educación y las oportunidades de trabajo. En contraste, la primera y segunda generación tienen más movilidad que sus familiares inmigrantes.",
-                                        "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives."
+                                        "es":"Algunos inmigrantes luchan con su estatus migratorio que limita la educación y las oportunidades de trabajo. En contraste, la primera y segunda generación tienen más movilidad que sus familiares inmigrantes.[3]",
+                                        "text":"Some immigrants struggle with their immigration status that limited education and work opportunities. In contrast, first and second generation have more mobility than their immigrant relatives.[3]"
                                     }
                                 ]
                             }
@@ -2011,29 +2001,6 @@
                             {
                                 "text":"The seemingly strong recovery for Latinos is more about demographics than good economic fortune. Because jobs growth and population growth are proceeding at similar rates, the proportion of Latinos with jobs barely increased up in the recovery.",
                                 "es":"La recuperación aparentemente fuerte para los hispanos tiene más que ver con la demografía que con la buena fortuna económica. Debido a que el crecimiento del empleo y el crecimiento de la población avanzan a tasas similares, la proporción de hispanos con empleos apenas aumentó en la recuperación."
-                            }
-                        },
-                        {
-                            "id":30,
-                            "type":"Survey",
-                            "details":
-                            {
-                              "question": "In your present or future, do you want to...",
-                              "questionEs":"En tu presente o futuro, quieres...",
-                              "color":"#ffffff",
-                              "background":"#f15a24",
-                              "options": [
-                                { 
-                                  "answer": "Work for an institution or company",
-                                  "answerEs":"Trabajo para una institución o empresa",
-                                  "value": "30%"
-                                },
-                                {
-                                  "answer": "Have your own business",
-                                  "answerEs":"Tener tu propio negocio",
-                                  "value": "20%"
-                                }
-                              ]
                             }
                         },
                         {
@@ -2278,7 +2245,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Resources",
-                                        "html":"<a href='https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html' target='_blank'>1. https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html</a><br/><a href='http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/' target='_blank'>2. http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/</a><br/><a href='http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/' target='_blank'>3. http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/</a><br/>4. MPI tabulation of data from the U.S. Census Bureau 2014 ACS<br/>5.Pew Research Center tabulations of Current Population Survey Data<br/><a href='https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf' target='_blank'>6. https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf</a>"
+                                        "html":"<a href='https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html' target='_blank'>1. Brown, A. (2014, June 26). U.S. Hispanic and Asian populations growing, but for different reasons. Pew Research Center. Retrieved from https://www.pewresearch.org/fact- tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/</a><br/><a href='http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/' target='_blank'>2. Kochhar, R. (2014, August 11). Latino jobs growth driven by U.S. born. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2014/06/19/latino-jobs-growth- driven-by-u-s-born/</a><br/><a href='http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/' target='_blank'>3. Ma, J., Pender, M., &amp; Welch, M. (2016). Education Pays 2016 The Benefits of Higher Education for Individuals and Society. College Board</a><br/>4. United States Census Bureau (n.d.). MPI tabulation of data from the U.S. Census Bureau 2014 ACS. United States Census Bureau. Retrieved from https://data.census.gov/cedsci/table?q=dp&amp;g=&amp;table=DP02&amp;tid=ACSDP1Y2014.DP02&amp;l astDisplayedRow=53<br/>5. United States Census Bureau (n.d.). Pew Research Center tabulations of current population survey data. United States Census Bureau. Retrieved from https://www.census.gov/programs-surveys/cps.html<br/><a href='https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf' target='_blank'>6. US Census Bureau. (2017, September 22). How the U.S. Census Bureau measures poverty. US Census Bureau. Retrieved from https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -2287,7 +2254,8 @@
                 },
                 {
                     "id": 4,
-                    "title" : "Language",
+					"title" : "Language",
+					"esTitle":"Idioma",
                     "blocks":
                     [
                         {
@@ -2322,7 +2290,9 @@
                         },
                         {
                             "id":4,
-                            "type":"QuizMultipleChoice",
+							"type":"QuizMultipleChoice",
+							"url":"./assets/img/photo-language-percentages.svg",
+							"imageAlt":"Percentages of English and Spanish use and importance according to Latinos/Hispanics",
                             "details":
                             {
 								"color":"#ffffff",
@@ -2368,8 +2338,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"A survey in 2013 found that 95% of Latinos believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.",
-                                "es":"Una encuesta realizada en 2013 encontró que el 95% de los hispanos creen que es importante que las futuras generaciones de hispanos en los Estados Unidos puedan hablar español. "
+                                "text":"A survey in 2013 found that 95% of Latinos believe it is very important for future generations of Hispanics in the U.S. to be able to speak Spanish.[1]",
+                                "es":"Una encuesta realizada en 2013 encontró que el 95% de los hispanos creen que es importante que las futuras generaciones de hispanos en los Estados Unidos puedan hablar español.[1]"
                             }
                         },
                         {
@@ -2377,8 +2347,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In my community, most Latinos speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).",
-                                "es":"En mi comunidad, la mayoría de los latinos e hispanos hablan español en casa, pero están de acuerdo que el inglés es importante para tener éxito en los Estados Unidos. (9 de cada 10 personas en la encuesta estuvieron de acuerdo)."
+                                "text":"In my community, most Latinos speak Spanish at home, but agree that English is important in order to succeed in the USA. (9 in 10 people in the survey agreed).[1]",
+                                "es":"En mi comunidad, la mayoría de los latinos e hispanos hablan español en casa, pero están de acuerdo que el inglés es importante para tener éxito en los Estados Unidos. (9 de cada 10 personas en la encuesta estuvieron de acuerdo).[1]"
                             }
                         },
                         {
@@ -2386,17 +2356,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is the beginning of a bilingual path. In order to build a solid second language, it is important to consider early childhood education and dual-immersion education access.",
-                                "es":"Este es el comienzo de un camino bilingüe. Para construir un segundo idioma sólido, es importante considerar la educación de la infancia y el acceso a la educación de doble inmersión."
-                            }
-                        },
-                        {
-                            "id":8,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-language-percentages.svg",
-                                "imageAlt":"Percentages of English and Spanish use and importance according to Latinos/Hispanics"
+                                "text":"This is the beginning of a bilingual path. In order to build a solid second language, it is important to consider early childhood education and dual-immersion education access.[1]",
+                                "es":"Este es el comienzo de un camino bilingüe. Para construir un segundo idioma sólido, es importante considerar la educación de la infancia y el acceso a la educación de doble inmersión.[1]"
                             }
                         },
                         {
@@ -2428,10 +2389,10 @@
                                         "id":1,
                                         "revealText": "Language Fluency",
                                         "revealTextEs":"Fluidez del lenguaje",
-                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma[1].",
-                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario[1].",
-                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language[1].",
-                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary[1]."
+                                        "es":"La fluidez puede tener diferentes definiciones para cada persona. La fluidez es la capacidad de comunicarse con facilidad y precisión en un idioma[3].",
+                                        "esTwo":"La fluidez se basa en el ritmo y el sonido de la conversación, la pronunciación y el vocabulario[3].",
+                                        "text":"Fluency can mean different things to different people. Fluency is the ability to communicate easily and accurately in a language[3].",
+                                        "textTwo":"Fluency lays in the rhythm and sound of the conversation, pronunciation, and vocabulary[3]."
                                     }
                                 ]
                             }
@@ -2451,8 +2412,8 @@
                             "details":
                             {
                                 "align": "left",
-                                "text":"33.2 million Latinos in the U.S. speak English proficiently.",
-                                "es":"33.2 millones de Latinos en los Estados Unidos hablan inglés proficientemente. "
+                                "text":"33.2 million Latinos in the U.S. speak English proficiently.[1]",
+                                "es":"33.2 millones de Latinos en los Estados Unidos hablan inglés proficientemente.[1]"
                             }
                         },
                         {
@@ -2460,8 +2421,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Latinos ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.",
-                                "es":"¡Este es el mayor porcentaje de todos! En 2013, este grupo representó el 68% de todos los hispanos de 5 años de edad en adelante, un 59% más que en 2000.Cuando hablamos de competencia, necesitamos conectar conceptos."
+                                "text":"This is the biggest percentage ever! In 2013, this group made up 68% of all Latinos ages 5 and older, up from 59% in 2000. When we talk about proficiency, we need to connect concepts.[1]",
+                                "es":"¡Este es el mayor porcentaje de todos! En 2013, este grupo representó el 68% de todos los hispanos de 5 años de edad en adelante, un 59% más que en 2000.Cuando hablamos de competencia, necesitamos conectar conceptos.[1]"
                             }
                         },
                         {
@@ -2498,8 +2459,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Since 2000, U.S. Latino population growth has been driven primarily by U.S. births rather than the arrival of new immigrants. After the second generation, our Latino community will likely speak more English at home, will have access to education opportunities, and increase chances to attend college.",
-                                "es":"Desde el año 2000, el crecimiento de la población latina en los Estados Unidos ha sido principalmente por los nacimientos en los Estados Unidos y no por la llegada de nuevos inmigrantes. Después de la segunda generación, nuestra comunidad Latina probablemente hablará más inglés en casa, tendrá acceso a oportunidades de educación y el acceso de asistir a la universidad aumentaran."
+                                "text":"Since 2000, U.S. Latino population growth has been driven primarily by U.S. births rather than the arrival of new immigrants. After the second generation, our Latino community will likely speak more English at home, will have access to education opportunities, and increase chances to attend college.[1]",
+                                "es":"Desde el año 2000, el crecimiento de la población latina en los Estados Unidos ha sido principalmente por los nacimientos en los Estados Unidos y no por la llegada de nuevos inmigrantes. Después de la segunda generación, nuestra comunidad Latina probablemente hablará más inglés en casa, tendrá acceso a oportunidades de educación y el acceso de asistir a la universidad aumentaran.[1]"
                             }
                         },
                         {
@@ -2685,8 +2646,8 @@
                                     {
                                         "id":1,
                                         "connector":99,
-                                        "text":"Correct! Felicidades!",
-                                        "es":"Correct! Felicidades!"
+                                        "text":"Answer: myth! All young children are capable of learning two languages. Becoming bilingual has long-term cognitive, academic, social, cultural, and economic benefits. It is an asset! When both languages are supported, academic achievement in English is not impeded.",
+                                        "es":"Contesta: ¡Mito! Todos los niños pequeños son capaces de aprender dos idiomas. Ser bilingüe tiene beneficios cognitivos, académicos, sociales, culturales y económicos a largo plazo. ¡Es una riqueza! Cuando ambos idiomas son apoyados, el rendimiento académico en inglés no es afectado."
                                     }
                                 ]
                             }
@@ -2701,25 +2662,6 @@
                                 "colorOne":"#aa0076",
                                 "colorTwo":"#00058b",
                                 "opacity": 0.25
-                            }
-                        },
-                        {
-                            "id":37,
-                            "type":"SubjectBlock",
-                            "details":
-                            {
-                                "align": "left",
-                                "text":"Answer: myth!",
-                                "es":"Contesta: ¡Mito!"
-                            }
-                        },
-                        {
-                            "id":38,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"All young children are capable of learning two languages. Becoming bilingual has long-term cognitive, academic, social, cultural, and economic benefits. It is an asset! When both languages are supported, academic achievement in English is not impeded.",
-                                "es":"Todos los niños pequeños son capaces de aprender dos idiomas. Ser bilingüe tiene beneficios cognitivos, académicos, sociales, culturales y económicos a largo plazo. ¡Es una riqueza! Cuando ambos idiomas son apoyados, el rendimiento académico en inglés no es afectado."
                             }
                         },
                         {
@@ -2755,19 +2697,10 @@
                                     {
                                         "id":1,
                                         "connector":99,
-                                        "text":"Correct! Felicidades!",
-                                        "es":"Correct! Felicidades!"
+                                        "text":"Although some parents and educators may have concerns about the potential for confusion, bilingual children do not suffer language confusion, language delay, or cognitive deficit.",
+                                        "es":"Aunque algunos padres y educadores pueden tener inquietudes acerca de la posibilidad de confusión, los niños bilingües no sufren confusión lingüística, retraso en el lenguaje o déficits cognitivos."
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "id":40.1,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"Although some parents and educators may have concerns about the potential for confusion, bilingual children do not suffer language confusion, language delay, or cognitive deficit.",
-                                "es":"Aunque algunos padres y educadores pueden tener inquietudes acerca de la posibilidad de confusión, los niños bilingües no sufren confusión lingüística, retraso en el lenguaje o déficits cognitivos."
                             }
                         },
                         {
@@ -2803,19 +2736,10 @@
                                     {
                                         "id":1,
                                         "connector":99,
-                                        "text":"Correct! Felicidades!",
-                                        "es":"Correct! Felicidades!"
+                                        "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not. Increases are not automatic. We need to better advocate for ourselves in the workplace if we speak a second a language.",
+                                        "es":"Los rendimientos financieros varían según el idioma y el trabajo, pero pueden sumar mucho. Los trabajos pagan diferenciales basados ​​en el bilingüismo y suelen pagar entre un 5 y un 20% más por hora para los empleados bilingües. Albert Saiz, economista del MIT, descubrió que los graduados universitarios que hablan dos idiomas ganan en promedio un 2% más que una persona que no habla dos lenguajes."
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "id":42.1,
-                            "type":"Text",
-                            "details":
-                            {
-                                "text":"The financial returns vary by language and job, but they can add up to a lot. Jobs with pay differentials based on bilingualism usually pay 5-20% more per hour for bilingual employees. An MIT economist, Albert Saiz discovered that college graduates who speak two languages make an average of 2% more than those who do not. Increases are not automatic. We need to better advocate for ourselves in the workplace if we speak a second a language.",
-                                "es":"Los rendimientos financieros varían según el idioma y el trabajo, pero pueden sumar mucho. Los trabajos pagan diferenciales basados ​​en el bilingüismo y suelen pagar entre un 5 y un 20% más por hora para los empleados bilingües. Albert Saiz, economista del MIT, descubrió que los graduados universitarios que hablan dos idiomas ganan en promedio un 2% más que una persona que no habla dos lenguajes."
                             }
                         },
                         {
@@ -2862,7 +2786,7 @@
                                         "id":1,
                                         "connector":99,
                                         "text":"Correct! Felicidades!",
-                                        "es":"Correct! Felicidades!"
+                                        "es":"Ve la información debajo"
                                     }
                                 ]
                             }
@@ -2901,8 +2825,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In Central and South America, at least 721 languages are spoken! The vast majority are indigenous languages.",
-                                "es":"¡En América Central y del Sur, se hablan al menos 721 idiomas! La gran mayoría son lenguas indígenas."
+                                "text":"In Central and South America, at least 721 languages are spoken! The vast majority are indigenous languages.[5]",
+                                "es":"¡En América Central y del Sur, se hablan al menos 721 idiomas! La gran mayoría son lenguas indígenas.[5]"
                             }
                         },
                         {
@@ -2910,8 +2834,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"In addition to linguistic richness from indigenous cultures, Latin Americans also speak languages inherited from the conquest: Spanish, Portuguese, Dutch, German, French, and English. So cool!",
-                                "es":"Además de la riqueza lingüística de las culturas indígenas, los latinoamericanos también hablan idiomas heredados de la conquista: español, portugués, holandés, alemán, francés e inglés.¡Que chevere!"
+                                "text":"In addition to linguistic richness from indigenous cultures, Latin Americans also speak languages inherited from the conquest: Spanish, Portuguese, Dutch, German, French, and English. So cool![5]",
+                                "es":"Además de la riqueza lingüística de las culturas indígenas, los latinoamericanos también hablan idiomas heredados de la conquista: español, portugués, holandés, alemán, francés e inglés.¡Que chevere![5]"
                             }
                         },
                         {
@@ -2961,6 +2885,11 @@
                             "type":"Survey",
                             "details":
                             {
+								"reveal":{
+									"url":"./assets/img/photo-language-bubbles.svg",
+									"imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
+									},
+								
                               "question": "Do you believe that being bilingual will have an advantage in your career?",
                               "questionEs":"¿Crees que ser bilingüe tendrá una ventaja en profesión en el futuro?",
                               "color":"#ffffff",
@@ -3000,22 +2929,14 @@
                                 "es":"En promedio, a los empleados bilingües se les paga."
                             }
                         },
-                        {
-                            "id":54,
-                            "type":"SingleImage",
-                            "details":
-                            {
-                                "url":"./assets/img/photo-language-bubbles.svg",
-                                "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
-                            }
-                        },
+                  
                         {
                             "id":55,
                             "type":"Text",
                             "details":
                             {
-                                "text":"For example, government workers in California who hold bilingual positions earn an extra $.58 an hour, according to the state's Department of Personnel Administration Web site. In Washington County, Oregon, employees in \"bilingual positions\" who spend 15-20 percent of their time in \"regular and frequent use\" of their bilingual skills earn an extra $30 per pay period.",
-                                "es":"Por ejemplo, los trabajadores que trabajan para el  gobierno de California que tienen posiciones bilingües ganan $ .58 por hora, según el sitio web del Departamento de Administración de Personal del estado. En el condado de Washington, Oregon, los empleados en 'posiciones bilingües' que pasan del 15 al 20 por ciento de su tiempo en 'uso regular y frecuente' de sus habilidades bilingües ganan $ 30 adicionales por período de pago."
+                                "text":"For example, government workers in California who hold bilingual positions earn an extra $.58 an hour, according to the state's Department of Personnel Administration Web site. In Washington County, Oregon, employees in \"bilingual positions\" who spend 15-20 percent of their time in \"regular and frequent use\" of their bilingual skills earn an extra $30 per pay period.[4]",
+                                "es":"Por ejemplo, los trabajadores que trabajan para el  gobierno de California que tienen posiciones bilingües ganan $ .58 por hora, según el sitio web del Departamento de Administración de Personal del estado. En el condado de Washington, Oregon, los empleados en 'posiciones bilingües' que pasan del 15 al 20 por ciento de su tiempo en 'uso regular y frecuente' de sus habilidades bilingües ganan $ 30 adicionales por período de pago.[4]"
                             }
                         },
                         {
@@ -3023,8 +2944,8 @@
                             "type":"Text",
                             "details":
                             {
-                                "text":"Bilingualism can boost your competitiveness in the job market. A second language will make your resume stand out when companies are seeking employees who can connect with diverse audiences.",
-                                "es":"El bilingüismo puede aumentar su competitividad en el mercado laboral. Un segundo idioma hará que su aplicación se destaque cuando las empresas buscan empleados que puedan conectarse con audiencias diversas"
+                                "text":"Bilingualism can boost your competitiveness in the job market. A second language will make your resume stand out when companies are seeking employees who can connect with diverse audiences.[4]",
+                                "es":"El bilingüismo puede aumentar su competitividad en el mercado laboral. Un segundo idioma hará que su aplicación se destaque cuando las empresas buscan empleados que puedan conectarse con audiencias diversas[4]"
                             }
                         },
                         {
@@ -3035,8 +2956,9 @@
                                 "accordions":[
                                     {
                                         "id":1,
-                                        "revealText": "Resources",
-                                        "html":"<a href='http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/' target='_blank'>1. http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/</a><br/><a href='https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/' target='_blank'>2. https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/</a><br/>3. Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.<br/><a href='https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf' target='_blank'>4. https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf</a><br/><a href='http://aboutworldlanguages.com/indigenous-languages-of-south-america' target='_blank'>5. http://aboutworldlanguages.com/indigenous-languages-of-south-america</a><br/><a href='https://www.sciencedaily.com/releases/2014/11/141112084504.htm' target='_blank'>6. https://www.sciencedaily.com/releases/2014/11/141112084504.htm</a>"
+										"revealText": "Resources",
+										"esRevealText":"Recursos",
+                                        "html":"<a href='http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/' target='_blank'>1. Espinosa, L. M. (2010, June 3). Challenging common myths about young English language learners. Foundation for Child Development. Retrieved from https://www.fcd- us.org/challenging-common-myths-about-young-english-language-learners/</a><br/><a href='https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/' target='_blank'>2. Krogstad, J. M., Stepler, R., &amp; Lopez, M. H. (2015, May 12). English use on the rise among Latinos. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2015/05/12/english-proficiency-on-the-rise- among-latinos/</a><br/>3. Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.<br/><a href='https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf' target='_blank'>4. Must Go Travel. (n.d.). Indigenous languages of South America: about world languages. Must Go Travel. Retrieved from https://www.mustgo.com/worldlanguages/indigenous- languages-of-south-america/</a><br/><a href='http://aboutworldlanguages.com/indigenous-languages-of-south-america' target='_blank'>5. Northwestern University. (2014, November 12). Bilingual brains better equipped to process information. ScienceDaily. Retrieved November 5, 2019 from www.sciencedaily.com/releases/2014/11/141112084504.htm</a><br/><a href='https://www.sciencedaily.com/releases/2014/11/141112084504.htm' target='_blank'>6. Saiz, A., &amp; Zoido, E. (2002). Working Paper No. 02-16 The Returns To Speaking A Second Language. Federal Reserve Bank of Philadelphia. Philadelphia, PA: Working Papers Research Department</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -3047,11 +2969,13 @@
         },
         {
             "id": 3,
-            "title": "About",
+			"title": "About",
+			"esTitle":"Sobre",
             "content": [
                 {
                     "id": 0,
-                    "title" : "About Somos LatinX",
+					"title" : "About Somos LatinX",
+					"esTitle":"Sobre Somos LatinX",
                     "blocks":
                     [
                         {

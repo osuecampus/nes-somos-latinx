@@ -51,7 +51,6 @@ export default class QuizMultipleChoice extends Component {
             {this.props.details.options.map((block) => 
                 <div style={{color:this.props.details.color, background:this.props.details.background}} ref={'answer'+block.id} onKeyDown={(event) => event.keyCode == 32 ? this.checkAnswer(block.id, 'answer'+block.id) : null } onClick={() => this.checkAnswer(block.id, 'answer'+block.id)} tabIndex={'4'} key={block.id} className={css(ss.answer)}>
 					{this.props.language == 'es' && block.es ? block.es : block.text}
-					{console.log(block)}
                 </div>
             )}
         </div>

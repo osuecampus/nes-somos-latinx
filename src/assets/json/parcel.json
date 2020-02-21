@@ -381,7 +381,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-identity-bar.svg",
+								"url":"./assets/img/photo-identity-bar.svg",
+								"esUrl":"./assets/img/es-photo-identity-bar.png",
                                 "imageAlt":"A bar graph showing demographic data"
                             }
                         },
@@ -571,7 +572,11 @@
                             "details":
                             {
                               "question": "Do you consider yourself a typical American?",
-                              "questionEs":"¿Te consideras un americano típico?",
+							  "questionEs":"¿Te consideras un americano típico?",
+							  "reveal":{
+									"text":"True 56%, False 43%",
+									"esText":"Cierto 56%, Falso 43%"
+								},
                               "color":"#00058b",
                               "background":"#fcee21",
                               "options": [
@@ -713,7 +718,7 @@
                                         "id":1,
 										"revealText": "Resources",
 										"esRevealText":"Recursos",
-                                        "html":"<a href='http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/' target='_blank'>1. http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/</a> <br/><a href='http://www.pewhispanic.org/2004/03/19/generational-differences/' target='_blank'>2. http://www.pewhispanic.org/2004/03/19/generational-differences/</a>"
+                                        "html":"<a href='http://www.pewhispanic.org/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/' target='_blank'>1. Taylor, P., Lopez, M. H., Martínez, J., & Velasco, G. (2016, February 23). When Labels Don't Fit: Hispanics and Their Views of Identity. Retrieved from https://www.pewresearch.org/hispanic/2012/04/04/when-labels-dont-fit-hispanics-and-their-views-of-identity/./</a> <br/><a href='http://www.pewhispanic.org/2004/03/19/generational-differences/' target='_blank'>2. Generational Differences. (2016, February 23). Retrieved from https://www.pewresearch.org/hispanic/2004/03/19/generational-differences/./</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -805,7 +810,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-attainmentChart.svg",
+								"url":"./assets/img/photo-education-attainmentChart.svg",
+								"esUrl":"./assets/img/es-photo-education-attainmentChart.png",
                                 "imageAlt":"Education by Race Chart"
                             }
                         },
@@ -885,7 +891,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-dropout.svg",
+								"url":"./assets/img/photo-education-dropout.svg",
+								"esUrl":"./assets/img/es-photo-education-dropout.png",
                                 "imageAlt":"Chart of High School Dropout rates"
                             }
                         },
@@ -903,7 +910,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-college.svg",
+								"url":"./assets/img/photo-education-college.svg",
+								"esUrl":"./assets/img/es-photo-education-college.png",
                                 "imageAlt":"Chart showing entry to college rates"
                             }
                         },
@@ -1004,7 +1012,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-persist.svg",
+								"url":"./assets/img/photo-education-persist.svg",
+								"esUrl":"./assets/img/es-photo-education-persist.png",
                                 "imageAlt":"Persisting in college chart"
                             }
                         },
@@ -1013,7 +1022,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-lastChart.svg",
+								"url":"./assets/img/photo-education-lastChart.svg",
+								"esUrl":"./assets/img/es-photo-education-lastChart.png",
                                 "imageAlt":"College completion chart"
                             }
                         },
@@ -1036,7 +1046,7 @@
                                         "id":1,
 										"revealText": "Resources",
 										"esRevealText":"Recursos",
-                                        "html":"<a href='http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012' target='_blank'>1. http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</a><br/><a href='http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf' target='_blank'>2. http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf</a><br/><a href='http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/' target='_blank'>3. http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/</a><br/><a href='https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/' target='_blank'>4. https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/</a><br/><a href='http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/' target='_blank'>5. http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/</a>"
+                                        "html":"<a href='http://www.pewhispanic.org/2014/04/29/2012-statistical-information-on-hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012' target='_blank'>1. Brown, A., &amp; Patten, E. (2017, September 26). 2012, Hispanics in the United States statistical portrait. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2014/04/29/2012-statistical-information-on- hispanics-in-united-states/#educational-attainment-by-race-and-ethnicity-2012</a><br/><a href='http://www.pewresearch.org/wp-content/uploads/sites/5/2013/05/PHC_college_enrollment_2013-05.pdf' target='_blank'>2. Fry, R., &amp; Taylor, P. (2012). Hispanic High School Graduates Pass Whites in Rate of College Enrollment. Hispanic High School Graduates Pass Whites in Rate of College Enrollment. Washington, D.C.: Pew Research Center</a><br/><a href='http://www.pewhispanic.org/2013/05/09/ii-immediate-entry-into-college/' target='_blank'>3. Krogstad, J. M. (2016, July 28). 5 facts about Latinos and education. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos- and-education//</a><br/><a href='https://nscresearchcenter.org/snapshotreport28-first-year-persistence-and-retention/' target='_blank'>4. NSC Research Center. (2018, July 2). Persistence &amp; retention - 2017. NSC Research Center. Retrieved from https://nscresearchcenter.org/snapshotreport28-first-year-persistence- and-retention//</a><br/><a href='http://www.pewresearch.org/fact-tank/2016/07/28/5-facts-about-latinos-and-education/' target='_blank'>5. Taylor, P., &amp; Fry, R. (2013, May 9). II. Immediate entry into college. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2013/05/09/ii-immediate-entry- into-college/</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -1314,7 +1324,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-numberschart.svg",
+								"url":"./assets/img/photo-immigration-numberschart.svg",
+								"esUrl":"./assets/img/es-photo-immigration-numberschart.png",
                                 "imageAlt":"Chart of Immigration to U.S. from Mexico"
                             }
                         },
@@ -1506,7 +1517,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-cenim.svg",
+								"url":"./assets/img/photo-immigration-cenim.svg",
+								"esUrl":"./assets/img/es-photo-immigration-cenim.png",
                                 "imageAlt":"Chart of Immigration to U.S. from Central America"
                             }
                         },
@@ -1596,7 +1608,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-sudchart.svg",
+								"url":"./assets/img/photo-immigration-sudchart.svg",
+								"esUrl":"./assets/img/es-photo-immigration-sudchart.png",
                                 "imageAlt":"Chart of Immigration to U.S. from South America"
                             }
                         },
@@ -1677,7 +1690,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-projected.svg",
+								"url":"./assets/img/photo-immigration-projected.svg",
+								"esUrl":"./assets/img/es-photo-immigration-projected.png",
                                 "imageAlt":"Projected American population"
                             }
                         },
@@ -1727,7 +1741,7 @@
                                         "id":1,
 										"revealText": "Resources",
 										"esRevealText":"Recursos",
-                                        "html":"<a href='http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants' target='_blank'>1. http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants</a><br/><a href='https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/' target='_blank'>2. https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/</a><br/><a href='https://www.migrationpolicy.org/article/central-american-immigrants-united-states' target='_blank'>3. https://www.migrationpolicy.org/article/central-american-immigrants-united-states</a><br/><a href='https://www.migrationpolicy.org/article/south-american-immigrants-united-states' target='_blank'>4. https://www.migrationpolicy.org/article/south-american-immigrants-united-states</a><br/><a href='http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/' target='_blank'>5. http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/</a><br/><a href='https://www.migrationpolicy.org/research/timeline-1790' target='_blank'>6. https://www.migrationpolicy.org/research/timeline-1790</a><br/><a href='http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/' target='_blank'>7. http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/</a>"
+                                        "html":"<a href='http://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico-for-americas-immigrants' target='_blank'>1. Batalova, J., Bolter, J., &amp; O&#39;Connor, A. (2019, October 10). Central American immigrants in the United States. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/article/central-american-immigrants-united-states</a><br/><a href='https://clas.berkeley.edu/research/immigration-latino-migration-and-us-foreign-policy/' target='_blank'>2. Flavia. (2014, July 16). Immigration: Latino migration and U.S. foreign policy. University of California, Berkley. Retrieved from https://clas.berkeley.edu/research/immigration-latino- migration-and-us-foreign-policy/</a><br/><a href='https://www.migrationpolicy.org/article/central-american-immigrants-united-states' target='_blank'>3. Krogstad, J. M., &amp; Keegan, M. (2015, October 7). From Germany to Mexico: how America&#39;s source of immigrants has changed over a century. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2015/10/07/a-shift-from-germany-to-mexico- for-americas-immigrants/</a><br/><a href='https://www.migrationpolicy.org/article/south-american-immigrants-united-states' target='_blank'>4. Lopez, M. H., &amp; Krogstad, J. M. (2015, February 11). States suing Obama over immigration programs are home to 46% of those who may qualify. Pew Research Center. Retrieved from https://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over- immigration-programs-are-home-to-46-of-those-who-may-qualify/</a><br/><a href='http://www.pewhispanic.org/2015/09/28/modern-immigration-wave-brings-59-million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09-28_immigration-through-2065-05/' target='_blank'>5. Migration Policy Institute. (2015, August 12). Major U.S. immigration laws, 1790 - present. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/research/timeline-1790</a><br/><a href='https://www.migrationpolicy.org/research/timeline-1790' target='_blank'>6. Pew Research Center. (2015, September 23). Asians projected to become the largest immigrant group, surpassing Hispanics. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2015/09/28/modern-immigration-wave-brings-59- million-to-u-s-driving-population-growth-and-change-through-2065/ph_2015-09- 28_immigration-through-2065-05/</a><br/><a href='http://www.pewresearch.org/fact-tank/2015/02/11/states-suing-obama-over-immigration-programs-are-home-to-46-of-those-who-may-qualify/' target='_blank'>7. Zong, J., &amp; Batalova, J. (2018, November 29). South American immigrants in the United States. Migration Policy Institute. Retrieved from https://www.migrationpolicy.org/article/south- american-immigrants-united-states/</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -2241,7 +2255,7 @@
                                     {
                                         "id":1,
                                         "revealText": "Resources",
-                                        "html":"<a href='https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html' target='_blank'>1. https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html</a><br/><a href='http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/' target='_blank'>2. http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/</a><br/><a href='http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/' target='_blank'>3. http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/</a><br/>4. MPI tabulation of data from the U.S. Census Bureau 2014 ACS<br/>5.Pew Research Center tabulations of Current Population Survey Data<br/><a href='https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf' target='_blank'>6. https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf</a>"
+                                        "html":"<a href='https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html' target='_blank'>1. Brown, A. (2014, June 26). U.S. Hispanic and Asian populations growing, but for different reasons. Pew Research Center. Retrieved from https://www.pewresearch.org/fact- tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/</a><br/><a href='http://www.pewresearch.org/fact-tank/2014/06/26/u-s-hispanic-and-asian-populations-growing-but-for-different-reasons/' target='_blank'>2. Kochhar, R. (2014, August 11). Latino jobs growth driven by U.S. born. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2014/06/19/latino-jobs-growth- driven-by-u-s-born/</a><br/><a href='http://www.pewhispanic.org/2014/06/19/latino-jobs-growth-driven-by-u-s-born/' target='_blank'>3. Ma, J., Pender, M., &amp; Welch, M. (2016). Education Pays 2016 The Benefits of Higher Education for Individuals and Society. College Board</a><br/>4. United States Census Bureau (n.d.). MPI tabulation of data from the U.S. Census Bureau 2014 ACS. United States Census Bureau. Retrieved from https://data.census.gov/cedsci/table?q=dp&amp;g=&amp;table=DP02&amp;tid=ACSDP1Y2014.DP02&amp;l astDisplayedRow=53<br/>5. United States Census Bureau (n.d.). Pew Research Center tabulations of current population survey data. United States Census Bureau. Retrieved from https://www.census.gov/programs-surveys/cps.html<br/><a href='https://trends.collegeboard.org/sites/default/files/education-pays-2016-full-report.pdf' target='_blank'>6. US Census Bureau. (2017, September 22). How the U.S. Census Bureau measures poverty. US Census Bureau. Retrieved from https://www.census.gov/library/visualizations/2014/demo/poverty_measure-how.html</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
@@ -2954,7 +2968,7 @@
                                         "id":1,
 										"revealText": "Resources",
 										"esRevealText":"Recursos",
-                                        "html":"<a href='http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/' target='_blank'>1. http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/</a><br/><a href='https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/' target='_blank'>2. https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/</a><br/>3. Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.<br/><a href='https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf' target='_blank'>4. https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf</a><br/><a href='http://aboutworldlanguages.com/indigenous-languages-of-south-america' target='_blank'>5. http://aboutworldlanguages.com/indigenous-languages-of-south-america</a><br/><a href='https://www.sciencedaily.com/releases/2014/11/141112084504.htm' target='_blank'>6. https://www.sciencedaily.com/releases/2014/11/141112084504.htm</a>"
+                                        "html":"<a href='http://www.pewhispanic.org/2015/05/12/english-proficiency-on-the-rise-among-latinos/' target='_blank'>1. Espinosa, L. M. (2010, June 3). Challenging common myths about young English language learners. Foundation for Child Development. Retrieved from https://www.fcd- us.org/challenging-common-myths-about-young-english-language-learners/</a><br/><a href='https://www.fcd-us.org/challenging-common-myths-about-young-english-language-learners/' target='_blank'>2. Krogstad, J. M., Stepler, R., &amp; Lopez, M. H. (2015, May 12). English use on the rise among Latinos. Pew Research Center. Retrieved from https://www.pewresearch.org/hispanic/2015/05/12/english-proficiency-on-the-rise- among-latinos/</a><br/>3. Lust, Barbara. 1999. Universal Grammar: The Strong Continuity Hypothesis in First Langugae Acquisition. In Handbook Of Child Language Acquisition, edited by William C. Ritchie and Tej K. Bhatia. San Diego: Academic Press, 111-155.<br/><a href='https://www.phil.frb.org/-/media/research-and-data/publications/working-papers/2002/wp02-16.pdf' target='_blank'>4. Must Go Travel. (n.d.). Indigenous languages of South America: about world languages. Must Go Travel. Retrieved from https://www.mustgo.com/worldlanguages/indigenous- languages-of-south-america/</a><br/><a href='http://aboutworldlanguages.com/indigenous-languages-of-south-america' target='_blank'>5. Northwestern University. (2014, November 12). Bilingual brains better equipped to process information. ScienceDaily. Retrieved November 5, 2019 from www.sciencedaily.com/releases/2014/11/141112084504.htm</a><br/><a href='https://www.sciencedaily.com/releases/2014/11/141112084504.htm' target='_blank'>6. Saiz, A., &amp; Zoido, E. (2002). Working Paper No. 02-16 The Returns To Speaking A Second Language. Federal Reserve Bank of Philadelphia. Philadelphia, PA: Working Papers Research Department</a><br><br><a href='https://cdt-web-storage.s3-us-west-2.amazonaws.com/nes-somos-latinx/citations.docx' target='_blank'>View all citations</a>"
                                     }
                                 ]
                             }
