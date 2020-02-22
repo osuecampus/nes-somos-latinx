@@ -31,6 +31,7 @@ const ss = StyleSheet.create({
   image:{
 	maxHeight:575,
 	height:575,
-    maxWidth:'100%'
+    maxWidth:'100%',
+	zIndex:1
   }
 });

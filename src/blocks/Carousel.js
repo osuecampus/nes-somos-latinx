@@ -35,7 +35,7 @@ export default class Carousel extends Component {
   render() {
     return (
       <section className={css(ss.section)}>
-        <img className={css(ss.slide)} alt={this.props.details.images[this.state.slideIndex].imageAlt} title={this.props.details.images[this.state.slideIndex].imageAlt} src={this.props.details.images[this.state.slideIndex].url} />
+        <img className={css(ss.slide)} alt={this.props.details.images[this.state.slideIndex].imageAlt} title={this.props.details.images[this.state.slideIndex].imageAlt} src={this.props.language == 'es' && this.props.details.images[this.state.slideIndex].esUrl ? this.props.details.images[this.state.slideIndex].esUrl : this.props.details.images[this.state.slideIndex].url} />
         
         <div className={css(ss.controls)}>
           <button tabIndex={'4'} className={css(ss.button)} target={'_blank'} onKeyPress={e => e.which === 13 ? this.changeSlide(-1) : null} onClick={() => this.changeSlide(-1)}>Prev</button>
