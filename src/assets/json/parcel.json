@@ -3023,6 +3023,23 @@
                                 "text":"At OSU we think that the future is now and that together we can build it.",
                                 "es":"En OSU pensamos que el futuro es ahora y que juntos podemos construirlo."
                             }
+                        },
+                        {
+                            "id":3,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The ¡Somos LatinX! curriculum was developed in partnership with Ana Gomez, Daniel Lopez-Cevallos, Rutila Galván-Rodriguez, and Jose Garcia, through the Juntos program within OSU Open Campus in Extension Service.  The curriculum is meant for use by students, educators, and anyone interested in learning about some of the components that play role in the Latinx history and identity in the United States. For more information about Juntos contact Gina Galaviz-Yap 541-737-2288 or gina.galavizyap@oregonstate.edu.",
+                                "es":"El currículo ¡Somos LatinX! se desarrolló en colaboración con Ana Gómez, Daniel López-Cevallos, Rutila Galván-Rodriguez, y José García, a través del programa Juntos de OSU Open Campus en Extension Service. El currículo está diseñado para su uso por estudiantes, educadores y cualquier persona interesada en aprender sobre algunos de los componentes que juegan un papel en la historia y la identidad Latinx en los Estados Unidos. Para obtener más información sobre Juntos, póngase en contacto con Gina Galaviz-Yap 541-737-2288 o gina.galavizyap@oregonstate.edu."
+                            }
                         }
                     ]
                 }

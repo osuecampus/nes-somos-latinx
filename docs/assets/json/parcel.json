@@ -381,7 +381,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-identity-bar.svg",
+								"url":"./assets/img/photo-identity-bar.svg",
+								"esUrl":"./assets/img/es-photo-identity-bar.png",
                                 "imageAlt":"A bar graph showing demographic data"
                             }
                         },
@@ -809,7 +810,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-attainmentChart.svg",
+								"url":"./assets/img/photo-education-attainmentChart.svg",
+								"esUrl":"./assets/img/es-photo-education-attainmentChart.png",
                                 "imageAlt":"Education by Race Chart"
                             }
                         },
@@ -889,7 +891,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-dropout.svg",
+								"url":"./assets/img/photo-education-dropout.svg",
+								"esUrl":"./assets/img/es-photo-education-dropout.png",
                                 "imageAlt":"Chart of High School Dropout rates"
                             }
                         },
@@ -907,7 +910,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-college.svg",
+								"url":"./assets/img/photo-education-college.svg",
+								"esUrl":"./assets/img/es-photo-education-college.png",
                                 "imageAlt":"Chart showing entry to college rates"
                             }
                         },
@@ -1008,7 +1012,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-persist.svg",
+								"url":"./assets/img/photo-education-persist.svg",
+								"esUrl":"./assets/img/es-photo-education-persist.png",
                                 "imageAlt":"Persisting in college chart"
                             }
                         },
@@ -1017,7 +1022,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-education-lastChart.svg",
+								"url":"./assets/img/photo-education-lastChart.svg",
+								"esUrl":"./assets/img/es-photo-education-lastChart.png",
                                 "imageAlt":"College completion chart"
                             }
                         },
@@ -1318,7 +1324,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-numberschart.svg",
+								"url":"./assets/img/photo-immigration-numberschart.svg",
+								"esUrl":"./assets/img/es-photo-immigration-numberschart.png",
                                 "imageAlt":"Chart of Immigration to U.S. from Mexico"
                             }
                         },
@@ -1510,7 +1517,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-cenim.svg",
+								"url":"./assets/img/photo-immigration-cenim.svg",
+								"esUrl":"./assets/img/es-photo-immigration-cenim.png",
                                 "imageAlt":"Chart of Immigration to U.S. from Central America"
                             }
                         },
@@ -1600,7 +1608,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-sudchart.svg",
+								"url":"./assets/img/photo-immigration-sudchart.svg",
+								"esUrl":"./assets/img/es-photo-immigration-sudchart.png",
                                 "imageAlt":"Chart of Immigration to U.S. from South America"
                             }
                         },
@@ -1681,7 +1690,8 @@
                             "type":"SingleImage",
                             "details":
                             {
-                                "url":"./assets/img/photo-immigration-projected.svg",
+								"url":"./assets/img/photo-immigration-projected.svg",
+								"esUrl":"./assets/img/es-photo-immigration-projected.png",
                                 "imageAlt":"Projected American population"
                             }
                         },
@@ -1870,6 +1880,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-economics-poverty.svg",
+								"esUrl":"./assets/img/es-photo-economics-poverty.png",
                                 "imageAlt":"Graph of poverty by race"
                             }
                         },
@@ -1932,6 +1943,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-economics-jobs.svg",
+								"esUrl":"./assets/img/es-photo-economics-jobs.png",
                                 "imageAlt":"Chart of number of jobs held by US born and foriegn born Latinos during and after the 2007-2009 recession"
                             }
                         },
@@ -2009,6 +2021,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-economics-employed.svg",
+								"esUrl":"./assets/img/es-photo-economics-employed.png",
                                 "imageAlt":"Chart of number of immigrants, Mexican immigrants, and native born in various job fields"
                             }
                         },
@@ -2147,6 +2160,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-economics-chart.svg",
+								"esUrl":"./assets/img/es-photo-economics-chart.png",
                                 "imageAlt":"Median earnings chart"
                             }
                         },
@@ -2186,7 +2200,8 @@
                               "images": [
                                 {
                                   "imageAlt": "Asians",
-                                  "url": "./assets/img/car-asian.svg"
+                                  "url": "./assets/img/car-asian.svg",
+								  "esUrl":"./assets/img/es-car-asian.png"
                                 },
                                 {
                                   "imageAlt": "Blacks",
@@ -2403,6 +2418,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-language-english.svg",
+								"esUrl":"./assets/img/es-photo-language-english.png",
                                 "imageAlt":"Graph of Egnlish proficiency in Latinos"
                             }
                         },
@@ -2500,6 +2516,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-language-proficient.svg",
+								"esUrl":"./assets/img/es-photo-language-proficient.png",
                                 "imageAlt":"Graph of English proficiency by generation"
                             }
                         },
@@ -2562,6 +2579,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-language-purple.svg",
+								"esUrl":"./assets/img/es-photo-language-purple.png",
                                 "imageAlt":"Percenages of Spanish dominant, English dominant, and English dominant"
                             }
 						},
@@ -2844,6 +2862,7 @@
                             "details":
                             {
                                 "url":"./assets/img/photo-language-lastPurple.svg",
+								"esUrl":"./assets/img/es-lastPurple.png",
                                 "imageAlt":"Percentages of U.S. born Hispanics vs immigrants who speak English"
                             }
 						},
@@ -3003,6 +3022,23 @@
                             {
                                 "text":"At OSU we think that the future is now and that together we can build it.",
                                 "es":"En OSU pensamos que el futuro es ahora y que juntos podemos construirlo."
+                            }
+                        },
+                        {
+                            "id":3,
+                            "type":"Divider",
+                            "details":
+                            {
+                                
+                            }
+                        },
+                        {
+                            "id":4,
+                            "type":"Text",
+                            "details":
+                            {
+                                "text":"The ¡Somos LatinX! curriculum was developed in partnership with Ana Gomez, Daniel Lopez-Cevallos, Rutila Galván-Rodriguez, and Jose Garcia, through the Juntos program within OSU Open Campus in Extension Service.  The curriculum is meant for use by students, educators, and anyone interested in learning about some of the components that play role in the Latinx history and identity in the United States. For more information about Juntos contact Gina Galaviz-Yap 541-737-2288 or gina.galavizyap@oregonstate.edu.",
+                                "es":"El currículo ¡Somos LatinX! se desarrolló en colaboración con Ana Gómez, Daniel López-Cevallos, Rutila Galván-Rodriguez, y José García, a través del programa Juntos de OSU Open Campus en Extension Service. El currículo está diseñado para su uso por estudiantes, educadores y cualquier persona interesada en aprender sobre algunos de los componentes que juegan un papel en la historia y la identidad Latinx en los Estados Unidos. Para obtener más información sobre Juntos, póngase en contacto con Gina Galaviz-Yap 541-737-2288 o gina.galavizyap@oregonstate.edu."
                             }
                         }
                     ]
